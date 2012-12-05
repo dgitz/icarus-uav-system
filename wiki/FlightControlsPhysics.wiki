@@ -8,8 +8,10 @@ Add your content here.
 = Details =
 
 == Cruise Mode ==
+http://dgitz.ipower.com/ICARUSRepo/Media/xFrameCruiseMode.png
 
 == Hover Mode ==
+http://dgitz.ipower.com/ICARUSRepo/Media/xFrameHoverMode.png
 
 == Input/Output Equations ==
 
@@ -49,3 +51,6 @@ FRAngle = TiltAngle + cos(TiltAngle) * RollAngle;
 BLAngle = TiltAngle - cos(TiltAngle) * (RollAngle - PitchAngle);
 BRAngle = TiltAngle - cos(TiltAngle) * (-RollAngle - PitchAngle);
 }}}
+
+== Input/Output Table ==
+http://dgitz.ipower.com/ICARUSRepo/Media/ControlMapping.png
