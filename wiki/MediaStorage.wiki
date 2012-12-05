@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary This page hosts all the media on this Wiki for common reference.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/ControlMapping.png]
 Control Mapping 5-Dec-2012
