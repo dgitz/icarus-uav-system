@@ -13,4 +13,4 @@ Add your content here.  Format your content with:
   * Automatic links to other wiki pages
 
 Cruise Mode
-[https://www.dropbox.com/s/prfl1jkhs5j6ty6/CruiseMode.png https://www.dropbox.com/s/prfl1jkhs5j6ty6/CruiseMode.png]
+https://www.dropbox.com/s/prfl1jkhs5j6ty6/CruiseMode.png
