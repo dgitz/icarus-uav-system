@@ -1,3 +1,13 @@
 #summary One-sentence summary of this page.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/ControlMapping.png]
+Control Mapping 5-Dec-2012
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/xFrameCruiseMode.png]
+X-Frame Cruise Mode 5-Dec-2012
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/xFrameHoverMode.png]
+X-Frame Hover Mode 5-Dec-2012
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/+FrameHoverMode.png]
++ Frame Hover Mode 5-Dec-2012 *Not my creation.
