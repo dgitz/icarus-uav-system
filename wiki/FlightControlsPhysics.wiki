@@ -20,4 +20,9 @@ YawAngle //Yaw Angle in Degrees, Range: -90[Turn Left] -> 90[Turn Right]
 TiltAngle //Tilt Angle in Degrees, Range: 90[Hover] -> 0[Cruise]
 Throttle  //Throttle in Percentage, Range: 0 -> 1
 
+FLSpeed //Front Left Rotor Speed in Percentage, Range: 0 -> 1
+FRSpeed //Front Right Rotor Speed in Percentage, Range: 0 -> 1
+BLSpeed //Back Left Rotor Speed in Percentage, Range: 0 -> 1
+BRSpeed //Back Right Rotor Speed in Percentage, Range: 0 -> 1
+
 }}}
