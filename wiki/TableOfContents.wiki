@@ -1,8 +1,11 @@
   * [http://code.google.com/p/icarus-uav-system/wiki/Home Home]
   * Flyer
     * Design
-    * [http://code.google.com/p/icarus-uav-system/wiki/FlightControls Flight Controls]
-   
-
+    * Configuration
+      * Equipment Setup
+      * APM Setup
+      * [http://code.google.com/p/icarus-uav-system/wiki/FlightControls Flight Controls]
+  * Operations
+    * Concept of Operations
   * Appendix
     *  [[http://code.google.com/p/icarus-uav-system/wiki/MediaStorage Media]
