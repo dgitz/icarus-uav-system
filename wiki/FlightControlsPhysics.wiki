@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Add your content here.
+This page describes the flight controls and physics of the ICARUS QTR Flyer.  This page will host the control modes, Control Loops/Equations, Analysis, etc.
 
 
 = Details =
@@ -54,3 +54,9 @@ BRAngle = TiltAngle - cos(TiltAngle) * (-RollAngle - PitchAngle);
 
 == Input/Output Table ==
 http://dgitz.ipower.com/ICARUSRepo/Media/ControlMapping.png
+
+= System Identification = 
+
+= System Model =
+
+= Simulations =
