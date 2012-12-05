@@ -1,7 +1,14 @@
 #summary One-sentence summary of this page.
-*Home
-#other stuff
-*Flight Controls/Physics
-*another list
-#123
-#456
+The following is:
+  * A list
+  * Of bulleted items
+    # This is a numbered sublist
+    # Which is done by indenting further
+  * And back to the main bulleted list
+
+ * This is also a list
+ * With a single leading space
+ * Notice that it is rendered
+  # At the same levels
+  # As the above lists.
+ * Despite the different indentation levels.
