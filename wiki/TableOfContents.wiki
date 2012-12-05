@@ -1,6 +1,6 @@
 #summary One-sentence summary of this page.
   * [http://code.google.com/p/icarus-uav-system/wiki/Home Home]
-  * Of bulleted items
+  * [http://code.google.com/p/icarus-uav-system/wiki/FlightControlsPhysics Flight Controls/Physics]
     # This is a numbered sublist
     # Which is done by indenting further
   * And back to the main bulleted list
