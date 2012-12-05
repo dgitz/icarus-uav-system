@@ -18,7 +18,7 @@ RollAngle //Roll Angle in Degrees, Range: -90[Roll Left] -> 90[Roll Right]
 PitchAngle //Pitch Angle in Degrees, Range:  -90[Pitch Down] -> 90[Pitch Up]
 YawAngle //Yaw Angle in Degrees, Range: -90[Turn Left] -> 90[Turn Right]
 TiltAngle //Tilt Angle in Degrees, Range: 90[Hover] -> 0[Cruise]
-Throttle  //Throttle in Percentage, Range: 0 -> 1
+ThrottlePerc  //Throttle in Percentage, Range: 0 -> 1
 
 FLSpeed //Front Left Rotor Speed in Percentage, Range: 0 -> 1
 FRSpeed //Front Right Rotor Speed in Percentage, Range: 0 -> 1
@@ -31,9 +31,14 @@ BLAngle //Back Left Rotor Angle in Degrees, Range: 90[Vertical] -> 0[Horizontal]
 BRAngle //Back Right Rotor Angle in Degrees, Range: 90[Vertical] -> 0[Horizontal]
 
 PitchPerc //Pitch Angle in Percentage
-RollAngle //Roll Angle in Percentage
-YawAngle //Yaw Angle in Percentage
+RollPerc //Roll Angle in Percentage
+YawPerc //Yaw Angle in Percentage
 
-FLSpeed = sin(TiltAngle)*(
+PitchPerc = PitchAngle/90;
+RollPerc = RollAngle/90;
+YawPerc = YawAngle/90;
+
+
+FLSpeed = (sin(TiltAngle)*(PitchPerc + RollPerc)-(2*sin(TiltAngle)-1)*YawPerc) + ThrottlePerc;
 
 }}}
