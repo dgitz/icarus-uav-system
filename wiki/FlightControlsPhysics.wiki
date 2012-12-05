@@ -40,5 +40,8 @@ YawPerc = YawAngle/90;
 
 
 FLSpeed = (sin(TiltAngle)*(PitchPerc + RollPerc)-(2*sin(TiltAngle)-1)*YawPerc) + ThrottlePerc;
+FRSpeed = (sin(TiltAngle)*(PitchPerc - RollPerc) + (2*sin(TiltAngle)-1)*YawPerc) + ThrottlePerc;
+BLSpeed = (sin(TiltAngle)*(-PitchPerc + RollPerc) + YawPerc) + ThrottlePerc;
+BRSpeed = (sin(TiltAngle)*(-PitchPerc - RollPerc) - YawPerc) + ThrottlePerc;
 
 }}}
