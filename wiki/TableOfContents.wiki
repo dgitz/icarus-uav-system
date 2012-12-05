@@ -8,4 +8,4 @@
   * Operations
     * Concept of Operations
   * Appendix
-    *  [[http://code.google.com/p/icarus-uav-system/wiki/MediaStorage Media]
+    * [http://code.google.com/p/icarus-uav-system/wiki/MediaStorage Media]
