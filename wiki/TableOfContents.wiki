@@ -1,5 +1,8 @@
   * [http://code.google.com/p/icarus-uav-system/wiki/Home Home]
   * Flyer
-    # [http://code.google.com/p/icarus-uav-system/wiki/FlightControlsPhysics Flight Controls/Physics]
+    * Design
+    * [http://code.google.com/p/icarus-uav-system/wiki/FlightControls Flight Controls]
+   
+
   * Appendix
-    #  [[http://code.google.com/p/icarus-uav-system/wiki/MediaStorage Media]
+    *  [[http://code.google.com/p/icarus-uav-system/wiki/MediaStorage Media]
