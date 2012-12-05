@@ -30,4 +30,10 @@ FRAngle //Front Right Rotor Angle in Degrees, Range: 90[Vertical] -> 0[Horizonta
 BLAngle //Back Left Rotor Angle in Degrees, Range: 90[Vertical] -> 0[Horizontal]
 BRAngle //Back Right Rotor Angle in Degrees, Range: 90[Vertical] -> 0[Horizontal]
 
+PitchPerc //Pitch Angle in Percentage
+RollAngle //Roll Angle in Percentage
+YawAngle //Yaw Angle in Percentage
+
+FLSpeed = sin(TiltAngle)*(
+
 }}}
