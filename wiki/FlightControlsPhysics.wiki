@@ -25,4 +25,7 @@ FRSpeed //Front Right Rotor Speed in Percentage, Range: 0 -> 1
 BLSpeed //Back Left Rotor Speed in Percentage, Range: 0 -> 1
 BRSpeed //Back Right Rotor Speed in Percentage, Range: 0 -> 1
 
+FLAngle //Front Left Rotor Angle in Degrees, Range: 90[Vertical] -> 0[Horizontal]
+FRAngle //Front Right Rotor Angle in Degrees, Range: 90[Vertical] -> 0[Horizontal]
+
 }}}
