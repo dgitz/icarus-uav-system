@@ -12,3 +12,12 @@ Add your content here.
 == Hover Mode ==
 
 == Input/Output Equations ==
+
+{{{
+RollAngle //Roll Angle in Degrees, Range: -90[Roll Left] -> 90[Roll Right]
+PitchAngle //Pitch Angle in Degrees, Range:  -90[Pitch Down] -> 90[Pitch Up]
+YawAngle //Yaw Angle in Degrees, Range: -90[Turn Left] -> 90[Turn Right]
+TiltAngle //Tilt Angle in Degrees, Range: 90[Hover] -> 0[Cruise]
+Throttle  //Throttle in Percentage, Range: 0 -> 1
+
+}}}
