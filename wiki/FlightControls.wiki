@@ -8,10 +8,10 @@ This page describes the flight controls and physics of the ICARUS QTR Flyer.  Th
 = Details =
 
 == Cruise Mode ==
-http://dgitz.ipower.com/ICARUSRepo/Media/xFrameCruiseMode.png
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/xFrameCruiseMode.png
 
 == Hover Mode ==
-http://dgitz.ipower.com/ICARUSRepo/Media/xFrameHoverMode.png
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/xFrameHoverMode.png
 
 == Input/Output Equations ==
 
@@ -53,7 +53,7 @@ BRAngle = TiltAngle - cos(TiltAngle) * (-RollAngle - PitchAngle);
 }}}
 
 == Input/Output Table ==
-http://dgitz.ipower.com/ICARUSRepo/Media/ControlMapping.png
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/ControlMapping.png
 
 = System Identification = 
 
