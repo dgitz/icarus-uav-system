@@ -15,7 +15,7 @@ X-Frame Hover Mode. 7-Dec-2012.
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Transition-SweepPitch-Sweep.png]
 Control Map Simulation of Transition-Sweep and Pitch-Sweep.  7-Dec-2012.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Cruise-Pitch Sweep.png]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Cruise-PitchSweep.png]
 Control Map Simulation of Pitch-Sweep in Cruise Mode.  7-Dec-2012.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Cruise-Roll Sweep.png]
@@ -24,14 +24,14 @@ Control Map Simulation of Roll-Sweep in Cruise Mode.  7-Dec-2012.
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Cruise-Yaw Sweep.png]
 Control Map Simulation of Yaw-Sweep in Cruise Mode.  7-Dec-2012.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-Pitch Sweep.png]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-PitchSweep.png]
 Control Map Simulation of Pitch-Sweep in Hover Mode.  7-Dec-2012.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-Roll Sweep.png]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-RollSweep.png]
 Control Map Simulation of Roll-Sweep in Hover Mode.  7-Dec-2012.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-Throttle Sweep.png]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-ThrottleSweep.png]
 Control Map Simulation of Throttle-Sweep in Hover Mode.  7-Dec-2012.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-Yaw Sweep.png]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-YawSweep.png]
 Control Map Simulation of Yaw-Sweep in Hover Mode.  7-Dec-2012.
