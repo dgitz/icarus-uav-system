@@ -1,13 +1,37 @@
 #summary This page hosts all the media on this Wiki for common reference.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/ControlMapping.png]
-Control Mapping 7-Dec-2012
+Control Mapping. 7-Dec-2012.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/xFrameCruiseMode.png]
-X-Frame Cruise Mode 7-Dec-2012
+X-Frame Cruise Mode. 7-Dec-2012.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/xFrameHoverMode.png]
-X-Frame Hover Mode 7-Dec-2012
+X-Frame Hover Mode. 7-Dec-2012.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/+FrameHoverMode.png]
-+ Frame Hover Mode 7-Dec-2012 *Not my creation.
++ Frame Hover Mode. 7-Dec-2012. *Not my creation.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Transition-Sweep Pitch-Sweep.png]
+Control Map Simulation of Transition-Sweep and Pitch-Sweep.  7-Dec-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Cruise-Pitch Sweep.png]
+Control Map Simulation of Pitch-Sweep in Cruise Mode.  7-Dec-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Cruise-Roll Sweep.png]
+Control Map Simulation of Roll-Sweep in Cruise Mode.  7-Dec-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Cruise-Yaw Sweep.png]
+Control Map Simulation of Yaw-Sweep in Cruise Mode.  7-Dec-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-Pitch Sweep.png]
+Control Map Simulation of Pitch-Sweep in Hover Mode.  7-Dec-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-Roll Sweep.png]
+Control Map Simulation of Roll-Sweep in Hover Mode.  7-Dec-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-Throttle Sweep.png]
+Control Map Simulation of Throttle-Sweep in Hover Mode.  7-Dec-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-Yaw Sweep.png]
+Control Map Simulation of Yaw-Sweep in Hover Mode.  7-Dec-2012.
