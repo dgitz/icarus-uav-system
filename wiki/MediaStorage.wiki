@@ -12,7 +12,7 @@ X-Frame Hover Mode. 7-Dec-2012.
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/+FrameHoverMode.png]
 + Frame Hover Mode. 7-Dec-2012. *Not my creation.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Transition-Sweep Pitch-Sweep.png]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Transition-SweepPitch-Sweep.png]
 Control Map Simulation of Transition-Sweep and Pitch-Sweep.  7-Dec-2012.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Cruise-Pitch Sweep.png]
