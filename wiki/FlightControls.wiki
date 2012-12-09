@@ -60,3 +60,22 @@ http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Cont
 = System Model =
 
 = Simulations =
+
+== MatLab Graphs of Input/Output Equations for Control Maps ==
+NOTE:  I still need to go through each of these and verify they are at least feasible.
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-PitchSweep.png
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-RollSweep.png
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-YawSweep.png
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-ThrottleSweep.png
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Cruise-PitchSweep.png
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Cruise-RollSweep.png
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Cruise-YawSweep.png
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Transition-SweepPitch-Sweep.png
