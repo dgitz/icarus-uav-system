@@ -1,13 +1,10 @@
-#summary One-sentence summary of this page.
+#summary Home Page for the ICARUS System.
 
 = Introduction =
 
-Add your content here.
+This is the Home page for the ICARUS Wiki.  All content is currently completely in development, so use at your own risk.  All code and information, unless otherwise specified is completely open-source/open-hardware (OSHW)
 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+I am building a QuadTiltRotor UAV for my Thesis Project at UIC.  Here is my Blog on the ICARUS System: http://davidgitz.blogspot.com/
