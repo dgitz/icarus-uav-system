@@ -1,10 +1,20 @@
   * [http://code.google.com/p/icarus-uav-system/wiki/Home Home]
   * Flyer
     * Design
+      * Mechanical Design
+      * Electrical Design
+      * Software Design
     * Configuration
       * Equipment Setup
       * APM Setup
       * [http://code.google.com/p/icarus-uav-system/wiki/FlightControls Flight Controls]
+    * Simulation
+      * XPlane
+      * Matlab-Simulink Model
+      * Aerodynamic Simulation
+        * Star-CCM+
+        * XFLR5
+        * Autodesk Falcon
   * Operations
     * Concept of Operations
   * Appendix
