@@ -20,6 +20,7 @@ I have found very little information regarding building a TiltRotor UAV, at leas
 	• Model QTR in Simulink to design Control System.
 
 	• Model QTR in Star-CCM (or other CFD Package) to assist in Aerodynamic design.
+
 	• Model QTR in Xplane to test Flight Controls (Optional).
 • Build and Test QTR 
 	• Build scale model of QTR.
