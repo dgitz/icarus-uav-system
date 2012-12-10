@@ -5,6 +5,7 @@
       * Mechanical Design
       * Electrical Design
       * Software Design
+      * Components/BOM
     * Configuration
       * Equipment Setup
       * APM Setup
@@ -22,3 +23,4 @@
     * Concept of Operations
   * Appendix
     * [http://code.google.com/p/icarus-uav-system/wiki/MediaStorage Media]
+    * FAQ
