@@ -5,10 +5,12 @@
       * Mechanical Design
       * Electrical Design
       * Software Design
-      * Components/BOM
+      * Components
+        * Component Selection Matrix's
+        * Bill Of Materials
     * Configuration
       * Equipment Setup
-      * APM Setup
+      * [http://code.google.com/p/icarus-uav-system/wiki/FlightControlsAPMSetup APM Setup]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlightControls Flight Controls]
     * Simulation
       * XPlane
@@ -18,6 +20,8 @@
         * XFLR5
         * Autodesk Falcon
   * Ground Control Station
+    * Mission Planner
+    * QGroundControl
   * Remote Control
   * Operations
     * Concept of Operations
