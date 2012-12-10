@@ -11,3 +11,24 @@ Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
+= References =
+[http://code.google.com/p/arducopter/wiki/APM2board ArduCopter APM2.0 Board]
+[http://code.google.com/p/ardupilot-mega/wiki/APM2board ArduPlane APM2.0 Board]
+[http://code.google.com/p/ardupilot-mega/wiki/APM2Quick ArduPlane Quick Start Guide]
+[http://code.google.com/p/arducopter/wiki/ArduCopter2Quick ArduCopter Quick Start Guide]
+[http://code.google.com/p/ardupilot-mega/wiki/APM2RC ArduPlane RC Equipment Setup]
+[http://code.google.com/p/ardupilot-mega/wiki/APM2ReversingTop ArduPlane Servo Reversing]
+[http://code.google.com/p/arducopter/wiki/AC2_First ArduCopter RC Equipment Setup]
+[http://code.google.com/p/ardupilot-mega/wiki/Telem ArduPlane Wireless Telemetry]
+[http://code.google.com/p/ardupilot-mega/wiki/3DRadio ArduPlane 3DR Radio Setup]
+[http://code.google.com/p/ardupilot-mega/wiki/APM2Wireless ArduPlane XBee Radio]
+[http://code.google.com/p/ardupilot-mega/wiki/Xbee ArduPlane XBee Radio Test]
+[http://code.google.com/p/arducopter/wiki/Telem ArduCopter Wireless Telemetry]
+[http://code.google.com/p/arducopter/wiki/3DRadio ArduCopter 3DR Radio Setup]
+[http://code.google.com/p/arducopter/wiki/APM2Wireless ArduCopter XBee Radio Setup]
+[http://code.google.com/p/ardupilot-mega/wiki/Datalogging ArduPlane DataLogging]
+[http://code.google.com/p/ardupilot-mega/wiki/MPDatalog ArduPlane DataLogging Advanced]
+[http://code.google.com/p/arducopter/wiki/AC2_Datalogging ArduCopter DataLogging]
+[http://code.google.com/p/arducopter/wiki/AC2_Logs ArduCopter DataLogging Advanced]
+[http://code.google.com/p/ardupilot-mega/wiki/Troubleshooting ArduPlane Troubleshooting]
+[http://code.google.com/p/arducopter/wiki/AC2_Troubleshooting ArduCopter Troubleshooting]
