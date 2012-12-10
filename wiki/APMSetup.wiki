@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary This page provides information on the setup to use an APM.
 
 = Introduction =
 
@@ -11,6 +11,7 @@ Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
+
 = References =
 [http://code.google.com/p/arducopter/wiki/APM2board ArduCopter APM2.0 Board]
 
