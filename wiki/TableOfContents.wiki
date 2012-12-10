@@ -1,7 +1,7 @@
   * [http://code.google.com/p/icarus-uav-system/wiki/Home Home]
   * Flyer
     * Design
-      * Logical Design
+      * [http://code.google.com/p/icarus-uav-system/wiki/LogicalDesign Logical Design]
       * Mechanical Design
       * Electrical Design
       * Software Design
