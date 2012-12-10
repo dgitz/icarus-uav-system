@@ -4,13 +4,13 @@
       * [http://code.google.com/p/icarus-uav-system/wiki/LogicalDesign Logical Design]
       * Mechanical Design
       * Electrical Design
-      * Software Design
+      * [http://code.google.com/p/icarus-uav-system/wiki/FlyerSoftware   Software Design]
       * Components
         * Component Selection Matrix's
         * Bill Of Materials
     * Configuration
       * Equipment Setup
-      * [http://code.google.com/p/icarus-uav-system/wiki/FlightControlsAPMSetup APM Setup]
+      * [http://code.google.com/p/icarus-uav-system/wiki/APMSetup APM Setup]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlightControls Flight Controls]
     * Simulation
       * XPlane
