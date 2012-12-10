@@ -6,3 +6,5 @@ This page shows different logical diagrams of the ICARUS QTR Flyer.  Logical Dia
 
 = Diagrams =
 
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/LogicalDesign/SystemDiagram.png
+This is a general Logical Diagram of the ICARUS Flyer.
