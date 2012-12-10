@@ -3,7 +3,7 @@
     * Design
       * [http://code.google.com/p/icarus-uav-system/wiki/LogicalDesign Logical Design]
       * Mechanical Design
-      * Electrical Design
+      * [http://code.google.com/p/icarus-uav-system/wiki/FlyerElectricalDesign Electrical Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlyerSoftware   Software Design]
       * Components
         * Component Selection Matrix's
@@ -27,4 +27,4 @@
     * Concept of Operations
   * Appendix
     * [http://code.google.com/p/icarus-uav-system/wiki/MediaStorage Media]
-    * FAQ
+    * [http://code.google.com/p/icarus-uav-system/wiki/FAQ FAQ]
