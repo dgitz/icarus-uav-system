@@ -8,3 +8,5 @@ This is the Home page for the ICARUS Wiki.  All content is currently completely 
 = Details =
 
 I am building a QuadTiltRotor UAV for my Thesis Project at UIC.  Here is my Blog on the ICARUS System: http://davidgitz.blogspot.com/
+
+I have found very little information regarding building a TiltRotor UAV, at least information that is attainable to the general public.  I also believe that these kinds of vehicles are the future of Aviation, either Manned or Unmanned.  As such this Wiki also serves to disseminate as much accurate information as possible about the design, fabrication, operation and analysis of TiltRotor UAV's.
