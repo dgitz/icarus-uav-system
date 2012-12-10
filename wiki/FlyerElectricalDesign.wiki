@@ -14,4 +14,4 @@ Add your content here.  Format your content with:
 
 = References =
 
-[http://www.scorpionsystem.com/files/download/Scorpion_Calc_v353.zip Scorpion Calculator (Motors/ESC/Battery]
+[http://www.scorpionsystem.com/files/download/Scorpion_Calc_v353.zip Scorpion Calculator (Motors/ESC/Battery)]
