@@ -1,0 +1,17 @@
+#summary This page is to document Frequently Asked Questions about ICARUS.
+
+= Comments/Requests =
+
+= FAQ's =
+
+*Induced Yaw Effect*
+
+*Funding*
+
+*Physics*
+
+*Timeline*
+
+*Current Status*
+
+*Open-Source/Open-Hardware*
