@@ -10,3 +10,18 @@ This is the Home page for the ICARUS Wiki.  All content is currently completely 
 I am building a QuadTiltRotor UAV for my Thesis Project at UIC.  Here is my Blog on the ICARUS System: http://davidgitz.blogspot.com/
 
 I have found very little information regarding building a TiltRotor UAV, at least information that is attainable to the general public.  I also believe that these kinds of vehicles are the future of Aviation, either Manned or Unmanned.  As such this Wiki also serves to disseminate as much accurate information as possible about the design, fabrication, operation and analysis of TiltRotor UAV's.
+
+= Thesis Objectives = 
+• Conduct Literature Review on TiltRotor UAV's
+	• Provide analysis on failure modes of prior TiltRotor UAV's.
+	• Provide information on control systems, design parameters (Wing Area, Lift Moment, Airfoil profile, etc) and figures of merit on TiltRotor UAV's.
+• Design QuadTiltRotor (QTR) UAV capable of autonomous transition between Vertical and Horizontal Flight Modes.
+	• Model QTR in Simulink to design Control System.
+	• Model QTR in Star-CCM (or other CFD Package) to assist in Aerodynamic design.
+	• Model QTR in Xplane to test Flight Controls (Optional).
+• Build and Test QTR 
+	• Build scale model of QTR .
+	• Test QTR using appropriate Wind-Tunnels.
+	• Build using light-weight Carbon Fiber construction.
+	• Perform System Identification on QTR.
+	• Perform Test Flights and validate design on QTR.
