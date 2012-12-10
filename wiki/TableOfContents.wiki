@@ -14,7 +14,7 @@
       * [http://code.google.com/p/icarus-uav-system/wiki/FlightControls Flight Controls]
     * Simulation
       * XPlane
-      * Matlab-Simulink Model
+      * System Identification/Modeling
       * Aerodynamic Simulation
         * Star-CCM+
         * XFLR5
