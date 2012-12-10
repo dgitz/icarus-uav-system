@@ -35,3 +35,6 @@ Control Map Simulation of Throttle-Sweep in Hover Mode.  7-Dec-2012.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/FlightControls/Hover-YawSweep.png]
 Control Map Simulation of Yaw-Sweep in Hover Mode.  7-Dec-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/Logical Design/SystemDiagram.png]
+ICARUS Flyer General Logical Diagram.  9-Dec-2012.
