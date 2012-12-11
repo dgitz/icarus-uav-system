@@ -1,5 +1,5 @@
   * [http://code.google.com/p/icarus-uav-system/wiki/Home Home]
-  * Flyer
+  * [http://code.google.com/p/icarus-uav-system/wiki/Flyer Flyer]
     * Design
       * [http://code.google.com/p/icarus-uav-system/wiki/LogicalDesign Logical Design]
       * Mechanical Design
