@@ -13,7 +13,7 @@ The ICARUS Flyer features the following:
   * DC Brushless Motors
   * Autonomous Navigation/Flight Stabilization System
 
-= References = 
+= Relevant Prior Work/Products = 
 [http://en.wikipedia.org/wiki/Bell_Boeing_Quad_TiltRotor Boeing QuadTiltRotor]
 
 [http://en.wikipedia.org/wiki/Bell_X-22 Bell X-22]
