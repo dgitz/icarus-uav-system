@@ -2,7 +2,7 @@
   * [http://code.google.com/p/icarus-uav-system/wiki/Flyer Flyer]
     * Design
       * [http://code.google.com/p/icarus-uav-system/wiki/LogicalDesign Logical Design]
-      * Mechanical Design
+      * [http://code.google.com/p/icarus-uav-system/wiki/FlyerMechanicalDesign Mechanical Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlyerElectricalDesign Electrical Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlyerSoftware   Software Design]
       * Components
