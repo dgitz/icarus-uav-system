@@ -12,22 +12,16 @@ I am building a QuadTiltWing UAV for my Thesis Project at UIC.  Here is my Blog 
 I have found very little information regarding building a TiltWing UAV, at least information that is attainable to the general public.  I also believe that these kinds of vehicles are the future of Aviation, either Manned or Unmanned.  As such this Wiki also serves to disseminate as much accurate information as possible about the design, fabrication, operation and analysis of TiltWing UAV's.
 
 = Thesis Objectives = 
-• Conduct Literature Review on TiltWing UAV's
-	• Provide analysis on failure modes of prior TiltWing UAV's.
-	• Provide information on control systems, design parameters (Wing Area, Lift Moment, Airfoil profile, etc) and figures of merit on TiltWing UAV's.
-• Design QuadTiltWing (QTW) UAV capable of autonomous transition between Vertical and Horizontal Flight Modes.
-	• Model QTW in Simulink to design Control System.
-
-	• Model QTW in Star-CCM (or other CFD Package) to assist in Aerodynamic design.
-
-	• Model QTW in Xplane to test Flight Controls (Optional).
-• Build and Test QTW
-	• Build scale model of QTW.
-
-	• Test QTW using appropriate Wind-Tunnels.
-
-	• Build using light-weight Carbon Fiber construction.
-
-	• Perform System Identification on QTW.
-
-	• Perform Test Flights and validate design on QTW.
+  * Conduct Literature Review on TiltWing UAV's.
+    * Provide analysis on failure modes of prior TiltWing UAV's.
+    * Provide information on control systems, design parameters (Wing Area, Lift Moment, Airfoil profile, etc) and figures of merit on TiltWing UAV's.
+  * Design QuadTiltWing (QTW) UAV capable of autonomous transition between Vertical and Horizontal Flight Modes.
+    * Model QTW in Simulink to design Control System.
+    * Model QTW in Star-CCM (or other CFD Package) to assist in Aerodynamic design.
+    * Model QTW in Xplane to test Flight Controls (Optional).
+  * Build and Test QTW
+    * Build scale model of QTW.
+    * Test QTW using appropriate Wind-Tunnels.
+    * Build using light-weight Carbon Fiber construction.
+    * Perform System Identification on QTW.
+    * Perform Test Flights and validate design on QTW.
