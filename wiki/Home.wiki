@@ -14,7 +14,6 @@ I have found very little information regarding building a TiltWing UAV, at least
 = Thesis Objectives = 
 • Conduct Literature Review on TiltWing UAV's
 	• Provide analysis on failure modes of prior TiltWing UAV's.
-
 	• Provide information on control systems, design parameters (Wing Area, Lift Moment, Airfoil profile, etc) and figures of merit on TiltWing UAV's.
 • Design QuadTiltWing (QTW) UAV capable of autonomous transition between Vertical and Horizontal Flight Modes.
 	• Model QTW in Simulink to design Control System.
