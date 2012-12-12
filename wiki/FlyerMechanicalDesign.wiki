@@ -4,10 +4,6 @@
 
 Add your content here.
 
-= Operating Parameters = 
-  * Top Speed:  65 miles/hour.
-
-
 = Details =
 
 Add your content here.  Format your content with:
