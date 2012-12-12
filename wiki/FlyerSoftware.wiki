@@ -1,4 +1,4 @@
-#summary This page provides documentation on the software running on the ICARUS Flyer.
+#summary This page provides documentation on the software running on the ICARUS Flyer and/or supporting the design/analysis of the ICARUS Flyer.
 
 = Introduction =
 
@@ -11,6 +11,13 @@ Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
+
+= Software = 
+== APM Analyzer ==
+Current Version:  1.0
+This software was created in MatLab and is used to analyze the Data Logs of the DIYDrones APM (2.0 or 2.5).  If you do not have MatLab all you need for this software is the MatLab RunTime Compiler, which is free. The original source code is also available in the download.
+[http://code.google.com/p/icarus-uav-system/downloads/detail?name=APMAnalyzerv1.0.zip&can=2&q= APMAnalyzer Software] 
+
 
 = References =
 [http://code.google.com/p/ardupilot-mega/downloads/list ArduPlane Repo]
