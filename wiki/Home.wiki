@@ -22,6 +22,5 @@ I have found very little information regarding building a TiltWing UAV, at least
   * Build and Test QTW
     * Build scale model of QTW.
     * Test QTW using appropriate Wind-Tunnels.
-    * Build using light-weight Carbon Fiber construction.
     * Perform System Identification on QTW.
     * Perform Test Flights and validate design on QTW.
