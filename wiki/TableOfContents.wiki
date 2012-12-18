@@ -5,8 +5,8 @@
       * [http://code.google.com/p/icarus-uav-system/wiki/FlyerMechanicalDesign Mechanical Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlyerElectricalDesign Electrical Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlyerSoftware   Software Design]
-      * Components
-        * Component Selection Matrix's
+      * [http://code.google.com/p/icarus-uav-system/wiki/FlyerDesignDocumentation Design Documentation]
+        * [http://code.google.com/p/icarus-uav-system/wiki/FlyerComponentSelection Component Selection Matrix's]
         * Bill Of Materials
     * Configuration
       * Equipment Setup
