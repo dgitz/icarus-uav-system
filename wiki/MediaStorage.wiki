@@ -38,3 +38,6 @@ Control Map Simulation of Yaw-Sweep in Hover Mode.  7-Dec-2012.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/LogicalDesign/SystemDiagram.png]
 ICARUS Flyer General Logical Diagram.  9-Dec-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/v4RevA.1/Trans-45-Iso.png]
+ICARUS Flyer v4RevA.1 Isometric View, Transition @ 45 Degrees.  17-Dec-2012.
