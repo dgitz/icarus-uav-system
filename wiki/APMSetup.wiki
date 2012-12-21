@@ -14,9 +14,15 @@ Add your content here.  Format your content with:
 
 = References =
 
+[http://code.google.com/p/arducopter/wiki/GPSDisable Disable GPS]
+
+[http://diydrones.com/forum/topics/spare-serial-port-on-apm-2-5-for-echosounder UART MUX]
+
+[http://code.google.com/p/ardupilot-mega/wiki/APM25board APM 2.5 Board Layout]
+
 [http://www.diydrones.com/profiles/blogs/apm-2-0-release APM 2.0 Overview]
 
-[http://code.google.com/p/arducopter/wiki/APM2board ArduCopter APM2.0 Board]
+[http://code.google.com/p/arducopter/wiki/APM2board ArduCopter APM 2.0 Board Layout]
 
 [http://code.google.com/p/ardupilot-mega/wiki/APM2board ArduPlane APM2.0 Board]
 
