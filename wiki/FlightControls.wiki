@@ -1,4 +1,4 @@
-#summary This page describes the flight controls of the ICARUS QTR Flyer.
+#summary This page describes the flight controls of the ICARUS QTW Flyer.
 
 = Introduction =
 
