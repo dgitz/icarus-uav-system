@@ -13,3 +13,5 @@ Add your content here.
 = References =
 
 [http://www.scorpionsystem.com/files/download/Scorpion_Calc_v353.zip Scorpion Calculator (Motors/ESC/Battery)]
+
+[http://code.google.com/p/arducopter/wiki/AC2PowerDistro APM Power Distribution]
