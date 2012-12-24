@@ -5,12 +5,16 @@
 Provided here is documentation on the software running on the ICARUS Flyer as well as software that is directly used to support the design/analysis process on the ICARUS Flyer.
 
 
-= Details =
+= Future Work =
+== Aero Design ==
+  * Center of Gravity/Center of Pitching Moment Axis Optimization
+  * Front/Back Wing Area/Span Optimization
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== Flyer Analysis ==
+  * Improvements in Analysis software (MatLab APM Analyzer)
+ 
+== Flyer Controls ==
+  * Secondary Controller Software  
 
 = Software = 
 == Onboard ==
