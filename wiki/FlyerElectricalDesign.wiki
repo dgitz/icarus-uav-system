@@ -3,11 +3,11 @@
 = Introduction =
 
 Add your content here.
-
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematicv2-Schematic.pdf Electrical Schematics/Connection Diagrams]
 
 = Future Work =
 == Flyer ==
- *[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematicv2-Schematic.pdf Electrical Schematics/Connection Diagrams]
+ *
   * Component Ordering
 
 = References =
