@@ -1,5 +1,7 @@
 #summary This page documents the Mechanical/Aero design of the ICARUS Flyer.
 
+= Tools =
+ * [http://www.cadstudio.cz/en/apps/importcoord/ Autodesk Inventor Tool for Airfoil Importing]
 = Introduction =
 
 Add your content here.
