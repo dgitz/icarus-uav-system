@@ -4,7 +4,23 @@
 
 Add your content here.
 
+= Equipment Info =
+
+== ESC's ==
+
+== APM ==
+
+== PDB ==
+
+== Battery ==
+
+== Power Sensor ==
+
+== QuickStart ==
 
 = Details =
 
-Connection Diagrams
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
