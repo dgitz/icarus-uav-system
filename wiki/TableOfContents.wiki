@@ -7,7 +7,7 @@
       * [http://code.google.com/p/icarus-uav-system/wiki/FlyerSoftware   Software Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlyerDesignDocumentation Design Documentation]
     * Configuration
-      * Equipment Setup
+      * [http://code.google.com/p/icarus-uav-system/wiki/FlyerEquipmentSetup Equipment Setup]
       * [http://code.google.com/p/icarus-uav-system/wiki/APMSetup APM Setup]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlightControls Flight Controls]
     * Simulation
