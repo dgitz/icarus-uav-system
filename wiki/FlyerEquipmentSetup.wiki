@@ -10,7 +10,11 @@ Add your content here.
 
 == APM ==
 
+[http://code.google.com/p/arducopter/wiki/MountingtheAPM2Board Mounting APM 2.0]
+
 == PDB ==
+
+[http://code.google.com/p/arducopter/wiki/AC2PowerDistro PDB Electrical Connections]
 
 == Battery ==
 
