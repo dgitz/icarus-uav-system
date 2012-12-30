@@ -1,8 +1,4 @@
-#summary One-sentence summary of this page.
-
-= Introduction =
-
-Add your content here.
+#summary This page details the equipment installed on the QTW and how it is configured.
 
 = Equipment Info =
 
