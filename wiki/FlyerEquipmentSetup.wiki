@@ -12,15 +12,37 @@ Add your content here.
 
 [http://code.google.com/p/arducopter/wiki/MountingtheAPM2Board Mounting APM 2.0]
 
+[http://code.google.com/p/arducopter/wiki/ArduCopter ArduCopter Wiki]
+
+[http://code.google.com/p/ardupilot-mega/wiki/home ArduPlane Wiki]
+
 == PDB ==
 
 [http://code.google.com/p/arducopter/wiki/AC2PowerDistro PDB Electrical Connections]
+
+[http://store.diydrones.com/Quadcopter_PDB_p/ac-pdb-01.htm DIYDrones PDB Reference]
 
 == Battery ==
 
 == Power Sensor ==
 
+[https://www.sparkfun.com/products/10644 Sparkfun Reference]
+
+[http://code.google.com/p/arducopter/wiki/AC2_Current ArduCopter Installation]
+
 == QuickStart ==
+
+[http://www.parallaxsemiconductor.com/quickstart Parallax Reference]
+
+= Radio's =
+
+[http://store.diydrones.com/3DR_Radio_915_Mhz_Air_module_p/br-3dr915.htm Air 915 MHz Radio Reference]
+
+[http://store.diydrones.com/3DR_Radio_USB_915_Mhz_Ground_module_p/br-3drusb915.htm Ground 915 MHz Radio Reference]
+
+[http://store.diydrones.com/3DR_RadioTelemetry_Kit_915_Mhz_p/kt-telemetry-3dr915.htm Telemetry Radio Kit]
+
+[http://code.google.com/p/arducopter/wiki/3DRadio Radio Installation]
 
 = Details =
 
