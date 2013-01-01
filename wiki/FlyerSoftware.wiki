@@ -19,6 +19,8 @@ Provided here is documentation on the software running on the ICARUS Flyer as we
 = Software = 
 == Onboard ==
 
+[http://code.google.com/p/arducopter/wiki/Code Arducopter Programming Instructions]
+
 === ArduPlane Relevant Code ===
 _ArduPlane.pde_
 {{{
