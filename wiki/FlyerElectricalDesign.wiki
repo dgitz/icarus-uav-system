@@ -15,3 +15,7 @@ Add your content here.
 [http://www.scorpionsystem.com/files/download/Scorpion_Calc_v353.zip Scorpion Calculator (Motors/ESC/Battery)]
 
 [http://code.google.com/p/arducopter/wiki/AC2PowerDistro APM Power Distribution]
+
+[http://www.youtube.com/watch?feature=player_embedded&v=3tEBQC-qNE0 Soldering Dean's Connectors]
+
+[http://www.youtube.com/watch?feature=player_embedded&v=MnldHRtjre8 Soldering Bullet Connectors]
