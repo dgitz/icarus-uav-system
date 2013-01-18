@@ -42,6 +42,24 @@ ICARUS Flyer General Logical Diagram.  9-Dec-2012.
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/v4RevA.1/Trans-45-Iso.png]
 ICARUS Flyer v4RevA.1 Isometric View, Transition @ 45 Degrees.  17-Dec-2012.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematicv4RevA.2.pdf ICARUS Flyer v4RevA.2 Electrical Schematic]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematicv4RevA.2.pdf ICARUS Flyer v4RevA.2 Electrical Schematic]  17-Jan-2012.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v3RevA.png] ICARUS Flyer v3RevA Isometric View, Cruise.  18-Jan-2012
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v3RevA.png] ICARUS Flyer v3RevA Rotating Arm.  18-Jan-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v3RevB.png]
+ICARUS Flyer v3RevB Isometric View, Cruise.  18-Jan-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v3RevC.png]
+ICARUS Flyer v3RevC Isometric View, Cruise.  18-Jan-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v3RevD.png]
+ICARUS Flyer v3RevD Isometric View, Cruise.  18-Jan-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v3RevE.png]
+ICARUS Flyer v3RevE Isometric View, Cruise.  18-Jan-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v4RevA-1.png]
+ICARUS Flyer v4RevA-1 Isometric View, Cruise.  18-Jan-2012.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v4RevA-2.png]
+ICARUS Flyer v4RevA-2 Isometric View, Cruise.  18-Jan-2012.
