@@ -32,7 +32,7 @@ I've gone through several design iterations so far on this project, from initial
 ICARUS QTW Flyer v4RevA-2, in Cruise Mode.  This is the most current design.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v4RevA-1.png]
-ICARUS QTW Flyer v4RevA-1, in Cruise Mode.
+ICARUS QTW Flyer v4RevA-1, in Cruise Mode.  This was designed with Carbon Fiber as almost the entire structure, which was just too heavy.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v3RevE.png]
 ICARUS QTW Jet Flyer v4RevE, in Cruise Mode.  Jet Engines are neat, but too expensive.
