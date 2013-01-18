@@ -24,3 +24,7 @@ I have found very little information regarding building a TiltWing UAV, at least
     * Test QTW using appropriate Wind-Tunnels.
     * Perform System Identification on QTW.
     * Perform Test Flights and validate design on QTW.
+
+= Flyer's =
+I've gone through several design iterations so far on this project, from initial concepts to more refined designs.  Here are some pictures of the QTW in it's various design stages:
+
