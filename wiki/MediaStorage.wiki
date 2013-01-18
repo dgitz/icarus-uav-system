@@ -43,3 +43,5 @@ ICARUS Flyer General Logical Diagram.  9-Dec-2012.
 ICARUS Flyer v4RevA.1 Isometric View, Transition @ 45 Degrees.  17-Dec-2012.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematicv4RevA.2.pdf ICARUS Flyer v4RevA.2 Electrical Schematic]
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v3RevA.png ICARUS Flyer v3RevA Isometric View, Cruise.  18-Jan-2012]
