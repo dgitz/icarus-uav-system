@@ -47,10 +47,10 @@ ICARUS Flyer v4RevA.1 Isometric View, Transition @ 45 Degrees.  17-Dec-2012.
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v3RevA.png] ICARUS Flyer v3RevA Rotating Arm.  18-Jan-2012.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v3RevB.png]
-ICARUS Flyer v3RevB Isometric View, Cruise.  18-Jan-2012.
+ICARUS Flyer v3RevB Isometric View, Hover.  18-Jan-2012.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v3RevC.png]
-ICARUS Flyer v3RevC Isometric View, Cruise.  18-Jan-2012.
+ICARUS Flyer v3RevC Isometric View, Hover.  18-Jan-2012.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v3RevD.png]
 ICARUS Flyer v3RevD Isometric View, Cruise.  18-Jan-2012.
