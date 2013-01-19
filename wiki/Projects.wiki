@@ -4,6 +4,11 @@
 
 Add your content here.
 
+= Ideas =
+  * SLAM
+  * Obstacle avoidance
+  * Terrain following
+  * System Modeling/Tuning
 
 = Details =
 
