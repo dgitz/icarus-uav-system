@@ -23,6 +23,7 @@
   * Remote Control
   * Operations
     * [http://code.google.com/p/icarus-uav-system/wiki/ConOps Concept of Operations]
+  * [http://code.google.com/p/icarus-uav-system/wiki/Projects Projects]
   * Appendix
     * [http://code.google.com/p/icarus-uav-system/wiki/MediaStorage Media]
     * [http://code.google.com/p/icarus-uav-system/wiki/FAQ FAQ]
