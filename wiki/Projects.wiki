@@ -5,6 +5,7 @@
 Add your content here.
 
 = Ideas =
+  * QTR UAV HIL Simulator
   * SLAM
   * Obstacle avoidance
   * Terrain following
