@@ -5,6 +5,7 @@
 Add your content here.
 
 = Ideas =
+  * ROS
   * [http://www.youtube.com/watch?v=NQhuE5Hj_ho&feature=youtu.be QTR UAV HIL Simulator]
   * SLAM
   * Obstacle avoidance
