@@ -14,4 +14,14 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
   * Work Completed
   * Future Work
 
+== Components ==
+  * Laptop
+  A laptop running Ubuntu 12.10 was installed with the Robot Operating System (Groovy).  A laptop was used as it would simplify development, and the usage of ROS implies that it is somewhat device independent.   Additionally, the following packages were installed:
+    * MavlinkBridge
+    * Openni  
+
+  * DIYDrones APM
+
+  * Kinect Sensor
+  This [http://www.amazon.com/Kinect-Sensor-Adventures-Xbox-360/dp/B002BSA298/ref=sr_1_1?ie=UTF8&qid=1360093357&sr=8-1&keywords=kinect+xbox Kinect Sensor] was purchased through UIC to be used on this project. 
 == References ==
