@@ -4,6 +4,9 @@
 
 This is the Home page for the ICARUS Wiki.  All content is currently completely in development, so use at your own risk.  All code and information, unless otherwise specified is completely open-source/open-hardware (OSHW)
 
+= Sponsors =
+[http://www.4pcb.com/images/logo.png http://www.4pcb.com/]
+Advanced Circuits has sponsored this project and provides PCB Fabrication services.  If you want to get sponsored from them too, go [http://www.4pcb.com/pcb-student-discount.html here].
 
 = Details =
 
