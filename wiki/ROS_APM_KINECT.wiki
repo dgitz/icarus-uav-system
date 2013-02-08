@@ -17,7 +17,7 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
 == Components ==
   * Laptop
 [http://www.ubuntu.com/download/desktop https://wiki.ubuntu.com/IconsPage?action=AttachFile&do=get&target=iconCircle48.png] 
-  A laptop running Ubuntu 12.10 was installed with the Robot Operating System (Groovy).  A laptop was used as it would simplify development, and the usage of ROS implies that it is somewhat device independent.   Additionally, the following packages were installed:
+  A laptop running Ubuntu 12.10 was installed with the Robot Operating System (ROS)-Groovy.  A laptop was used as it would simplify development, and the usage of ROS implies that it is somewhat device independent.   Additionally, the following packages were installed:
     * MavlinkBridge
     * Openni  
 
