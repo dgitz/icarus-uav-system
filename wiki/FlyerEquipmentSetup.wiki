@@ -26,9 +26,9 @@
 
 [http://code.google.com/p/arducopter/wiki/AC2_Current ArduCopter Installation]
 
-== QuickStart ==
+== Secondary Controller ==
 
-[http://www.parallaxsemiconductor.com/quickstart Parallax Reference]
+[http://www.parallaxsemiconductor.com/quickstart Parallax Quickstart Reference]
 
 = Radio's =
 
