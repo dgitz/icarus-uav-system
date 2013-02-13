@@ -9,6 +9,10 @@ This is the Home page for the ICARUS Wiki.  All content is currently completely 
 
 Advanced Circuits has sponsored this project and provides PCB Fabrication services.  If you want to get sponsored from them too, go [http://www.4pcb.com/pcb-student-discount.html here].
 
+[http://www.fast-robotics.com http://www.fast-robotics.com/wp-content/uploads/2012/06/long-logo.png]
+
+FAST Robotics has donated time in designing/supporting various components of this project.
+
 [http://engineering.uic.edu/COE/WebHome http://engineering.uic.edu/pub/COE/WebTopBar/coelogo_ds.png]
 
 The University of Illinois at Chicago College of Engineering is gracious enough to provide me with decent labspace and facilities for development.
