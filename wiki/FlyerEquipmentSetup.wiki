@@ -30,9 +30,9 @@
 
 [http://www.parallaxsemiconductor.com/quickstart Parallax Quickstart Reference]
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/Equipment/quick-start-plus - Schematic.pdf FAST Robotics QuickStartPlus (Schematic)]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/Equipment/quick-start-plus-Schematic.pdf FAST Robotics QuickStartPlus (Schematic)]
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/Equipment/quick-start-plus - PCB.pdf FAST Robotics QuickStartPlus (PCB)]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/Equipment/quick-start-plus-PCB.pdf FAST Robotics QuickStartPlus (PCB)]
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Configuration/Equipment/quick-start-plus.zip FAST Robotics QuickStartPlus (zip)]
 
