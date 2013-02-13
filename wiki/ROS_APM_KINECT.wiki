@@ -21,6 +21,14 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
     * MavlinkBridge
     * Openni  
 
+  Build RosCopter Package:
+{{{
+rosmake roscopter
+}}}
+  Start roscopter node (In ~/groovy_workspace/sandbox/roscopter/nodes Directory:
+{{{
+nodes/roscopter.py --device=/dev/ttyACM0 --rate=115200
+}}}
   * DIYDrones APM
 
 [http://store.diydrones.com/v/vspfiles/photos/BR-ArduPilotMega-03-2T.jpg]
