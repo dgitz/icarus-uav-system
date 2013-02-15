@@ -27,7 +27,7 @@ rosmake roscopter
 }}}
   Start roscopter node:
 {{{
-cd ~/groovy_workspace/sandbox/roscopter
+roscd roscopter
 nodes/roscopter.py --device=/dev/ttyACM0 --rate=115200
 }}}
   * DIYDrones APM
