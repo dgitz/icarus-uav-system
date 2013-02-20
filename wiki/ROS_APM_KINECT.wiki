@@ -37,4 +37,16 @@ nodes/roscopter.py --device=/dev/ttyACM0 --rate=115200
 
   * Kinect Sensor
   This [http://www.amazon.com/Kinect-Sensor-Adventures-Xbox-360/dp/B002BSA298/ref=sr_1_1?ie=UTF8&qid=1360093357&sr=8-1&keywords=kinect+xbox Kinect Sensor] was purchased through UIC to be used on this project. 
+In Terminal 1:
+{{{
+roscore
+}}}
+In Terminal 2:
+{{{
+roslaunch openni_launch openni.launch
+}}}
+In Terminal 3:
+{{{
+rosrun image_view disparity_view image:=/camera/depth/disparity
+}}}
 == References ==
