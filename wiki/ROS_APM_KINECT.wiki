@@ -18,7 +18,7 @@ Complete setup instructions and source code can be found here: TBA
 = Details =
 
 == System Overview ==
-  * System Diagram
+  * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/LogicalDesign/SystemDiagram.png System Diagram]
   * Tasks
   * Work Completed
   * Future Work
