@@ -15,7 +15,7 @@ Complete setup instructions and source code can be found here: TBA
 
 == System Overview ==
   * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/LogicalDesign/SystemDiagram.png System Diagram]
-  * Tasks
+  * Work Not Completed
     * Code Integration:  Kinect and APM_ROS Code in same project.
     * Input HSV Values for Color Tracking
     * Finish mounting hardware/cables
