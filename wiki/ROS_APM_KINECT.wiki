@@ -25,7 +25,7 @@ Complete setup instructions and source code can be found here: TBA
   * Work Completed
     * All Electronics Assembled
     * ROS Installation/Configuration
-    * ROS <--> APM Communication
+    * ROS To/From APM Communication
     * ROS Set RC Channels Directly (Optional)
     * ROS Set Pitch/Roll Setpoints
   * Future Work
