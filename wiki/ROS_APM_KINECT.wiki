@@ -8,7 +8,7 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
 
 Complete setup instructions and source code can be found here: TBA
 
-= Tasks =
+= Videos =
   
 
 = Details =
@@ -38,9 +38,10 @@ Complete setup instructions and source code can be found here: TBA
   * Laptop
 [http://www.ubuntu.com/download/desktop https://wiki.ubuntu.com/IconsPage?action=AttachFile&do=get&target=iconCircle48.png] 
 [http://www.warp1337.com/sites/www.warp1337.com/files/fuerte-320w.jpg]
-  A laptop running Ubuntu 12.04 was installed with the Robot Operating System (ROS)-Fuerte.  A laptop was used as it would simplify development, and the usage of ROS implies that it is somewhat device independent.   Additionally, the following packages were installed:
+  A laptop running Ubuntu 12.04 was installed with the Robot Operating System (ROS)-Fuerte.  A laptop was used as it would simplify development, and the usage of ROS implies that it is somewhat device independent.   Here's a list of dependent packages:
     * [https://github.com/mavlink/mavlink MAVLink]
     * [http://www.ros.org/wiki/openni_kinect Openni Kinect Driver]
+    * Others
 
   Build RosCopter Package:
 {{{
