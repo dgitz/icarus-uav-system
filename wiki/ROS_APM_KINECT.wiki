@@ -6,6 +6,8 @@ The objective of this project is to implement a system that has a computer runni
 
 This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing project for the Spring 2013 Semester and as such is still a work in progress.  All code/information/documentation will be made available upon completion.
 
+Complete setup instructions and source code can be found here: TBA
+
 = Tasks =
   * Code Integration:  Kinect and APM_ROS Code in same project.
   * Input HSV Values for Color Tracking
@@ -24,9 +26,10 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
 == Components ==
   * Laptop
 [http://www.ubuntu.com/download/desktop https://wiki.ubuntu.com/IconsPage?action=AttachFile&do=get&target=iconCircle48.png] 
-  A laptop running Ubuntu 12.10 was installed with the Robot Operating System (ROS)-Groovy.  A laptop was used as it would simplify development, and the usage of ROS implies that it is somewhat device independent.   Additionally, the following packages were installed:
-    * MavlinkBridge
-    * Openni  
+[http://farm9.staticflickr.com/8141/7250258012_f85d358458_z.jpg]
+  A laptop running Ubuntu 12.04 was installed with the Robot Operating System (ROS)-Fuerte.  A laptop was used as it would simplify development, and the usage of ROS implies that it is somewhat device independent.   Additionally, the following packages were installed:
+    * [https://github.com/mavlink/mavlink MAVLink]
+    * [http://www.ros.org/wiki/openni_kinect Openni Kinect Driver]
 
   Build RosCopter Package:
 {{{
@@ -40,7 +43,7 @@ nodes/roscopter.py --device=/dev/ttyACM0 --rate=115200
   * DIYDrones APM
 
 [http://store.diydrones.com/v/vspfiles/photos/BR-ArduPilotMega-03-2T.jpg]
-  The [http://store.diydrones.com/APM_2_0_Kit_p/br-ardupilotmega-03.htm DIYDrones APM] is already used as a Flight Controller in the ICARUS QTW Flyer.  While it has many functions, including an AHRS System, it lacks the ability to connect to more advanced sensors (such as the Kinect) and the programming space left (after using the Arduplane/Arducopter code) is quite small. 
+  The [http://store.diydrones.com/APM_2_0_Kit_p/br-ardupilotmega-03.htm DIYDrones APM] is already used as a Flight Controller in the ICARUS QTW Flyer.  While it has many functions, including an AHRS System, it lacks the ability to connect to more advanced sensors (such as the Kinect) and the programming space left (after using the Arduplane/Arducopter code) is quite small.  This project slightly modified the ArduPlane 2.68 Default Code.  Here are the required modifications: TBA   
 
   * Kinect Sensor
 [http://dri2.img.digitalrivercontent.net/Storefront/Company/msstore/images/hardware/pdp/en-US_Kinect_for_Windows_L6M-00001_RM1.jpg]
