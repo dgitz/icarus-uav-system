@@ -6,6 +6,13 @@ The objective of this project is to implement a system that has a computer runni
 
 This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing project for the Spring 2013 Semester and as such is still a work in progress.  All code/information/documentation will be made available upon completion.
 
+= Tasks =
+  * Code Integration:  Kinect and APM_ROS Code in same project.
+  * Input HSV Values for Color Tracking
+  * Finish mounting hardware/cables
+  * Wiki Documentation
+  * Target Tracking Setpoints
+
 = Details =
 
 == System Overview ==
