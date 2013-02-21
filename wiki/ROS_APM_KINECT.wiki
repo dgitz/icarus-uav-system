@@ -43,6 +43,8 @@ nodes/roscopter.py --device=/dev/ttyACM0 --rate=115200
   The [http://store.diydrones.com/APM_2_0_Kit_p/br-ardupilotmega-03.htm DIYDrones APM] is already used as a Flight Controller in the ICARUS QTW Flyer.  While it has many functions, including an AHRS System, it lacks the ability to connect to more advanced sensors (such as the Kinect) and the programming space left (after using the Arduplane/Arducopter code) is quite small. 
 
   * Kinect Sensor
+[http://dri2.img.digitalrivercontent.net/Storefront/Company/msstore/images/hardware/pdp/en-US_Kinect_for_Windows_L6M-00001_RM1.jpg]
+
   This [http://www.amazon.com/Kinect-Sensor-Adventures-Xbox-360/dp/B002BSA298/ref=sr_1_1?ie=UTF8&qid=1360093357&sr=8-1&keywords=kinect+xbox Kinect Sensor] was purchased through UIC to be used on this project. 
 In Terminal 1:
 {{{
