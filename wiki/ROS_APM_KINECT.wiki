@@ -9,19 +9,29 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
 Complete setup instructions and source code can be found here: TBA
 
 = Tasks =
-  * Code Integration:  Kinect and APM_ROS Code in same project.
-  * Input HSV Values for Color Tracking
-  * Finish mounting hardware/cables
-  * Wiki Documentation
-  * Target Tracking Setpoints
+  
 
 = Details =
 
 == System Overview ==
   * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/LogicalDesign/SystemDiagram.png System Diagram]
   * Tasks
+    * Code Integration:  Kinect and APM_ROS Code in same project.
+    * Input HSV Values for Color Tracking
+    * Finish mounting hardware/cables
+    * Wiki Documentation
+    * Target Tracking Setpoints
+    * ROS Set Yaw Setpoints
   * Work Completed
+    * All Electronics Assembled
+    * ROS Installation/Configuration
+    * ROS <--> APM Communication
+    * ROS Set RC Channels Directly (Optional)
+    * ROS Set Pitch/Roll Setpoints
   * Future Work
+    * Image Tracking adjusts Roll Angle
+    * Integrate ROS w/ GCS System
+    * Track other kinds of Targets (geometry, etc)
 
 == Components ==
   * Laptop
