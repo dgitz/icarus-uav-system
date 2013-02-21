@@ -28,6 +28,7 @@ Complete setup instructions and source code can be found here: TBA
     * ROS To/From APM Communication
     * ROS Set RC Channels Directly (Optional)
     * ROS Set Pitch/Roll Setpoints
+    * Kinect Color blob tracking
   * Future Work
     * Image Tracking adjusts Roll Angle
     * Integrate ROS w/ GCS System
