@@ -16,12 +16,13 @@ Complete setup instructions and source code can be found here: TBA
 == System Overview ==
   * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/LogicalDesign/SystemDiagram.png System Diagram]
   * Work Not Completed
-    * Code Integration:  Kinect and APM_ROS Code in same project.
-    * Input HSV Values for Color Tracking
-    * Finish mounting hardware/cables
-    * Wiki Documentation
     * Target Tracking Setpoints
     * ROS Set Yaw Setpoints
+    * Auto-start Script
+    * Finish mounting hardware/cables
+    * Input HSV Values for Color Tracking
+    * Wiki Documentation
+    * Upload to CVRL Github   
   * Work Completed
     * All Electronics Assembled
     * ROS Installation/Configuration
@@ -29,6 +30,7 @@ Complete setup instructions and source code can be found here: TBA
     * ROS Set RC Channels Directly (Optional)
     * ROS Set Pitch/Roll Setpoints
     * Kinect Color blob tracking
+    * Code Integration:  Kinect and APM_ROS Code in same project.
   * Future Work
     * Image Tracking adjusts Roll Angle
     * Integrate ROS w/ GCS System
