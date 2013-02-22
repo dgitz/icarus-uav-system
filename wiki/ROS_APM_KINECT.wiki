@@ -71,6 +71,6 @@ roslaunch openni_launch openni.launch
 }}}
 In Terminal 3:
 {{{
-rosrun image_view disparity_view image:=/camera/depth/disparity
+rosrun image_view image_view image:=/camera/rgb/image_color
 }}}
 == References ==
