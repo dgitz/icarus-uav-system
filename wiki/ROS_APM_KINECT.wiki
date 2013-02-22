@@ -52,6 +52,7 @@ rosmake roscopter
   Start roscopter node:
 {{{
 roscd roscopter
+sudo chmod 0777 /dev/ttyACM0
 nodes/roscopter.py --device=/dev/ttyACM0 --rate=115200
 }}}
   * DIYDrones APM
