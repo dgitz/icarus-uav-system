@@ -46,16 +46,6 @@ Complete setup instructions and source code can be found here: TBA
     * [http://www.ros.org/wiki/openni_kinect Openni Kinect Driver]
     * Others
 
-  Build ICARUSQTW ROS Package:
-{{{
-rosmake icarusqtw
-}}}
-  Start icarusqtw node:
-{{{
-roscd icarusqtw
-sudo chmod 0777 /dev/ttyACM0
-nodes/icarusqtw.py --device=/dev/ttyACM0 --rate=115200
-}}}
   * DIYDrones APM
 
 [http://store.diydrones.com/v/vspfiles/photos/BR-ArduPilotMega-03-2T.jpg]
@@ -65,16 +55,29 @@ nodes/icarusqtw.py --device=/dev/ttyACM0 --rate=115200
 [http://img.gawkerassets.com/img/17nnc7oa1rdrijpg/xlarge.jpg]
 
   This [http://www.amazon.com/Kinect-Sensor-Adventures-Xbox-360/dp/B002BSA298/ref=sr_1_1?ie=UTF8&qid=1360093357&sr=8-1&keywords=kinect+xbox Kinect Sensor] was purchased through UIC to be used on this project. 
+
+= Operating Instructions =
+# Start the ROS Core
 In Terminal 1:
 {{{
 roscore
 }}}
+# Start the Kinect Camera Driver
 In Terminal 2:
 {{{
 roslaunch openni_launch openni.launch
 }}}
+# Start a Kinect Video feed (used in the Node Script)
 In Terminal 3:
 {{{
 rosrun image_view image_view image:=/camera/rgb/image_color
+}}}
+# Start the ROS Node Script
+In Terminal 4:
+{{{
+rosmake icarusqtw
+roscd icarusqtw
+sudo chmod 0777 /dev/ttyACM0
+nodes/icarusqtw.py --device=/dev/ttyACM0 --rate=115200
 }}}
 == References ==
