@@ -46,15 +46,15 @@ Complete setup instructions and source code can be found here: TBA
     * [http://www.ros.org/wiki/openni_kinect Openni Kinect Driver]
     * Others
 
-  Build RosCopter Package:
+  Build ICARUSQTW ROS Package:
 {{{
-rosmake roscopter
+rosmake icarusqtw
 }}}
-  Start roscopter node:
+  Start icarusqtw node:
 {{{
-roscd roscopter
+roscd icarusqtw
 sudo chmod 0777 /dev/ttyACM0
-nodes/roscopter.py --device=/dev/ttyACM0 --rate=115200
+nodes/icarusqtw.py --device=/dev/ttyACM0 --rate=115200
 }}}
   * DIYDrones APM
 
