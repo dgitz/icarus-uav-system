@@ -32,10 +32,12 @@ Complete setup instructions and source code can be found here: TBA
     * Code Integration:  Kinect and APM_ROS Code in same project.
     * Target Pitch Setpoints
     * Target Yaw Setpoints
+    * Measure Distance to Target
   * Future Work
     * Image Tracking adjusts Roll Angle
     * Integrate ROS w/ GCS System
     * Track other kinds of Targets (geometry, etc)
+    * Implement on an Embedded Controller
 
 == Components ==
   * Laptop
