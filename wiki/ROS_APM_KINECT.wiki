@@ -96,6 +96,59 @@ Before the check_command() function:
  #endif
 }}}
 
+==== Attutide.ino ===
+Unfortunately the ArduPlane 2.68 Code does not perform Yaw PID Control as it does with Pitch and Roll.  So instead of setting the desired Yaw state, we have to set the desired Yaw Servo Angle directly.  This requires the following modification in the calc_nav_yaw function:
+
+{{{
+#if APM_CONTROL == DISABLED
+#if ATTITUDE_COMMAND == DISABLED
+    // always do rudder mixing from roll
+    g.channel_rudder.servo_out = g.kff_rudder_mix * g.channel_roll.servo_out;
+#endif
+    // a PID to coordinate the turn (drive y axis accel to zero)
+    Vector3f temp = ins.get_accel();
+    int32_t error = -temp.y*100.0;
+#if ATTITUDE_COMMAND == DISABLED
+    g.channel_rudder.servo_out += g.pidServoRudder.get_pid(error, speed_scaler);
+#endif
+#else // APM_CONTROL == ENABLED
+    // use the new APM_Control library
+	g.channel_rudder.servo_out = g.yawController.get_servo_out(speed_scaler, ch4_inf < 0.25) + g.channel_roll.servo_out * g.kff_rudder_mix;
+#endif
+}
+}}}
+
+==== config.h ===
+Add:
+{{{
+#ifndef ATTITUDE_COMMAND
+#define ATTITUDE_COMMAND ENABLED
+#endif
+}}}
+
+==== GCS_Mavlink.ino ====
+In the GCS_MAVLINK::handleMessage function:
+{{{
+ #if ATTITUDE_COMMAND == ENABLED              
+     case  MAVLINK_MSG_ID_SET_ROLL_PITCH_YAW_THRUST:
+         { 
+           // Allows a ground control station to command attitude/thrust set points
+             //if(msg->sysid != g.sysid_my_gcs) break;            // Only accept control from our gcs
+             mavlink_set_roll_pitch_yaw_thrust_t packet;
+             mavlink_msg_set_roll_pitch_yaw_thrust_decode(msg, &packet);
+             if (mavlink_check_target(packet.target_system,packet.target_component)) break;
+                 
+             roll_command = (long)(mavlink_msg_set_roll_pitch_yaw_thrust_get_roll(msg)*100.0*180.0/3.14159);
+             pitch_command = (long)(mavlink_msg_set_roll_pitch_yaw_thrust_get_pitch(msg)*100.0*180.0/3.14159);
+             yaw_command = (long)(mavlink_msg_set_roll_pitch_yaw_thrust_get_yaw(msg)*100.0*180.0/3.14159);
+             thrust_command = (int)(mavlink_msg_set_roll_pitch_yaw_thrust_get_thrust(msg)*100.0);            
+             
+             in_command = true;
+             command_fs_timer = millis();
+             break;
+         }
+ #endif
+}}}
 === Kinect Sensor ===
 [http://img.gawkerassets.com/img/17nnc7oa1rdrijpg/xlarge.jpg]
 
