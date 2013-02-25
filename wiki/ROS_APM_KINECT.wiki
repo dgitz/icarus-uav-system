@@ -66,6 +66,35 @@ After the {{{// Roll, pitch, yaw and thrust commands}}} lines:
  #endif
 }}}
 
+In the update_current_flight_mode(void) function, in the default case after calc_throttle();
+{{{
+#if ATTITUDE_COMMAND == ENABLED
+
+            check_command();
+            if (in_command) 
+            {
+                    nav_pitch_cd = pitch_command;
+                    nav_roll_cd = roll_command;
+                    g.channel_throttle.servo_out = thrust_command;
+                    g.channel_rudder.servo_out = yaw_command;
+            }
+            else
+            {
+              
+            }
+#endif
+}}}
+
+Before the check_command() function:
+{{{
+#if ATTITUDE_COMMAND == ENABLED
+ static void check_command() {
+      if (millis() - command_fs_timer > FAILSAFE_SHORT_TIME) {
+        in_command = false;       
+      }
+ }
+ #endif
+}}}
 
 === Kinect Sensor ===
 [http://img.gawkerassets.com/img/17nnc7oa1rdrijpg/xlarge.jpg]
