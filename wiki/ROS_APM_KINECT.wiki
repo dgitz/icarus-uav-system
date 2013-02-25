@@ -40,7 +40,7 @@ Complete setup instructions and source code can be found [https://code.google.co
     * Implement on an Embedded Controller
 
 == Components ==
-  * Laptop
+=== Laptop ===
 [http://www.ubuntu.com/download/desktop https://wiki.ubuntu.com/IconsPage?action=AttachFile&do=get&target=iconCircle48.png] 
 [http://www.warp1337.com/sites/www.warp1337.com/files/fuerte-320w.jpg]
   A laptop running Ubuntu 12.04 was installed with the Robot Operating System (ROS)-Fuerte.  A laptop was used as it would simplify development, and the usage of ROS implies that it is somewhat device independent.   Here's a list of dependent packages:
@@ -48,12 +48,12 @@ Complete setup instructions and source code can be found [https://code.google.co
     * [http://www.ros.org/wiki/openni_kinect Openni Kinect Driver]
     * Others
 
-  * DIYDrones APM
+=== DIYDrones APM ===
 
 [http://store.diydrones.com/v/vspfiles/photos/BR-ArduPilotMega-03-2T.jpg]
   The [http://store.diydrones.com/APM_2_0_Kit_p/br-ardupilotmega-03.htm DIYDrones APM] is already used as a Flight Controller in the ICARUS QTW Flyer.  While it has many functions, including an AHRS System, it lacks the ability to connect to more advanced sensors (such as the Kinect) and the programming space left (after using the Arduplane/Arducopter code) is quite small.  This project slightly modified the ArduPlane 2.68 Default Code.  The download listed above contains the complete APM code required for this project.  If you'd like to make the necessary changes to your own code here they are:
 
-=== Arduplane.ino ===
+==== Arduplane.ino ====
 After the {{{// Roll, pitch, yaw and thrust commands}}} lines:
 {{{
  #if ATTITUDE_COMMAND == ENABLED
@@ -67,7 +67,7 @@ After the {{{// Roll, pitch, yaw and thrust commands}}} lines:
 }}}
 
 
-  * Kinect Sensor
+=== Kinect Sensor ===
 [http://img.gawkerassets.com/img/17nnc7oa1rdrijpg/xlarge.jpg]
 
   This [http://www.amazon.com/Kinect-Sensor-Adventures-Xbox-360/dp/B002BSA298/ref=sr_1_1?ie=UTF8&qid=1360093357&sr=8-1&keywords=kinect+xbox Kinect Sensor] was purchased through UIC to be used on this project. 
