@@ -9,7 +9,7 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
 Complete setup instructions and source code can be found [https://code.google.com/p/icarus-uav-system/downloads/detail?name=ROS_APM_KINECTv.8.zip&can=2&q=#makechanges here].
 
 = Videos =
-  
+[http://www.youtube.com/watch?v=X8OeJrsW6gA&feature=youtu.be Project Overview Video]
 
 = Details =
 
