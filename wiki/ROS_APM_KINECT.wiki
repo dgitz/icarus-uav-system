@@ -46,7 +46,6 @@ Complete setup instructions and source code can be found [https://code.google.co
   A laptop running Ubuntu 12.04 was installed with the Robot Operating System (ROS)-Fuerte.  A laptop was used as it would simplify development, and the usage of ROS implies that it is somewhat device independent.   Here's a list of dependent packages:
     * [https://github.com/mavlink/mavlink MAVLink]
     * [http://www.ros.org/wiki/openni_kinect Openni Kinect Driver]
-    * Others
 
 === DIYDrones APM ===
 
@@ -186,6 +185,6 @@ nodes/icarusqtw.py --device=/dev/ttyACM0 --rate=115200
 == References ==
 
 I'd like to thank the following people/organizations for their contributions to this project:
-* The UIC CVRL Robotics Laboratory.
-* Loughborough University Centre for Autonomous Systems for their [https://code.google.com/p/lucas-research/wiki/APMSimulink source code] dealing with interfacing the APM with MAVLink.
-* Yogesh Girdhar for his contributions with interfacing the [https://www.google.com/search?q=roscopter&aq=f&oq=roscopter&aqs=chrome.0.59l2j60j62l3.997&sourceid=chrome&ie=UTF-8 APM with ROS].
+  * The UIC CVRL Robotics Laboratory.
+  * Loughborough University Centre for Autonomous Systems for their [https://code.google.com/p/lucas-research/wiki/APMSimulink source code] dealing with interfacing the APM with MAVLink.
+  * Yogesh Girdhar for his contributions with interfacing the [https://www.google.com/search?q=roscopter&aq=f&oq=roscopter&aqs=chrome.0.59l2j60j62l3.997&sourceid=chrome&ie=UTF-8 APM with ROS].
