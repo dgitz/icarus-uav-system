@@ -180,10 +180,10 @@ rosrun image_view image_view image:=/camera/depth/image
 # Start the ROS Node Script
 In Terminal 5:
 {{{
-rosmake icarusqtw
-roscd icarusqtw
+rosmake ros_apm_kinect
+roscd ros_apm_kinect
 sudo chmod 0777 /dev/ttyACM0
-nodes/icarusqtw.py --device=/dev/ttyACM0 --rate=115200
+nodes/ros_apm_kinect.py --device=/dev/ttyACM0 --rate=115200
 }}}
 == References ==
 
