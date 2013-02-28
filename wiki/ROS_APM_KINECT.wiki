@@ -21,8 +21,7 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
     * Implement on ArduCopter
     * Auto-start Script
     * Clean up Code
-    * Input HSV Values for Color Tracking
-    * Upload to CVRL Github   
+    * Input HSV Values for Color Tracking   
   * Work Completed
     * All Electronics Assembled
     * ROS Installation/Configuration
@@ -36,6 +35,7 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
     * Measure Distance to Target
     * Wiki Documentation
     * Finish mounting hardware/cables
+    * Upload to CVRL BitBucket:  [https://bitbucket.org/uicrobotics/ros_apm_kinect/wiki/Home Link]
   * Future Work
     * Image Tracking adjusts Roll Angle
     * Integrate ROS w/ GCS System
