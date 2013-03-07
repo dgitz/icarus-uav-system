@@ -18,7 +18,6 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
 == System Overview ==
   * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/LogicalDesign/SystemDiagram.png System Diagram]
   * Work Not Completed
-    * Implement on ArduCopter
     * Auto-start Script
     * Clean up Code
     * Input HSV Values for Color Tracking   
@@ -35,6 +34,7 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
     * Measure Distance to Target
     * Wiki Documentation
     * Finish mounting hardware/cables
+    * Implement on ArduCopter
     * Upload to CVRL BitBucket:  [https://bitbucket.org/uicrobotics/ros_apm_kinect/wiki/Home Link]
   * Future Work
     * Image Tracking adjusts Roll Angle
@@ -55,7 +55,8 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
 [http://store.diydrones.com/v/vspfiles/photos/BR-ArduPilotMega-03-2T.jpg]
   The [http://store.diydrones.com/APM_2_0_Kit_p/br-ardupilotmega-03.htm DIYDrones APM] is already used as a Flight Controller in the ICARUS QTW Flyer.  While it has many functions, including an AHRS System, it lacks the ability to connect to more advanced sensors (such as the Kinect) and the programming space left (after using the Arduplane/Arducopter code) is quite small.  This project slightly modified the ArduPlane 2.68 Default Code.  The download listed above contains the complete APM code required for this project.  If you'd like to make the necessary changes to your own code here they are:
 
-==== Arduplane.ino ====
+==== ArduPlane Firmware ====
+===== Arduplane.ino =====
 After the {{{// Roll, pitch, yaw and thrust commands}}} lines:
 {{{
  #if ATTITUDE_COMMAND == ENABLED
@@ -98,7 +99,7 @@ Before the check_command() function:
  #endif
 }}}
 
-==== Attutide.ino ===
+===== Attutide.ino =====
 Unfortunately the ArduPlane 2.68 Code does not perform Yaw PID Control as it does with Pitch and Roll.  So instead of setting the desired Yaw state, we have to set the desired Yaw Servo Angle directly.  This requires the following modification in the calc_nav_yaw function:
 
 {{{
@@ -120,7 +121,7 @@ Unfortunately the ArduPlane 2.68 Code does not perform Yaw PID Control as it doe
 }
 }}}
 
-==== config.h ===
+===== config.h ====
 Add:
 {{{
 #ifndef ATTITUDE_COMMAND
@@ -151,6 +152,21 @@ In the GCS_MAVLINK::handleMessage function:
          }
  #endif
 }}}
+
+==== ArduCopter Firmware ====
+For the ArduCopter Firmware, we need to set each yaw, roll and pitch variable in their separate functions, unlike the ArduPlane software.
+===== ArduCopter.ino =====
+In the Global Variables:
+{{{
+#if  ROS_COMMAND_MODE == ENABLED
+  static long ros_roll_command;
+  static long ros_pitch_command;
+  static long ros_yaw_command;
+  static int ros_thrust_command;
+#endif
+}}}
+In the update_yaw_mode function:
+Add a {{{#if ROS_COMMAND_MODE == DISABLED}}} and 
 === Kinect Sensor ===
 [http://img.gawkerassets.com/img/17nnc7oa1rdrijpg/xlarge.jpg]
 
