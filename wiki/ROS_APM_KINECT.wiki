@@ -154,7 +154,7 @@ In the GCS_MAVLINK::handleMessage function:
 }}}
 
 ==== ArduCopter Firmware ====
-For the ArduCopter Firmware, we need to set each yaw, roll and pitch variable in their separate functions, unlike the ArduPlane software.
+For the ArduCopter Firmware, we need to set each yaw, roll and pitch variable in their separate functions, unlike the ArduPlane software.  Also, we bypass all the normal flight modes if the ROS_COMMAND_MODE is Enabled, which ensures that the APM doesn't enter a state that we don't want it to enter.
 ===== ArduCopter.ino =====
 In the Global Variables:
 {{{
@@ -166,7 +166,76 @@ In the Global Variables:
 #endif
 }}}
 In the update_yaw_mode function:
-Add a {{{#if ROS_COMMAND_MODE == DISABLED}}} and 
+Add a {{{#if ROS_COMMAND_MODE == DISABLED}}} and {{{#endif}}} around the enter code in this function.  After the {{{#endif}}}, add:
+{{{
+#if ROS_COMMAND_MODE == ENABLED
+        nav_yaw = ros_yaw_command;
+        get_stabilize_yaw(nav_yaw);
+#endif
+}}}
+Continue with this process, for each update_x_mode(i.e. in update_yaw_mode, update_roll_pitch_mode, update_throttle_mode), bypass all the normal code by using the above process.
+In the update_roll_pitch_mode, add:
+{{{
+#if ROS_COMMAND_MODE == ENABLED
+        nav_roll = ros_roll_command;
+        nav_pitch = ros_pitch_command; 
+        get_stabilize_roll(nav_roll);
+        get_stabilize_pitch(nav_pitch);
+#endif
+}}}
+In the update_throttle_mode, add:
+{{{
+#if ROS_COMMAND_MODE == ENABLED
+    set_throttle_out(ros_thrust_command, false);
+#endif
+}}}
+We have to initialize the throttle, or else it will never arm.  In the set_throttle_mode, add a case:
+{{{
+case THROTTLE_ROS:
+            throttle_initialised = true;
+}}}
+
+==== defines.h ====
+We need to add several new define statements:
+{{{
+#define YAW_ROS  8  //This is the Yaw Flight Mode when controlled by a ROS System
+#define ROLL_PITCH_ROS 6  //This is the Roll/Pitch Flight Mode when controlled by a ROS System
+#define THROTTLE_ROS  9   //This is the Throttle Flight Mode when controlled by a ROS System
+}}}
+
+==== GCS_Mavlink.ino ====
+I want to blink an led whenever I transmit an attitude command via MAVLink:
+in the send_attitude() function, add:
+{{{
+digitalWrite(B_LED_PIN, !digitalRead(B_LED_PIN));
+}}}
+I need to add a message handler for the MAVLINK_SET_ROLL_PITCH_YAW_THRUST command.  In the GCS_MAVLINK::handleMessage function, add:
+{{{
+case MAVLINK_MSG_ID_SET_ROLL_PITCH_YAW_THRUST://56
+    { 
+             // Allows a ground control station to command attitude/thrust set points
+             //if(msg->sysid != g.sysid_my_gcs) break;            // Only accept control from our gcs
+             mavlink_set_roll_pitch_yaw_thrust_t packet;
+             mavlink_msg_set_roll_pitch_yaw_thrust_decode(msg, &packet);
+             if (mavlink_check_target(packet.target_system,packet.target_component)) break;
+                 
+             ros_roll_command = (long)(mavlink_msg_set_roll_pitch_yaw_thrust_get_roll(msg)*100.0*180.0/3.14159);
+             ros_pitch_command = (long)(mavlink_msg_set_roll_pitch_yaw_thrust_get_pitch(msg)*100.0*180.0/3.14159);
+             ros_yaw_command = (long)(mavlink_msg_set_roll_pitch_yaw_thrust_get_yaw(msg));
+             ros_thrust_command = (int)(mavlink_msg_set_roll_pitch_yaw_thrust_get_thrust(msg)*1000.0);            
+             
+             break;
+         }
+}}}
+==== system.ino ====
+During the startup procedure I need to arm the motors, and not set a different flight mode.  Bypass the mode changes with a {{{if ROS_COMMAND_MODE == DISABLED}}} and the corresponding {{{#endif}}}.  Then, add this:
+#if ROS_COMMAND_MODE == ENABLED
+    mode = AUTO;
+    control_mode            = AUTO;
+    init_arm_motors();
+#endif
+
+
 === Kinect Sensor ===
 [http://img.gawkerassets.com/img/17nnc7oa1rdrijpg/xlarge.jpg]
 
