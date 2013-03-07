@@ -129,7 +129,7 @@ Add:
 #endif
 }}}
 
-==== GCS_Mavlink.ino ====
+===== GCS_Mavlink.ino =====
 In the GCS_MAVLINK::handleMessage function:
 {{{
  #if ATTITUDE_COMMAND == ENABLED              
@@ -227,14 +227,22 @@ case MAVLINK_MSG_ID_SET_ROLL_PITCH_YAW_THRUST://56
              break;
          }
 }}}
-==== system.ino ====
+===== system.ino =====
 During the startup procedure I need to arm the motors, and not set a different flight mode.  Bypass the mode changes with a {{{if ROS_COMMAND_MODE == DISABLED}}} and the corresponding {{{#endif}}}.  Then, add this:
+{{{
 #if ROS_COMMAND_MODE == ENABLED
     mode = AUTO;
     control_mode            = AUTO;
     init_arm_motors();
 #endif
+}}}
 
+===== UserCode =====
+Finally, we need to give the APM a throttle setting higher than 0.  This is done in the userhook_50hz() function:
+
+{{{
+g.rc_3.control_in = 100;
+}}}
 
 === Kinect Sensor ===
 [http://img.gawkerassets.com/img/17nnc7oa1rdrijpg/xlarge.jpg]
