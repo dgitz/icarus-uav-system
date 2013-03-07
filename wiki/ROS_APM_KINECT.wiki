@@ -121,7 +121,7 @@ Unfortunately the ArduPlane 2.68 Code does not perform Yaw PID Control as it doe
 }
 }}}
 
-===== config.h ====
+===== config.h =====
 Add:
 {{{
 #ifndef ATTITUDE_COMMAND
@@ -195,7 +195,7 @@ case THROTTLE_ROS:
             throttle_initialised = true;
 }}}
 
-==== defines.h ====
+===== defines.h =====
 We need to add several new define statements:
 {{{
 #define YAW_ROS  8  //This is the Yaw Flight Mode when controlled by a ROS System
@@ -203,7 +203,7 @@ We need to add several new define statements:
 #define THROTTLE_ROS  9   //This is the Throttle Flight Mode when controlled by a ROS System
 }}}
 
-==== GCS_Mavlink.ino ====
+===== GCS_Mavlink.ino =====
 I want to blink an led whenever I transmit an attitude command via MAVLink:
 in the send_attitude() function, add:
 {{{
