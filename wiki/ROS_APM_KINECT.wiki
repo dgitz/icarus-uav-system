@@ -253,6 +253,8 @@ g.rc_3.control_in = 100;
   This [http://www.amazon.com/Kinect-Sensor-Adventures-Xbox-360/dp/B002BSA298/ref=sr_1_1?ie=UTF8&qid=1360093357&sr=8-1&keywords=kinect+xbox Kinect Sensor] was purchased through UIC to be used on this project. 
 
 = ROS-Code =
+The full ROS Code can be downloaded in the downloads section.  However, here is some useful information on the ROS Node Script.
+
 
 = Operating-Instructions =
 # Start the ROS Core
