@@ -2,7 +2,7 @@
 
 [ROS_APM_KINECT#Operating-Instructions Operating Instructions]
 [ROS_APM_KINECT#ROS-Code ROS Code]
-[ROS_APM_KINECT#APM-Code APM Information]
+[ROS_APM_KINECT#APM-Code APM]
 = Introduction =
 
 The objective of this project is to implement a system that has a computer running ROS with a Kinect doing target tracking, and outputting commands via MAVLink to an APM Board.
