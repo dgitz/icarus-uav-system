@@ -1,6 +1,8 @@
 #summary ROS, APM and Kinect
 
-[ROS_APM_KINECT#Pictures Pics]
+[ROS_APM_KINECT#Operating-Instructions Operating Instructions]
+[ROS_APM_KINECT#ROS-Code ROS Code]
+[ROS_APM_KINECT#APM-Code APM Information]
 = Introduction =
 
 The objective of this project is to implement a system that has a computer running ROS with a Kinect doing target tracking, and outputting commands via MAVLink to an APM Board.
@@ -51,7 +53,7 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
     * [https://github.com/mavlink/mavlink MAVLink]
     * [http://www.ros.org/wiki/openni_kinect Openni Kinect Driver]
 
-=== DIYDrones APM ===
+=== APM-Code ===
 
 [http://store.diydrones.com/v/vspfiles/photos/BR-ArduPilotMega-03-2T.jpg]
   The [http://store.diydrones.com/APM_2_0_Kit_p/br-ardupilotmega-03.htm DIYDrones APM] is already used as a Flight Controller in the ICARUS QTW Flyer.  While it has many functions, including an AHRS System, it lacks the ability to connect to more advanced sensors (such as the Kinect) and the programming space left (after using the Arduplane/Arducopter code) is quite small.  This project slightly modified the ArduPlane 2.68 Default Code.  The download listed above contains the complete APM code required for this project.  If you'd like to make the necessary changes to your own code here they are:
@@ -250,7 +252,9 @@ g.rc_3.control_in = 100;
 
   This [http://www.amazon.com/Kinect-Sensor-Adventures-Xbox-360/dp/B002BSA298/ref=sr_1_1?ie=UTF8&qid=1360093357&sr=8-1&keywords=kinect+xbox Kinect Sensor] was purchased through UIC to be used on this project. 
 
-= Operating Instructions =
+= ROS-Code =
+
+= Operating-Instructions =
 # Start the ROS Core
 In Terminal 1:
 {{{
