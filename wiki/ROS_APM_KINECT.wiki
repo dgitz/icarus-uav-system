@@ -12,7 +12,7 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
 = Pictures =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/ROS_APM_Kinect_1.jpg]
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/ROS_APM_Kinect_2.png]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/ROS_APM_Kinect_2.jpg]
 
 = Videos =
 [http://www.youtube.com/watch?v=X8OeJrsW6gA&feature=youtu.be Project Overview Video]
