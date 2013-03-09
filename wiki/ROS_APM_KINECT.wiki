@@ -285,7 +285,14 @@ In Terminal 5:
 rosmake ros_apm_kinect
 roscd ros_apm_kinect
 sudo chmod 0777 /dev/ttyACM0
-nodes/ros_apm_kinect.py --device=/dev/ttyACM0 --rate=115200
+}}}
+There are currently 2 modes of target tracking:  color_track and motion_track.  Use:
+{{{
+nodes/ros_apm_kinect.py --devi000 --targettrack=color_track
+}}}
+OR
+{{{
+nodes/ros_apm_kinect.py --device=/dev/ttyACM0 --rate=1152000 --targettrack=motion_track
 }}}
 == References ==
 
