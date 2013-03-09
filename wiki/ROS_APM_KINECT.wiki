@@ -22,9 +22,7 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
   * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/LogicalDesign/SystemDiagram.png System Diagram]
   * Work Not Completed
     * Auto-start Script
-    * Clean up Code
-    * Geometry Tracking
-    * Track target by region select   
+    * Clean up Code  
   * Work Completed
     * All Electronics Assembled
     * ROS Installation/Configuration
@@ -40,6 +38,8 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
     * Finish mounting hardware/cables
     * Implement on ArduCopter
     * Pick color using Mouse
+    * Motion Tracking
+    * Picking Tracking mode via command line arguments
     * Upload to CVRL BitBucket:  [https://bitbucket.org/uicrobotics/ros_apm_kinect/wiki/Home Link]
   * Future Work
     * Image Tracking adjusts Roll Angle
