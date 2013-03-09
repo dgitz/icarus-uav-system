@@ -288,7 +288,7 @@ sudo chmod 0777 /dev/ttyACM0
 }}}
 There are currently 2 modes of target tracking:  color_track and motion_track.  Use:
 {{{
-nodes/ros_apm_kinect.py --devi000 --targettrack=color_track
+nodes/ros_apm_kinect.py --device=/dev/ttyACM0 --rate=1152000 --targettrack=color_track
 }}}
 OR
 {{{
