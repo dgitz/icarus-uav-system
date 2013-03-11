@@ -9,6 +9,12 @@ The objective of this project is to implement a system that has a computer runni
 
 This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing project for the Spring 2013 Semester and as such is still a work in progress.  All code/information/documentation will be made available upon completion.
 
+= Results =
+
+== Color Tracking ==
+
+== Motion Tracking ==
+
 = Pictures =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/ROS_APM_Kinect_1.jpg]
 
@@ -288,12 +294,17 @@ In Terminal 5:
 rosmake ros_apm_kinect
 roscd ros_apm_kinect
 sudo chmod 0777 /dev/ttyACM0
+nodes/ros_apm_kinect.py --device=/dev/ttyACM0 --rate=1152000 --targettrack=None
 }}}
-There are currently 2 modes of target tracking:  color_track and motion_track.  Use:
+= Options =
+Currently, the following options can be employed:
+  * Run Color Track Mode
+When starting the ROS Node, use this line instead:
 {{{
 nodes/ros_apm_kinect.py --device=/dev/ttyACM0 --rate=1152000 --targettrack=color_track
 }}}
-OR
+  * Run Motion Track Mode
+When starting the ROS Node, use this line instead:
 {{{
 nodes/ros_apm_kinect.py --device=/dev/ttyACM0 --rate=1152000 --targettrack=motion_track
 }}}
