@@ -22,7 +22,10 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
   * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/LogicalDesign/SystemDiagram.png System Diagram]
   * Work Not Completed
     * Auto-start Script
-    * Clean up Code  
+    * Clean up Code
+    * Recommend Embedded Controller as a ROS Node
+    * Plan implementation for Embedded Controller
+    * Configure ROS Node to communicate with GCS  
   * Work Completed
     * All Electronics Assembled
     * ROS Installation/Configuration
