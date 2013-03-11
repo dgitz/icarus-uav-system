@@ -294,25 +294,24 @@ In Terminal 5:
 rosmake ros_apm_kinect
 roscd ros_apm_kinect
 sudo chmod 0777 /dev/ttyACM0
-nodes/ros_apm_kinect.py --device=/dev/ttyACM0 --rate=1152000 --targettrack=None
+nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200
 }}}
 = Options =
 Currently, the following options can be employed:
   * Run Color Track Mode
 When starting the ROS Node, use this line instead:
 {{{
-nodes/ros_apm_kinect.py --device=/dev/ttyACM0 --rate=1152000 --targettrack=color_track
+nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 targettrack=color_track
 }}}
   * Run Motion Track Mode
 When starting the ROS Node, use this line instead:
 {{{
-nodes/ros_apm_kinect.py --device=/dev/ttyACM0 --rate=1152000 --targettrack=motion_track
+nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 targettrack=motion_track
 }}}
   * Link to GCS
 It is possible to link this system to a GCS.  Currently it only supports sending Heartbeat (#0) and Attitude (#30) MAVLink Packets.  Use this:
 {{{
-nodes/ros_apm_kine.py --device=/dev/ttyACM0 --rate=115200 --gcs-device=/dev/ttyUSB0 --gcs-baudrate=57600
-
+nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 --targettrack=None --gcs-device=/dev/ttyUSB0 --gcs-baudrate=57600
 }}}
 == References ==
 
