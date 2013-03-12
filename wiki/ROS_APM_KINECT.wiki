@@ -309,10 +309,15 @@ When starting the ROS Node, use this line instead:
 nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 targettrack=motion_track
 }}}
   * Link to GCS
-It is possible to link this system to a GCS.  Currently it only supports sending Heartbeat (#0) and Attitude (#30) MAVLink Packets.  Use this:
+It is possible to link this system to a GCS.  Currently it only supports sending Heartbeat (#0) and Attitude (#30) MAVLink Packets.  To connect to a GCS over a Serial Connection use this:
 {{{
-nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 --targettrack=None --gcs-device=/dev/ttyUSB0 --gcs-baudrate=57600
+nodes/ros_apm_kine.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 --targettrack=None --gcs-device=/dev/ttyUSB0 --gcs-baudrate=57600 --gcs-device-type=Serial
 }}}
+To connect to a GCS over a UDP Connection, (where the gcs-device is the ip address of the GCS), use this:
+{{{
+nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 --gcs-device-type=udp --gcs-device=10.7.45.208
+}}}
+
 == References ==
 
 I'd like to thank the following people/organizations for their contributions to this project:
