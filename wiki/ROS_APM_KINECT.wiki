@@ -30,8 +30,7 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
     * Auto-start Script
     * Clean up Code
     * Recommend Embedded Controller as a ROS Node
-    * Plan implementation for Embedded Controller
-    * Configure ROS Node to communicate with GCS  
+    * Plan implementation for Embedded Controller  
   * Work Completed
     * All Electronics Assembled
     * ROS Installation/Configuration
@@ -49,6 +48,7 @@ This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing projec
     * Pick color using Mouse
     * Motion Tracking
     * Picking Tracking mode via command line arguments
+    * Configure ROS Node to communicate with GCS: Serial & Wifi (UDP)
     * Upload to CVRL BitBucket:  [https://bitbucket.org/uicrobotics/ros_apm_kinect/wiki/Home Link]
   * Future Work
     * Image Tracking adjusts Roll Angle
