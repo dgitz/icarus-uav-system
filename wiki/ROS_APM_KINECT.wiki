@@ -32,13 +32,18 @@ At a resolution of 640x480, the Motion Tracking program runs at about 30 FPS on 
 The GUI reports the current Pitch/Yaw angles as reported from the APM, the Pitch/Yaw set angles that the Motion Tracker is sending to the APM, the X and Y coordinates of the center of the object being tracked in pixels and inches from the center of the image, the distance to the object in inches, the APM's mode, the color of the object being tracked and the frame rate.
 
 == Optical Flow ==
-I have spent the least amount of time on this mode, as it was not originally in the scope of the project but I decided to do it for fun.  
-= Pictures =
+I have spent the least amount of time on this mode, as it was not originally in the scope of the project but I decided to do it for fun. Currently I use the openCV Optical Flow function "calcOpticalFlowPyrLK"
+To run this mode, run the program with the parameter:
+{{{
+--target-track=optical_flow
+}}} 
+Currently this mode uses the RGB color images from the Kinect at a resolution of 640x480, which yields a frame rate of about 5 at best on my laptop.  This is very slow, but could be implemented using Black/White images instead which should speed the algorithm up considerably.
+= Hardware =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/Hardware1.jpg]
 
+[http://www.youtube.com/watch?v=X8OeJrsW6gA&feature=youtu.be Project Overview Video Part 1]
 
-= Videos =
-[http://www.youtube.com/watch?v=X8OeJrsW6gA&feature=youtu.be Project Overview Video]
+[http://www.youtube.com/watch?v=X8OeJrsW6gA&feature=youtu.be Project Overview Video Part 2]
 = Details =
 
 == System Overview ==
@@ -295,18 +300,8 @@ In Terminal 2:
 {{{
 roslaunch openni_launch openni.launch
 }}}
-# Start a Kinect RGB Video feed (used in the Node Script)
-In Terminal 3:
-{{{
-rosrun image_view image_view image:=/camera/rgb/image_color
-}}}
-# Start a Kinect Depth Video feed (used in the Node Script)
-In Terminal 4:
-{{{
-rosrun image_view image_view image:=/camera/depth/image
-}}}
 # Start the ROS Node Script
-In Terminal 5:
+In Terminal 3:
 {{{
 rosmake ros_apm_kinect
 roscd ros_apm_kinect
@@ -318,21 +313,37 @@ Currently, the following options can be employed:
   * Run Color Track Mode
 When starting the ROS Node, use this line instead:
 {{{
-nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 targettrack=color_track
+nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 target-track=color_track
 }}}
   * Run Motion Track Mode
 When starting the ROS Node, use this line instead:
 {{{
-nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 targettrack=motion_track
+nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 target-track=motion_track
+}}}
+  * Run Optical Flow Track Mode
+When starting the ROS Node, use this line instead:
+{{{
+nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 target-track=optical_flow
 }}}
   * Link to GCS
 It is possible to link this system to a GCS.  Currently it only supports sending Heartbeat (#0) and Attitude (#30) MAVLink Packets.  To connect to a GCS over a Serial Connection use this:
 {{{
-nodes/ros_apm_kine.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 --targettrack=None --gcs-device=/dev/ttyUSB0 --gcs-baudrate=57600 --gcs-device-type=Serial
+nodes/ros_apm_kine.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 --target-track=None --gcs-device=/dev/ttyUSB0 --gcs-baudrate=57600 --gcs-device-type=Serial
 }}}
 To connect to a GCS over a UDP Connection, (where the gcs-device is the ip address of the GCS), use this:
 {{{
 nodes/ros_apm_kinect.py --apm-device=/dev/ttyACM0 --apm-baudrate=115200 --gcs-device-type=udp --gcs-device=10.7.45.208
+}}}
+
+= Troubleshooting =
+To view the RGB image from the Kinect, open a new terminal and use:
+{{{
+rosrun image_view image_view image:=/camera/rgb/image_color
+}}}
+
+To view the depth image from the Kinect, open a new terminal and use:
+{{{
+rosrun image_view image_view image:=/camera/depth/image
 }}}
 
 == References ==
