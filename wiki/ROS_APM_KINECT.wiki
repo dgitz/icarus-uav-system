@@ -57,7 +57,7 @@ For this Project, I used the following hardware:
 
 [http://www.youtube.com/watch?v=X8OeJrsW6gA&feature=youtu.be Project Overview Video Part 1]
 
-[http://www.youtube.com/watch?v=X8OeJrsW6gA&feature=youtu.be Project Overview Video Part 2]
+[http://www.youtube.com/watch?v=i3rCjBmssP0&feature=youtu.be Project Overview Video Part 2]
 = Details =
 
 == System Overview ==
