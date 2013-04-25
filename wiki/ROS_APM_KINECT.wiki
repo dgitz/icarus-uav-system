@@ -9,16 +9,22 @@ The objective of this project is to implement a system that has a computer runni
 
 This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing project for the Spring 2013 Semester and as such is still a work in progress.  All code/information/documentation will be made available upon completion.
 
-= Results =
 
 == Color Tracking ==
+The color tracking in this project has seen the most time of development.  Currently it uses the HSV color model (Hue,Saturation, Luminance) which is better than the RGB color model as it is less prone to difficulties with different lighting environments.  The way it works is to run the program with the parameter:
+{{{
+--target-track=color_track
+}}}
+And then double-click on the camera window what color you would like to track.
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/ColorTrack1.jpg]
+
 
 == Motion Tracking ==
 
+== Optical Flow ==
 = Pictures =
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/ROS_APM_Kinect_1.jpg]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/Hardware1.jpg]
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/ROS_APM_Kinect_2.jpg]
 
 = Videos =
 [http://www.youtube.com/watch?v=X8OeJrsW6gA&feature=youtu.be Project Overview Video]
