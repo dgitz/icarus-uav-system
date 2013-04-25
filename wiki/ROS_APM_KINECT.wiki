@@ -43,6 +43,9 @@ Currently this mode uses the RGB color images from the Kinect at a resolution of
 = Hardware =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/Hardware1.jpg]
 
+For this Project, I used the following hardware:
+
+
 [http://www.youtube.com/watch?v=X8OeJrsW6gA&feature=youtu.be Project Overview Video Part 1]
 
 [http://www.youtube.com/watch?v=X8OeJrsW6gA&feature=youtu.be Project Overview Video Part 2]
