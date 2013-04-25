@@ -27,7 +27,7 @@ I have spent less time on the motion tracking, but it is working quite well.  Th
 {{{
 --target-track=motion_track
 }}}
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/Motiontrack1.jpg]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/MotionTrack1.jpg]
 At a resolution of 640x480, the Motion Tracking program runs at about 30 FPS on my mediocre laptop.
 
 The GUI reports the current Pitch/Yaw angles as reported from the APM, the Pitch/Yaw set angles that the Motion Tracker is sending to the APM, the X and Y coordinates of the center of the object being tracked in pixels and inches from the center of the image, the distance to the object in inches, the APM's mode, the color of the object being tracked and the frame rate.
