@@ -18,6 +18,9 @@ The color tracking in this project has seen the most time of development.  Curre
 And then double-click on the camera window what color you would like to track.
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/ColorTrack1.jpg]
 
+At a resolution of 640x480, the Color Tracking program runs at about 30 FPS on my mediocre laptop.
+
+The GUI reports the current Pitch/Yaw angles as reported from the APM, the Pitch/Yaw set angles that the Color Tracker is sending to the APM, the X and Y coordinates of the center of the object being tracked in pixels and inches from the center of the image, the distance to the object in inches, the APM's mode, the color of the object being tracked and the frame rate.
 
 == Motion Tracking ==
 
