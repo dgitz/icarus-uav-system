@@ -23,8 +23,16 @@ At a resolution of 640x480, the Color Tracking program runs at about 30 FPS on m
 The GUI reports the current Pitch/Yaw angles as reported from the APM, the Pitch/Yaw set angles that the Color Tracker is sending to the APM, the X and Y coordinates of the center of the object being tracked in pixels and inches from the center of the image, the distance to the object in inches, the APM's mode, the color of the object being tracked and the frame rate.
 
 == Motion Tracking ==
+I have spent less time on the motion tracking, but it is working quite well.  The way that it works is the program takes a screenshot and compares it to the last screenshot it saved.  By subtracting the two and performing some image processing tasks it can determine what is the primary object that has changed, and it draws a bounding box and a center of that object.  To run this mode, run the program with the parameter:
+{{{
+--target-track=motion_track
+}}}
+At a resolution of 640x480, the Motion Tracking program runs at about 30 FPS on my mediocre laptop.
+
+The GUI reports the current Pitch/Yaw angles as reported from the APM, the Pitch/Yaw set angles that the Motion Tracker is sending to the APM, the X and Y coordinates of the center of the object being tracked in pixels and inches from the center of the image, the distance to the object in inches, the APM's mode, the color of the object being tracked and the frame rate.
 
 == Optical Flow ==
+I have spent the least amount of time on this mode, as it was not originally in the scope of the project but I decided to do it for fun.  
 = Pictures =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/Hardware1.jpg]
 
