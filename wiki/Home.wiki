@@ -2,7 +2,7 @@
 
 = Introduction =
 
-This is the Home page for the ICARUS Wiki.  All content is currently completely in development, so use at your own risk.  All code and information, unless otherwise specified is completely open-source/open-hardware (OSHW)
+This is the Home page for the ICARUS Wiki.  All content is currently completely in development, so use at your own risk.  All code and information, unless otherwise specified is completely open-source/open-hardware (OSHW).
 
 = Sponsors =
 [http://www.4pcb.com/ http://www.4pcb.com/images/logo.png]
@@ -19,29 +19,32 @@ The University of Illinois at Chicago College of Engineering is gracious enough 
 
 = Details =
 
-I am building a QuadTiltWing UAV for my Thesis Project at UIC and to compete in the Sparkfun Autonomous Vehicle Competition.  Here is my Blog on the ICARUS System: http://davidgitz.blogspot.com/
+I am building a QuadTiltRotor UAV for my Thesis Project at UIC and to compete in the Sparkfun Autonomous Vehicle Competition.  Here is my Blog on the ICARUS System: http://davidgitz.blogspot.com/
 
-I have found very little information regarding building a TiltWing UAV, at least information that is attainable to the general public.  I also believe that these kinds of vehicles are the future of Aviation, either Manned or Unmanned.  As such this Wiki also serves to disseminate as much accurate information as possible about the design, fabrication, operation and analysis of TiltWing UAV's.
+I have found very little information regarding building a TiltRotor UAV, at least information that is attainable to the general public.  I also believe that these kinds of vehicles are the future of Aviation, either Manned or Unmanned.  As such this Wiki also serves to disseminate as much accurate information as possible about the design, fabrication, operation and analysis of TiltRotor UAV's.
 
 = Thesis Objectives = 
-  * Conduct Literature Review on TiltWing UAV's.
-    * Provide analysis on failure modes of prior TiltWing UAV's.
-    * Provide information on control systems, design parameters (Wing Area, Lift Moment, Airfoil profile, etc) and figures of merit on TiltWing UAV's.
-  * Design QuadTiltWing (QTW) UAV capable of autonomous transition between Vertical and Horizontal Flight Modes.
-    * Model QTW in Simulink to design Control System.
-    * Model QTW in Star-CCM (or other CFD Package) to assist in Aerodynamic design.
-    * Model QTW in Xplane to test Flight Controls (Optional).
-  * Build and Test QTW
-    * Build scale model of QTW.
-    * Test QTW using appropriate Wind-Tunnels.
-    * Perform System Identification on QTW.
-    * Perform Test Flights and validate design on QTW.
+  * Conduct Literature Review on TiltRotor UAV's.
+    * Provide analysis on failure modes of prior TiltRotor UAV's.
+    * Provide information on control systems, design parameters (Wing Area, Lift Moment, Airfoil profile, etc) and figures of merit on TiltRotor UAV's.
+  * Design QuadTiltRotor (QTR) UAV capable of autonomous transition between Vertical and Horizontal Flight Modes.
+    * Model QTR in Simulink to design Control System.
+    * Model QTR in Star-CCM (or other CFD Package) to assist in Aerodynamic design.
+    * Model QTR in Xplane to test Flight Controls (Optional).
+  * Build and Test QTR
+    * Build scale model of QTR.
+    * Test QTR using appropriate Wind-Tunnels.
+    * Perform System Identification on QTR.
+    * Perform Test Flights and validate design on QTR.
 
 = Flyer's =
-I've gone through several design iterations so far on this project, from initial concepts to more refined designs.  Here are some pictures of the QTW in it's various design stages:
+I have fairly recently changed the objective of my Thesis to build a QuadTiltRotor (QTR) from a QuadTiltWing (QTW) as I believe it is a more practical UAV to build and sell for commercial applications.
+
+
+I've gone through several design iterations so far on this project, from initial concepts to more refined designs.  Here are some pictures of the QTW that was being developed before I changed to the QTR.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v4RevA-2.png]
-ICARUS QTW Flyer v4RevA-2, in Cruise Mode.  This is the most current design.
+ICARUS QTW Flyer v4RevA-2, in Cruise Mode.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Archive/v4RevA-1.png]
 ICARUS QTW Flyer v4RevA-1, in Cruise Mode.  This was designed with Carbon Fiber as almost the entire structure, which was just too heavy.
