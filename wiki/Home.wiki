@@ -40,6 +40,9 @@ I have found very little information regarding building a TiltRotor UAV, at leas
 = Flyer's =
 I have fairly recently changed the objective of my Thesis to build a QuadTiltRotor (QTR) from a QuadTiltWing (QTW) as I believe it is a more practical UAV to build and sell for commercial applications.
 
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/v5RevA.2/Cruise.png]
+ICARUS QTR Flyer v5RevA-2, in Cruise Mode.  This is a conceptual design of the QTR and is the most recent.
+
 
 I've gone through several design iterations so far on this project, from initial concepts to more refined designs.  Here are some pictures of the QTW that was being developed before I changed to the QTR.
 
