@@ -5,9 +5,7 @@
 [ROS_APM_KINECT#APM-Code APM]
 = Introduction =
 
-The objective of this project is to implement a system that has a computer running ROS with a Kinect doing target tracking, and outputting commands via MAVLink to an APM Board.
-
-This project is for the UIC ECE 452 Course: Robotics.  This is an ongoing project for the Spring 2013 Semester and as such is still a work in progress.  All code/information/documentation will be made available upon completion.
+The objective of this project was to implement a system that has a computer running ROS with a Kinect doing target tracking, and outputting commands via MAVLink to an APM Board.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ROS_APM/ROS_APM_Kinect_Progress_Report.pdf Preliminary Project Report]
 
