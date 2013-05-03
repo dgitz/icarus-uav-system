@@ -1,6 +1,6 @@
   * [http://code.google.com/p/icarus-uav-system/wiki/Home Home]
   * [http://code.google.com/p/icarus-uav-system/wiki/Competitions Competitions] 
-    * [http://code.google.com/p/icarus-uav-system/wiki/AUVSIIARC AUVSI-IARC]
+    * [http://code.google.com/p/icarus-uav-system/wiki/AUVSIIARC  AUVSI-IARC]
     * SparkFun-AVC
   * [http://code.google.com/p/icarus-uav-system/wiki/Flyer Flyer]
     * [http://code.google.com/p/icarus-uav-system/wiki/FlyerDesign Design]
