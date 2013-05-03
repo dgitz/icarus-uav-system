@@ -15,3 +15,8 @@ No GPS availability.
  * Ingress/Egress through small openings
  * Path finding using available signage
  * Manipulation of Flash Drive
+
+= Specifications =
+[http://iarc.angel-strike.com/Images/FlashDriveDimensions.jpg Flash Drive]
+
+[http://iarc.angel-strike.com/security_compound_signs.pdf Signage]
