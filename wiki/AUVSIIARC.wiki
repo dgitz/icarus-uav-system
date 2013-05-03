@@ -1,2 +1,17 @@
 [http://iarc.angel-strike.com/ Competition Website]
+
+[http://www.youtube.com/watch?feature=player_embedded&v=JknrXs-s7y8#! Overview Video]
 [http://iarc.angel-strike.com/IARC_6th_Mission_Rules.pdf Rules]
+
+= Description =
+No GPS availability.
+= Objectives =
+* Perform Mission 6
+  * 
+= Task Breakdown =
+* Navigation in unknown, indoor environments
+* Identification of Flash Drive: Location
+* Ingress/Egress through small openings
+* Path finding using available signage
+* Manipulation of Flash Drive
+* 
