@@ -7,6 +7,7 @@ This page contains a collection of Projects I am working on to support the ICARU
 
 == ROS, APM and Kinect ==
 [ROS_APM_KINECT APM, ROS and Kinect]
+
 This project was for the UIC ECE 452 Project, but I made the project suitable for the ICARUS System.  This is currently a "finished" project, although I'm sure there is much more work to be done with it.
 
 == ICARUS SLAM ==
