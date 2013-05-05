@@ -10,12 +10,13 @@ No GPS availability.
  * Perform Mission 6
 
 = Task Breakdown =
- * Navigation in unknown, indoor environments
  * Identification of Flash Drive: Location
- * Ingress/Egress through small openings
- * Path finding using available signage
  * Manipulation of Flash Drive
-
+ * Navigation:
+    * Obstacle Avoidance using Splines
+    * Setting waypoints using available signage
+    * Local Path Planning using SLAM: Including Ingress/Egress
+ 
 = Specifications =
 [http://iarc.angel-strike.com/Images/FlashDriveDimensions.jpg Flash Drive]
 
