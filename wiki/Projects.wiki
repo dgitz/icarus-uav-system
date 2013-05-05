@@ -6,10 +6,12 @@ Add your content here.
 
 = Projects =
   * [ROS_APM_KINECT APM, ROS and Kinect]
-  * [http://www.youtube.com/watch?v=NQhuE5Hj_ho&feature=youtu.be QTR UAV HIL Simulator]
   * [ICARUS_SLAM ICARUS SLAM]
   * [ICARUS_OBSTACLE_AVOIDANCE Obstacle avoidance]
   * [ICARUS_MODEL Modeling]
+
+= Archives =
+  * [http://www.youtube.com/watch?v=NQhuE5Hj_ho&feature=youtu.be QTR UAV HIL Simulator]
 
 = Details =
 
