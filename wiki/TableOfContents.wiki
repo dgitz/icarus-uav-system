@@ -26,6 +26,7 @@
   * Remote Control
   * Operations
     * [http://code.google.com/p/icarus-uav-system/wiki/ConOps Concept of Operations]
+    * [ICARUS_Communications Communications]
   * [http://code.google.com/p/icarus-uav-system/wiki/Projects Projects]
     * [ROS_APM_KINECT ROS,APM & Kinect]
     * [ICARUS_SLAM ICARUS SLAM]
