@@ -27,14 +27,19 @@ Provided here is documentation on the software running on the ICARUS Flyer as we
 
 === Main Controller ===
  * ROS Machine
+ * Set Waypoints
 
 
 === Flight Executer ===
  * Need a new name.
+ * DIY Drones APM running Arducopter Code
+ * Control Servo Tilt?
+ * 
 
 === I/O Board ===
  * Parallax Quickstart & FAST Robotics QuickStartPlus
-
+ * Control Servo Tilt?
+ * Collision Avoidance Sensors (Ultrasonics)
 
 
 == Analysis ==
