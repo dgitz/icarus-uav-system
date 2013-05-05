@@ -1,8 +1,7 @@
 #summary One-sentence summary of this page.
 
 = Introduction =
-
-Add your content here.
+This page contains a collection of Projects I am working on to support the ICARUS System.  At some point, I intend on entering the ICARUS QTR system into some form of advanced UAV competition, and hopefully these projects will help me earn 1st place.
 
 = Projects =
   * [ROS_APM_KINECT APM, ROS and Kinect]
@@ -12,10 +11,3 @@ Add your content here.
 
 = Archives =
   * [http://www.youtube.com/watch?v=NQhuE5Hj_ho&feature=youtu.be QTR UAV HIL Simulator]
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
