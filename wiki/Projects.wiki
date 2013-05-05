@@ -7,8 +7,8 @@ Add your content here.
 = Ideas =
   * [ROS_APM_KINECT APM, ROS and Kinect]
   * [http://www.youtube.com/watch?v=NQhuE5Hj_ho&feature=youtu.be QTR UAV HIL Simulator]
-  * SLAM
-  * Obstacle avoidance
+  * [ICARUS_SLAM ICARUS SLAM]
+  * [ICARUS_OBSTACLE_AVOIDANCE Obstacle avoidance]
   * Terrain following
   * System Modeling/Tuning
 
