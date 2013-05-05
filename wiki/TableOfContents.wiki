@@ -28,6 +28,9 @@
     * [http://code.google.com/p/icarus-uav-system/wiki/ConOps Concept of Operations]
   * [http://code.google.com/p/icarus-uav-system/wiki/Projects Projects]
     * [ROS_APM_KINECT ROS,APM & Kinect]
+    * [ICARUS_SLAM ICARUS SLAM]
+    * [ICARUS_OBSTACLE_AVOIDANCE Obstacle avoidance]
+    * [ICARUS_MODEL Modeling]
   * Appendix
     * [http://code.google.com/p/icarus-uav-system/wiki/MediaStorage Media]
     * [http://code.google.com/p/icarus-uav-system/wiki/FAQ FAQ]
