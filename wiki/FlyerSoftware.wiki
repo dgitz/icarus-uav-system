@@ -17,6 +17,10 @@ Provided here is documentation on the software running on the ICARUS Flyer as we
   * Secondary Controller Software  
 
 = Software = 
+== Navigation ==
+ * Obstacle Avoidance using Splines
+ * Setting waypoints using available signage
+ * Local Path Planning using SLAM: Including Ingress/Egress
 == Onboard ==
 
 [http://code.google.com/p/arducopter/wiki/Code Arducopter Programming Instructions]
