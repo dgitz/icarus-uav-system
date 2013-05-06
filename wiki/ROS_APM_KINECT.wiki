@@ -363,6 +363,18 @@ rosrun image_view image_view image:=/camera/depth/image
 }}}
 
 == References ==
+The following were different resources used for completion of this project:
+
+[http://robotas.at/ros-and-kinect-ubuntu-installation/ ROS & Kinect-Ubuntu Installation]
+
+[http://bi.snu.ac.kr/Courses/4ai12s/Projects/KinectWithROSTutorial.pdf Kinect and ROS Tutorial]
+
+[http://surenkum.blogspot.com/2012/06/getting-kinect-to-work.html Vision, Learning and Robotics]
+
+[http://dougsbots.blogspot.com/2012/02/ros-kinect-skeleton-tracking.html Doug's Robotics Blog-ROS/Kinect Skeleton Tracking]
+
+
+
 
 I'd like to thank the following people/organizations for their contributions to this project:
   * The UIC CVRL Robotics Laboratory.
