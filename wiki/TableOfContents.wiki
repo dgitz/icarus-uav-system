@@ -32,6 +32,7 @@
     * [ICARUS_SLAM ICARUS SLAM]
     * [ICARUS_OBSTACLE_AVOIDANCE Obstacle avoidance]
     * [ICARUS_MODEL Modeling]
+    * [TargetDetection Target Detection]
   * Appendix
     * [http://code.google.com/p/icarus-uav-system/wiki/MediaStorage Media]
     * [http://code.google.com/p/icarus-uav-system/wiki/FAQ FAQ]
