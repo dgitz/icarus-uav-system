@@ -3,6 +3,7 @@
     * [http://code.google.com/p/icarus-uav-system/wiki/AUVSIIARC  AUVSI-IARC]
     * SparkFun-AVC
   * [http://code.google.com/p/icarus-uav-system/wiki/Flyer Flyer]
+    * [FlyerComponents Flyer Components]
     * [http://code.google.com/p/icarus-uav-system/wiki/FlyerDesign Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/LogicalDesign Logical Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlyerMechanicalDesign Mechanical Design]
