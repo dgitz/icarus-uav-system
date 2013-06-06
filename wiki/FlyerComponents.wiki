@@ -1,4 +1,5 @@
 = QuickstartPlus =
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/quickstartplus/Iso.jpg
 
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/quickstartplus/Top.jpg
 
@@ -9,4 +10,3 @@ http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/quickstartplus/Bottom.
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/quickstartplus/Left.jpg
 
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/quickstartplus/Right.jpg
-
