@@ -30,6 +30,7 @@ Testing Data Download
 ==== Source Code ====
 
 === APM Tester ===
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/APM_TestBox.jpg APM Test Box]
 
 ==== Source Code ====
 
