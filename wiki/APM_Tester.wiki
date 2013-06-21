@@ -15,6 +15,11 @@ Final Project Report Download
 
 Testing Data Download
 
+= Tasks =
+ * Send data over WiFi in ROS
+ * apm_data_collector publishes attitude topic
+ * Matlab program to analyze data
+
 = Experiment Setup =
 
 == Methodology ==
