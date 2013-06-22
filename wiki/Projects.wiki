@@ -4,6 +4,10 @@
 This page contains a collection of Projects I am working on to support the ICARUS System.  At some point, I intend on entering the ICARUS QTR system into some form of advanced UAV competition, and hopefully these projects will help me earn 1st place.
 
 = Projects =
+== APM Tester ==
+[APM_Tester APM Tester]
+
+This project is to validate the precision and accuracy of the DIYDrones APM 2.0 using a PUMA Robot.
 
 == ROS, APM and Kinect ==
 [ROS_APM_KINECT APM, ROS and Kinect]
