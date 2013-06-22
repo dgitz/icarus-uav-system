@@ -30,6 +30,10 @@ Testing Data Download
 
 == Equipment ==
 
+=== Log/Display Computer ===
+
+==== Source Code ====
+
 === PUMA Robot ===
 
 ==== Source Code ====
