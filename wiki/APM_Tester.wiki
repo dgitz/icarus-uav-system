@@ -65,7 +65,9 @@ APM Test Box
 == Lessons Learned ==
 
 = Operating-Instructions =
+After installing all the appropriate software, perform the following actions:
 
+ # Create a test profile for the PUMA Robot, and install the APM Test Box onto the Robot.
  # Plug in 3DR Radio into PUMA PC.
  # Turn on APM Test Box.
  # Wait for PUMA PC 3DR Radio to indicate it is paired with the APM Test Box (Green LED is steady on).
@@ -73,6 +75,17 @@ APM Test Box
 {{{
 roscore
 }}}
+ # In another Linux-Ubuntu terminal, issue the commands:
+{{{
+rosmake apm_data_collector
+roscd apm_data_collector
+sudo chmod 0777 /dev/ttyUSB0
+nodes/apm_data_collector.py --apm-device=/dev/ttyUSB0 --apm-baudrate=57600 --
+}}}
+Where USB0 is the usb device associated with the 3DR Radio.  If unsure, you can use 
+{{{
+lsusb -v
+}}}
+To determine the name of the usb device, and 57600 is the baudrate of the 3DR Radio.
  # 
-
  
