@@ -1,6 +1,11 @@
 #summary APM_Tester
 
 [APM_Tester#Operating-Instructions Operating Instructions]
+
+[https://bitbucket.org/uicrobotics/apm_tester/src Source Code]
+
+[https://bitbucket.org/uicrobotics/apm_tester/issues?status=new&status=open Code Issues]
+
 = Introduction =
 
 The objective of this project was to analyze and provide documentation on the precision and accuracy of the Ardupilot Mega, or APM.  The APM is a fantastic piece of engineering marvel created by 3D Robotics and improved upon by the DIYDrones community, and is one of the most popular and cheapest autopilot systems for robots available.  However, there is a significant lack of proper engineering data, such as how stable the board is overtime, how accurate it is, etc. that prompted this project.
@@ -34,6 +39,7 @@ Testing Data Download
 === Log/Display Computer ===
 
 ==== Source Code ====
+[https://bitbucket.org/uicrobotics/apm_tester/src/babf9aa7067b66a3e1c1476b1e80d2d55d8f0617/Matlab?at=master Matlab Source Code]
 
 === PUMA Robot ===
 
@@ -49,6 +55,10 @@ APM Test Box
 APM Test Box
 
 ==== Source Code ====
+
+[https://bitbucket.org/uicrobotics/apm_tester/src/babf9aa7067b66a3e1c1476b1e80d2d55d8f0617/ROS%20Code/apm_data_collect?at=master APM Ros Code]
+
+[https://github.com/mavlink/mavlink Github-MAVLink]
 
 == Test Patterns ==
 
