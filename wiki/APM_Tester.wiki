@@ -65,3 +65,14 @@ APM Test Box
 == Lessons Learned ==
 
 = Operating-Instructions =
+
+ # Plug in 3DR Radio into PUMA PC.
+ # Turn on APM Test Box.
+ # Wait for PUMA PC 3DR Radio to indicate it is paired with the APM Test Box (Green LED is steady on).
+ # In a Linux-Ubuntu terminal, open a terminal and issue the command:
+{{{
+roscore
+}}}
+ # 
+
+ 
