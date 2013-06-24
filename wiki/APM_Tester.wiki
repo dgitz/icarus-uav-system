@@ -93,6 +93,5 @@ lsusb -v
 remote_ip = '10.7.44.224';
 }}}
     To the IP address of the PUMA Robot PC.
-
  # Run the Matlab program.  Within seconds, graphs should appear and update dynamically with the Pitch, Roll and Yaw Set and Actual positions, and the data should also be logging to a text file in the current Matlab directory for later analysis.
  
