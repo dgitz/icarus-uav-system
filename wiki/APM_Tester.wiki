@@ -82,17 +82,17 @@ roscd apm_data_collector
 sudo chmod 0777 /dev/ttyUSB0
 nodes/apm_data_collector.py --apm-device=/dev/ttyUSB0 --apm-baudrate=57600 --remote-udp-ip=10.7.45.208
 }}}
-Where USB0 is the usb device associated with the 3DR Radio.  If unsure, you can use 
+    Where USB0 is the usb device associated with the 3DR Radio.  If unsure, you can use 
 {{{
 lsusb -v
 }}}
-And the remote IP address is the IP address (LAN) of the Logging/Display PC.
-To determine the name of the usb device, and 57600 is the baudrate of the 3DR Radio.
+    And the remote IP address is the IP address (LAN) of the     Logging/Display PC.
+    To determine the name of the usb device, and 57600 is the baudrate of the 3DR Radio.
  # On the Logging/Display PC, Open MatLab and the change the line:
 {{{
 remote_ip = '10.7.44.224';
 }}}
-To the IP address of the PUMA Robot PC.
+    To the IP address of the PUMA Robot PC.
 
  # Run the Matlab program.  Within seconds, graphs should appear and update dynamically with the Pitch, Roll and Yaw Set and Actual positions, and the data should also be logging to a text file in the current Matlab directory for later analysis.
  
