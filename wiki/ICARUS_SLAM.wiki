@@ -28,7 +28,7 @@ Original source code:
 roscd slam_icarus
 rosmake slam_icarus
 }}}
-On my Ubuntu Laptop it required xx seconds to compile.
+On my Ubuntu Laptop it required 837.7 seconds to compile.
 
 == Commit ==
  # Add any uncommitted files:
