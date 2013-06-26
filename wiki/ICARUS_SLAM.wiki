@@ -11,3 +11,7 @@ Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
+
+= Installation Instructions =
+Primary Instructions are located here:
+[http://www.ros.org/wiki/rgbdslam ROS-RGBDSLAM]
