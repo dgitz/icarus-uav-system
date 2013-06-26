@@ -6,6 +6,11 @@
 
 Add your content here.
 
+= Tasks =
+ * General Usage instructions
+ * Headless operation 
+ * Point-cloud generation
+ * 
 
 = Details =
 
@@ -14,6 +19,35 @@ Add your content here.  Format your content with:
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-= Installation Instructions =
-Primary Instructions are located here:
+= Installation/Development Instructions =
+Original source code:
 [http://www.ros.org/wiki/rgbdslam ROS-RGBDSLAM]
+
+== Compiling ==
+{{{
+roscd slam_icarus
+rosmake slam_icarus
+}}}
+
+== Commit ==
+ # Add any uncommitted files:
+{{{
+git add .
+}}}
+ # Make a comment on the commit and then push it to the main branch.
+{{{
+git commit -m "Comment Text"
+git push -u origin master
+}}}
+
+= Operation =
+ # In Terminal 1:
+{{{
+roscore
+}}}
+
+ # In Terminal 2:
+{{{
+roscd slam_icarus
+
+}}}
