@@ -8,7 +8,7 @@
 
 = Introduction =
 
-The objective of this project was to analyze and provide documentation on the precision and accuracy of the Ardupilot Mega, or APM.  The APM is a fantastic piece of engineering marvel created by 3D Robotics and improved upon by the DIYDrones community, and is one of the most popular and cheapest autopilot systems for robots available.  However, there is a significant lack of proper engineering data, such as how stable the board is overtime, how accurate it is, etc. that prompted this project.
+The objective of this project was to analyze and provide documentation on the precision and accuracy of the Ardupilot Mega, or APM.  The APM is a fantastic piece of engineering marvel created by 3D Robotics and improved upon by the DIYDrones community, and is one of the most popular and cheapest autopilot/AHRS systems for robots available.  However, there is a significant lack of proper engineering data, such as how stable the board is overtime, how accurate it is, etc. that prompted this project.  Additionally there has been some speculation amongst our lab engineers of how stable the APM is over time, along with how it performs AHRS duties in an indoor environment (i.e. GPS-denied) and near EM fields, such as brushed/brushless motors.
 
 At the UIC Robotics Lab, we also have access to a few PUMA Robot Manipulators.  It was determined this would be a good platform to test the APM on, as it is a stable and accurate robot arm with many more degrees of freedom than are measured by the APM.
 
@@ -20,78 +20,35 @@ Final Project Report Download
 
 Testing Data Download
 
-= Tasks =
- * Send data over WiFi in ROS:DONE
- * apm_data_collector publishes attitude topic:DONE
- * Matlab program to analyze data:DONE
- * PUMA-ROS Driver
+= Methodology =
+A series of tests were carried out on the APM by rotating 3 axis's of the PUMA robot, performing data collection on the APM for a specified period of time and proceeding on to the next test.  QGroundControl performed data logging on the M1:ATTITUDE.roll, M1:ATTITUDE.pitch and M1:ATTITUDE.yaw packets.  Finally, a Matlab program was written to provide data analysis, such as graphing each test, the drift rate of each axis on each test, and calculating average results for each specified axis.  NOTE:  Since the Yaw Angle on the APM is calculated using the Compass on board, All Yaw Angles in the Tests section below are referenced from the initial Yaw Angle.  However, in the actual Yaw Data the actual APM Yaw angle is reported.
 
 = Experiment Setup =
+APM Board: v2.0
+APM Firmware: 2.9.1b
+The APM is attached to the tool-end of a PUMA robot via heavy-duty velcro.  The APM was connected to QGroundControl by USB cable.  QGroundControl performed data logging on the M1:ATTITUDE.roll, M1:ATTITUDE.pitch and M1:ATTITUDE.yaw packets.
 
-== Methodology ==
+= Test Patterns =
+|| *Test#* || *Pitch Angle* || *Roll Angle* || *Yaw Angle* || *Run-Time* ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
+|| X || X || X || X || X ||
 
-== Architecture ==
+= Results =
 
-== Communications ==
+= Next Steps =
 
-== Equipment ==
-
-=== Log/Display Computer ===
-
-==== Source Code ====
-[https://bitbucket.org/uicrobotics/apm_tester/src/babf9aa7067b66a3e1c1476b1e80d2d55d8f0617/Matlab?at=master Matlab Source Code]
-
-=== PUMA Robot ===
-
-==== Source Code ====
-
-=== APM Tester ===
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/APM_TestBox.jpg]
-
-APM Test Box
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/APM_TestBox2.jpg]
-
-APM Test Box
-
-==== Source Code ====
-
-[https://bitbucket.org/uicrobotics/apm_tester/src/babf9aa7067b66a3e1c1476b1e80d2d55d8f0617/ROS%20Code/apm_data_collect?at=master APM Ros Code]
-
-[https://github.com/mavlink/mavlink Github-MAVLink]
-
-== Test Patterns ==
-
-== Lessons Learned ==
-
-= Operating-Instructions =
-After installing all the appropriate software, perform the following actions:
-
- # Create a test profile for the PUMA Robot, and install the APM Test Box onto the Robot.
- # Plug in 3DR Radio into PUMA PC.
- # Turn on APM Test Box.
- # Wait for PUMA PC 3DR Radio to indicate it is paired with the APM Test Box (Green LED is steady on).
- # In a Linux-Ubuntu terminal, open a terminal and issue the command:
-{{{
-roscore
-}}}
- # In another Linux-Ubuntu terminal, issue the commands:
-{{{
-rosmake apm_data_collector
-roscd apm_data_collector
-sudo chmod 0777 /dev/ttyUSB0
-nodes/apm_data_collector.py --apm-device=/dev/ttyUSB0 --apm-baudrate=57600 --remote-udp-ip=10.7.45.208
-}}}
-    Where USB0 is the usb device associated with the 3DR Radio.  If unsure, you can use 
-{{{
-lsusb -v
-}}}
-    And the remote IP address is the IP address (LAN) of the     Logging/Display PC.
-    To determine the name of the usb device, and 57600 is the baudrate of the 3DR Radio.
- # On the Logging/Display PC, Open MatLab and the change the line:
-{{{
-remote_ip = '10.7.44.224';
-}}}
-    To the IP address of the PUMA Robot PC.
- # Run the Matlab program.  Within seconds, graphs should appear and update dynamically with the Pitch, Roll and Yaw Set and Actual positions, and the data should also be logging to a text file in the current Matlab directory for later analysis.
- 
+= Files =
