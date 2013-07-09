@@ -50,9 +50,9 @@ The APM is attached to the tool-end of a PUMA robot via heavy-duty velcro.  The 
 = Results =
 
 || *Test#* || *1st Roll Angle* || *Avg Roll Angle* || *Avg Roll Error* || *1st Pitch Angle* || *Avg Pitch Angle* || *Avg Pitch Error* || *1st Yaw Angle* || *Avg Yaw Angle* || *Avg Yaw Error* ||
-|| 1 || X || X || X || X || X || X || X || X || X ||
-|| 2 || X || X || X || X || X || X || X || X || X ||
-|| 3 || X || X || X || X || X || X || X || X || X ||
+|| 1 || -8.01|| -8.03|| -.019|| -1.23|| -1.18|| .046|| 54.81|| 54.87|| .066||
+|| 2 || -8.01|| -8.03|| -.025|| -1.10|| -1.10|| -.005|| -14.51|| -14.92|| -.414||
+|| 3 || -8.18|| -8.15|| .025|| -1.01|| -1.11|| -.092|| -147.66|| -147.16|| .501||
 || 4 || X || X || X || X || X || X || X || X || X ||
 || 5 || X || X || X || X || X || X || X || X || X ||
 || 6 || X || X || X || X || X || X || X || X || X ||
