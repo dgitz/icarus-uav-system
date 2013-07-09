@@ -29,7 +29,7 @@ APM Firmware: 2.9.1b
 The APM is attached to the tool-end of a PUMA robot via heavy-duty velcro.  The APM was connected to QGroundControl by USB cable.  QGroundControl performed data logging on the M1:ATTITUDE.roll, M1:ATTITUDE.pitch and M1:ATTITUDE.yaw packets.
 
 = Test-Patterns =
-|| *Test#* || *Pitch Angle* || *Roll Angle* || *Yaw Angle* || *Run-Time* ||
+|| *Test#* || *Desired Roll Angle* || *Desired Pitch Angle* || *Yaw Desired Angle* || *Run-Time* ||
 || 1 || X || X || X || X ||
 || 2 || X || X || X || X ||
 || 3 || X || X || X || X ||
@@ -49,6 +49,26 @@ The APM is attached to the tool-end of a PUMA robot via heavy-duty velcro.  The 
 
 = Results =
 
-= Next Steps =
+|| *Test#* || *1st Roll Angle* || *Avg Roll Angle* || *Avg Roll Error* || *1st Pitch Angle* || *Avg Pitch Angle* || *Avg Pitch Error* || *1st Yaw Angle* || *Avg Yaw Angle* || *Avg Yaw Error* ||
+|| 1 || X || X || X || X || X || X || X || X || X ||
+|| 2 || X || X || X || X || X || X || X || X || X ||
+|| 3 || X || X || X || X || X || X || X || X || X ||
+|| 4 || X || X || X || X || X || X || X || X || X ||
+|| 5 || X || X || X || X || X || X || X || X || X ||
+|| 6 || X || X || X || X || X || X || X || X || X ||
+|| 7 || X || X || X || X || X || X || X || X || X ||
+|| 8 || X || X || X || X || X || X || X || X || X ||
+|| 9 || X || X || X || X || X || X || X || X || X ||
+|| 10 || X || X || X || X || X || X || X || X || X ||
+|| 11 || X || X || X || X || X || X || X || X || X ||
+|| 12 || X || X || X || X || X || X || X || X || X ||
+|| 13 || X || X || X || X || X || X || X || X || X ||
+|| 14 || X || X || X || X || X || X || X || X || X ||
+|| 15 || X || X || X || X || X || X || X || X || X ||
+|| 16 || X || X || X || X || X || X || X || X || X ||
+
+= Future Work =
+ * Test dynamic situations, such as how quickly and how accurately the APM reports AHRS data as it moves.
+ * Perform the same tests with a EM field producer, such as mounting an ArduCopter onto the PUMA robot and varying the throttle, and analyzing how this affects the AHRS data.
 
 = Files =
