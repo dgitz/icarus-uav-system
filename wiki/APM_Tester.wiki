@@ -2,6 +2,7 @@
 = APM Tester =
 
 [APM_Tester#Test-Patterns Test-Patterns]
+
 [APM_Tester#Results Results]
 
 [https://bitbucket.org/uicrobotics/apm_tester/src Source Code]
@@ -20,7 +21,7 @@ Although all the design and software information is made available on this site,
 
 
 = Methodology =
-A series of tests were carried out on the APM by rotating 3 axis's of the PUMA robot, performing data collection on the APM for a specified period of time and proceeding on to the next test.  QGroundControl performed data logging on the M1:ATTITUDE.roll, M1:ATTITUDE.pitch and M1:ATTITUDE.yaw packets.  Finally, a Matlab program was written to provide data analysis, such as graphing each test, the drift rate of each axis on each test, and calculating average results for each specified axis.  NOTE:  Since the Yaw Angle on the APM is calculated using the Compass on board, All Yaw Angles in the Tests section below are referenced from the initial Yaw Angle.  However, in the actual Yaw Data the actual APM Yaw angle is reported.
+A series of tests were carried out on the APM by rotating 3 axis's of the PUMA robot, performing data collection on the APM for a specified period of time and proceeding on to the next test.  Although the PUMA robot is an industrial grade robot, it is unknown to what precision its sensors are.  So the PUMA robot was used to provide a stable platform and the angle readings from the APM were the only sensors used in these tests.  QGroundControl performed data logging on the M1:ATTITUDE.roll, M1:ATTITUDE.pitch and M1:ATTITUDE.yaw packets.  Finally, a Matlab program was written to provide data analysis, such as graphing each test, the drift rate of each axis on each test, and calculating average results for each specified axis.  NOTE:  Since the Yaw Angle on the APM is calculated using the Compass on board, All Yaw Angles in the Tests section below are referenced from the initial Yaw Angle.  However, in the actual Yaw Data the actual APM Yaw angle is reported.
 
 = Experiment Setup =
 APM Board: v2.0
@@ -29,22 +30,22 @@ The APM is attached to the tool-end of a PUMA robot via heavy-duty velcro.  The 
 
 = Test-Patterns =
 || *Test#* || *Pitch Angle* || *Roll Angle* || *Yaw Angle* || *Run-Time* ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
-|| X || X || X || X || X ||
+|| 1 || X || X || X || X ||
+|| 2 || X || X || X || X ||
+|| 3 || X || X || X || X ||
+|| 4 || X || X || X || X ||
+|| 5 || X || X || X || X ||
+|| 6 || X || X || X || X ||
+|| 7 || X || X || X || X ||
+|| 8 || X || X || X || X ||
+|| 9 || X || X || X || X ||
+|| 10 || X || X || X || X ||
+|| 11 || X || X || X || X ||
+|| 12 || X || X || X || X ||
+|| 13 || X || X || X || X ||
+|| 14 || X || X || X || X ||
+|| 15 || X || X || X || X ||
+|| 16 || X || X || X || X ||
 
 = Results =
 
