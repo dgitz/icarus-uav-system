@@ -1,24 +1,22 @@
 #summary APM_Tester
+= APM Tester =
 
-[APM_Tester#Operating-Instructions Operating Instructions]
+[APM_Tester#Test-Patterns Test Patterns]
 
 [https://bitbucket.org/uicrobotics/apm_tester/src Source Code]
 
 [https://bitbucket.org/uicrobotics/apm_tester/issues?status=new&status=open Code Issues]
 
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/TestRig_1.jpg]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/TestRig_2.jpg]
 = Introduction =
 
 The objective of this project was to analyze and provide documentation on the precision and accuracy of the Ardupilot Mega, or APM.  The APM is a fantastic piece of engineering marvel created by 3D Robotics and improved upon by the DIYDrones community, and is one of the most popular and cheapest autopilot/AHRS systems for robots available.  However, there is a significant lack of proper engineering data, such as how stable the board is overtime, how accurate it is, etc. that prompted this project.  Additionally there has been some speculation amongst our lab engineers of how stable the APM is over time, along with how it performs AHRS duties in an indoor environment (i.e. GPS-denied) and near EM fields, such as brushed/brushless motors.
 
 At the UIC Robotics Lab, we also have access to a few PUMA Robot Manipulators.  It was determined this would be a good platform to test the APM on, as it is a stable and accurate robot arm with many more degrees of freedom than are measured by the APM.
 
-Although all the design and software information is made available on this site, it is not intended that this project would be replicated (unless for verification purposes) as the PUMA robot is not a common fixture in a robotics lab.  This webpage is more intended to document the way the testing data was gathered for independent analysis and educational purposes.  However, if you would like to reproduce this project by all means go for it!  There are many lessons we learned along the way that will make this project easier the next time around.
+Although all the design and software information is made available on this site, it is not intended that this project would be replicated (unless for verification purposes) as the PUMA robot is not a common fixture in a robotics lab.  This webpage is more intended to document the way the testing data was gathered for independent analysis and educational purposes.  However, if you would like to reproduce this project by all means go for it!
 
-Project Overview Video Part 1 Download
-
-Final Project Report Download
-
-Testing Data Download
 
 = Methodology =
 A series of tests were carried out on the APM by rotating 3 axis's of the PUMA robot, performing data collection on the APM for a specified period of time and proceeding on to the next test.  QGroundControl performed data logging on the M1:ATTITUDE.roll, M1:ATTITUDE.pitch and M1:ATTITUDE.yaw packets.  Finally, a Matlab program was written to provide data analysis, such as graphing each test, the drift rate of each axis on each test, and calculating average results for each specified axis.  NOTE:  Since the Yaw Angle on the APM is calculated using the Compass on board, All Yaw Angles in the Tests section below are referenced from the initial Yaw Angle.  However, in the actual Yaw Data the actual APM Yaw angle is reported.
