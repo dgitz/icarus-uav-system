@@ -1,7 +1,8 @@
 #summary APM_Tester
 = APM Tester =
 
-[APM_Tester#Test-Patterns Test Patterns]
+[APM_Tester#Test-Patterns Test-Patterns]
+[APM_Tester#Results Results]
 
 [https://bitbucket.org/uicrobotics/apm_tester/src Source Code]
 
@@ -26,7 +27,7 @@ APM Board: v2.0
 APM Firmware: 2.9.1b
 The APM is attached to the tool-end of a PUMA robot via heavy-duty velcro.  The APM was connected to QGroundControl by USB cable.  QGroundControl performed data logging on the M1:ATTITUDE.roll, M1:ATTITUDE.pitch and M1:ATTITUDE.yaw packets.
 
-= Test Patterns =
+= Test-Patterns =
 || *Test#* || *Pitch Angle* || *Roll Angle* || *Yaw Angle* || *Run-Time* ||
 || X || X || X || X || X ||
 || X || X || X || X || X ||
