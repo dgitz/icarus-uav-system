@@ -29,19 +29,19 @@ APM Firmware: 2.9.1b
 The APM is attached to the tool-end of a PUMA robot via heavy-duty velcro.  The APM was connected to QGroundControl by USB cable.  QGroundControl performed data logging on the M1:ATTITUDE.roll, M1:ATTITUDE.pitch and M1:ATTITUDE.yaw packets.
 
 = Test-Patterns =
-|| *Test#* || *Desired Roll Angle* || *Desired Pitch Angle* || *Yaw Desired Angle* || *Run-Time* ||
-|| 1 || X || X || X || X ||
-|| 2 || X || X || X || X ||
-|| 3 || X || X || X || X ||
-|| 4 || X || X || X || X ||
-|| 5 || X || X || X || X ||
-|| 6 || X || X || X || X ||
-|| 7 || X || X || X || X ||
-|| 8 || X || X || X || X ||
-|| 9 || X || X || X || X ||
-|| 10 || X || X || X || X ||
-|| 11 || X || X || X || X ||
-|| 12 || X || X || X || X ||
+|| *Test#* || *Desired Roll Angle* || *Desired Pitch Angle* || *Yaw Desired Angle* || *Run-Time (min)* ||
+|| 1 || 0 || 0|| 0|| 15 ||
+|| 2 || 0|| 0|| 90|| 15||
+|| 3 || 0|| 0|| 180|| 15||
+|| 4 || 0|| 0|| 270|| 15||
+|| 5 || 0|| 45|| 0 || 15||
+|| 6 || 0|| 90 || 0|| 15||
+|| 7 || 0|| -45|| 0|| 15||
+|| 8 || 0|| -90|| 0|| 15||
+|| 9 || 45|| 0|| 0|| 15||
+|| 10 || 90|| 0|| 0|| 15||
+|| 11 || -45|| 0|| 0|| 15||
+|| 12 || -90|| 0|| 0|| 15||
 || 13 || X || X || X || X ||
 || 14 || X || X || X || X ||
 || 15 || X || X || X || X ||
@@ -66,6 +66,10 @@ The APM is attached to the tool-end of a PUMA robot via heavy-duty velcro.  The 
 || 14 || X || X || X || X || X || X || X || X || X ||
 || 15 || X || X || X || X || X || X || X || X || X ||
 || 16 || X || X || X || X || X || X || X || X || X ||
+
+For the most part, we found that the the Pitch and Roll axis's were highly accurate, with less than 1 degree of an error for each.  The Yaw Error went as high as 10 degrees at points, but usually stayed to within 2 degrees.  This can be seen in the figure below.
+
+Results Image
 
 = Future Work =
  * Test dynamic situations, such as how quickly and how accurately the APM reports AHRS data as it moves.
