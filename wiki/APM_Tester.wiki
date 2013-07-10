@@ -48,6 +48,11 @@ The APM is attached to the tool-end of a PUMA robot via heavy-duty velcro.  The 
 || 16 || 0 || 45|| 270|| 30||
 
 = Results =
+Here are two figures from these tests (the rest are listed below).  The first shows a typical result, showing the high amount of accuracy on each sensor axis.  The second shows the worst result, coming from the Yaw Axis.
+
+Fig 1
+
+Fig 2
 
 || *Test#* || *1st Roll Angle* || *Avg Roll Angle* || *Avg Roll Error* || *1st Pitch Angle* || *Avg Pitch Angle* || *Avg Pitch Error* || *1st Yaw Angle* || *Avg Yaw Angle* || *Avg Yaw Error* ||
 || 1 || -8.01|| -8.03|| -.019|| -1.23|| -1.18|| .046|| 54.81|| 54.87|| .066||
@@ -62,12 +67,12 @@ The APM is attached to the tool-end of a PUMA robot via heavy-duty velcro.  The 
 || 10 || -91.7|| -91.61|| .083|| 1.49|| 1.47|| -.019|| 64.03|| 60.48|| -3.552||
 || 11 || 36.93|| 36.87|| -.06|| 4.59|| 4.77|| .183|| 40.27|| 40.48|| .211||
 || 12 || 83.83|| 83.89|| .068|| .13|| .3|| .171|| 49.87|| 54.54|| 4.579||
-|| 13 || X || X || X || X || X || X || X || X || X ||
-|| 14 || X || X || X || X || X || X || X || X || X ||
-|| 15 || X || X || X || X || X || X || X || X || X ||
-|| 16 || X || X || X || X || X || X || X || X || X ||
+|| 13 || -10.51|| -10.37|| .14|| 41.51|| 41.56|| .049|| 57.15 || 56.98|| -.17||
+|| 14 || -10.15|| -10.38|| -.23|| 41.83|| 41.73|| -.097|| -55.72|| -55.07|| .647||
+|| 15 || -10.6|| -10.55|| .056|| 41.78|| 41.72|| -.061|| -152.1|| -151.87|| .237||
+|| 16 || -10.54|| -10.53|| .018|| 41.66|| 41.57|| -.095|| 106.34|| 106.81|| .464||
 
-For the most part, we found that the the Pitch and Roll axis's were highly accurate, with less than 1 degree of an error for each.  The Yaw Error went as high as 10 degrees at points, but usually stayed to within 2 degrees.  This can be seen in the figure below.
+For the most part, we found that the the Pitch and Roll axis's were highly accurate, with less than +/-1 degree of an error for the Roll Axis and less than +/-.2 degrees for the Pitch Axis.  The Yaw Error went as high as +/-5 degrees at points, but usually stayed to within 2 degrees.  This can be seen in the figure below.
 
 Results Image
 
