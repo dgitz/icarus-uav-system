@@ -50,8 +50,8 @@ The APM is attached to the tool-end of a PUMA robot via heavy-duty velcro.  The 
 = Results =
 Here are two figures from these tests (the rest are listed below).  The first shows a typical result, showing the high amount of accuracy on each sensor axis.  The second shows the worst result, coming from the Yaw Axis.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/GoodTest.jpg]
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/BadTest.jpg]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/GoodTest.png]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/BadTest.png]
 
 || *Test#* || *1st Roll Angle* || *Avg Roll Angle* || *Avg Roll Error* || *1st Pitch Angle* || *Avg Pitch Angle* || *Avg Pitch Error* || *1st Yaw Angle* || *Avg Yaw Angle* || *Avg Yaw Error* ||
 || 1 || -8.01|| -8.03|| -.019|| -1.23|| -1.18|| .046|| 54.81|| 54.87|| .066||
@@ -73,7 +73,7 @@ Here are two figures from these tests (the rest are listed below).  The first sh
 
 For the most part, we found that the the Pitch and Roll axis's were highly accurate, with less than +/-1 degree of an error for the Roll Axis and less than +/-.2 degrees for the Pitch Axis.  The Yaw Error went as high as +/-5 degrees at points, but usually stayed to within 2 degrees.  This can be seen in the figure below.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/Results.jpg]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/Results.png]
 = Future Work =
  * Test dynamic situations, such as how quickly and how accurately the APM reports AHRS data as it moves.
  * Perform the same tests with a EM field producer, such as mounting an ArduCopter onto the PUMA robot and varying the throttle, and analyzing how this affects the AHRS data.
