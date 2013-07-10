@@ -85,4 +85,4 @@ For the most part, we found that the the Pitch and Roll axis's were highly accur
 = Files =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/8-July-2013-PUMA.zip Log Files & Images]
 
-[[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/MainProgram_QGroundControl.zip Matlab Code]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/APM_Tester/MainProgram_QGroundControl.zip Matlab Code]
