@@ -21,8 +21,19 @@ Original source code:
 [http://www.ros.org/wiki/rgbdslam ROS-RGBDSLAM]
 
 = MAVLink Stuff =
+https://code.google.com/p/ardupilot-mega/wiki/MAVLink
+http://qgroundcontrol.org/mavlink/start
+https://pixhawk.ethz.ch/mavlink/
+
+== Commands ==
+=== MAV_CMD ===
+==== MAV_CMD_NAV_WAYPOINT ====
+==== MAV_CMD_NAV_TAKEOFF ====
+==== MAV_CMD_NAV_LAND ==== 
+
 
 = GPS Stuff =
+https://code.google.com/p/arducopter/wiki/GPSDisable
 Default Position:
 Latitude: 41.870404
 Longitude: -87.649293
