@@ -28,15 +28,7 @@ https://pixhawk.ethz.ch/mavlink/
 
 == Commands ==
 The following are commands that may be required to transmit to/from the APM
- * MAV_CMD_COMPONENT_ARM_DISARM 
- * MAVLINK_MSG_ID_SET_MODE 
- * MAV_CMD_NAV_WAYPOINT
- * MAV_CMD_NAV_TAKEOFF
- * MAV_CMD_NAV_LAND
- * MAVLINK_MSG_ID_SET_NAV_MODE
- * MAVLINK_MSG_ID_MISSION_REQUEST
- * MAV_CMD_DO_SET_HOME
- * MAV_CMD_DO_JUMP
+
 
 Relevant Arducopter Code: GCS_Mavlink.pde
 
