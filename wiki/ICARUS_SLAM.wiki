@@ -7,10 +7,10 @@
 Add your content here.
 
 = Tasks =
- * General Usage instructions
- * Headless operation 
- * Point-cloud generation
- * 
+ * Joystick
+ * GPS Hacking
+ * MAVLink Commands
+ * SLAM
 
 = Details =
 
