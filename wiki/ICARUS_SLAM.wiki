@@ -14,14 +14,19 @@ Add your content here.
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+
 
 = Installation/Development Instructions =
 Original source code:
 [http://www.ros.org/wiki/rgbdslam ROS-RGBDSLAM]
+
+Default Position:
+Latitude: 41.870404
+Longitude: -87.649293
+
+Latitude: 1 deg = 110.54 km
+
+Longitude: 1 deg = 111.320*cos(latitude) km
 
 == Compiling ==
 {{{
