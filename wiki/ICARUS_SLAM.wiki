@@ -11,6 +11,7 @@ Add your content here.
  * GPS Hacking
  * MAVLink Commands
  * SLAM
+ * MAVLink connection to Mission Planner/QGroundControl
 
 = Details =
 
@@ -26,11 +27,18 @@ http://qgroundcontrol.org/mavlink/start
 https://pixhawk.ethz.ch/mavlink/
 
 == Commands ==
-=== MAV_CMD ===
-==== MAV_CMD_NAV_WAYPOINT ====
-==== MAV_CMD_NAV_TAKEOFF ====
-==== MAV_CMD_NAV_LAND ==== 
+The following are commands that may be required to transmit to/from the APM
+ * MAV_CMD_COMPONENT_ARM_DISARM 
+ * MAVLINK_MSG_ID_SET_MODE 
+ * MAV_CMD_NAV_WAYPOINT
+ * MAV_CMD_NAV_TAKEOFF
+ * MAV_CMD_NAV_LAND
+ * MAVLINK_MSG_ID_SET_NAV_MODE
+ * MAVLINK_MSG_ID_MISSION_REQUEST
+ * MAV_CMD_DO_SET_HOME
+ * MAV_CMD_DO_JUMP
 
+Relevant Arducopter Code: GCS_Mavlink.pde
 
 = GPS Stuff =
 https://code.google.com/p/arducopter/wiki/GPSDisable
