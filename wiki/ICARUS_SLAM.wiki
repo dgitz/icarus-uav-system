@@ -1,6 +1,7 @@
 #summary One-sentence summary of this page.
 
 [https://bitbucket.org/uicrobotics/icarus-slam/src Source Code]
+[ICARUS_SLAM#Operation]
 
 = Introduction =
 
@@ -173,6 +174,16 @@ roscore
 
  # In Terminal 2:
 {{{
-roscd slam_icarus
+rosrun rviz rviz
+}}}
 
+ # In Terminal 3:
+{{{
+roslaunch rgbdslam slow_computer2.launch
+}}}
+When GUI opens, press SPACE.
+In RVIZ, Global Status should turn from ERROR to OK after moving.
+ # In Terminal 4:
+{{{
+rosrun tf tf_echo /map /camera_link
 }}}
