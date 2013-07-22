@@ -27,6 +27,7 @@ NOTE: In the future, the waypoints will be selected autonomously.  Look here for
  * MAVLink connection to Mission Planner/QGroundControl
  * Install Kinect on UAV
 
+
 = Milestones =
  # Manual Flight of UAV (INW)
  # Position estimation (GPS) of UAV (No transmission to APM) (INW)
@@ -35,6 +36,7 @@ NOTE: In the future, the waypoints will be selected autonomously.  Look here for
    * Position update on GCS
    * Waypoint commands to APM over MAVLink
  # APM autonomous navigation between waypoints using rolling cart testbed
+ # Implementation on SBC
  # APM navigation between waypoints using actual flying maneuvers
 
 = Details =
