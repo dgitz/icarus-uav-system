@@ -168,6 +168,25 @@ git push -u origin master
 }}}
 
 = Operation =
+== Headless ==
+ * In Terminal 1:
+{{{
+roscore
+}}}
+
+ * In Terminal 2:
+{{{
+roslaunch rgbdslam slow_computer2.launch
+}}}
+ 
+ * In Terminal 3:
+{{{
+rosservice call /rgbdslam/ros_ui_b pause false
+rosrun tf tf_echo /map /camera_link
+}}}
+After a few seconds and moving the Kinect around, the Translation and Rotation should appear in the terminal.
+
+== GUI ==
  * In Terminal 1:
 {{{
 roscore
