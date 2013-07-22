@@ -22,14 +22,14 @@ NOTE: In the future, the waypoints will be selected autonomously.  Look here for
 = Tasks =
  * Joystick
  * GPS Hacking
- * MAVLink Commands
- * SLAM
+ * MAVLink Commands (INW)
+ * SLAM (INW)
  * MAVLink connection to Mission Planner/QGroundControl
  * Install Kinect on UAV
 
 = Milestones =
- # Manual Flight of UAV
- # Position estimation (GPS) of UAV (No transmission to APM)
+ # Manual Flight of UAV (INW)
+ # Position estimation (GPS) of UAV (No transmission to APM) (INW)
  # Minimal comm links established with APM and GCS 
    * GPS 3D Fix on APM
    * Position update on GCS
