@@ -12,6 +12,7 @@ Add your content here.
  * MAVLink Commands
  * SLAM
  * MAVLink connection to Mission Planner/QGroundControl
+ * Install Kinect on UAV
 
 = Details =
 
