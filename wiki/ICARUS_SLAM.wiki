@@ -168,23 +168,23 @@ git push -u origin master
 }}}
 
 = Operation =
- # In Terminal 1:
+ * In Terminal 1:
 {{{
 roscore
 }}}
 
- # In Terminal 2:
+ * In Terminal 2:
 {{{
 rosrun rviz rviz
 }}}
 
- # In Terminal 3:
+ * In Terminal 3:
 {{{
 roslaunch rgbdslam slow_computer2.launch
 }}}
 When GUI opens, press SPACE.
 In RVIZ, Global Status should turn from ERROR to OK after moving.
- # In Terminal 4:
+ * In Terminal 4:
 {{{
 rosrun tf tf_echo /map /camera_link
 }}}
