@@ -17,7 +17,7 @@ This project is to implement a mapping system onboard a flying UAV (ICARUS Flyer
  # Primary Controller transmits Waypoints and other required information to APM (including Arming information)
  # APM performs flight maneuvers to navigate between current position and target waypoints.
 
-NOTE: In the future, the waypoints will be selected autonomously.  Look here for more information: [Target_Detection]
+NOTE: In the future, the waypoints will be selected autonomously.  Look here for more information: [TargetDetection]
 
 = Tasks =
  * Joystick
