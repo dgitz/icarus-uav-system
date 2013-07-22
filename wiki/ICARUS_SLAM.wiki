@@ -182,7 +182,7 @@ roslaunch rgbdslam slow_computer2.launch
  * In Terminal 3:
 {{{
 rosservice call /rgbdslam/ros_ui_b pause false
-rosrun tf tf_echo /map /camera_link
+python nodes/listener.py
 }}}
 After a few seconds and moving the Kinect around, the Translation and Rotation should appear in the terminal.
 
