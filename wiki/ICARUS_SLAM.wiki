@@ -71,7 +71,7 @@ Relevant Arducopter Code: GCS_Mavlink.pde
 
 = GPS Stuff =
 https://code.google.com/p/arducopter/wiki/GPSDisable
-
+Emaluated GPS: Mediatek, 38400 baud
 Default Position:
 Latitude: 41.870404
 Longitude: -87.649293
