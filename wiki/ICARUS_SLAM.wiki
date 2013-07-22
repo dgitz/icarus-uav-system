@@ -10,7 +10,7 @@ This project is to implement a mapping system onboard a flying UAV (ICARUS Flyer
 == Basic Operation ==
 
  # Primary Controller creates a map of an indoor environment using the Kinect Sensor and open-source SLAM algorithms (RGBDSLAM).
- # Primary Controller converts position estimate from SLAM algorithm to GPS-like coordinate system.
+ # Primary Controller converts position estimate from SLAM algorithm to GPS-like coordinate system, using an initial GPS position.
  # Primary Controller transmits GPS-like coordinates to APM at 5-10Hz rate, using the NMEA 0183 protocol.
  # Primary Controller transmits information to GCS (QGroundControl) about current position using MAVLink
  # User using GCS creates Waypoints which are transmitted to Primary Controller.
@@ -18,6 +18,7 @@ This project is to implement a mapping system onboard a flying UAV (ICARUS Flyer
  # APM performs flight maneuvers to navigate between current position and target waypoints.
 
 NOTE: In the future, the waypoints will be selected autonomously.  Look here for more information: [TargetDetection]
+NOTE: In the future, the ICARUS Flyer will be able to transition between an outdoor environment with actual GPS data to an indoor (or other GPS-denied) environment with the GPS-like position data.
 
 = Tasks =
  * Joystick
