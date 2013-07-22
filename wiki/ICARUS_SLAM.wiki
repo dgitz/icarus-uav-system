@@ -4,7 +4,20 @@
 
 = Introduction =
 
-Add your content here.
+== Summary ==
+This project is to implement a mapping system onboard a flying UAV (ICARUS Flyer).  The ICARUS Flyer employs a reputable and wide-supported autopilot system (The DIYDrones APM 2.0) with GPS based navigation.  For indoor environments GPS is rendered useless so a different approach is required.  However it is not appropriate to alter the source code on the APM as it is in a constant state of development.  So a solution is developed using a Kinect Sensor, RGBDSLAM and a Single-Board-Computer (SBC) that is able to produce a GPS-like coordinate system that is transferred to the APM, which then can conduct its very well developed navigation algorithms.
+
+== Basic Operation ==
+
+ # Primary Controller creates a map of an indoor environment using the Kinect Sensor and open-source SLAM algorithms (RGBDSLAM).
+ # Primary Controller converts position estimate from SLAM algorithm to GPS-like coordinate system.
+ # Primary Controller transmits GPS-like coordinates to APM at 5-10Hz rate, using the NMEA 0183 protocol.
+ # Primary Controller transmits information to GCS (QGroundControl) about current position using MAVLink
+ # User using GCS creates Waypoints which are transmitted to Primary Controller.
+ # Primary Controller transmits Waypoints and other required information to APM (including Arming information)
+ # APM performs flight maneuvers to navigate between current position and target waypoints.
+
+NOTE: In the future, the waypoints will be selected autonomously.  Look here for more information: []
 
 = Tasks =
  * Joystick
