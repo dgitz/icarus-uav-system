@@ -2,7 +2,7 @@
 
 [https://bitbucket.org/uicrobotics/icarus-slam/src Source Code]
 
-[ICARUS_SLAM#Operation]
+[ICARUS_SLAM#Operation Operating Instructions]
 
 = Introduction =
 
