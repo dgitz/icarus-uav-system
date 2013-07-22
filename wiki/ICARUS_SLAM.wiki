@@ -23,6 +23,14 @@ Add your content here.
 Original source code:
 [http://www.ros.org/wiki/rgbdslam ROS-RGBDSLAM]
 
+http://answers.ros.org/question/11755/rgbdslam-camera-location/
+
+http://mediabox.grasp.upenn.edu/roswiki/doc/api/rgbdslam/html/annotated.html
+
+http://answers.ros.org/question/11181/getting-position-and-orientation-from-rgbdslam/
+
+http://answers.ros.org/question/33909/rgbdslam-octomap-for-continuous-realtime-mapping/
+
 = MAVLink Stuff =
 https://code.google.com/p/ardupilot-mega/wiki/MAVLink
 
