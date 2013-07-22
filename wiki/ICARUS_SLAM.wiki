@@ -18,6 +18,8 @@ Add your content here.
 
 
 = Installation/Development Instructions =
+
+= SLAM Stuff =
 Original source code:
 [http://www.ros.org/wiki/rgbdslam ROS-RGBDSLAM]
 
