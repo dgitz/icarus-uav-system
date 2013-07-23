@@ -25,8 +25,8 @@ NOTE: In the future, the ICARUS Flyer will be able to transition between an outd
 
 = Tasks =
  * Joystick
- * GPS Hacking, Checksum
- * MAVLink Commands (INW)
+ * GPS Hacking, Checksum (INW)
+ * MAVLink Commands (HOLD)
  * SLAM (INW)
  * MAVLink connection to Mission Planner/QGroundControl
  * Install Kinect on UAV
