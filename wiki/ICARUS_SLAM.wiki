@@ -35,6 +35,7 @@ NOTE: In the future, the ICARUS Flyer will be able to transition between an outd
 = Milestones =
  # Manual Flight of UAV (INW)
  # Position estimation (GPS) of UAV (No transmission to APM) (INW)
+   * Require initial Heading information
  # Minimal comm links established with APM and GCS 
    * GPS 3D Fix on APM
    * Position update on GCS
