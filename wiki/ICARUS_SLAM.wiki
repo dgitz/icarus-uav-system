@@ -88,6 +88,34 @@ Latitude: 1 deg = 110.54 km
 
 Longitude: 1 deg = 111.320*cos(latitude) km
 
+== Required APM Messages ==
+(From AP_GPS_NMEA.cpp)
+{{{
+case _GPS_SENTENCE_GPRMC:
+                    time                        = _new_time;
+                    date                        = _new_date;
+                    latitude            = _new_latitude * 10;   // degrees*10e5 -> 10e7
+                    longitude           = _new_longitude * 10;  // degrees*10e5 -> 10e7
+                    ground_speed_cm     = _new_speed;
+                    ground_course_cd    = _new_course;
+                    fix                 = GPS::FIX_3D;          // To-Do: add support for proper reporting of 2D and 3D fix
+                    break;
+case _GPS_SENTENCE_GPGGA:
+                    altitude_cm         = _new_altitude;
+                    time                        = _new_time;
+                    latitude            = _new_latitude * 10;   // degrees*10e5 -> 10e7
+                    longitude           = _new_longitude * 10;  // degrees*10e5 -> 10e7
+                    num_sats            = _new_satellite_count;
+                    hdop                        = _new_hdop;
+                    fix                 = GPS::FIX_3D;          // To-Do: add support for proper reporting of 2D and 3D fix
+                    break;
+case _GPS_SENTENCE_GPVTG:
+                    ground_speed_cm     = _new_speed;
+                    ground_course_cd    = _new_course;
+                    // VTG has no fix indicator, can't change fix status
+                    break;
+}}}
+
 == NMEA 0183 ==
 Required GPS Packets for ArduCopter v3.0.1:
 RMC,GGA,VTG
