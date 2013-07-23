@@ -211,9 +211,20 @@ roslaunch rgbdslam slow_computer2.launch
  * In Terminal 3:
 {{{
 rosservice call /rgbdslam/ros_ui_b pause false
+}}}
+
+
+After a few seconds and moving the Kinect around, the Translation and Rotation should appear in the terminal.
+{{{
 python nodes/listener.py
 }}}
-After a few seconds and moving the Kinect around, the Translation and Rotation should appear in the terminal.
+
+OR
+
+{{{
+nodes/primarycontroller.py --gcs-device-type=udp --gcs-device=10.7.45.208
+}}}
+
 
 == GUI ==
  * In Terminal 1:
