@@ -1,8 +1,7 @@
 #summary One-sentence summary of this page.
 
-[https://bitbucket.org/davidgitz/icarus_slam Source Code]
-
 [ICARUS_SLAM#Operation Operating Instructions]
+[https://bitbucket.org/davidgitz/icarus_slam Source Code]
 
 = Introduction =
 
@@ -211,9 +210,54 @@ roslaunch rgbdslam slow_computer2.launch
  
  * In Terminal 3:
 {{{
+sudo chmod 0777 /dev/ttyACM0
 rosservice call /rgbdslam/ros_ui_b pause false
 }}}
 
+Execute the main program with the following:
+{{{
+python nodes/primarycontroller.py
+}}}
+The following options are available.  Use the text in the <> where applicable, | signifies different options, and omit the <> and |:
+ * Connection to GCS (Transmit GPS and Attitude Completed)
+{{{
+--gcs-device-type=<udp|Serial>
+--gcs-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
+--gcs-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
+}}}
+ * Connection to Flight Controller (Receive Attitude Completed)
+{{{
+--fc-device-type=<udp|Serial>
+--fc-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
+--fc-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
+}}}
+ * Connection to Flight Controller GPS (In Progress)
+{{{
+--fc_gps-device-type=<udp|Serial>
+--fc_gps-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
+--fc_gps-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
+}}}
+ * Connection to Motion Controller (In Progress)
+{{{
+--mc-device-type=<udp|Serial>
+--mc-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
+--mc-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
+}}}
+ * Connection to Remote (Transmit GPS and Attitude In Progress)
+{{{
+--remote-device-type=<udp|Serial>
+--remote-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
+--remote-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
+}}}
+
+parser.add_option("--gcs-device-type",dest="gcs_device_type",default="udp",help="Serial,udp,tcp")
+parser.add_option("--gcs-device",dest="gcs_device",default="10.7.45.208",help="GCS Device connection: /dev/ttyUSB0,10.7.45.208")
+parser.add_option("--remote-device-type",dest="remote_device_type",default="tcp",help="Serial,udp,tcp")
+parser.add_option("--remote-device",dest="remote_device",default="192.168.1.104",help="Remote Device Connection: 192.168.1.104")
+parser.add_option("--remote-device-port",dest="remote_device_port",default="9761",help="Port #")
+parser.add_option("--fc-device-type",dest="fc_device_type",default="None",help="Serial")
+parser.add_option("--fc-device",dest="fc_device",default="/dev/ttyACM0")
+parser.add_option("--fc-device-speed",dest="fc_device_speed",default="115200")
 
 After a few seconds and moving the Kinect around, the Translation and Rotation should appear in the terminal.
 {{{
