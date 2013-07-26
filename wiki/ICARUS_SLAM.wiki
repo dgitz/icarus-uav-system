@@ -250,32 +250,6 @@ The following options are available.  Use the text in the <> where applicable, |
 --remote-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
 }}}
 
-parser.add_option("--gcs-device-type",dest="gcs_device_type",default="udp",help="Serial,udp,tcp")
-parser.add_option("--gcs-device",dest="gcs_device",default="10.7.45.208",help="GCS Device connection: /dev/ttyUSB0,10.7.45.208")
-parser.add_option("--remote-device-type",dest="remote_device_type",default="tcp",help="Serial,udp,tcp")
-parser.add_option("--remote-device",dest="remote_device",default="192.168.1.104",help="Remote Device Connection: 192.168.1.104")
-parser.add_option("--remote-device-port",dest="remote_device_port",default="9761",help="Port #")
-parser.add_option("--fc-device-type",dest="fc_device_type",default="None",help="Serial")
-parser.add_option("--fc-device",dest="fc_device",default="/dev/ttyACM0")
-parser.add_option("--fc-device-speed",dest="fc_device_speed",default="115200")
-
-After a few seconds and moving the Kinect around, the Translation and Rotation should appear in the terminal.
-{{{
-python nodes/primarycontroller.py
-}}}
-
-OR
-
-{{{
-nodes/primarycontroller.py --gcs-device-type=udp --gcs-device=10.7.45.208
-}}}
-
-OR 
-
-{{{
-nodes/primarycontroller.py --remote-device-type=tcp
-}}}
-
 == GUI ==
  * In Terminal 1:
 {{{
