@@ -27,7 +27,7 @@ NOTE: In the future, the ICARUS Flyer will be able to transition between an outd
  * Joystick (Not Started)
  * GPS Hacking, Checksum (INW)
  * MAVLink Commands (INW)
- * SLAM (INW)
+ * SLAM (Requires Testing)
  * MAVLink connection to Mission Planner/QGroundControl (QGC-INW,MP-Not Started)
  * Install Kinect on UAV (Not Started)
  * TCP Connection to Tablet running DroidPlanner (HOLD)
@@ -39,7 +39,7 @@ NOTE: In the future, the ICARUS Flyer will be able to transition between an outd
    * Require initial Heading information (Not Started)
  # Minimal comm links established with APM and GCS 
    * GPS 3D Fix on APM (INW)
-   * Position update on GCS (INW)
+   * Position update on GCS (DONE)
    * Waypoint commands to APM over MAVLink (Not Started)
  # APM autonomous navigation between waypoints using rolling cart testbed (Not Started)
  # Implementation on SBC (Not Started)
