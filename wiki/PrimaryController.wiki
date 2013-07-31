@@ -2,8 +2,34 @@
 
 = Introduction =
 
-Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and ROS Fuerte.  In the future the Primary Controller will be a Single-Board-Computer (SBC).
+Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and ROS Fuerte.  In the future the Primary Controller will be a ODroid-X2.
 
 = Documentation =
 
 [http://www.hardkernel.com/renewal_2011/products/prdt_info.php?g_code=G135235611947 Odroid-X2 Specifications and Ordering Info]
+
+[http://www.linux.com/learn/tutorials/711478-how-to-run-linux-on-odroid-u2-a-monster-of-an-arm-machine]
+
+[http://www.ros.org/wiki/fuerte/Installation/Ubuntu/Source]
+
+[https://www.archlinux.org/]
+
+[http://diydrones.com/profiles/blog/show?id=705844%3ABlogPost%3A193452&commentId=705844%3AComment%3A193615]
+
+[http://diydrones.com/profiles/blog/show?id=705844%3ABlogPost%3A220669&commentId=705844%3AComment%3A220709]
+
+[http://diydrones.com/profiles/blogs/visual-slam-with-kinect]
+
+[http://diydrones.com/forum/topics/ardupilot-mega-with-ros-onboard?commentId=705844%3AComment%3A1004213]
+
+[http://diydrones.com/profiles/blogs/state-estimation-for-aggressive-flight-using-onboard-sensing]
+
+[http://diydrones.com/profiles/blogs/visual-odometry-for-gpsdenied
+
+[http://diydrones.com/group/arducopterusergroup/forum/topics/operating-arducopter-without-gps-over-mavlink?commentId=705844%3AComment%3A1156610&groupId=705844%3AGroup%3A394475]
+
+[http://diydrones.com/profiles/blogs/indoors-autonomous-quadcopter]
+
+[http://icoderaven.wordpress.com/]
+
+
