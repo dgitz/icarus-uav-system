@@ -4,6 +4,10 @@
 
 Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and ROS Fuerte.  In the future the Primary Controller will be a ODroid-X2.
 
+= Configuration =
+ * SBC: ArchLinux, ROS-Groovy
+ * Laptop: Ubuntu 12.04, ROS-Fuerte 
+
 = Documentation =
 
 [http://www.hardkernel.com/renewal_2011/products/prdt_info.php?g_code=G135235611947 Odroid-X2 Specifications and Ordering Info]
@@ -31,5 +35,3 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
 [http://diydrones.com/profiles/blogs/indoors-autonomous-quadcopter]
 
 [http://icoderaven.wordpress.com/]
-
-
