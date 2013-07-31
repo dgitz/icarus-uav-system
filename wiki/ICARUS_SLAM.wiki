@@ -3,6 +3,9 @@
 [ICARUS_SLAM#Operation Operating Instructions]
 [https://bitbucket.org/davidgitz/icarus_slam Source Code]
 
+[PrimaryController Primary Controller]
+[FlightController Flight Controller]
+
 = Introduction =
 
 == Summary ==
