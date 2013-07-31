@@ -1,0 +1,12 @@
+= QuickstartPlus =
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/quickstartplus/Iso.jpg
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/quickstartplus/Top.jpg
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/quickstartplus/Back.jpg
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/quickstartplus/Bottom.jpg
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/quickstartplus/Left.jpg
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/quickstartplus/Right.jpg
