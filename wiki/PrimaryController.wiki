@@ -2,12 +2,8 @@
 
 = Introduction =
 
-Add your content here.
+Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and ROS Fuerte.  In the future the Primary Controller will be a Single-Board-Computer (SBC).
 
+= Documentation =
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+[http://www.hardkernel.com/renewal_2011/products/prdt_info.php?g_code=G135235611947 Odroid-X2 Specifications and Ordering Info]
