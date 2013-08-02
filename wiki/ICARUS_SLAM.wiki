@@ -236,9 +236,9 @@ The following options are available.  Use the text in the <> where applicable, |
 }}}
  * Connection to Flight Controller GPS (In Progress)
 {{{
---fc_gps-device-type=<udp|Serial>
---fc_gps-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
---fc_gps-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
+--fcgps-device-type=<udp|Serial>
+--fcgps-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
+--fcgps-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
 }}}
  * Connection to Motion Controller (In Progress)
 {{{
@@ -251,6 +251,11 @@ The following options are available.  Use the text in the <> where applicable, |
 --remote-device-type=<udp|Serial>
 --remote-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
 --remote-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
+}}}
+
+ * Example
+{{{
+rgbdslam/nodes/primaryconoller.py --fcgps-device-type=Serial --fcgps-device=/dev/ttyUSB0 --fc-device-type=Serial --fc-device=/dev/ttyACM0 --gcs-device-type=udp --gcs-device=10.7.45.208
 }}}
 
 == GUI ==
