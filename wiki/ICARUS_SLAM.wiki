@@ -91,6 +91,7 @@ Latitude: 1 deg = 110.54 km
 
 Longitude: 1 deg = 111.320*cos(latitude) km
 
+
 == Required APM Messages ==
 (From AP_GPS_NMEA.cpp)
 {{{
@@ -145,6 +146,8 @@ $--RMC,hhmmss.ss,A,llll.ll,a,yyyyy.yy,a,x.x,x.x,xxxx,x.x,a*hh
  # E or W
  # Checksum
 
+NOTE:  For the APM, the Latitude and Longitude is in the format: ddmm.mmm
+
 === GGA ===
 GGA Global Positioning System Fix Data. Time, Position and fix related data
 for a GPS receiver
@@ -166,6 +169,7 @@ $--GGA,hhmmss.ss,llll.ll,a,yyyyy.yy,a,x,xx,x.x,x.x,M,x.x,M,x.x,xxxx*hh
  # Differential reference station ID, 0000-1023
  # Checksum
 
+NOTE:  For the APM, the Latitude and Longitude is in the format: ddmm.mmm
 === VTG ===
 
 VTG Track Made Good and Ground Speed
