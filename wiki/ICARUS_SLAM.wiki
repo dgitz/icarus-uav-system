@@ -255,7 +255,7 @@ The following options are available.  Use the text in the <> where applicable, |
 
  * Example
 {{{
-rgbdslam/nodes/primaryconoller.py --fcgps-device-type=Serial --fcgps-device=/dev/ttyUSB0 --fc-device-type=Serial --fc-device=/dev/ttyACM0 --gcs-device-type=udp --gcs-device=10.7.45.208
+rgbdslam/nodes/primarycontroller.py --fcgps-device-type=Serial --fcgps-device=/dev/ttyUSB0 --fc-device-type=Serial --fc-device=/dev/ttyACM0 --gcs-device-type=udp --gcs-device=10.7.45.208
 }}}
 
 == GUI ==
