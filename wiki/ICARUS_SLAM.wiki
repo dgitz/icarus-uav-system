@@ -32,7 +32,7 @@ NOTE: In the future, the ICARUS Flyer will be able to transition between an outd
  * SLAM (Requires Testing)
  * MAVLink connection to Mission Planner/QGroundControl (QGC-INW,MP-Not Started)
  * Install Kinect on UAV (Not Started)
- * TCP Connection to Tablet running DroidPlanner (HOLD)
+ * Connection to Tablet running DroidPlanner (INW)
 
 
 = Milestones =
