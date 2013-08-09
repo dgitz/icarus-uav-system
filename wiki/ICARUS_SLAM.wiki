@@ -43,7 +43,7 @@ NOTE: In the future, the ICARUS Flyer will be able to transition between an outd
    * GPS 3D Fix on APM (DONE)
    * Position update on GCS (DONE)
    * Waypoint commands to APM over MAVLink (DONE)
- # APM autonomous navigation between waypoints using rolling cart testbed (Not Started)
+ # APM autonomous navigation between waypoints using rolling cart testbed (INW)
  # Implementation on SBC (Not Started)
  # APM navigation between waypoints using actual flying maneuvers (Not Started)
 
