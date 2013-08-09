@@ -47,7 +47,15 @@ NOTE: In the future, the ICARUS Flyer will be able to transition between an outd
  # Implementation on SBC (Not Started)
  # APM navigation between waypoints using actual flying maneuvers (Not Started)
 
-= Details =
+= Media =
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_SLAM/UAV_Software.jpg]
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_SLAM/Environment.jpg]
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_SLAM/GCS.jpg]
+Not much to look at here, but I was walking directly East in the hall and the GCS shows that I am indeed going East.
+
+[http://www.youtube.com/watch?v=6oq6S1b4y3E&feature=youtu.be Initial Project Video]
 
 = Installation/Development Instructions =
 
