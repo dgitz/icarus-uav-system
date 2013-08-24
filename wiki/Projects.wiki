@@ -14,8 +14,8 @@ This project was for the UIC ECE 452 Project, but I made the project suitable fo
 
 This project is to validate the precision and accuracy of the DIYDrones APM 2.0 using a PUMA Robot.
 
-== ICARUS SLAM ==
-[ICARUS_SLAM ICARUS SLAM]
+== SLAM ==
+[ICARUS_SLAM SLAM]
 
 == Obstacle Avoidance ==
 [ICARUS_OBSTACLE_AVOIDANCE Obstacle avoidance]
