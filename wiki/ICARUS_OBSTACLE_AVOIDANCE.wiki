@@ -16,6 +16,10 @@
 
 
 = Tasks =
+ * CAD Conceptual Design
+ * Dev Code for MC to measure distances, receive motor commands and output motor commands.
+ * Develop algorithm relating distances and input/output motor commands.
+ * 
 
 
 
