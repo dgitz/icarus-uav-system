@@ -1,7 +1,7 @@
 #summary One-sentence summary of this page.
 
 [ICARUS_SLAM#Operation Operating Instructions]
-[https://bitbucket.org/davidgitz/icarus_slam Source Code]
+[https://bitbucket.org/davidgitz/icarus_oa Source Code]
 
 [PrimaryController Primary Controller]
 [FlightController Flight Controller]
