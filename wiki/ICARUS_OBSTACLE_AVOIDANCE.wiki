@@ -10,6 +10,7 @@
 = Introduction =
 
 == Summary ==
+This project builds upon the previous project, [ICARUS_SLAM].  This project also uses the Quickstart and QuickstartPlus, along with Ultrasonic sensors and an AI algorithm to provide obstacle avoidance.  This can be used in cluttered environments, such as office spaces.
 
 
 == Basic Operation ==
