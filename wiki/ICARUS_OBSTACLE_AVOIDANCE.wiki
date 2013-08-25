@@ -55,13 +55,13 @@ roscore
 
  * In Terminal 2:
 {{{
-roslaunch rgbdslam slow_computer2.launch
+roslaunch oa slow_computer2.launch
 }}}
  
  * In Terminal 3:
 {{{
 sudo chmod 0777 /dev/ttyACM0
-rosservice call /rgbdslam/ros_ui_b pause false
+rosservice call /oa/ros_ui_b pause false
 }}}
 
 Execute the main program with the following:
@@ -102,7 +102,7 @@ The following options are available.  Use the text in the <> where applicable, |
 
  * Example
 {{{
-rgbdslam/nodes/primarycontroller.py --fcgps-device-type=Serial --fcgps-device=/dev/ttyUSB0 --fc-device-type=Serial --fc-device=/dev/ttyACM0 --gcs-device-type=udp --gcs-device=10.7.45.208
+oa/nodes/primarycontroller.py --fcgps-device-type=Serial --fcgps-device=/dev/ttyUSB0 --fc-device-type=Serial --fc-device=/dev/ttyACM0 --gcs-device-type=udp --gcs-device=10.7.45.208
 }}}
 
 == GUI ==
@@ -118,7 +118,7 @@ rosrun rviz rviz
 
  * In Terminal 3:
 {{{
-roslaunch rgbdslam slow_computer2.launch
+roslaunch oa slow_computer2.launch
 }}}
 When GUI opens, press SPACE.
 In RVIZ, Global Status should turn from ERROR to OK after moving.
