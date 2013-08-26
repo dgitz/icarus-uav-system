@@ -18,12 +18,11 @@ This project builds upon the previous project, [ICARUS_SLAM].  This project also
 
 
 = Tasks =
- * CAD Conceptual Design
- * Dev Code for MC to measure distances, receive motor commands and output motor commands.
+ * CAD Conceptual Design (DONE)
+ * Dev Primary and Motion Controllers to work with current Mode FSM. (INW)
+ * Dev Code for MC to measure distances, receive motor commands and output motor commands. (INW)
  * Develop algorithm relating distances and input/output motor commands.
  * 
-
-
 
 = Milestones =
 
