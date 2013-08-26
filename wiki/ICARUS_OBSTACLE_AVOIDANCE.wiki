@@ -28,6 +28,10 @@ This project builds upon the previous project, [ICARUS_SLAM].  This project also
 
 
 = Media =
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/Flyer_AssywBeams.png]
+ICARUS Flyer w/ Ultrasonic Beams
+
 = Installation/Development Instructions =
 
 == Compiling ==
