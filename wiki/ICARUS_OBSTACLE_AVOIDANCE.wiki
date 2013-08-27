@@ -29,8 +29,17 @@ This project builds upon the previous project, [ICARUS_SLAM].  This project also
 
 = Media =
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/Flyer_AssywBeams.png]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/Flyer_Assy.png]
+ICARUS Flyer
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/Flyer_AssywUltrasonicBeams.png]
 ICARUS Flyer w/ Ultrasonic Beams
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/Flyer_AssywKinectFOV.png]
+ICARUS Flyer w/ Kinect Field of View for Visible and IR Camera
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/Flyer_AssywEverything.png]
+ICARUS Flyer w/ Kinect Field of View and Ultrasonic Beams
 
 [https://www.dropbox.com/s/3723pg8ld2cp65k/ProgramFlowchart.pptx Software Flowchart]
 
