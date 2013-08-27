@@ -8,6 +8,17 @@
 [FlightController Flight Controller]
 [MotionController Motion Controller]
 
+
+= Tasks =
+ * CAD Conceptual Design (DONE)
+ * Dev Primary and Motion Controllers to work with current Mode FSM. (INW)
+ * Dev Code for MC to measure distances, receive motor commands and output motor commands. (INW)
+ * Develop AI algorithm (AI-OA_Sonic) relating Ultrasonic distances and input/output motor commands.
+ * Develop AI algorithm (AI-OA_Kinect) relating Kinect tracked obstacles and input/output motor commands.
+ * Fuse AI-OA_Sonic and AI-OA_Kinect to provide better Obstacle Avoidance maneuvers.
+
+= Milestones =
+
 = Introduction =
 
 == Summary ==
@@ -20,17 +31,6 @@ This project employs obstacle avoidance using the Microsoft Kinect and Ultrasoni
 The Ultrasonic Sensors have very little resolution, as they only report back the distance to the nearest obstacle they see.  But, since they have a fairly wide field of view and they consume little system resources (memory, space, weight, energy, etc) and they respond quickly to changes in their environment they are used to provide immediate feedback to the AI algorithm used to adjust the motor speeds to avoid obstacles they perceive.
 
 The Kinect Sensor has a Visible and an IR Laser Array/Camera onboard.  For the purposes of this project only the IR Laser Array/Camera is used.  The Kinect provides a much more detailed view of what the UAV sees in front of itself.  Since it is assumed that the UAV will primarily be flying forward, the optimal placement of the Kinect of the view where the UAV will be flying is towards the front of the UAV.  The Kinect is able to much more accurately tell where obstacles are in its FOV, to provide guidance to the Mission Controller not only that there are obstacles but what direction would be the best to avoid them. 
-
-
-= Tasks =
- * CAD Conceptual Design (DONE)
- * Dev Primary and Motion Controllers to work with current Mode FSM. (INW)
- * Dev Code for MC to measure distances, receive motor commands and output motor commands. (INW)
- * Develop algorithm relating distances and input/output motor commands.
- * 
-
-= Milestones =
-
 
 = Media =
 
