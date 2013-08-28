@@ -1,5 +1,9 @@
 #summary One-sentence summary of this page.
 
+= Summary =
+
+This project is intended for the UIC class ECE 559: Neural Networks
+
 = Resources =
 
 [http://pybrain.org/docs/index.html#tutorials PyBrain]
