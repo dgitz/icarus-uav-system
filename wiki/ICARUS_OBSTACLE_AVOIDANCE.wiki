@@ -32,6 +32,9 @@ The Ultrasonic Sensors have very little resolution, as they only report back the
 
 The Kinect Sensor has a Visible and an IR Laser Array/Camera onboard.  For the purposes of this project only the IR Laser Array/Camera is used.  The Kinect provides a much more detailed view of what the UAV sees in front of itself.  Since it is assumed that the UAV will primarily be flying forward, the optimal placement of the Kinect of the view where the UAV will be flying is towards the front of the UAV.  The Kinect is able to much more accurately tell where obstacles are in its FOV, to provide guidance to the Mission Controller not only that there are obstacles but what direction would be the best to avoid them. 
 
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/SystemDiagram_Simple.png]
+Simplified Diagram
+
 = Media =
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/Flyer_Assy.png]
