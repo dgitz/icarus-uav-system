@@ -1,4 +1,4 @@
-[ICARUS_TargetDetection#Operation Operating Instructions]
+[TargetDetection#Operation Operating Instructions]
 
 [PrimaryController Primary Controller]
 [FlightController Flight Controller]
