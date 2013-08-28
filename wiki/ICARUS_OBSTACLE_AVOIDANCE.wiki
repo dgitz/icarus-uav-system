@@ -24,7 +24,7 @@
 == Summary ==
 This project builds upon the previous project, [ICARUS_SLAM].  This project also uses the Quickstart and QuickstartPlus, along with Ultrasonic sensors, Microsoft Kinect and an AI algorithm to provide obstacle avoidance.  This can be used in cluttered environments, such as office spaces.
 
-This project is intended for the UIC class CS 411: Artificial Intelligence.
+This project is intended for the UIC class CS 411: Artificial Intelligence and ECE 415: Image Analysis and Computer Vision 1
 
 == Basic Operation ==
 
