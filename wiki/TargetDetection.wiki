@@ -10,6 +10,8 @@
 
 = Summary =
 
+[http://iarc.angel-strike.com/IARC_6th_Mission_Rules.pdf IARC Mission 6 Rules]
+
 The objective of the AUVSI IARC 6th Mission is to have a UAV fly into an office-space (which includes hallways, rooms, rooms off rooms, etc), locate a flash-drive in an unknown location, retrieve the flash drive and leave the office-space.  The office-space is in an environment designed to simulate a foreign government with no access to GPS signals.
 
 Two key parts of the competition are to a) navigate the office-space using the available signage placed in the environment and b) visually identify the flash drive in the office-space.  Both of these components are complex, as the signage is in a foreign language and the flash drive may be placed anywhere in the office-space.
@@ -25,6 +27,8 @@ This project is intended for the UIC class ECE 559: Neural Networks
 = Media =
 
 = Installation/Development Instructions =
+
+= Operation =
 
 == Compiling ==
 
