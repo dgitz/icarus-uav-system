@@ -22,6 +22,13 @@ This project is used to provide indoor GPS-like navigation to a flying quadcopte
 == Obstacle Avoidance ==
 [ICARUS_OBSTACLE_AVOIDANCE Obstacle avoidance]
 
+This project is used to perform obstacle avoidance on a quadcopter using Ultrasonic Sensors, a Microsoft Kinect and AI algorithms.
+
+== Target Detection ==
+[ICARUS_TARGET_DETECTION Target Detection]
+
+This project is used to perform target detection in an unknown environment using Neural Networks.
+
 == ICARUS Modeling ==
 [ICARUS_MODEL Modeling]
 
