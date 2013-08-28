@@ -24,6 +24,8 @@
 == Summary ==
 This project builds upon the previous project, [ICARUS_SLAM].  This project also uses the Quickstart and QuickstartPlus, along with Ultrasonic sensors, Microsoft Kinect and an AI algorithm to provide obstacle avoidance.  This can be used in cluttered environments, such as office spaces.
 
+This project is intended for the UIC class CS 411: Artificial Intelligence.
+
 == Basic Operation ==
 
 This project employs obstacle avoidance using the Microsoft Kinect and Ultrasonic Sensors placed around the UAV, due to advantages and disadvantages of each sensor.
