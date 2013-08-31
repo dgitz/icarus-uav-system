@@ -5,7 +5,7 @@
 This is the Home page for the ICARUS Wiki.  All content is currently completely in development, so use at your own risk.  All code and information, unless otherwise specified is completely open-source/open-hardware (OSHW).
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/me.jpg]
-That's Me!
+That's Me!  [https://www.facebook.com/david.gitz David Gitz.]
 
 = Sponsors =
 [http://www.4pcb.com/ http://www.4pcb.com/images/logo.png]
