@@ -154,3 +154,6 @@ In RVIZ, Global Status should turn from ERROR to OK after moving.
 {{{
 rosrun tf tf_echo /map /camera_link
 }}}
+
+= References =
+[http://wiki.python.org/moin/PythonForArtificialIntelligence]
