@@ -2,24 +2,9 @@
 
 = Introduction =
 
-The ICARUS Flyer is a QuadTiltWing (QTW) UAV.  Unlike a TiltRotor, a TiltWing operates by tilting an airfoil along with a motor/propeller help generate lift and thrust along a desired flight path.
+= Media =
 
 
-= Details =
-
-The ICARUS Flyer features the following:
-  * Tandem Wing
-  * Independently rotating Winglets
-  * DC Brushless Motors
-  * Autonomous Navigation/Flight Stabilization System
-  * Static Landing Gear (No Wheels)
-
-== Optional Additions ==
-  * Ultrasonic Sensors for Autonomous Landing/Takeoffs
-  * Wheeled Landing gear for STOL
-  * Retractable Landing Gear
-  * Speech Output
-  * Speech Input
 
 = Relevant Prior Work/Products = 
 [http://en.wikipedia.org/wiki/Bell_Boeing_Quad_TiltRotor Boeing QuadTiltRotor]
