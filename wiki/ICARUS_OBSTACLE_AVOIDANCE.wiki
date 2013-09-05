@@ -12,10 +12,16 @@
 = Tasks =
  * CAD Conceptual Design (DONE)
  * Dev Primary and Motion Controllers to work with current Mode FSM. (DONE)
+ * Fuse AI-OA_Sonic and AI-OA_Kinect to provide better Obstacle Avoidance maneuvers.
+
+== AI-OA_Kinect ==
+ * Dev Code to acquire (and save on mouseclick) Disparity Images (DONE)
+ * Develop appropriate Image Filter
+ * Develop AI algorithm (AI-OA_Kinect) relating Kinect tracked obstacles and input/output motor commands. 
+
+== AI-OA_Sonic ==
  * Dev Code for MC to measure distances, receive motor commands and output motor commands. (DONE)
  * Develop AI algorithm (AI-OA_Sonic) relating Ultrasonic distances and input/output motor commands.
- * Develop AI algorithm (AI-OA_Kinect) relating Kinect tracked obstacles and input/output motor commands.
- * Fuse AI-OA_Sonic and AI-OA_Kinect to provide better Obstacle Avoidance maneuvers.
 
 = Milestones =
 
