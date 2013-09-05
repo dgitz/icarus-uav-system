@@ -53,3 +53,5 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
 [http://forum.odroid.com/viewtopic.php?f=53&t=23]
 
 [http://com.odroid.com/sigong/nf_file_board/nfile_board.php?keyword=&tag=&page=2]
+
+[http://forum.odroid.com/viewtopic.php?f=8&t=2096&p=16126&hilit=ros#p16126]
