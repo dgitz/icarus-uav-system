@@ -8,6 +8,10 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
  * SBC: ArchLinux, ROS-Groovy
  * Laptop: Ubuntu 12.04, ROS-Fuerte 
 
+= Media =
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/PrimaryController/top.jpg]
+
 = Documentation =
 
 [http://www.hardkernel.com/renewal_2011/products/prdt_info.php?g_code=G135235611947 Odroid-X2 Specifications and Ordering Info]
