@@ -35,3 +35,17 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
 [http://diydrones.com/profiles/blogs/indoors-autonomous-quadcopter]
 
 [http://icoderaven.wordpress.com/]
+
+[http://archlinuxarm.org/platforms/armv7/samsung/odroid-x]
+
+[http://forum.odroid.com/viewforum.php?f=61]
+
+[http://dev.odroid.com/]
+
+[http://forum.odroid.com/viewtopic.php?f=61&t=936]
+
+[http://com.odroid.com/sigong/blog/blog_list.php?bid=130]
+
+[http://forum.odroid.com/viewtopic.php?f=53&t=23]
+
+[http://com.odroid.com/sigong/nf_file_board/nfile_board.php?keyword=&tag=&page=2]
