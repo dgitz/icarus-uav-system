@@ -16,9 +16,9 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
 
 [http://www.hardkernel.com/renewal_2011/products/prdt_info.php?g_code=G135235611947 Odroid-X2 Specifications and Ordering Info]
 
-[[http://forum.odroid.com/viewtopic.php?f=15&t=1812] ODroid-X2 Ubuntu, ROS Image]
+[http://forum.odroid.com/viewtopic.php?f=15&t=1812 ODroid-X2 Ubuntu, ROS Image]
 
-[[http://forum.odroid.com/viewtopic.php?f=53&t=23] Image Flashing on SD Card (Linux)]
+[http://forum.odroid.com/viewtopic.php?f=53&t=23 Image Flashing on SD Card (Linux)]
 
 [http://www.linux.com/learn/tutorials/711478-how-to-run-linux-on-odroid-u2-a-monster-of-an-arm-machine]
 
