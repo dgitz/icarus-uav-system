@@ -51,7 +51,7 @@ The Kinect Sensor has a Visible and an IR Laser Array/Camera onboard.  For the p
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/SystemDiagram_Simple.png]
 Simplified Diagram
 
-== AI-OA_Kinect == 
+== OA_Kinect == 
 === Image Analysis ===
 As the Kinect has several different imaging capabilities, it is necessary to select the one that will have the best results for the AI algorithm.  Below is a sequence of pictures, in a cluttered environment, of an obstacle placed in the foreground of the Kinect.  The picture on the left is an image taken directly from the RGB camera, while the picture on the right is one taken from the IR/Depth Camera.
 
@@ -68,6 +68,8 @@ A larger wooden board.
 The same wooden board again.
 
 Obviously, the IR/Depth Camera is much more able to detect the difference between an obstacle in the foreground and an obstacle in the background in the Kinect's FOV.  Also, the IR camera will work just as well in a dark environment.
+
+== OA_Sonic ==
 
 = Media =
 
