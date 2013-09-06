@@ -16,6 +16,10 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
 
 [http://www.hardkernel.com/renewal_2011/products/prdt_info.php?g_code=G135235611947 Odroid-X2 Specifications and Ordering Info]
 
+[[http://forum.odroid.com/viewtopic.php?f=15&t=1812] ODroid-X2 Ubuntu, ROS Image]
+
+[[http://forum.odroid.com/viewtopic.php?f=53&t=23] Image Flashing on SD Card (Linux)]
+
 [http://www.linux.com/learn/tutorials/711478-how-to-run-linux-on-odroid-u2-a-monster-of-an-arm-machine]
 
 [http://www.ros.org/wiki/fuerte/Installation/Ubuntu/Source]
@@ -50,12 +54,8 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
 
 [http://com.odroid.com/sigong/blog/blog_list.php?bid=130]
 
-[http://forum.odroid.com/viewtopic.php?f=53&t=23]
-
 [http://com.odroid.com/sigong/nf_file_board/nfile_board.php?keyword=&tag=&page=2]
 
 [http://forum.odroid.com/viewtopic.php?f=8&t=2096&p=16126&hilit=ros#p16126]
 
 [http://embedded-development-world.blogspot.com/2013/07/run-arch-linux-on-odroid-x2-step-by-step.html]
-
-[http://forum.odroid.com/viewtopic.php?f=15&t=1812]
