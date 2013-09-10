@@ -20,6 +20,8 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
 
 [http://forum.odroid.com/viewtopic.php?f=53&t=23 Image Flashing on SD Card (Linux)]
 
+[[http://archlinuxarm.org/platforms/armv7/samsung/odroid-x Archlinux install instructions]
+
 [http://www.linux.com/learn/tutorials/711478-how-to-run-linux-on-odroid-u2-a-monster-of-an-arm-machine]
 
 [http://www.ros.org/wiki/fuerte/Installation/Ubuntu/Source]
@@ -44,7 +46,7 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
 
 [http://icoderaven.wordpress.com/]
 
-[http://archlinuxarm.org/platforms/armv7/samsung/odroid-x]
+
 
 [http://forum.odroid.com/viewforum.php?f=61]
 
