@@ -6,7 +6,9 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
 
 = Configuration =
  * SBC: ArchLinux, ROS-Groovy
- * Laptop: Ubuntu 12.04, ROS-Fuerte 
+ * Laptop: Ubuntu 12.04, ROS-Fuerte
+ * Ethernet IP Address:  10.7.44.119 
+ * Wlan IP Address:  10.7.45.158
 
 = Media =
 
