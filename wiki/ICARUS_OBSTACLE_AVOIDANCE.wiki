@@ -76,6 +76,9 @@ Obviously, the IR/Depth Camera is much more able to detect the difference betwee
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/Flyer_Assy.png]
 ICARUS Flyer
 
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/Flyer_Assy_Detail.png]
+ICARUS Flyer Detail
+
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/Flyer_AssywUltrasonicBeams.png]
 ICARUS Flyer w/ Ultrasonic Beams
 
