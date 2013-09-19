@@ -48,6 +48,8 @@ The Ultrasonic Sensors have very little resolution, as they only report back the
 
 The Kinect Sensor has a Visible and an IR Laser Array/Camera onboard.  For the purposes of this project only the IR Laser Array/Camera is used.  The Kinect provides a much more detailed view of what the UAV sees in front of itself.  Since it is assumed that the UAV will primarily be flying forward, the optimal placement of the Kinect of the view where the UAV will be flying is towards the front of the UAV.  The Kinect is able to much more accurately tell where obstacles are in its FOV, to provide guidance to the Mission Controller not only that there are obstacles but what direction would be the best to avoid them. 
 
+
+
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/SystemDiagram_Simple.png]
 Simplified Diagram
 
@@ -55,19 +57,37 @@ Simplified Diagram
 === Image Analysis ===
 As the Kinect has several different imaging capabilities, it is necessary to select the one that will have the best results for the AI algorithm.  Below is a sequence of pictures, in a cluttered environment, of an obstacle placed in the foreground of the Kinect.  The picture on the left is an image taken directly from the RGB camera, while the picture on the right is one taken from the IR/Depth Camera.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image1.jpg]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/InitialImages/image1.jpg]
 No obstacles here, just the environment.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image2.jpg]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/InitialImages/image2.jpg]
 A small wooded rod.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image3.jpg]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/InitialImages/image3.jpg]
 A larger wooden board.
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image4.jpg]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/InitialImages/image4.jpg]
 The same wooden board again.
 
 Obviously, the IR/Depth Camera is much more able to detect the difference between an obstacle in the foreground and an obstacle in the background in the Kinect's FOV.  Also, the IR camera will work just as well in a dark environment.
+
+*MORE HERE*
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image0.png]
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image1.png]
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image2.png]
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image3.png]
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/screenshot3.png]
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image4.png]
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image5.png]
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/screenshot5.png]
 
 == OA_Sonic ==
 
