@@ -43,9 +43,13 @@ I have found very little information regarding building a TiltRotor UAV, at leas
 = Flyer's =
 I have fairly recently changed the objective of my Thesis to build a QuadTiltRotor (QTR) from a QuadTiltWing (QTW) as I believe it is a more practical UAV to build and sell for commercial applications.  I've gone through several design iterations so far on this project, from initial concepts to more refined designs.
 
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/v6RevA.1/Flyer_Assy_Real.jpg]
+
+ICARUS QTR Flyer v6RevA-1.  As some can see, the original frame is based on the Arducopter frame, with some heavy modifications. 
+
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/v6RevA.1/Flyer_Assy.png]
 
-ICARUS QTR Flyer v6RevA-1.  As some can see, the original frame is based on the Arducopter frame, with some heavy modifications.  This is the current CAD of the ICARUS Flyer and is very true to the real thing.
+This is the current CAD of the ICARUS Flyer and is very true to the real thing.
 
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/v5RevA.2/Cruise.png]
