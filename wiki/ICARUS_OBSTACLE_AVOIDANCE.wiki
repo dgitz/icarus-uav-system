@@ -79,11 +79,13 @@ The depth image is made up of a 640x480 grid of pixels, with each pixel having t
 The depth image is split into a 3x3 grid, with the closest depth measurement in each sector defining the gray level in the OA_Kinect grid.  The distance measurement for each of these sectors is displayed on this grid as well.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image1.png]
-The closer an object is to the camera, 
+The closer an object is to the camera, the darker it appears in this view of the OA_Kinect image.   
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image2.png]
+When every point of the OA_Kinect image is less than the minimum distance that the Kinect will measure, the sector turns Red.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image3.png]
+Of course, we are not limited to a 3x3 grid.  Here a 25x25 grid is generated, with a significant performance hit.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/screenshot3.png]
 
