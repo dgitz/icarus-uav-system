@@ -2,12 +2,16 @@
 
 = Introduction =
 
-Add your content here.
+The Flight Controller is based on an DIYDrones APM 2.0 running the ArduCopter code.  The Flight Controller is used as a COTS device, i.e. the source code is not modified at all.  This is due to the huge support community of DIYDrones that is constantly developing this software.  
 
+= Media =
 
-= Details =
+= References =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+[https://code.google.com/p/arducopter/wiki/ArduCopter Arducopter Wiki-Obsolete]
+
+[http://copter.ardupilot.com/ Arducopter-New Manual]
+
+[https://store.3drobotics.com/products/3dr-arducopter-quad-c-frame-kit-1 Ordering Information]
+
+[http://www.diydrones.com/profiles/blogs/apm-2-0-release Release Page]
