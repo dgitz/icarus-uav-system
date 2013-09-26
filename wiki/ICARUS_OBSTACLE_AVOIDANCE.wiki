@@ -153,19 +153,19 @@ roslaunch oa slow_computer2.launch
  * In Terminal 3:
 {{{
 sudo chmod 0777 /dev/ttyACM0
-rosservice call /oa/ros_ui_b pause false
 }}}
 
 Execute the main program with the following:
 {{{
-python nodes/primarycontroller.py
+roscd icarus_oa
+python oa/nodes/primarycontroller.py
 }}}
 The following options are available.  Use the text in the <> where applicable, | signifies different options, and omit the <> and |:
  * Connection to GCS (Transmit GPS and Attitude Completed)
 {{{
 --gcs-device-type=<udp|Serial>
 --gcs-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
---gcs-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
+--gcs-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and if not used the type is udp 
 }}}
  * Connection to Flight Controller (Receive Attitude Completed)
 {{{
@@ -173,13 +173,13 @@ The following options are available.  Use the text in the <> where applicable, |
 --fc-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
 --fc-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
 }}}
- * Connection to Flight Controller GPS (In Progress)
+ * Connection to Flight Controller GPS
 {{{
 --fcgps-device-type=<udp|Serial>
 --fcgps-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
 --fcgps-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
 }}}
- * Connection to Motion Controller (In Progress)
+ * Connection to Motion Controller
 {{{
 --mc-device-type=<udp|Serial>
 --mc-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
@@ -195,28 +195,6 @@ The following options are available.  Use the text in the <> where applicable, |
  * Example
 {{{
 oa/nodes/primarycontroller.py --fcgps-device-type=Serial --fcgps-device=/dev/ttyUSB0 --fc-device-type=Serial --fc-device=/dev/ttyACM0 --gcs-device-type=udp --gcs-device=10.7.45.208
-}}}
-
-== GUI ==
- * In Terminal 1:
-{{{
-roscore
-}}}
-
- * In Terminal 2:
-{{{
-rosrun rviz rviz
-}}}
-
- * In Terminal 3:
-{{{
-roslaunch oa slow_computer2.launch
-}}}
-When GUI opens, press SPACE.
-In RVIZ, Global Status should turn from ERROR to OK after moving.
- * In Terminal 4:
-{{{
-rosrun tf tf_echo /map /camera_link
 }}}
 
 = References =
