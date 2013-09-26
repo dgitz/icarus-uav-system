@@ -29,8 +29,8 @@
   * Acquire images with Kinect into a Laptop running Ubuntu/ROS (DONE)
   * Compare/contrast different imaging capabilities on the Kinect to find the most appropriate ones for this project, i.e. its RGB camera, IR/Depth Camera, Disparity, etc.
   * Determine "mask" of quadrotor that would be in the Kinect's FOV and adjust the acquired image accordingly, i.e. find how it changes when the Propeller's are spinning.
-  * Implement obstacle tracking algorithm and show tracked obstacles in a GUI window.
-  * Transmit obstacle locations/trajectories to the microcontroller.
+  * Implement obstacle tracking algorithm and show tracked obstacles in a GUI window. (DONE)
+  * Transmit obstacle locations/trajectories to the microcontroller. (DONE)
 
 == OA_Sonic ==
 = Introduction =
