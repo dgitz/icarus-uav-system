@@ -88,12 +88,10 @@ When every point of the OA_Kinect image is less than the minimum distance that t
 Of course, we are not limited to a 3x3 grid.  Here a 25x25 grid is generated, with a significant performance hit.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/screenshot3.png]
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image4.png]
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image5.png]
+When each OA_Kinect image is generated, the distance measurements of each sector (9 total here) are transmitted using the ICARUS communications protocol ($CAM,DIST Message) to the Motion Controller, which will then use this information along with the PWM inputs from the Flight Controller to modify the motor outputs.
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/screenshot5.png]
+Here is a 15x15 grid.  Although the frame rate for this is not too bad, the $CAM,DIST message now contains 225 values that need to be transmitted, which is quite large.
 
 == OA_Sonic ==
 
