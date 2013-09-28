@@ -15,6 +15,9 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/PrimaryController/top.jpg]
 
 = Troubleshooting =
+[http://forum.odroid.com/viewforum.php?f=15 ODroid Forum]
+
+[http://forum.odroid.com/viewtopic.php?f=15&t=936 Troubleshooting Guide]
 
 == Display ==
 http://forum.odroid.com/viewtopic.php?=0&t=2083&p=16527&hilit=lcd#p16527
