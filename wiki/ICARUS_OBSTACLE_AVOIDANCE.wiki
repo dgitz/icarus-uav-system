@@ -59,14 +59,32 @@ Simplified Diagram
 A breadth first (tree) search algorithm will be used, until an appropriate heuristic can be determined (to implement an A* search algorithm).
 ==== Initial State ====
   PWM Inputs: [Front Motor=1500, Left Motor=1500, Back Motor=1500, Right Motor=1500]
+==== Actions ====
   * PWM Outputs: [Front Motor, Left Motor, Back Motor, Right Motor]
+
 ==== Transition Model ====
+switch Ultrasonic Distance
+  Left:
+    PWM_Out=Roll_Right(PWM_Input,Distance)
+  Right:
+    PWM_Out=Roll_Left(PWM_Input,Distance)
+  Front:
+    PWM_Out=Pitch_Back(PWM_Input,Distance)
+  Back:
+    PWM_Out=Pitch_Forward(PWM_Input,Distance)
+  Top:
+    PWM_Out=Reduce_Throttle(PWM_Input,Distance)
+  Bottom:
+    PWM_Out=Increase_Throttle(PWM_Input,Distance)
+
+In reality, each function pair could be reduced to one function,i.e. Roll_Right() and Roll_Left() could be reduced to Roll().
 ==== Goal Test ====
   * Ultrasonic Distances: [Front>50, Left>50, Back>50, Right>50, Top>50, Bottom>50]
+
 ==== States ====
   * PWM Inputs: [Front Motor, Left Motor, Back Motor, Right Motor]
   * Ultrasonic Distances: [Front, Left, Back, Right, Top, Bottom]
-==== Actions ====
+
 
 == OA_Kinect == 
 === Visible or Depth? ===
