@@ -17,7 +17,9 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
 = Troubleshooting =
 
 == Display ==
-http://forum.odroid.com/viewtopic.php?f=0&t=2083&p=16527&hilit=lcd#p16527
+http://forum.odroid.com/viewtopic.php?=0&t=2083&p=16527&hilit=lcd#p16527
+
+http://forum.odroid.com/viewtopic.php?f=15&t=600&p=2701&hilit=lcd#p2701
 = Documentation =
 
 [http://www.hardkernel.com/renewal_2011/products/prdt_info.php?g_code=G135235611947 Odroid-X2 Specifications and Ordering Info]
