@@ -58,7 +58,7 @@ Simplified Diagram
 === AI Algorithm ===
 A breadth first (tree) search algorithm will be used, until an appropriate heuristic can be determined (to implement an A* search algorithm).
 ==== Initial State ====
-  PWM Inputs: [Front Motor=1500, Left Motor=1500, Back Motor=1500, Right Motor=1500]
+  PWM Inputs: {Front Motor=1500, Left Motor=1500, Back Motor=1500, Right Motor=1500}
 ==== Actions ====
   * PWM Outputs: [Front Motor, Left Motor, Back Motor, Right Motor]
 
