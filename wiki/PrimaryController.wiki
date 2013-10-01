@@ -5,11 +5,11 @@
 Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and ROS Fuerte.  In the future the Primary Controller will be a ODroid-X2.
 
 = Configuration =
- * SBC: ArchLinux, ROS-Groovy
+ * SBC: Lubuntu, ROS-Groovy
  * Laptop: Ubuntu 12.04, ROS-Fuerte
  * Ethernet IP Address:  10.7.44.119 
  * Wlan IP Address:  10.7.45.158
-
+ * Hostname:  icarus-pc
 = Current Status =
 In http://forum.odroid.com/viewtopic.php?f=15&t=1812, at line git clone -b full-upstream-develop https://github.com/piedar/OpenNI2-FreenectDriver.git
 = Media =
