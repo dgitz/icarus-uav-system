@@ -10,6 +10,8 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
  * Ethernet IP Address:  10.7.44.119 
  * Wlan IP Address:  10.7.45.158
 
+= Current Status =
+In http://forum.odroid.com/viewtopic.php?f=15&t=1812, at line git clone -b full-upstream-develop https://github.com/piedar/OpenNI2-FreenectDriver.git
 = Media =
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/PrimaryController/top.jpg]
