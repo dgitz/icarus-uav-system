@@ -63,17 +63,17 @@ A breadth first (tree) search algorithm will be used, until an appropriate heuri
 ==== Transition Model ====
 switch Ultrasonic Distance
   Left:
-    PWM_Out=Roll_Right(PWM_Input,Distance)
+    Roll_Right(),Increase_Altitude(),Decrease_Altitude()
   Right:
-    PWM_Out=Roll_Left(PWM_Input,Distance)
+    Roll_Left(),Increase_Altitude(),Decrease_Altitude()
   Front:
-    PWM_Out=Pitch_Back(PWM_Input,Distance)
+    Pitch_Back(),Increase_Altitude(),Decrease_Altitude()
   Back:
-    PWM_Out=Pitch_Forward(PWM_Input,Distance)
+    Pitch_Forward(),Increase_Altitude(),Decrease_Altitude()
   Top:
-    PWM_Out=Reduce_Throttle(PWM_Input,Distance)
+    Decrease_Altitude,Roll_Left(),Roll_Right(),Pitch_Back(),Pitch_Forward()
   Bottom:
-    PWM_Out=Increase_Throttle(PWM_Input,Distance)
+    Increase_Altitude(),Roll_Left(),Roll_Right(),Pitch_Back(),Pitch_Forward()
 
 In reality, each function pair could be reduced to one function,i.e. Roll_Right() and Roll_Left() could be reduced to Roll().
 ==== Goal Test ====
