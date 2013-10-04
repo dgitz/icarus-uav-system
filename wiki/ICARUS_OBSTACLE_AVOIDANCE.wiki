@@ -75,7 +75,6 @@ switch Ultrasonic Distance
   Bottom:
     Increase_Altitude(),Roll_Left(),Roll_Right(),Pitch_Back(),Pitch_Forward()
 
-In reality, each function pair could be reduced to one function,i.e. Roll_Right() and Roll_Left() could be reduced to Roll().
 ==== Goal Test ====
   * Ultrasonic Distances: {Front>50, Left>50, Back>50, Right>50, Top>50, Bottom>50}
 
