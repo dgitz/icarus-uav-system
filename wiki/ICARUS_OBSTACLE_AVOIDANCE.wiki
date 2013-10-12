@@ -16,7 +16,6 @@
 
 == OA_Kinect ==
  * Dev Code to acquire (and save on mouseclick) Disparity Images (DONE)
- * Develop appropriate Image Filter
  * Develop AI algorithm (AI-OA_Kinect) relating Kinect tracked obstacles and input/output motor commands. 
 
 == OA_Sonic ==
@@ -27,8 +26,8 @@
 
 == OA_Kinect ==
   * Acquire images with Kinect into a Laptop running Ubuntu/ROS (DONE)
-  * Compare/contrast different imaging capabilities on the Kinect to find the most appropriate ones for this project, i.e. its RGB camera, IR/Depth Camera, Disparity, etc.
-  * Determine "mask" of quadrotor that would be in the Kinect's FOV and adjust the acquired image accordingly, i.e. find how it changes when the Propeller's are spinning.
+  * Compare/contrast different imaging capabilities on the Kinect to find the most appropriate ones for this project, i.e. its RGB camera, IR/Depth Camera, Disparity, etc. (DONE)
+  * Determine "mask" of quadrotor that would be in the Kinect's FOV and adjust the acquired image accordingly, i.e. find how it changes when the Propeller's are spinning. (DONE)
   * Implement obstacle tracking algorithm and show tracked obstacles in a GUI window. (DONE)
   * Transmit obstacle locations/trajectories to the microcontroller. (DONE)
 
@@ -47,7 +46,10 @@ This project employs obstacle avoidance using the Microsoft Kinect and Ultrasoni
 
 The Ultrasonic Sensors have very little resolution, as they only report back the distance to the nearest obstacle they see.  But, since they have a fairly wide field of view and they consume little system resources (memory, space, weight, energy, etc) and they respond quickly to changes in their environment they are used to provide immediate feedback to the AI algorithm used to adjust the motor speeds to avoid obstacles they perceive.
 
-The Kinect Sensor has a Visible and an IR Laser Array/Camera onboard.  For the purposes of this project only the IR Laser Array/Camera is used.  The Kinect provides a much more detailed view of what the UAV sees in front of itself.  Since it is assumed that the UAV will primarily be flying forward, the optimal placement of the Kinect of the view where the UAV will be flying is towards the front of the UAV.  The Kinect is able to much more accurately tell where obstacles are in its FOV, to provide guidance to the Mission Controller not only that there are obstacles but what direction would be the best to avoid them. 
+The Kinect Sensor has a Visible and an IR Laser Array/Camera onboard.  For the purposes of this project only the IR Laser Array/Camera is used.  The Kinect provides a much more detailed view of what the UAV sees in front of itself.  Since it is assumed that the UAV will primarily be flying forward, the optimal placement of the Kinect of the view where the UAV will be flying is towards the front of the UAV.  The Kinect is able to much more accurately tell where obstacles are in its FOV, to provide guidance to the Mission Controller not only that there are obstacles but what direction would be the best to avoid them.
+
+A more in depth presentation on the OA_KINECT can be found here:
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/ProjectPresentation.pptx OA_KINECT Project Presentation]
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/SystemDiagram_Simple.png]
 Simplified Diagram
