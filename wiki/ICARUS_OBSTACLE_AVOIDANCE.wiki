@@ -235,9 +235,9 @@ The following options are available.  Use the text in the <> where applicable, |
 }}}
  * Connection to Motion Controller
 {{{
---mc-device-type=<udp|Serial>
---mc-device=<Device> #Where Device is an IP address if the type is udp, or a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
---mc-device-speed=<Speed> #Where Speed is a compatible baud rate if the type is Serial (default is 115200) and not used the type is udp 
+--mc-device-type=<Serial>
+--mc-device=<Device> #Where Device is a Serial Device such as /dev/ttyUSB0 or /dev/ttyACM0
+--mc-device-speed=<Speed> #Where Speed is a compatible baud rate
 }}}
  * Connection to Remote (Transmit GPS and Attitude In Progress)
 {{{
@@ -252,4 +252,3 @@ oa/nodes/primarycontroller.py --fcgps-device-type=Serial --fcgps-device=/dev/tty
 }}}
 
 = References =
-[http://wiki.python.org/moin/PythonForArtificialIntelligence]
