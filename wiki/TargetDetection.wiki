@@ -24,6 +24,10 @@ This project is intended for the UIC class ECE 559: Neural Networks
 
 == Basic Operation ==
 
+For navigating around the officespace, there are 3 different offices with associated signage placed in the environment.  These are arabic signs, which translate to "Chief of Security", "Ministry of Torture" and "Security Compound".  The Flash Drive is known to be in the "Chief of Security" office.
+
+To get the current UAV's position, it uses the project shown before in [ICARUS_SLAM].  To determine the UAV's waypoints, it uses 2 Neural Networks:  The first one is used to define which sign, if any, is in the current FOV of the UAV.  If the sign in view is the "Chief of Security" sign, the 2nd Neural Network is employed, which identifies the center point of that sign.  The UAV then determines the distance between itself and the center of that sign, and calculates a new waypoint based on its current position, feeds it to the Flight Controller when in turns generates the correct motor outputs to navigate successfully to that sign.  
+
 = Media =
 
 = Installation/Development Instructions =
