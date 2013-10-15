@@ -28,6 +28,10 @@ For navigating around the officespace, there are 3 different offices with associ
 
 To get the current UAV's position, it uses the project shown before in [ICARUS_SLAM].  To determine the UAV's waypoints, it uses 2 Neural Networks:  The first one is used to define which sign, if any, is in the current FOV of the UAV.  If the sign in view is the "Chief of Security" sign, the 2nd Neural Network is employed, which identifies the center point of that sign.  The UAV then determines the distance between itself and the center of that sign, and calculates a new waypoint based on its current position, feeds it to the Flight Controller when in turns generates the correct motor outputs to navigate successfully to that sign.  
 
+== In Depth Operation ==
+ * The UAV preprocesses the images that come from the Kinect.  It converts the RGB image to a grayscale image, and performs some contrast stretching since all the room signs are black text on a white background.
+ * A Classification Neural Network (BP) is used to classify each processed image.  The identifiable classes are [ChiefSecurity,MinistryTorture,SecurityCompound,None].
+ * If the recognized image class identified is the ChiefSecurity
 = Media =
 
 = Installation/Development Instructions =
