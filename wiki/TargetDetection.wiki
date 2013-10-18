@@ -12,7 +12,7 @@
 
 = Summary =
 
-[http://iarc.angel-strike.com/IARC_6th_Mission_Rules.pdf IARC Mission 6 Rules]
+[http://www.aerialroboticscompetition.org/past_missions/pastmissionimages/mission6/mission6scenario.pdf IARC Mission 6 Rules]
 
 The objective of the AUVSI IARC 6th Mission is to have a UAV fly into an office-space (which includes hallways, rooms, rooms off rooms, etc), locate a flash-drive in an unknown location, retrieve the flash drive and leave the office-space.  The office-space is in an environment designed to simulate a foreign government with no access to GPS signals.
 
@@ -34,7 +34,22 @@ To get the current UAV's position, it uses the project shown before in [ICARUS_S
  * The UAV preprocesses the images that come from the Kinect.  It converts the RGB image to a grayscale image, and performs some contrast stretching since all the room signs are black text on a white background.
  * A Classification Neural Network (BP) is used to classify each processed image.  The identifiable classes are [ChiefSecurity,MinistryTorture,SecurityCompound,None].
  * If the recognized image class identified is the ChiefSecurity
+
 = Media =
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/SecurityCompound.png]
+Security Compound Sign
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/MinistryTorture.png]
+Ministry of Torture Sign
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/ChiefSecurity.png]
+Chief of Security Sign
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/cs_orig_image0000.png]
+Chief of Security Sign in the environment
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/cs_proc_image0000.png]
+Processed Chief of Security Sign suitable for NN classification.
 
 = Installation/Development Instructions =
 
