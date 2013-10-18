@@ -33,7 +33,7 @@ To get the current UAV's position, it uses the project shown before in [ICARUS_S
 == In Depth Operation ==
  * The UAV preprocesses the images that come from the Kinect.  It converts the RGB image to a grayscale image, and performs some contrast stretching since all the room signs are black text on a white background.
  * A Classification Neural Network (BP) is used to classify each processed image.  The identifiable classes are [ChiefSecurity,MinistryTorture,SecurityCompound,None].
- * If the recognized image class identified is the ChiefSecurity
+ * If the recognized image class identified is the ChiefSecurity, a second Neural Network is used to determine where in the image is the center of the sign.
 
 = Media =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/SecurityCompound.png]
