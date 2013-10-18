@@ -123,6 +123,23 @@ oa/nodes/primarycontroller.py --fcgps-device-type=Serial --fcgps-device=/dev/tty
 
 == Compiling ==
 
+= Notes =
+ * 18-Oct-2013
+Image Processing Script:
+myimage = rgb2gray(im);
+myimage = min(myimage,50);
+myimage = max(myimage,25);
+myimage = imresize(myimage,factor);
+Conversion Time: 18.5 sec/.04 sec per image.
+Classification Network:
+Type: Back Propagation, Gradient Descent
+Training Time:
+Training Accuracy:
+Training Epochs:
+Training Performance:
+Training Gradient:
+
+
 = Resources =
 
 [http://pybrain.org/docs/index.html#tutorials PyBrain]
