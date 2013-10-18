@@ -18,6 +18,8 @@ The objective of the AUVSI IARC 6th Mission is to have a UAV fly into an office-
 
 Two key parts of the competition are to a) navigate the office-space using the available signage placed in the environment and b) visually identify the flash drive in the office-space.  Both of these components are complex, as the signage is in a foreign language and the flash drive may be placed anywhere in the office-space.
 
+For ease of development, the initial work performed is all done using a Windows 7 PC and Matlab's Neural Network Toolbox.  In the future, this will be ported over to a Linux SBC (ODroid-X2) running pybrain.
+
 [http://iarc.angel-strike.com/security_compound_signs.pdf Signage examples]
 
 [http://iarc.angel-strike.com/Images/FlashDriveDimensions.jpg Flash Drive]
