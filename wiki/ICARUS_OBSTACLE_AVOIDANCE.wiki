@@ -11,7 +11,7 @@
 
 = Milestones =
 
-== OA_Kinect ==
+ * OA_Kinect 
   * Install Kinect Sensor on UAV (INW)
   * Implement software on the Linux SBC ODROID-X2. (INW)
   * Dev code for AI_Kinect Algorithm (Not Started)
