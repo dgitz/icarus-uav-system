@@ -20,12 +20,12 @@
   * Determine "mask" of quadrotor that would be in the Kinect's FOV and adjust the acquired image accordingly, i.e. find how it changes when the Propeller's are spinning. (DONE)
   * Implement obstacle tracking algorithm and show tracked obstacles in a GUI window. (DONE)
   * Transmit obstacle locations/trajectories to the Motion Controller. (DONE)
-== OA_Sonic ==
+ * OA_Sonic 
   * Install Sonic Sensors on UAV (3 out of 6 DONE)  
   * Calibrate Sensors to real Distances (Not Started)
   * Dev code for AI_Sonic Algorithm (INW)
   * Dev Code to acquire Sensor values. (DONE)
-== OA ==
+ * OA ==
   * Fuse AI_Kinect and AI_Sonic Systems (Not Started)
 = Introduction =
 
