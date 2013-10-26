@@ -9,6 +9,11 @@
 = Tasks =
 
 = Milestones =
+ * Develop code to acquire a large amount of training/testing images with each of the different signs in a consistent environment. (DONE)
+ * Develop a Neural Network capable of classifying each image according to which sign is visible (or no sign visible). (In Progress)
+ * Develop a Neural Network capable of locating the center of the recognized sign, for the purpose of passing onto a waypoint navigation algorithm. (Not Started)
+ * Develop the appropriate pre-processing for the images to convert the RGB image data to make each of the above Neural Networks more effective. (In Progress)
+
 
 = Summary =
 
