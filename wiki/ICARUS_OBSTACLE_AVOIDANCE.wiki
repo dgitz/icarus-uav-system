@@ -25,7 +25,7 @@
   * Calibrate Sensors to real Distances (Not Started)
   * Dev code for AI_Sonic Algorithm (INW)
   * Dev Code to acquire Sensor values. (DONE)
- * OA ==
+ * OA
   * Fuse AI_Kinect and AI_Sonic Systems (Not Started)
 = Introduction =
 
