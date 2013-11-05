@@ -8,8 +8,8 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
  * SBC: Lubuntu, ROS-Groovy
  * Laptop: Ubuntu 12.04, ROS-Fuerte
  * Ethernet IP Address:  10.7.44.119 
- * Wlan IP Address:  10.7.45.158/192.168.0.109
- * Hostname:  icarus-pc
+ * Wlan IP Address:  10.7.45.158
+ * Hostname:  linaro-ubuntu-desktop
 = Current Status =
 In http://forum.odroid.com/viewtopic.php?f=15&t=1812, at line Test sample programs like SimpleViewer.
 = Media =
