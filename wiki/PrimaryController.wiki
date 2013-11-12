@@ -8,7 +8,7 @@ Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and R
  * SBC: Lubuntu, ROS-Groovy
  * Laptop: Ubuntu 12.04, ROS-Fuerte
  * Ethernet IP Address:  10.7.44.119 
- * Wlan IP Address:  10.7.45.158
+ * Wlan IP Address:  10.7.45.158/192.168.0.109
  * Hostname:  linaro-ubuntu-desktop
 
 = Notes =
