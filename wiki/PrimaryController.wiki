@@ -37,6 +37,10 @@ http://forum.odroid.com/viewtopic.php?=0&t=2083&p=16527&hilit=lcd#p16527
 http://forum.odroid.com/viewtopic.php?f=15&t=600&p=2701&hilit=lcd#p2701
 = Documentation =
 
+== Kinect Integration ==
+[http://answers.ros.org/question/32880/how-to-convert-an-an-opencv-image-using-cvbridge/ How to convert an an opencv image using cvBridge??]
+
+== Basic ROS Stuff ==
 [http://www.hardkernel.com/renewal_2011/products/prdt_info.php?g_code=G135235611947 Odroid-X2 Specifications and Ordering Info]
 
 [http://forum.odroid.com/viewtopic.php?f=15&t=2090 ODroid-X2 Ubuntu, ROS Image]
