@@ -48,36 +48,8 @@ A more in depth presentation on the OA_KINECT can be found here:
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/SystemDiagram_Simple.png]
 Simplified Diagram
 
-== OA_Sonic == 
-=== AI Algorithm ===
-A breadth first (tree) search algorithm will be used, until an appropriate heuristic can be determined (to implement an A* search algorithm).
-==== Initial State ====
-  PWM Inputs: {Front Motor=1500, Left Motor=1500, Back Motor=1500, Right Motor=1500}
-==== Actions ====
-  * PWM Outputs: {Front Motor, Left Motor, Back Motor, Right Motor}
-
-==== Transition Model ====
-switch Ultrasonic Distance
-  Left:
-    Roll_Right(),Increase_Altitude(),Decrease_Altitude()
-  Right:
-    Roll_Left(),Increase_Altitude(),Decrease_Altitude()
-  Front:
-    Pitch_Back(),Increase_Altitude(),Decrease_Altitude()
-  Back:
-    Pitch_Forward(),Increase_Altitude(),Decrease_Altitude()
-  Top:
-    Decrease_Altitude,Roll_Left(),Roll_Right(),Pitch_Back(),Pitch_Forward()
-  Bottom:
-    Increase_Altitude(),Roll_Left(),Roll_Right(),Pitch_Back(),Pitch_Forward()
-
-==== Goal Test ====
-  * Ultrasonic Distances: {Front>50, Left>50, Back>50, Right>50, Top>50, Bottom>50}
-
-==== States ====
-  * PWM Inputs: {Front Motor, Left Motor, Back Motor, Right Motor}
-  * Ultrasonic Distances: {Front, Left, Back, Right, Top, Bottom}
-
+== OA_Sonic ==
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/ForceMapping.png]
 
 == OA_Kinect == 
 === Visible or Depth? ===
