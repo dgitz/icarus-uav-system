@@ -14,9 +14,9 @@
 
 = Milestones =
 
-  1. Develop code to acquire a large amount of training/testing images with each of the different signs in a consistent environment. (DONE)
+1. Develop code to acquire a large amount of training/testing images with each of the different signs in a consistent environment. (DONE)
 
- 2. Develop code to automatically generate training/testing images using environment images and master target images. (In Progress)
+2. Develop code to automatically generate training/testing images using environment images and master target images. (In Progress)
 
  3. Develop an Artificial Neural Network (ANN) capable of classifying each image according to which sign is visible (or no sign visible). (In Progress)
 
