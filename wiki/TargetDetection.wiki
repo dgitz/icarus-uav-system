@@ -42,10 +42,6 @@ For ease of development, Milestones 1-5 were originally acocmplished using a Win
 
 The innovative portion of this project is that different "Master Target Images" could be loaded onto the UAV along with sample Images of the Environment and the UAV would automatically train its ANN's and employ waypoint navigation to navigate a course in a similar environment.
 
-[http://iarc.angel-strike.com/security_compound_signs.pdf Signage examples]
-
-[http://iarc.angel-strike.com/Images/FlashDriveDimensions.jpg Flash Drive]
-
 This project is intended for the UIC class ECE 559: Neural Networks and ECE 566: Parallel Processing.
 
 == Basic Operation ==
