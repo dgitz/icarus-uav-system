@@ -17,9 +17,7 @@
  1. Develop code to acquire a large amount of training/testing images with each of the different signs in a consistent environment. (DONE)
  2. Develop code to automatically generate training/testing images using environment images and master target images. (In Progress)
  3. Develop an Artificial Neural Network (ANN) capable of classifying each image according to which sign is visible (or no sign visible). (In Progress)
-
  4. Develop an ANN capable of locating the center of the recognized sign, for the purpose of passing onto a waypoint navigation algorithm. (Not Started)
-
  5. Develop the appropriate pre-processing for the images to convert the RGB image data to make each of the above ANN's more effective. (Not Started)
 
  6. Use Parallel Processing for Milestone 2 to create training/testing images faster and compare with Milestone 2.
