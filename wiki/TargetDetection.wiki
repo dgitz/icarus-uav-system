@@ -53,6 +53,11 @@ The ODroid-X2 is a small Linux Single Board Computer.  Some specs are:
 
 [http://com.odroid.com/sigong/_Files/2012/201211/images/201211151702013304.jpg]
 
+The ODroid-X2 is running Python code with the following modules:
+ * [http://pybrain.org/ Pybrain]
+ * [http://www.parallelpython.com/ ParallelProcessing]
+ * [http://opencv.org/ Opencv]
+
 === MS Kinect ===
 == Basic Operation ==
 
