@@ -100,8 +100,16 @@ Processed Chief of Security Sign suitable for NN classification.
 
 = Operation =
 == Automated Train/Test Image Creation ==
+createtrainingimages.py
+Options:
 {{{
-sudo python createtrainingimages.py --Trials=3 --Patterns=11
+--Trials
+--Patterns
+--UseParallel
+}}}
+Example:
+{{{
+sudo python createtrainingimages.py --Trials=3 --Patterns=11 --UseParallel=True
 }}}
 
 == Compiling ==
