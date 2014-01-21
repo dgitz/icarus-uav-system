@@ -43,6 +43,16 @@ The innovative portion of this project is that different "Master Target Images" 
 
 This project is intended for the UIC class ECE 559: Neural Networks and ECE 566: Parallel Processing.
 
+== Hardware Overview ==
+=== ODroid-X2 ===
+The ODroid-X2 is a small Linux Single Board Computer.  Some specs are:
+* 1.7GHz Quad core ARM Cortex-A9 MPCore
+* 2GB Memory
+* 6 x High speed USB2.0 Host port
+* 10/100Mbps Ethernet with RJ-45 LAN Jack
+[http://com.odroid.com/sigong/_Files/2012/201211/images/201211151702013304.jpg]
+
+=== MS Kinect ===
 == Basic Operation ==
 
 For navigating around the officespace, there are 3 different offices with associated signage placed in the environment.  These are arabic signs, which translate to "Chief of Security", "Ministry of Torture" and "Security Compound".  The Flash Drive is known to be in the "Chief of Security" office.
