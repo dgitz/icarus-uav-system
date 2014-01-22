@@ -5,7 +5,8 @@
 == Software ==
 == Applications ==
 [http://files.kipr.org/gcer/2013/proceedings/Rand_Depth_Imaging_1.pdf Depth Imaging with the Asus Xtion Pro Live Sensor and the KIPR Link]
+
 == Other References ==
 [http://www.asus.com/Multimedia/Xtion_PRO_LIVE/#specifications Specifications]
-[http://correll.cs.colorado.edu/wp-content/uploads/bernhard.pdf A Comparative Study of Structured Light
-and Laser Range Finding Devices]
+
+[http://correll.cs.colorado.edu/wp-content/uploads/bernhard.pdf A  comparative Study of Structured Light and Laser Range Finding Devices]
