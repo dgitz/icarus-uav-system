@@ -5,9 +5,12 @@
   * [https://github.com/dgitz/icarus_rover/wiki Rover]
   * [http://code.google.com/p/icarus-uav-system/wiki/Flyer Flyer]
     * [FlyerComponents Flyer Components]
-      * [PrimaryController Primary Controller]
-      * [FlightController Flight Controller]
-      * [MotionController Motion Controller]
+      * Controllers
+        * [PrimaryController Primary Controller]
+        * [FlightController Flight Controller]
+        * [MotionController Motion Controller]
+      * Sensors
+          [MainCamera Main Camera]
     * [http://code.google.com/p/icarus-uav-system/wiki/FlyerDesign Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/LogicalDesign Logical Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlyerMechanicalDesign Mechanical Design]
