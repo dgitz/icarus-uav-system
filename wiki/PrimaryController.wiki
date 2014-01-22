@@ -18,7 +18,20 @@ sudo apt-get install  ros-groovy-dynamic-reconfigure
 sudo apt-get install ros-groovy-nodelet-core
 }}}
 = Current Status =
-In http://forum.odroid.com/viewtopic.php?f=15&t=1812, at line Test sample programs like SimpleViewer.
+In http://forum.odroid.com/viewtopic.php?f=15&t=1812, at line Test sample 
+programs like SimpleViewer.
+
+= Configuration =
+== Modules installed ==
+ * pp
+ * pybrain
+ * opencv2
+
+== HDMI Output ==
+{{{
+sudo nano /etc/X11/xorg.conf
+"Option "fbdev" "/dev/fb6"
+}}}
 = Media =
 
 
