@@ -1,12 +1,23 @@
 #summary One-sentence summary of this page.
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/PrimaryController/top.jpg]
-= Introduction =
 
 = Configuration =
- * SBC: Lubuntu, ROS-Groovy
+ * Image: [http://forum.odroid.com/viewtopic.php?f=15&t=2090 Ubuntu 12.11 Robotics Edition v2 (ROS+OpenCV+OpenNI+PCL) X2 Image]
  * Ethernet IP Address:  10.7.44.119 
- * Wlan IP Address:  10.7.45.158/192.168.0.109
+ * Wlan IP Address:  10.7.45.158
  * Hostname:  linaro-ubuntu-desktop
+== Modules installed ==
+ * pp
+ * pybrain
+ * opencv2
+
+== HDMI Output ==
+{{{
+sudo nano /etc/X11/xorg.conf
+"Option "fbdev" "/dev/fb6"
+}}}
+
+
 
 = Notes =
 {{{
@@ -21,17 +32,7 @@ sudo apt-get install ros-groovy-nodelet-core
 In http://forum.odroid.com/viewtopic.php?f=15&t=1812, at line Test sample 
 programs like SimpleViewer.
 
-= Configuration =
-== Modules installed ==
- * pp
- * pybrain
- * opencv2
 
-== HDMI Output ==
-{{{
-sudo nano /etc/X11/xorg.conf
-"Option "fbdev" "/dev/fb6"
-}}}
 = Media =
 
 
