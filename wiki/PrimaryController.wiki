@@ -1,12 +1,9 @@
 #summary One-sentence summary of this page.
-
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/PrimaryController/top.jpg]
 = Introduction =
-
-Currently the Primary Controller is a standard Laptop running Ubuntu 12.04 and ROS Fuerte.  In the future the Primary Controller will be a ODroid-X2.
 
 = Configuration =
  * SBC: Lubuntu, ROS-Groovy
- * Laptop: Ubuntu 12.04, ROS-Fuerte
  * Ethernet IP Address:  10.7.44.119 
  * Wlan IP Address:  10.7.45.158/192.168.0.109
  * Hostname:  linaro-ubuntu-desktop
@@ -24,7 +21,7 @@ sudo apt-get install ros-groovy-nodelet-core
 In http://forum.odroid.com/viewtopic.php?f=15&t=1812, at line Test sample programs like SimpleViewer.
 = Media =
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/PrimaryController/top.jpg]
+
 
 = Troubleshooting =
 [http://forum.odroid.com/viewforum.php?f=15 ODroid Forum]
