@@ -1,13 +1,11 @@
-#summary One-sentence summary of this page.
-
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= Asus Xtion Pro =
+== Electrical ==
+== Mechanical ==
+[https://grabcad.com/library/asus-xtion-pro-live 3D CAD Model]
+== Software ==
+== Applications ==
+[http://files.kipr.org/gcer/2013/proceedings/Rand_Depth_Imaging_1.pdf Depth Imaging with the Asus Xtion Pro Live Sensor and the KIPR Link]
+== Other References ==
+[http://www.asus.com/Multimedia/Xtion_PRO_LIVE/#specifications Specifications]
+[http://correll.cs.colorado.edu/wp-content/uploads/bernhard.pdf A Comparative Study of Structured Light
+and Laser Range Finding Devices]
