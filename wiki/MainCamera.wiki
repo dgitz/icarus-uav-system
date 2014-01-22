@@ -1,4 +1,5 @@
 = Asus Xtion Pro =
+[http://www.asus.com/media/global/products/hahEFPMWY9UVDL7z/P_500.jpg]
 == Electrical ==
 == Mechanical ==
 [https://grabcad.com/library/asus-xtion-pro-live 3D CAD Model]
