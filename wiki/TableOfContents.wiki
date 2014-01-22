@@ -10,7 +10,7 @@
         * [FlightController Flight Controller]
         * [MotionController Motion Controller]
       * Sensors
-          [MainCamera Main Camera]
+        * [MainCamera Main Camera]
     * [http://code.google.com/p/icarus-uav-system/wiki/FlyerDesign Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/LogicalDesign Logical Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlyerMechanicalDesign Mechanical Design]
