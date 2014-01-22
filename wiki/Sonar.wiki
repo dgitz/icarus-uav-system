@@ -1,4 +1,5 @@
 = Maxbotix LV-EZ0  =
+[https://dlnmh9ip6v2uc.cloudfront.net/images/products/8/5/0/2/MaxSonar-EZ1_i_ma.jpg]
 == Electrical ==
 == Mechanical ==
 == Software ==
