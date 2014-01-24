@@ -9,9 +9,15 @@
         * [PrimaryController Primary Controller]
         * [FlightController Flight Controller]
         * [MotionController Motion Controller]
+        * [SonarBoard Sonar Board]
       * Sensors
         * [MainCamera Main Camera]
         * [Sonar Sonar]
+      * Power
+        * [PDB Power Distribution Board]
+        * [ESC Electronic Speed Controller]
+      * Actuators
+        * [RotorMotor Rotor Motors]
     * [http://code.google.com/p/icarus-uav-system/wiki/FlyerDesign Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/LogicalDesign Logical Design]
       * [http://code.google.com/p/icarus-uav-system/wiki/FlyerMechanicalDesign Mechanical Design]
