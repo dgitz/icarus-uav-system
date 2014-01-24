@@ -14,8 +14,8 @@
         * [MainCamera Main Camera]
         * [Sonar Sonar]
       * Power
-        * [PDB Power Distribution Board]
-        * [ESC Electronic Speed Controller]
+        * [PDB PDB]
+        * [ESC ESC]
       * Actuators
         * [RotorMotor Rotor Motors]
     * [http://code.google.com/p/icarus-uav-system/wiki/FlyerDesign Design]
