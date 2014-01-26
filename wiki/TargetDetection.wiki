@@ -8,7 +8,7 @@
 
 [https://github.com/dgitz/icarus_sourcecode/tree/master/FlightController Flight Controller Source Code]
 
-[https://github.com/dgitz/icarus_sourcecode/tree/master/MotionControllerMotion Controller Source Code]
+[https://github.com/dgitz/icarus_sourcecode/tree/master/MotionController Motion Controller Source Code]
 
 = Tasks =
 
