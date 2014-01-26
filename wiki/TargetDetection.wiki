@@ -111,8 +111,7 @@ Example:
 {{{
 sudo python createtrainingimages.py --Trials=3 --Patterns=11 --UseParallel=True
 }}}
-
-== Compiling ==
+== Automated ANN Training ==
 
 = Resources =
 
