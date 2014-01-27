@@ -10,3 +10,5 @@ http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Botto
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Left.jpg
 
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Right.jpg
+
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/CADIso.png
