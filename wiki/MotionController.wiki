@@ -1,4 +1,4 @@
-= QuickstartPlus =
+= Motion Controller =
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Iso.jpg
 
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Top.jpg
