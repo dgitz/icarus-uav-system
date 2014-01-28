@@ -20,21 +20,11 @@ sudo nano /etc/X11/xorg.conf
 
 
 = Notes =
-{{{
-sudo apt-get install ros-groovy-camera-info-manager
-sudo apt-get install ros-groovy-opencv
-sudo apt-get install ros-groovy-vision-opencv
-sudo cp /home/linaro/OpenNI-Linux-Arm-2.2/Redist/libOpenNI2.so /usr/lib/
-sudo apt-get install  ros-groovy-dynamic-reconfigure
-sudo apt-get install ros-groovy-nodelet-core
-}}}
+
 = Current Status =
-In http://forum.odroid.com/viewtopic.php?f=15&t=1812, at line Test sample 
-programs like SimpleViewer.
-
-
-= Media =
-
+26-Jan-2014
+ * Imaged w/ ROS v2 Image
+ * Setup WiFi and HDMI output
 
 = Remote Operation via Console =
  # Remote Desktop into OLDHP-LAPTOP-UBUNTU
