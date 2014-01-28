@@ -2,6 +2,7 @@
 [https://dlnmh9ip6v2uc.cloudfront.net/images/products/8/5/0/2/MaxSonar-EZ1_i_ma.jpg]
 == Electrical ==
 == Mechanical ==
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/Sonar/3DCADIso.png
 == Software ==
 == Applications ==
 [http://www.maxbotix.com/articles/031.htm Daisy Chaining]
