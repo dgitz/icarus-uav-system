@@ -31,7 +31,7 @@ sudo nano /etc/X11/xorg.conf
  # Open a Terminal
  # Enter the following:
 {{{
-sudo chmod 0777 /dev/ttyACM0
+sudo chmod 0777 /dev/ttyUSB0
 }}}
  # Open a Putty Session
  # Load: icaruspc-console and Open
