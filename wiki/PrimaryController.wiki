@@ -36,7 +36,7 @@ programs like SimpleViewer.
 = Media =
 
 
-= Remote Operation =
+= Remote Operation via Console =
  # Remote Desktop into OLDHP-LAPTOP-UBUNTU
  # Open Console
  # Enter the following:
