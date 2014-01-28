@@ -28,7 +28,7 @@ sudo nano /etc/X11/xorg.conf
 
 = Remote Operation via Console =
  # Remote Desktop into OLDHP-LAPTOP-UBUNTU
- # Open Console
+ # Open a Terminal
  # Enter the following:
 {{{
 sudo chmod 0777 /dev/ttyACM0
