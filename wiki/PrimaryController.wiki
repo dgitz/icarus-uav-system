@@ -6,10 +6,22 @@
  * Ethernet IP Address:  10.7.44.119 
  * Wlan IP Address:  10.7.45.158
  * Hostname:  linaro-ubuntu-desktop
+
+= Remote Operation via Console =
+ # Remote Desktop into OLDHP-LAPTOP-UBUNTU
+ # Open a Terminal
+ # Enter the following:
+{{{
+sudo chmod 0777 /dev/ttyUSB0
+}}}
+ # Open a Putty Session
+ # Load: icaruspc-console and Open
+ # Press Enter
+
 == Modules installed ==
- * pp
- * pybrain
- * opencv2
+ * pp - TODO
+ * pybrain - TODO
+ * opencv2 
 
 == HDMI Output ==
 {{{
@@ -26,16 +38,7 @@ sudo nano /etc/X11/xorg.conf
  * Imaged w/ ROS v2 Image
  * Setup WiFi and HDMI output
 
-= Remote Operation via Console =
- # Remote Desktop into OLDHP-LAPTOP-UBUNTU
- # Open a Terminal
- # Enter the following:
-{{{
-sudo chmod 0777 /dev/ttyUSB0
-}}}
- # Open a Putty Session
- # Load: icaruspc-console and Open
- # Press Enter
+
 = Troubleshooting =
 [http://forum.odroid.com/viewforum.php?f=15 ODroid Forum]
 
