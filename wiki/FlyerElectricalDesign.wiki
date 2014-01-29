@@ -1,5 +1,5 @@
 == Flyer ==
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematicv.pdf Electrical Schematic] 
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematic.pdf Electrical Schematic] 
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/CableConnections.xlsx Cable Connections]
 
