@@ -1,14 +1,8 @@
 = Motion Controller =
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Iso.jpg
-
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Top.jpg
-
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Back.jpg
-
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Bottom.jpg
-
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Left.jpg
-
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Right.jpg
-
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/CADIso.png
