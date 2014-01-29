@@ -4,9 +4,9 @@
 
 = Media =
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/v6RevA.1/Flyer_Assy_small.png]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/v6RevA.1/Flyer_Assy.png]
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/v6RevA.1/Flyer_Assy_Detail_small.png]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/v6RevA.1/Flyer_Assy_Detail.png]
 
 = Relevant Prior Work/Products = 
 [http://en.wikipedia.org/wiki/Bell_Boeing_Quad_TiltRotor Boeing QuadTiltRotor]
