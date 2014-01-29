@@ -1,7 +1,10 @@
 == Flyer ==
-  * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematicv.pdf Electrical Schematic]
- * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/CableConnections.xlsx Cable Connections]
- * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/ComponentPictorialLayouts.pptx Component Pictorials]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematicv.pdf Electrical Schematic] 
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/CableConnections.xlsx Cable Connections]
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/ComponentPictorialLayouts.pptx Component Pictorials]
+
 = References =
 
 [http://www.scorpionsystem.com/files/download/Scorpion_Calc_v353.zip Scorpion Calculator (Motors/ESC/Battery)]
