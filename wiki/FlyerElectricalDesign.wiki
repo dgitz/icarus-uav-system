@@ -1,15 +1,7 @@
-#summary This page is to document the Flyer's Electrical System.
-
-= Introduction =
-
-Add your content here.
-
-
-= Future Work =
 == Flyer ==
-  * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematicv6RevA.1.pdf Electrical Schematics]
-  * Component Ordering
-
+  * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematicv.pdf Electrical Schematic]
+ * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/CableConnections.xlsx Cable Connections]
+ * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/ComponentPictorialLayouts.pptx Component Pictorials]
 = References =
 
 [http://www.scorpionsystem.com/files/download/Scorpion_Calc_v353.zip Scorpion Calculator (Motors/ESC/Battery)]
