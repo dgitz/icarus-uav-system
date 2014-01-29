@@ -7,7 +7,7 @@ Add your content here.
 
 = Future Work =
 == Flyer ==
-  * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematicv4RevA.2.pdf Electrical Schematics/Connection Diagrams]
+  * [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Design/ElectricalDesign/FlyerSchematicv6RevA.1.pdf Electrical Schematics]
   * Component Ordering
 
 = References =
