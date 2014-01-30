@@ -17,3 +17,8 @@ The UAV Lab at the University of Illinois Chicago is located in the SEL 4223 off
 [http://dgitz.ipower.com/ICARUSRepo/Media/UAVLab/BackDoor.jpg]
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/UAVLab/BackDoor2.jpg]
+
+= 1st Flight =
+
+<wiki:video url="http://www.youtube.com/watch?v=nfMwifLthDE"/>
+<wiki:video url="http://www.youtube.com/watch?v=bDPKxWZIFXA"/>
