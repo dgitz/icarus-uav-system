@@ -10,115 +10,32 @@
 
 
 = Milestones =
-
- * OA_Kinect 
-  * Install Kinect Sensor on UAV (INW)
-  * Implement software on the Linux SBC ODROID-X2. (INW)
-  * Dev code for AI_Kinect Algorithm (Not Started)
-  * Acquire images with Kinect into a Laptop running Ubuntu/ROS (DONE)
-  * Compare/contrast different imaging capabilities on the Kinect to find the most appropriate ones for this project, i.e. its RGB camera, IR/Depth Camera, Disparity, etc. (DONE)
-  * Determine "mask" of quadrotor that would be in the Kinect's FOV and adjust the acquired image accordingly, i.e. find how it changes when the Propeller's are spinning. (DONE)
-  * Implement obstacle tracking algorithm and show tracked obstacles in a GUI window. (DONE)
-  * Transmit obstacle locations/trajectories to the Motion Controller. (DONE)
- * OA_Sonic 
-  * Install Sonic Sensors on UAV (3 out of 6 DONE)  
-  * Calibrate Sensors to real Distances (Not Started)
-  * Dev code for AI_Sonic Algorithm (INW)
+  * Design and Fabricate Sonic Sensor mounts (DONE)
+  * Design and Fabricate Sonic Sensor Board for Daisy Chaining (DONE)
+  * Install Sonic Sensors on UAV 
+  * Calibrate Sensors to real Distances (INW)
+  * Dev code for Force Mapping Algorithm (DONE)
   * Dev Code to acquire Sensor values. (DONE)
- * OA
-  * Fuse AI_Kinect and AI_Sonic Systems (Not Started)
+  * Test & Refine OA Code (Not Started)
 = Introduction =
 
 == Summary ==
-This project builds upon the previous project, [ICARUS_SLAM].  This project also uses the Quickstart and QuickstartPlus, along with Ultrasonic sensors, Microsoft Kinect and an AI algorithm to provide obstacle avoidance.  This can be used in cluttered environments, such as office spaces.
-
-This project is intended for the UIC class CS 411: Artificial Intelligence and ECE 415: Image Analysis and Computer Vision 1
+This project builds upon the previous project, [ICARUS_SLAM].  This project also uses the Quickstart and QuickstartPlus, along with Ultrasonic sensors and a Force Mapping algorithm to provide obstacle avoidance.  This can be used in cluttered environments, such as office spaces.
 
 == Basic Operation ==
 
-This project employs obstacle avoidance using the Microsoft Kinect and Ultrasonic Sensors placed around the UAV, due to advantages and disadvantages of each sensor.
+This project employs obstacle avoidance using Ultrasonic Sensors placed around the UAV.  These Sensors are placed at the Front, Left, Right, Back, Top and Bottom of the UAV.
 
-The Ultrasonic Sensors have very little resolution, as they only report back the distance to the nearest obstacle they see.  But, since they have a fairly wide field of view and they consume little system resources (memory, space, weight, energy, etc) and they respond quickly to changes in their environment they are used to provide immediate feedback to the AI algorithm used to adjust the motor speeds to avoid obstacles they perceive.
+The Ultrasonic Sensors have very little resolution, as they only report back the distance to the nearest obstacle they see.  But, since they have a fairly wide field of view and they consume little system resources (memory, space, weight, energy, etc) and they respond quickly to changes in their environment they are used to provide immediate feedback to the Force Mapping Algorithm used to adjust the motor speeds to avoid obstacles they perceive.
 
-The Kinect Sensor has a Visible and an IR Laser Array/Camera onboard.  For the purposes of this project only the IR Laser Array/Camera is used.  The Kinect provides a much more detailed view of what the UAV sees in front of itself.  Since it is assumed that the UAV will primarily be flying forward, the optimal placement of the Kinect of the view where the UAV will be flying is towards the front of the UAV.  The Kinect is able to much more accurately tell where obstacles are in its FOV, to provide guidance to the Mission Controller not only that there are obstacles but what direction would be the best to avoid them.
+== Force Mapping Algorithm ==
 
-A more in depth presentation on the OA_KINECT can be found here:
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/ProjectPresentation.pptx OA_KINECT Project Presentation]
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/SystemDiagram_Simple.png]
-Simplified Diagram
-
-== OA_Sonic ==
+The Force Mapping Algorithm is fairly simple as the UAV requires 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/ForceMapping.png]
 
-== OA_Kinect == 
-=== Visible or Depth? ===
-As the Kinect has several different imaging capabilities, it is necessary to select the one that will have the best results for the AI algorithm.  Below is a sequence of pictures, in a cluttered environment, of an obstacle placed in the foreground of the Kinect.  The picture on the left is an image taken directly from the RGB camera, while the picture on the right is one taken from the IR/Depth Camera.
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/InitialImages/image1.jpg]
-No obstacles here, just the environment.
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/InitialImages/image2.jpg]
-A small wooded rod.
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/InitialImages/image3.jpg]
-A larger wooden board.
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/InitialImages/image4.jpg]
-The same wooden board again.
-
-Obviously, the IR/Depth Camera is much more able to detect the difference between an obstacle in the foreground and an obstacle in the background in the Kinect's FOV.  Also, the IR camera will work just as well in a dark environment.
-
-=== Analysis Algorithm Results ===
-For each of the below images, the picture on the left is the visible light image, the middle image is the depth image, and the right image is the image generated by the OA_Kinect Algorithm.
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image0.png]
-The depth image is made up of a 640x480 grid of pixels, with each pixel having the value in meters to its IR laser's endpoint.
-The depth image is split into a 3x3 grid, with the closest depth measurement in each sector defining the gray level in the OA_Kinect grid.  The distance measurement for each of these sectors is displayed on this grid as well.
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image1.png]
-The closer an object is to the camera, the darker it appears in this view of the OA_Kinect image.   
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image2.png]
-When every point of the OA_Kinect image is less than the minimum distance that the Kinect will measure, the sector turns Red.
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/image3.png]
-Of course, we are not limited to a 3x3 grid.  Here a 25x25 grid is generated, with a significant performance hit.
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/screenshot3.png]
-When each OA_Kinect image is generated, the distance measurements of each sector (9 total here) are transmitted using the ICARUS communications protocol ($CAM,DIST Message) to the Motion Controller, which will then use this information along with the PWM inputs from the Flight Controller to modify the motor outputs.
-
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/AlgorithmImages/screenshot5.png]
-Here is a 15x15 grid.  Although the frame rate for this is not too bad, the $CAM,DIST message now contains 225 values that need to be transmitted, which is quite large.
-
-=== AI Algorithm ===
-A breadth first (tree) search algorithm will be used, until an appropriate heuristic can be determined (to implement an A* search algorithm).
-==== Initial State ====
-  PWM Inputs: {Front Motor=1500, Left Motor=1500, Back Motor=1500, Right Motor=1500}
-==== Actions ====
-  * PWM Outputs: {Front Motor, Left Motor, Back Motor, Right Motor}
-
-==== Transition Model ====
-Assuming a square 3x3 Depth_Grid is flattened to a Depth_Vector, as above.
-switch Depth_Vector(i)
-  Top_Left:
-  Top_Middle:
-  Top_Right:
-  Left:
-  Middle:
-  Right:
-  Bottom_Left:
-  Bottom_Middle:
-  Bottom_Right:
-
-In reality, each function pair could be reduced to one function,i.e. Roll_Right() and Roll_Left() could be reduced to Roll().
-==== Goal Test ====
-  * For each element in the Depth_Vector, Depth_Vector(i) > 50
 
 
-==== States ====
-  * PWM Inputs: {Front Motor, Left Motor, Back Motor, Right Motor}
-  * Ultrasonic Distances: {Front, Left, Back, Right, Top, Bottom}
+
 
 = Media =
 
