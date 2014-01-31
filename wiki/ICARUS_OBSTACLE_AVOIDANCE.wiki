@@ -17,7 +17,6 @@
   * Dev code for Force Mapping Algorithm (DONE)
   * Dev Code to acquire Sensor values. (DONE)
   * Test & Refine OA Code (Not Started)
-= Introduction =
 
 == Summary ==
 This project builds upon the previous project, [ICARUS_SLAM].  This project also uses the Quickstart and QuickstartPlus, along with Ultrasonic sensors and a Force Mapping algorithm to provide obstacle avoidance.  This can be used in cluttered environments, such as office spaces.
@@ -30,7 +29,14 @@ The Ultrasonic Sensors have very little resolution, as they only report back the
 
 == Force Mapping Algorithm ==
 
-The Force Mapping Algorithm is fairly simple as the UAV requires 
+The Force Mapping Algorithm is fairly simple as the UAV requires high throughput and quick response times to mitigate risks it can cause to its environment, and risks the environment can cause the UAV.
+
+Here is a breakdown of the tasks involved in the Force Mapping Algorithm:
+ # The Flight Controller (FC) computes the PWM values for each Rotor Motor.
+ # Instead of the FC normally sending these PWM values to each Rotor ESC directly, the Motion Controller (MC) reads this data instead.
+ # The MC also reads the distance read for each of the Sonar Sensors.
+ # Based on which Sonar reading is the lowest (i.e. closest) the MC applies an equation that offsets the appropriate motor PWM values.
+ # The modified rotor PWM values are then applied to every rotor, providing obstacle avoidance on the UAV.
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/ForceMapping.png]
 
 
