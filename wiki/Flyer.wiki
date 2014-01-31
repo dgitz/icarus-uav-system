@@ -1,6 +1,15 @@
 #summary This page documents general information about the ICARUS Flyer.
 
 = Introduction =
+The ICARUS Flyer is a QuadRotor helicopter based on a 3DR Arducopter that has been heavily modified to allow for safer operation indoors and much higher computational capabilities.
+
+The objective of the ICARUS Flyer is to provide autonomous navigation of an indoor environment by visually identifying objects and building waypoints based on what types of objects it identifies.
+
+As this is an indoor quadrotor, obstacle avoidance is required to mitigate damage to the UAV, its environment and other persons nearby.   
+
+= Current Status =
+Currently the ICARUS Flyer is in development stages.  Obstacle Avoidance is being implemented along with the visual identification tasks.
+
 
 = Media =
 
