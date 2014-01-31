@@ -37,6 +37,16 @@ Here is a breakdown of the tasks involved in the Force Mapping Algorithm:
  # The MC also reads the distance read for each of the Sonar Sensors.
  # Based on which Sonar reading is the lowest (i.e. closest) the MC applies an equation that offsets the appropriate motor PWM values.
  # The modified rotor PWM values are then applied to every rotor, providing obstacle avoidance on the UAV.
+
+=== Mapping between the lowest Sonar reading and the Rotor PWM modifications ===
+
+|| * _Lowest Sonar_ * || * _Required Action_ * || * _Front Rotor Change_ * || * _Left Rotor Change_ * || * _Back Rotor Change_ * || * _Right Rotor Change_ * ||
+|| Top || Decrease Altitude || Decrease || Decrease || Decrease || Decrease ||
+|| Bottom || Increase Altitude || Increase || Increase || Increase || Increase ||
+|| Left || Roll Right || No Change || Increase || No Change || Decrease ||
+|| Front || Pitch Back || Increase || No Change || Decrease || No Change ||
+|| Right || Roll Left || No Change || Decrease || No Change || Increase ||
+|| Back || Pitch Forwards || Decrease || No Change || Increase || No Change ||
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/ForceMapping.png]
 
 
