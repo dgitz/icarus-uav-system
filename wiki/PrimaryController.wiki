@@ -7,6 +7,12 @@
  * Wlan IP Address:  10.7.45.158
  * Hostname:  linaro-ubuntu-desktop
 
+= Remote Operation via Remote Desktop =
+TODO
+
+= Remote Operation via WiFi =
+TODO
+
 = Remote Operation via Console =
  # Remote Desktop into OLDHP-LAPTOP-UBUNTU
  # Open a Terminal
