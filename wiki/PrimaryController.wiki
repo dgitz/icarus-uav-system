@@ -11,7 +11,11 @@
 TODO
 
 = Remote Operation via WiFi =
-TODO
+ # Remote Desktop into OLDHP-LAPTOP-UBUNTU
+ # Open a Terminal
+ # Open a Putty Session
+ # Load: icaruspc-wlan and Open
+ # Login with linaro/linaro
 
 = Remote Operation via Console =
  # Remote Desktop into OLDHP-LAPTOP-UBUNTU
