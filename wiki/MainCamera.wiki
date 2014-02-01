@@ -20,3 +20,7 @@ Sideview of the Asus Xtion Pro Camera mounted on the ICARUS Flyer.  The Yellow p
 [http://www.asus.com/Multimedia/Xtion_PRO_LIVE/#specifications Specifications]
 
 [http://correll.cs.colorado.edu/wp-content/uploads/bernhard.pdf A  comparative Study of Structured Light and Laser Range Finding Devices]
+
+[http://forum.odroid.com/viewtopic.php?f=8&t=1161 Compiling/Usage instructions on Odroid-X2]
+
+ 
