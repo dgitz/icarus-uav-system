@@ -12,6 +12,7 @@ TODO
 
 = Remote Operation via WiFi =
  # Remote Desktop into OLDHP-LAPTOP-UBUNTU
+ # Ensure WiFi Network on this Laptop is CVRL 
  # Open a Terminal
  # Open a Putty Session
  # Load: icaruspc-wlan and Open
