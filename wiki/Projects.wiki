@@ -17,7 +17,7 @@ This project is to validate the precision and accuracy of the DIYDrones APM 2.0 
 == SLAM ==
 [ICARUS_SLAM SLAM]
 
-This project is used to provide indoor GPS-like navigation to a flying quadcopter with the Microsoft Kinect and the ROS package RGBDSLAM.
+This project is used to provide indoor GPS-like navigation to a flying quadcopter with the Microsoft Kinect and the ROS package RGBDSLAM.  Again this is currently a "finished" project, although I'm sure there is much more work to be done with it.
 
 == Obstacle Avoidance ==
 [ICARUS_OBSTACLE_AVOIDANCE Obstacle avoidance]
