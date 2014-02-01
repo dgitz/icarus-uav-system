@@ -23,4 +23,6 @@ Sideview of the Asus Xtion Pro Camera mounted on the ICARUS Flyer.  The Yellow p
 
 [http://forum.odroid.com/viewtopic.php?f=8&t=1161 Compiling/Usage instructions on Odroid-X2]
 
+[http://forum.odroid.com/viewtopic.php?f=15&t=2090&sid=5b52a3502c447c569edb22a83c553cbf&start=40#p25244 Other compiling instructions]
+
  
