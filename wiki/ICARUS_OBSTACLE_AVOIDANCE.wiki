@@ -28,7 +28,14 @@ This project employs obstacle avoidance using Ultrasonic Sensors placed around t
 The Ultrasonic Sensors have very little resolution, as they only report back the distance to the nearest obstacle they see.  But, since they have a fairly wide field of view and they consume little system resources (memory, space, weight, energy, etc) and they respond quickly to changes in their environment they are used to provide immediate feedback to the Force Mapping Algorithm used to adjust the motor speeds to avoid obstacles they perceive.
 
 == Sensor Operation ==
-TODO
+The Sonar Sensors used in this Project are the [http://www.maxbotix.com/documents/MB1000_Datasheet.pdf Maxbotix LV-EZ0] Ultrasonic Sensors.  These sensors were selected due to their small size, variety of interfacing options, community support and precision.  Additionally the EZ0 sensors were selected due to their wide beamwidth necessary to find obstacles near the UAV.  In other applications sonar sensors with narrower beamwidths may be preferred, especially when performing mapping operations.
+
+With these Sensors, it is necessary to daisy-chain them to avoid one sonar's transmit interfering with another sonar's reception.  As these sensors provide the necessary pinout and specifications to allow for daisy-chaining, [see http://www.maxbotix.com/documents/LV_Chaining_Constantly_Looping_AN_Out.pdf] all that is necessary is to build a board to facilitate this operation:
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/SonarBoard/SonarBoard.png]
+
+To prevent spurious readings from the sonars interfering with the UAV's motion, each sensor is checked to make sure that the distance it reports is greater than 1" (the minimum range of the sensor) and averaged with the previous sensor reading.
+ 
 == Force Mapping Algorithm ==
 
 The Force Mapping Algorithm is fairly simple as the UAV requires high throughput and quick response times to mitigate risks it can cause to its environment, and risks the environment can cause the UAV.
@@ -61,6 +68,7 @@ It will be required to determine the appropriate value of {{{ max_us }}} to prov
 
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_OA/ForceMapping.png]
+
 This figure is a graph of the previously defined equation, with x = 0:72 inches.
 
 It is also noted that during the Pitch/Roll movements the desired change for each corresponding motor is exactly equal and opposite to each other.  Currently there is no support for changing the Yaw Angle of the UAV.
