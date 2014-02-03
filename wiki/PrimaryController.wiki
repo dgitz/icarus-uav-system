@@ -1,3 +1,4 @@
+[PrimaryController#Operating-Instructions Operating Instructions]
 [http://com.odroid.com/sigong/_Files/2012/201211/images/201211151702013304.jpg]
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/PrimaryController/top.jpg]
 
@@ -37,6 +38,7 @@ sudo nano /etc/X11/xorg.conf
 "Option "fbdev" "/dev/fb6"
 }}}
 
+= Operating Instructions =
 == Start Xtion Camera ==
  # Open a New Terminal and enter
 {{{
