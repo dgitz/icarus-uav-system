@@ -46,7 +46,7 @@ roscore
 {{{
 cd ~/catkin_ws
 source ./devel/setup.bash
-rosrun xtionsender sender
+rosrun icarus_pc xtionsender
 }}}
 
 == To Compile Xtion Camera Code ==
