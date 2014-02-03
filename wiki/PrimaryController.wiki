@@ -49,6 +49,12 @@ source ./devel/setup.bash
 rosrun icarus_pc xtionsender
 }}}
 
+== Test Xtion Camera Publisher ==
+ # Open a New Terminal and enter
+{{{
+rosrun icarus_pc listener.py
+}}}
+
 == To Compile Xtion Camera Code ==
  # Open a New Terminal and enter
 {{{
