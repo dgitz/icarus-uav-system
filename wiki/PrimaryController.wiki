@@ -7,9 +7,6 @@
  * Wlan IP Address:  10.7.45.158
  * Hostname:  linaro-ubuntu-desktop
 
-= Remote Operation via Remote Desktop =
-TODO
-
 = Remote Operation via WiFi =
  # Remote Desktop into OLDHP-LAPTOP-UBUNTU
  # Ensure WiFi Network on this Laptop is CVRL 
