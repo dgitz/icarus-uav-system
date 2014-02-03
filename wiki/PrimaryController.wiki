@@ -40,6 +40,25 @@ sudo nano /etc/X11/xorg.conf
 "Option "fbdev" "/dev/fb6"
 }}}
 
+== Start Xtion Camera ==
+ # Open a New Terminal and enter
+{{{
+roscore
+}}}
+ # Open a New Terminal and enter
+{{{
+cd ~/catkin_ws
+source ./devel/setup.bash
+rosrun xtionsender sender
+}}}
+
+== To Compile Xtion Camera Code ==
+ # Open a New Terminal and enter
+{{{
+cd ~/catkin_ws
+catkin_make
+}}}
+
 
 
 = Notes =
