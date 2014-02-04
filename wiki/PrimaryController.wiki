@@ -65,14 +65,7 @@ cd ~/catkin_ws
 catkin_make
 }}}
 
-
-
 = Notes =
-
-= Current Status =
-26-Jan-2014
- * Imaged w/ ROS v2 Image
- * Setup WiFi and HDMI output
 
 
 = Troubleshooting =
