@@ -41,7 +41,7 @@ sudo nano /etc/X11/xorg.conf
 
 = Operating-Instructions =
  # Either do [PrimaryController#Manual Manual Start] or [PrimaryController#Automatic Automatic Start]
- # [PrimaryController#ImageAcquisition Image Acquisition (for ANN Training)
+ # [PrimaryController#ImageAcquisition Image Acquisition (for ANN Training)]
 
 == Automatic ==
  # Open a New Terminal and enter
