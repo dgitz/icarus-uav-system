@@ -40,7 +40,7 @@ sudo nano /etc/X11/xorg.conf
 }}}
 
 = Operating-Instructions =
-Either do [Manual Manual Start] or [Automatic Automatic Start]
+Either do [PrimaryController#Manual Manual Start] or [PrimaryController#Automatic Automatic Start]
 
 == Automatic ==
  # Open a New Terminal and enter
