@@ -45,6 +45,7 @@ Either do [PrimaryController#Manual Manual Start] or [PrimaryController#Automati
 == Automatic ==
  # Open a New Terminal and enter
 {{{
+su roscore &
 roslaunch icarus_pc xtion+icarus_pc.launch
 }}}
 == Manual ==
