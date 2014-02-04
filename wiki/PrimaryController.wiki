@@ -40,7 +40,8 @@ sudo nano /etc/X11/xorg.conf
 }}}
 
 = Operating-Instructions =
-Either do [PrimaryController#Manual Manual Start] or [PrimaryController#Automatic Automatic Start]
+ # Either do [PrimaryController#Manual Manual Start] or [PrimaryController#Automatic Automatic Start]
+ # [PrimaryController#ImageAcquisition Image Acquisition (for ANN Training)
 
 == Automatic ==
  # Open a New Terminal and enter
@@ -64,6 +65,12 @@ rosrun icarus_pc xtionsender
 rosrun icarus_pc listener.py
 }}}
 
+== ImageAcquisition ==
+ # Open a New Terminal and enter:
+{{{
+rosrun icarus_pc primarycontroller.py --targetmode=Acquire --target_acquire_class=Stupid2 --target_acquire_rate=50 --target_acquire_count=25
+
+}}}
 == To Compile Xtion Camera Code ==
  # Open a New Terminal and enter
 {{{
