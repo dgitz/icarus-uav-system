@@ -47,6 +47,7 @@ Either do [PrimaryController#Manual Manual Start] or [PrimaryController#Automati
 {{{
 su roscore &
 roslaunch icarus_pc xtion+icarus_pc.launch
+rosrun icarus_pc primarycontroller.py
 }}}
 == Manual ==
 === Start Xtion Camera ===
