@@ -96,42 +96,13 @@ http://forum.odroid.com/viewtopic.php?f=15&t=600&p=2701&hilit=lcd#p2701
 
 [[http://archlinuxarm.org/platforms/armv7/samsung/odroid-x Archlinux install instructions]
 
-[http://www.linux.com/learn/tutorials/711478-how-to-run-linux-on-odroid-u2-a-monster-of-an-arm-machine]
+[http://www.linux.com/learn/tutorials/711478-how-to-run-linux-on-odroid-u2-a-monster-of-an-arm-machine Basic Linux instructions on ODroid]
 
-[http://www.ros.org/wiki/fuerte/Installation/Ubuntu/Source]
+[http://forum.odroid.com/viewforum.php?f=15 ODroid Forum for X2 Ubuntu]
 
-[https://www.archlinux.org/]
+[http://forum.odroid.com/viewtopic.php?f=61&t=936 ODroid T-Shooting Guidelines]
 
-[http://diydrones.com/profiles/blog/show?id=705844%3ABlogPost%3A193452&commentId=705844%3AComment%3A193615]
+[http://com.odroid.com/sigong/blog/blog_list.php?bid=130 In-depth imaging instructions]
 
-[http://diydrones.com/profiles/blog/show?id=705844%3ABlogPost%3A220669&commentId=705844%3AComment%3A220709]
+[http://com.odroid.com/sigong/nf_file_board/nfile_board.php?keyword=&tag=&page=2 Official ODroid Image Repository]
 
-[http://diydrones.com/profiles/blogs/visual-slam-with-kinect]
-
-[http://diydrones.com/forum/topics/ardupilot-mega-with-ros-onboard?commentId=705844%3AComment%3A1004213]
-
-[http://diydrones.com/profiles/blogs/state-estimation-for-aggressive-flight-using-onboard-sensing]
-
-[http://diydrones.com/profiles/blogs/visual-odometry-for-gpsdenied
-
-[http://diydrones.com/group/arducopterusergroup/forum/topics/operating-arducopter-without-gps-over-mavlink?commentId=705844%3AComment%3A1156610&groupId=705844%3AGroup%3A394475]
-
-[http://diydrones.com/profiles/blogs/indoors-autonomous-quadcopter]
-
-[http://icoderaven.wordpress.com/]
-
-
-
-[http://forum.odroid.com/viewforum.php?f=61]
-
-[http://dev.odroid.com/]
-
-[http://forum.odroid.com/viewtopic.php?f=61&t=936]
-
-[http://com.odroid.com/sigong/blog/blog_list.php?bid=130]
-
-[http://com.odroid.com/sigong/nf_file_board/nfile_board.php?keyword=&tag=&page=2]
-
-[http://forum.odroid.com/viewtopic.php?f=8&t=2096&p=16126&hilit=ros#p16126]
-
-[http://embedded-development-world.blogspot.com/2013/07/run-arch-linux-on-odroid-x2-step-by-step.html]
