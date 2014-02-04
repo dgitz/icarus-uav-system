@@ -40,7 +40,15 @@ sudo nano /etc/X11/xorg.conf
 }}}
 
 = Operating-Instructions =
-== Start Xtion Camera ==
+Either do [Manual Manual Start] or [Automatic Automatic Start]
+
+== Automatic ==
+ # Open a New Terminal and enter
+{{{
+roslaunch icarus_pc xtion+icarus_pc.launch
+}}}
+== Manual ==
+=== Start Xtion Camera ===
  # Open a New Terminal and enter
 {{{
 su roscore &
@@ -48,7 +56,6 @@ cd ~/catkin_ws
 source ./devel/setup.bash
 rosrun icarus_pc xtionsender
 }}}
-
 == Test Xtion Camera Publisher ==
  # Open a New Terminal and enter
 {{{
