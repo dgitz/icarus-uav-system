@@ -43,10 +43,7 @@ sudo nano /etc/X11/xorg.conf
 == Start Xtion Camera ==
  # Open a New Terminal and enter
 {{{
-roscore
-}}}
- # Open a New Terminal and enter
-{{{
+su roscore &
 cd ~/catkin_ws
 source ./devel/setup.bash
 rosrun icarus_pc xtionsender
@@ -105,4 +102,3 @@ http://forum.odroid.com/viewtopic.php?f=15&t=600&p=2701&hilit=lcd#p2701
 [http://com.odroid.com/sigong/blog/blog_list.php?bid=130 In-depth imaging instructions]
 
 [http://com.odroid.com/sigong/nf_file_board/nfile_board.php?keyword=&tag=&page=2 Official ODroid Image Repository]
-
