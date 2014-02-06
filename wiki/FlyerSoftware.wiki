@@ -4,7 +4,16 @@
 
 Provided here is documentation on the software running on the ICARUS Flyer as well as software that is directly used to support the design/analysis process on the ICARUS Flyer.
 
+[https://github.com/dgitz/icarus_pc Primary Controller Code]
+This code is meant to run on an ODroid-X2 Linux Board.  See [https://code.google.com/p/icarus-uav-system/wiki/PrimaryController the PC wikipage] for more information.
 
+[https://github.com/dgitz/icarus_fc Flight Controller Code]
+This code is meant to run on a 3DR ArdupilotMega 2.0.  See [https://code.google.com/p/icarus-uav-system/wiki/FlightController the FC wikipage] for more information.
+
+https://github.com/dgitz/icarus_mc Motion Controller Code]
+This code is meant to run on a Parallax Propeller.  See [https://code.google.com/p/icarus-uav-system/wiki/MotionController the MC wikipage] for more information.
+
+[https://github.com/dgitz/icarus_support Support Code]
 = Future Work =
 == Aero Design ==
   * Center of Gravity/Center of Pitching Moment Axis Optimization
