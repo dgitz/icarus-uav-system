@@ -30,7 +30,7 @@ The Ultrasonic Sensors have very little resolution, as they only report back the
 == Sensor Operation ==
 The Sonar Sensors used in this Project are the [http://www.maxbotix.com/documents/MB1000_Datasheet.pdf Maxbotix LV-EZ0] Ultrasonic Sensors.  These sensors were selected due to their small size, variety of interfacing options, community support and precision.  Additionally the EZ0 sensors were selected due to their wide beamwidth necessary to find obstacles near the UAV.  In other applications sonar sensors with narrower beamwidths may be preferred, especially when performing mapping operations.
 
-With these Sensors, it is necessary to daisy-chain them to avoid one sonar's transmit interfering with another sonar's reception.  As these sensors provide the necessary pinout and specifications to allow for daisy-chaining, see [ http://www.maxbotix.com/documents/LV_Chaining_Constantly_Looping_AN_Out.pdf] all that is necessary is to build a board to facilitate this operation:
+With these Sensors, it is necessary to daisy-chain them to avoid one sonar's transmit interfering with another sonar's reception.  As these sensors provide the necessary pinout and specifications to allow for daisy-chaining, see [ http://www.maxbotix.com/documents/LV_Chaining_Constantly_Looping_AN_Out.pdf link] all that is necessary is to build a board to facilitate this operation:
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/SonarBoard/SonarBoard.png]
 
