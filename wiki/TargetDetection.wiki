@@ -1,8 +1,8 @@
 [TargetDetection#Operation Operating Instructions]
 
-[PrimaryController Primary Controller]
-[FlightController Flight Controller]
-[MotionController Motion Controller]
+[PrimaryController Primary Controller Wiki]
+[FlightController Flight Controller Wiki]
+[MotionController Motion Controller Wiki]
 
 [https://github.com/dgitz/icarus_sourcecode/tree/master/PrimaryController Primary Controller Source Code]
 
