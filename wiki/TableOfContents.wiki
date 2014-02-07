@@ -9,7 +9,6 @@
         * [PrimaryController Primary Controller]
         * [FlightController Flight Controller]
         * [MotionController Motion Controller]
-        * [SonarBoard Sonar Board]
       * Sensors
         * [MainCamera Main Camera]
         * [Sonar Sonar]
