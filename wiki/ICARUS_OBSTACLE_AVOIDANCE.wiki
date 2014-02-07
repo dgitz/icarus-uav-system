@@ -12,8 +12,8 @@
 = Milestones =
   * Design and Fabricate Sonic Sensor mounts (DONE)
   * Design and Fabricate Sonic Sensor Board for Daisy Chaining (DONE)
-  * Install Sonic Sensors on UAV 
-  * Calibrate Sensors to real Distances (INW)
+  * Install Sonic Sensors on UAV (4 out of 6 DONE)
+  * Calibrate Sensors to real Distances (DONE)
   * Dev code for Force Mapping Algorithm (DONE)
   * Dev Code to acquire Sensor values. (DONE)
   * Test & Refine OA Code (Not Started)
