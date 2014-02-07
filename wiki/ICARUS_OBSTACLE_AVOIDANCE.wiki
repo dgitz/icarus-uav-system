@@ -61,7 +61,7 @@ A good algorithm will provide a large change in motion when an obstacle is near 
 {{{
 x: Distance (in)
 max_us: Maximum Change of PWM Value, in micro-seconds, at x=0 inches
-pwm_delta(x) = (33*max_us)/(x^2)
+pwm_delta(x) = (200*max_us)/(x^3)
 }}}
 
 It will be required to determine the appropriate value of {{{ max_us }}} to provide good feedback for the UAV, as this will be hard (impossible?) to find analytically.  Currently, {{{max_us}}} is set to 1000 to provide the maximum change of motion, acknowledging that the PWM driver running on the MC limits the minimum/maximum PWM value to the the industry standard range of 1000 uS to 2000 uS.
