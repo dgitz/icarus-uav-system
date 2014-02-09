@@ -7,6 +7,7 @@ The Flight Controller is based on an DIYDrones APM 2.0 running the ArduCopter co
 = Media =
 
 = References =
+[http://dev.ardupilot.com/wiki/building-ardupilot-with-arduino-windows/ Setup Instructions]
 
 [https://code.google.com/p/arducopter/wiki/ArduCopter Arducopter Wiki-Obsolete]
 
