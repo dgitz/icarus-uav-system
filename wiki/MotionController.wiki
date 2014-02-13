@@ -8,7 +8,7 @@ LED2: Blinks when in MANUAL-DISARMED, is ON when in MANUAL-ARMED, off otherwise.
 
 LED3: Blinks when in TEST-DISARMED, is ON when in TEST-ARMED, off otherwise.
 
-LED4: Blinks during an Error Condition, OFF otherwise.
+LED4: Blinks during an Error Condition, is OFF otherwise.
 
 == Initialization ==
 
