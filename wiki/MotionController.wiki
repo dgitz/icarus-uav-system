@@ -15,7 +15,7 @@ LED4: Blinks during an Error Condition, is OFF otherwise.
 
 
 
-
+= Media =
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Top.jpg
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Back.jpg
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Bottom.jpg
