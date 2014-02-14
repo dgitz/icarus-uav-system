@@ -1,3 +1,5 @@
+= Primary Controller =
+
 [PrimaryController#Operating-Instructions Operating Instructions]
 
 [https://github.com/dgitz/icarus_pc Source Code]
