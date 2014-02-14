@@ -1,5 +1,5 @@
 = Motion Controller =
-http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Iso.jpg
+http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/IsoLED.png
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/CADIso.png
 = Operation =
 == Indicators ==
