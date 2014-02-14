@@ -28,6 +28,7 @@ LED4: Blinks during an Error Condition, is OFF otherwise.
    * Read FC PWM Inputs
    * Set PWM Outputs (MANUAL-MODE,TEST-MODE)
  * Slow Loop: 1 Hz
+   * Reset Sonar Counters
    * Debugging
 
 = Media =
