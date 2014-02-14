@@ -1,1 +1,7 @@
 = Software =
+
+
+== References ==
+[http://wiki.ros.org/fuerte/Installation/Ubuntu ROS Fuerte Installation]
+
+[http://wiki.ros.org/tum_ardrone tum_ardrone ROS package]
