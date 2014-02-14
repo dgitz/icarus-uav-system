@@ -3,6 +3,8 @@
     * [http://code.google.com/p/icarus-uav-system/wiki/AUVSIIARC  AUVSI-IARC]
     * SparkFun-AVC
   * [https://github.com/dgitz/icarus_rover/wiki Rover]
+  * [Drone Drone]
+    * [DroneOperation Operation]
   * [http://code.google.com/p/icarus-uav-system/wiki/Flyer Flyer]
     * [FlyerComponents Flyer Components]
       * Controllers
