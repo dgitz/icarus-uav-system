@@ -1,5 +1,7 @@
 [PrimaryController#Operating-Instructions Operating Instructions]
 
+[https://github.com/dgitz/icarus_pc Source Code]
+
 [http://com.odroid.com/sigong/_Files/2012/201211/images/201211151702013304.jpg]
 [http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/PrimaryController/top.jpg]
 
