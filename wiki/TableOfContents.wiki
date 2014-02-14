@@ -6,6 +6,13 @@
   * [Drone Drone]
     * [DroneOperation Operation]
   * [http://code.google.com/p/icarus-uav-system/wiki/Flyer Flyer]
+    * [http://code.google.com/p/icarus-uav-system/wiki/Projects Projects]
+      * [ROS_APM_KINECT ROS,APM & Kinect]
+      * [APM_Tester APM Tester]
+      * [ICARUS_SLAM SLAM]
+      * [ICARUS_OBSTACLE_AVOIDANCE Obstacle Avoidance]
+      * [TargetDetection Target Detection]
+      * [ICARUS_MODEL Modeling]
     * [FlyerComponents Flyer Components]
       * Controllers
         * [PrimaryController Primary Controller]
@@ -43,13 +50,6 @@
   * Operations
     * [http://code.google.com/p/icarus-uav-system/wiki/ConOps Concept of Operations]
     * [ICARUS_Communications Communications]
-  * [http://code.google.com/p/icarus-uav-system/wiki/Projects Projects]
-    * [ROS_APM_KINECT ROS,APM & Kinect]
-    * [APM_Tester APM Tester]
-    * [ICARUS_SLAM SLAM]
-    * [ICARUS_OBSTACLE_AVOIDANCE Obstacle Avoidance]
-    * [TargetDetection Target Detection]
-    * [ICARUS_MODEL Modeling]
   * [UAVLab UAV Lab]
   * Appendix
     * [http://code.google.com/p/icarus-uav-system/wiki/MediaStorage Media]
