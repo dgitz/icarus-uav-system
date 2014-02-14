@@ -19,6 +19,16 @@ LED4: Blinks during an Error Condition, is OFF otherwise.
  # All Drivers/Cogs are Started
  # Motors are tested: Front, Left, Back, Right x3
 
+= Normal Operation =
+ * Fast Loop: 100 Hz
+   * Runs Armed Handler
+   * Flight Mode Handler
+   * Sonar Reads
+ * Medium Loop: 10 Hz
+   * Read FC PWM Inputs
+   * Set PWM Outputs (MANUAL-MODE,TEST-MODE)
+ * Slow Loop: 1 Hz
+   * Debugging
 
 = Media =
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/Top.jpg
