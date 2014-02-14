@@ -1,6 +1,6 @@
 = Motion Controller =
 
-[https://github.com/dgitz/icarus_pc Source Code]
+[https://github.com/dgitz/icarus_mc Source Code]
 
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/IsoLED.png
 http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/MotionController/CADIso.png
