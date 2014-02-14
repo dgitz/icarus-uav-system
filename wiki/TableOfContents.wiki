@@ -5,6 +5,7 @@
   * [https://github.com/dgitz/icarus_rover/wiki Rover]
   * [Drone Drone]
     * [DroneOperation Operation]
+    * [DroneSoftware Software]
   * [http://code.google.com/p/icarus-uav-system/wiki/Flyer Flyer]
     * [http://code.google.com/p/icarus-uav-system/wiki/Projects Projects]
       * [ROS_APM_KINECT ROS,APM & Kinect]
