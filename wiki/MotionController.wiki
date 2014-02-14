@@ -12,7 +12,9 @@ LED3: Blinks when in TEST-DISARMED, is ON when in TEST-ARMED, off otherwise.
 LED4: Blinks during an Error Condition, is OFF otherwise.
 
 == Initialization ==
-
+ # Pins are set as Inputs/Outputs
+ # All Drivers/Cogs are Started
+ # Motors are tested: Front, Left, Back, Right x3
 
 
 = Media =
