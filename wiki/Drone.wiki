@@ -2,3 +2,19 @@
 The ICARUS Drone is based on an AR Drone running autonomous navigation software.
 
 http://images.bit-tech.net/content_images/2010/07/parrot-ar-drone-review/AR.Drone-06-b.jpg
+
+== References ==
+[http://www.msh-tools.com/ardrone/ARDrone_Developer_Guide.pdf AR Drone Developer's Guide]
+
+[http://www.brookstonemedia.com/DroneQuickStartGuide.pdf Quick Start Guide]
+
+[http://files.kipr.org/gcer/2013/proceedings/Rand_Hacking_AR_Drone_1.pdf Hacking the Parrot AR Drone]
+
+[http://abstract.cs.washington.edu/~shwetak/classes/ee472/assignments/lab4/drone_api.pdf AR Drone Control API Notes]
+
+[http://www.cse.aucegypt.edu/~elayat/csce432/slides/ar.drone2_User-guide_UK.pdf AR Drone User Guide]
+
+[http://agency.keyade.com/download/parrot-study-case-en.pdf Case Study]
+
+[http://agency.keyade.com/download/parrot-study-case-en.pdf OpenCV/AR Drone Part 1]
+
