@@ -10,3 +10,5 @@
 [http://wiki.ros.org/fuerte/Installation/Ubuntu ROS Fuerte Installation]
 
 [http://wiki.ros.org/tum_ardrone tum_ardrone ROS package]
+
+[http://www.coppeliarobotics.com/helpFiles/en/rosTutorial.htm V-REP ROS Tutorial]
