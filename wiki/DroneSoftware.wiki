@@ -2,7 +2,10 @@
 [https://github.com/dgitz/icarus_drone Source Code]
 
 == Installation Instructions ==
-
+ # Install Ubuntu 12.04
+ # Install ROS Fuerte (Full version is best)
+ # Install the [http://wiki.ros.org/tum_ardrone AR Drone ROS Navigation Packages]
+ # 
 == References ==
 [http://wiki.ros.org/fuerte/Installation/Ubuntu ROS Fuerte Installation]
 
