@@ -4,8 +4,8 @@
     * SparkFun-AVC
   * [https://github.com/dgitz/icarus_rover/wiki Rover]
   * [Drone Drone]
-    * [DroneDevelopment Development]
     * [DroneOverview Overview]
+    * [DroneDevelopment Development]
     * [DroneOperation Operation]
     * [DroneSoftware Software]
   * [http://code.google.com/p/icarus-uav-system/wiki/Flyer Flyer]
