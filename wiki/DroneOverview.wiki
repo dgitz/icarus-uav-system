@@ -1,13 +1,1 @@
-#summary One-sentence summary of this page.
-
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+The ICARUS Drone Project is designed to give an AR Drone autonomous navigation along with providing a stable platform for developing machine learning algorithms.
