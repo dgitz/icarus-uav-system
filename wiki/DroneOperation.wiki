@@ -9,7 +9,7 @@ roscore
 {{{
 rosrun ardrone_autonomy ardrone_driver
 }}}
- # Open a Terminal and Enter:
+ # Open a Terminal and start the [http://wiki.ros.org/tum_ardrone/drone_stateestimation State Estimation Node]
 {{{
 rosrun tum_ardrone drone_stateestimation
 }}}
