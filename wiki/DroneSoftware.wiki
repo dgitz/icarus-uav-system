@@ -1,5 +1,5 @@
 = Software =
-[https://github.com/dgitz/icarus_drone Source Code]
+[https://github.com/dgitz/icarus_drone_server ROS Server Source Code]
 
 == Installation Instructions ==
  # Install Ubuntu 12.04
