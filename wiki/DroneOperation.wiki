@@ -8,22 +8,18 @@
 {{{
 roscore
 }}}
-
  # Open a Terminal and Enter:
 {{{
 rosrun ardrone_autonomy ardrone_driver
 }}}
-
  # Open a Terminal and Enter:
 {{{
 rosrun tum_ardrone drone_stateestimation
 }}}
-
  # Open a Terminal and Enter:
 {{{
 rosrun tum_ardrone drone_autopilot
 }}}
-
  # Open a Terminal and Enter:
 {{{
 rosrun tum_ardrone drone_gui
