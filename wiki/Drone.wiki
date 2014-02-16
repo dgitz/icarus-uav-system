@@ -14,7 +14,4 @@ http://images.bit-tech.net/content_images/2010/07/parrot-ar-drone-review/AR.Dron
 
 [http://www.cse.aucegypt.edu/~elayat/csce432/slides/ar.drone2_User-guide_UK.pdf AR Drone User Guide]
 
-[http://agency.keyade.com/download/parrot-study-case-en.pdf Case Study]
-
 [http://agency.keyade.com/download/parrot-study-case-en.pdf OpenCV/AR Drone Part 1]
-
