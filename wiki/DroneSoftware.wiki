@@ -1,5 +1,7 @@
 = Software =
+[https://github.com/dgitz/icarus_drone Source Code]
 
+== Installation Instructions ==
 
 == References ==
 [http://wiki.ros.org/fuerte/Installation/Ubuntu ROS Fuerte Installation]
