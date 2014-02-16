@@ -22,4 +22,4 @@ http://images.bit-tech.net/content_images/2010/07/parrot-ar-drone-review/AR.Dron
 
 [http://www.rosbridge.org/doku.php?id=tutorials:ardrone ROS Bridge]
 
-https://code.google.com/p/brown-ros-pkg/wiki/ardrone Brown ROS package]
+[https://code.google.com/p/brown-ros-pkg/wiki/ardrone Brown ROS package]
