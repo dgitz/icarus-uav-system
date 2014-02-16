@@ -1,9 +1,6 @@
 = Operation =
 
 == Normal Operation ==
-
-== Software-In-The-Loop Simulation =
-
  # Open a Terminal and Enter:
 {{{
 roscore
@@ -24,3 +21,4 @@ rosrun tum_ardrone drone_autopilot
 {{{
 rosrun tum_ardrone drone_gui
 }}}
+== Software-In-The-Loop Simulation =
