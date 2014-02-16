@@ -15,3 +15,11 @@ http://images.bit-tech.net/content_images/2010/07/parrot-ar-drone-review/AR.Dron
 [http://www.cse.aucegypt.edu/~elayat/csce432/slides/ar.drone2_User-guide_UK.pdf AR Drone User Guide]
 
 [http://agency.keyade.com/download/parrot-study-case-en.pdf OpenCV/AR Drone Part 1]
+
+[http://robohub.org/up-and-flying-with-the-ar-drone-and-ros-getting-started/ Robohub AR Drone Tutorials]
+
+[http://pharos.ece.utexas.edu/wiki/index.php/How_to_use_ROS_to_Control_the_AR_Drone_Parrot AR Drone brown ROS package]
+
+[http://www.rosbridge.org/doku.php?id=tutorials:ardrone ROS Bridge]
+
+https://code.google.com/p/brown-ros-pkg/wiki/ardrone Brown ROS package]
