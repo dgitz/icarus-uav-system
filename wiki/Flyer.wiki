@@ -1,5 +1,5 @@
 #summary This page documents general information about the ICARUS Flyer.
-Unfortunately, due to insufficient lab space, I am no longer able to continue development on this project.  If you have any questions about this project please email me at davidgitz at gmail.com
+ *Unfortunately, due to insufficient lab space, I am no longer able to continue development on this project.  If you have any questions about this project please email me at davidgitz at gmail.com*
 
 = Introduction =
 The ICARUS Flyer is a QuadRotor helicopter based on a 3DR Arducopter that has been heavily modified to allow for safer operation indoors and much higher computational capabilities.
