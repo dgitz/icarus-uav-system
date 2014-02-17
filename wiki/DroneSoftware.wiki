@@ -6,6 +6,58 @@
  # Install ROS Fuerte (Full version is best)
  # Install the [http://wiki.ros.org/tum_ardrone AR Drone ROS Navigation Packages]
  # 
+
+== ROS Topics ==
+/ardrone/bottom/camera_info
+/ardrone/bottom/image_raw
+/ardrone/bottom/image_raw/compressed
+/ardrone/bottom/image_raw/compressed/parameter_descriptions
+/ardrone/bottom/image_raw/compressed/parameter_updates
+/ardrone/bottom/image_raw/compressedDepth
+/ardrone/bottom/image_raw/compressedDepth/parameter_descriptions
+/ardrone/bottom/image_raw/compressedDepth/parameter_updates
+/ardrone/bottom/image_raw/theora
+/ardrone/bottom/image_raw/theora/parameter_descriptions
+/ardrone/bottom/image_raw/theora/parameter_updates
+/ardrone/camera_info
+/ardrone/front/camera_info
+/ardrone/front/image_raw
+/ardrone/front/image_raw/compressed
+/ardrone/front/image_raw/compressed/parameter_descriptions
+/ardrone/front/image_raw/compressed/parameter_updates
+/ardrone/front/image_raw/compressedDepth
+/ardrone/front/image_raw/compressedDepth/parameter_descriptions
+/ardrone/front/image_raw/compressedDepth/parameter_updates
+/ardrone/front/image_raw/theora
+/ardrone/front/image_raw/theora/parameter_descriptions
+/ardrone/front/image_raw/theora/parameter_updates
+/ardrone/image_raw
+/ardrone/image_raw/compressed
+/ardrone/image_raw/compressed/parameter_descriptions
+/ardrone/image_raw/compressed/parameter_updates
+/ardrone/image_raw/compressedDepth
+/ardrone/image_raw/compressedDepth/parameter_descriptions
+/ardrone/image_raw/compressedDepth/parameter_updates
+/ardrone/image_raw/theora
+/ardrone/image_raw/theora/parameter_descriptions
+/ardrone/image_raw/theora/parameter_updates
+/ardrone/imu
+/ardrone/land
+/ardrone/mag
+/ardrone/navdata
+/ardrone/predictedPose
+/ardrone/reset
+/ardrone/takeoff
+/cmd_vel
+/drone_autopilot/parameter_descriptions
+/drone_autopilot/parameter_updates
+/drone_stateestimation/parameter_descriptions
+/drone_stateestimation/parameter_updates
+/joy
+/rosout
+/rosout_agg
+/tf
+/tum_ardrone/com
 == References ==
 [http://wiki.ros.org/fuerte/Installation/Ubuntu ROS Fuerte Installation]
 
