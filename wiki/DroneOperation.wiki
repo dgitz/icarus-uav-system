@@ -21,7 +21,6 @@ rosrun tum_ardrone drone_autopilot
 {{{
 rosrun icarus_drone_server drone_server.py --targetmode=Acquire --target_acquire_class='classname'
 }}}
-Where 'classname' is the name of the class.  Complete this for the desired amount of images.
  # Open Matlab and run the ImageMapper.m script to find and rename each image with the center of the sign.
 == Simulated Image Acquisition (for ANN Training) ==
 {{{
