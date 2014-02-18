@@ -50,6 +50,7 @@
 }}}
 
   * Not Published
+
 {{{
 /ardrone/mag
 }}}
@@ -60,22 +61,35 @@
 
   * No Information
 
+{{{
 /ardrone/predictedPose
+}}}
+
   * Header
   * x,y,z
   * dx,dy,dz
   * roll,pitch,yaw,dyaw
   * droneState
   * batteryPercent
+
+{{{
 /tf
+}}}
+
   * Header
   * transform translation: x,y,z
   * transform rotation: x,y,z,w
 === Commands ===
+{{{
 /ardrone/land
 /ardrone/reset
 /ardrone/takeoff
+}}}
+
+{{{
 /cmd_vel
+}}}
+
   * linear: x,y,z
   * angular: x,y,z
 
