@@ -48,13 +48,16 @@
 {{{
 /ardrone/imu
 }}}
+
   * Not Published
 {{{
 /ardrone/mag
 }}}
+
 {{{
 /ardrone/navdata
 }}}
+
   * No Information
 
 /ardrone/predictedPose
