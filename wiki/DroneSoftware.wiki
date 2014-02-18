@@ -9,6 +9,7 @@
 
 == ROS Topics ==
 === Camera ===
+{{{
 /ardrone/bottom/camera_info
 /ardrone/bottom/image_raw
 /ardrone/bottom/image_raw/compressed
@@ -42,11 +43,18 @@
 /ardrone/image_raw/theora
 /ardrone/image_raw/theora/parameter_descriptions
 /ardrone/image_raw/theora/parameter_updates
+}}}
 === Navigation ===
+{{{
 /ardrone/imu
+}}}
   * Not Published
+{{{
 /ardrone/mag
+}}}
+{{{
 /ardrone/navdata
+}}}
   * No Information
 /ardrone/predictedPose
   * Header
