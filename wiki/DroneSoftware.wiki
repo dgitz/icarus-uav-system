@@ -45,17 +45,12 @@
 /ardrone/image_raw/theora/parameter_updates
 }}}
 === Navigation ===
-{{{
-/ardrone/imu
-}}}
+{{{/ardrone/imu}}}
   * Not Published
-{{{
-/ardrone/mag
-}}}
-{{{
-/ardrone/navdata
-}}}
+{{{/ardrone/mag}}}
+{{{/ardrone/navdata}}}
   * No Information
+
 /ardrone/predictedPose
   * Header
   * x,y,z
