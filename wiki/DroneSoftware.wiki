@@ -8,6 +8,7 @@
  # 
 
 == ROS Topics ==
+=== Camera ===
 /ardrone/bottom/camera_info
 /ardrone/bottom/image_raw
 /ardrone/bottom/image_raw/compressed
@@ -41,14 +42,32 @@
 /ardrone/image_raw/theora
 /ardrone/image_raw/theora/parameter_descriptions
 /ardrone/image_raw/theora/parameter_updates
+=== Navigation ===
 /ardrone/imu
-/ardrone/land
+  * Not Published
 /ardrone/mag
 /ardrone/navdata
+  * No Information
 /ardrone/predictedPose
+  * Header
+  * x,y,z
+  * dx,dy,dz
+  * roll,pitch,yaw,dyaw
+  * droneState
+  * batteryPercent
+/tf
+  * Header
+  * transform translation: x,y,z
+  * transform rotation: x,y,z,w
+=== Commands ===
+/ardrone/land
 /ardrone/reset
 /ardrone/takeoff
 /cmd_vel
+  * linear: x,y,z
+  * angular: x,y,z
+
+=== Other ===
 /drone_autopilot/parameter_descriptions
 /drone_autopilot/parameter_updates
 /drone_stateestimation/parameter_descriptions
@@ -56,7 +75,7 @@
 /joy
 /rosout
 /rosout_agg
-/tf
+
 /tum_ardrone/com
 == References ==
 [http://wiki.ros.org/fuerte/Installation/Ubuntu ROS Fuerte Installation]
