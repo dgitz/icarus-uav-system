@@ -94,6 +94,7 @@
   * angular: x,y,z
 
 === Other ===
+{{{
 /drone_autopilot/parameter_descriptions
 /drone_autopilot/parameter_updates
 /drone_stateestimation/parameter_descriptions
@@ -101,8 +102,8 @@
 /joy
 /rosout
 /rosout_agg
-
 /tum_ardrone/com
+}}}
 == References ==
 [http://wiki.ros.org/fuerte/Installation/Ubuntu ROS Fuerte Installation]
 
