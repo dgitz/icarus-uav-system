@@ -7,3 +7,20 @@
  # Implement ANN Navigation Tasks on ROS-Server.
 
 == Tasks ==
+
+== ANN Training ==
+=== 18-Feb-2014 ===
+==== Pre-Processing Script ====
+{{{
+	filter = np.uint8([[[0,0,255]]])
+	height,width = orig_image.shape[:2]
+	new_image = np.zeros((height,width,3),np.uint8)
+	proc_image = cv2.cvtColor(orig_image,cv2.COLOR_BGR2HSV)
+	proc_image = proc_image * filter
+	proc_image = cv2.cvtColor(proc_image,cv2.COLOR_BGR2GRAY)
+	proc_image = cv2.equalizeHist(proc_image)
+	(thresh,thresh_image) = cv2.threshold(proc_image,50,255,cv2.THRESH_BINARY_INV)
+	new_image[...,0] = thresh_image * orig_image[...,0]
+	new_image[...,1] = thresh_image * orig_image[...,1]
+	new_image[...,2] = thresh_image * orig_image[...,2]
+}}}
