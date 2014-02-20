@@ -1,4 +1,8 @@
 = Operation =
+== Start Matlab ==
+{{{
+openvpn --config 'Documents\UIC-dgitz2.ovpn
+}}}
 
 == Real Image Acquisition (for ANN Training) ==
  # Open a Terminal and Enter:
