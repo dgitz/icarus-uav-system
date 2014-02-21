@@ -5,7 +5,8 @@ openvpn --config 'Documents\UIC-dgitz2.ovpn
 /usr/local/MATLAB/R2013b/bin/matlab
 }}}
 
-== Real Image Acquisition (for ANN Training) ==
+== ImageAcquisition ==
+=== Real Image Acquisition (for ANN Training) ===
  # Open a Terminal and Enter:
 {{{
 roscore
@@ -27,13 +28,13 @@ rosrun tum_ardrone drone_autopilot
 rosrun icarus_drone_server drone_server.py --targetmode=Acquire --target_acquire_class='classname'
 }}}
  # Open Matlab and run the ImageMapper.m script to find and rename each image with the center of the sign.
-== Simulated Image Acquisition (for ANN Training) ==
+=== Simulated Image Acquisition (for ANN Training) ===
 {{{
 python createtrainingimages.py --Patterns=50
 }}}
 == ANN Training ==
 
-== Normal Operation ==
+== NormalOperation ==
  # Open a Terminal and Enter:
 {{{
 roscore
