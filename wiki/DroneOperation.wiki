@@ -32,14 +32,7 @@ rosrun icarus_drone_server drone_server.py --targetmode=Acquire --target_acquire
 python createtrainingimages.py --Patterns=50
 }}}
 == ANN Training ==
-If Images were created using the "Real Image Acquisition Process":
-{{{
-python trainnets.py --TrainMode=Real
-}}}
-If Images were created using the "Simulated Image Acquisition Process":
-{{{
-python trainnets.py --TrainMode=Simulated
-}}}
+
 == Normal Operation ==
  # Open a Terminal and Enter:
 {{{
