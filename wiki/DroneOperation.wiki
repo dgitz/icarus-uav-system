@@ -1,7 +1,7 @@
 = Operation =
 == Start Matlab ==
 {{{
-openvpn --config Documents/UIC-dgitz2.ovpn
+sudo openvpn --config Documents/UIC-dgitz2.ovpn
 /usr/local/MATLAB/R2013b/bin/matlab
 }}}
 
