@@ -8,6 +8,7 @@
     * [DroneDevelopment Development]
     * [DroneOperation Operation]
       * [DroneOperation#ImageAcquisition Image Acquisition]
+      * [DroneOperation#NormalOperation Normal Operation]
     * [DroneSoftware Software]
   * [http://code.google.com/p/icarus-uav-system/wiki/Flyer Flyer]
     * [http://code.google.com/p/icarus-uav-system/wiki/Projects Projects]
