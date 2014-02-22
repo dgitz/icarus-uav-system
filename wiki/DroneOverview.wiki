@@ -1,1 +1,4 @@
 The ICARUS Drone Project is designed to give an AR Drone autonomous navigation along with providing a stable platform for developing machine learning algorithms.
+
+= Architecture =
+[http://dgitz.ipower.com/ICARUSRepo/Media/Drone/Architecture/DroneSystemDiagram.png]
