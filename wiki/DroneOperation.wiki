@@ -55,4 +55,8 @@ rosrun tum_ardrone drone_autopilot
 {{{
 rosrun tum_ardrone drone_gui
 }}}
+ # Open a Terminal and Enter:
+{{{
+rosrun icarus_drone_server drone_server.py --targetmode=Execute
+}}}
 == Software-In-The-Loop Simulation =
