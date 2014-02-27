@@ -1,5 +1,7 @@
 = Software =
 [https://github.com/dgitz/icarus_drone_server ROS Server Source Code]
+[https://github.com/AutonomyLab/ardrone_autonomy AR Drone ROS Driver]
+[https://github.com/tum-vision/tum_ardrone AR Drone Tum Driver]
 
 == Installation Instructions ==
  # Install Ubuntu 12.04
