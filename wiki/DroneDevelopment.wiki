@@ -1,9 +1,9 @@
 = Development =
 
 == Milestones ==
- # Implement basic communication between ROS-Server and Drone. (DONE)
+ # Implement basic communication between drone_server and Drone. (DONE)
  # Implement SLAM operation on Drone. (In Progress)
- # Implement Simulation on ROS-Server. 
- # Implement ANN Navigation Tasks on ROS-Server. (In Progress)
+ # Implement Simulation on drone_server. 
+ # Implement ANN Navigation Tasks on drone_erver, matlab_server and Drone. (In Progress)
 
 == Tasks ==
