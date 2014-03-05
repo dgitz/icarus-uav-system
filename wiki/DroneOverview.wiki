@@ -1,4 +1,13 @@
 The ICARUS Drone Project is designed to give an AR Drone autonomous navigation along with providing a stable platform for developing machine learning algorithms.
+= Goals =
+== Primary ==
+A) The ICARUS Drone should be capable of mapping its environment and determining where in that map it is.
 
+B) The ICARUS Drone should be capable of identifying various Targets Of Interest in its environment and navigating between them.
+
+C) The ICARUS Drone should be capable of interfacing with a simulation environment such that algorithms can be tested in the simulated world, as realistically as possible, before implementing in the real environment.
+
+== Secondary ==
+D) The ICARUS Drone should be capable of path planning based on targets placed on the ground.
 = Architecture =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Drone/Architecture/DroneSystemDiagram.png]
