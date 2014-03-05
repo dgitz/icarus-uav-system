@@ -60,3 +60,6 @@ rosrun tum_ardrone drone_gui
 rosrun icarus_drone_server drone_server.py --targetmode=Execute
 }}}
 == Software-In-The-Loop Simulation =
+
+= Tele-Op Control =
+[http://dgitz.ipower.com/ICARUSRepo/Media/Drone/Controls/JoystickMapping.png]
