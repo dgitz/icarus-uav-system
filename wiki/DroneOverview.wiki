@@ -30,7 +30,7 @@ Ministry of Torture Sign
 
 Chief of Security Sign
 
-Examples of Acquired Images
+
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Drone/EnvironmentImages/Image0001.png]
 [http://dgitz.ipower.com/ICARUSRepo/Media/Drone/EnvironmentImages/Image0002.png]
@@ -48,6 +48,7 @@ Examples of Acquired Images
 [http://dgitz.ipower.com/ICARUSRepo/Media/Drone/EnvironmentImages/Image0017.png]
 [http://dgitz.ipower.com/ICARUSRepo/Media/Drone/EnvironmentImages/Image0018.png]
 [http://dgitz.ipower.com/ICARUSRepo/Media/Drone/EnvironmentImages/Image0019.png][http://dgitz.ipower.com/ICARUSRepo/Media/Drone/EnvironmentImages/Image0020.png][http://dgitz.ipower.com/ICARUSRepo/Media/Drone/EnvironmentImages/Image0021.png][http://dgitz.ipower.com/ICARUSRepo/Media/Drone/EnvironmentImages/Image0022.png][http://dgitz.ipower.com/ICARUSRepo/Media/Drone/EnvironmentImages/Image0023.png]
+Examples of Acquired Images
 
 = Simulation =
 
