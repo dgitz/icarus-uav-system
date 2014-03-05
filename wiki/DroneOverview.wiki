@@ -11,3 +11,31 @@ C) The ICARUS Drone should be capable of interfacing with a simulation environme
 D) The ICARUS Drone should be capable of path planning based on targets placed on the ground.
 = Architecture =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Drone/Architecture/DroneSystemDiagram.png]
+
+= Mapping/Localization =
+
+= Target Identification =
+= Media =
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/SecurityCompound.png]
+
+Security Compound Sign
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/MinistryTorture.png]
+
+Ministry of Torture Sign
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/ChiefSecurity.png]
+
+Chief of Security Sign
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/cs_orig_image0000.png]
+
+Chief of Security Sign in the environment
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/cs_proc_image0000.png]
+
+Processed Chief of Security Sign suitable for NN classification.
+
+= Simulation =
+
+= Path Planning =
