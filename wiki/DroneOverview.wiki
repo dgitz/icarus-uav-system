@@ -16,6 +16,8 @@ D) The ICARUS Drone should be capable of path planning based on targets placed o
 
 = Target Identification =
 = Media =
+The following are different signs that the ICARUS Drone should be able to recognize in its environment:
+
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/SecurityCompound.png]
 
 Security Compound Sign
@@ -30,11 +32,7 @@ Chief of Security Sign
 
 [http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/cs_orig_image0000.png]
 
-Chief of Security Sign in the environment
 
-[http://dgitz.ipower.com/ICARUSRepo/Media/Projects/ICARUS_NET/cs_proc_image0000.png]
-
-Processed Chief of Security Sign suitable for NN classification.
 
 = Simulation =
 
