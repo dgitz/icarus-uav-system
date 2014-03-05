@@ -108,14 +108,7 @@
 /rosout_agg
 /tum_ardrone/com
 }}}
-== Shared Drive ==
-add to /etc/fstab
-{{{
-username=davidgitz@live.com,password=PASSWORD,iocharset=utf8,sec=ntlm  0  0
-}}}
-{{{
-sudo mount -a
-}}}
+
 
 == References ==
 [http://wiki.ros.org/fuerte/Installation/Ubuntu ROS Fuerte Installation]
