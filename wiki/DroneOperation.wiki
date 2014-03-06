@@ -63,7 +63,22 @@ rosrun icarus_drone_server drone_server.py --targetmode=Execute
 
 = Tele-Op Control =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Drone/Controls/JoystickMapping.png]
-
+ # Open a Terminal and Enter:
+{{{
+roscore
+}}}
+ # Open a Terminal and Enter:
+{{{
+rosrun ardrone_autonomy ardrone_driver
+}}}
+ # Open a Terminal and Enter:
+{{{
+rosrun joy joy_node
+}}}
+ # Open a Terminal and Enter:
+{{{
+rosrun icarus_drone_server drone_server.py --use_joystick=True
+}}}
 = Bag File Record/Playback =
 {{{
 rosbag record -O subset /ardrone/image_raw /ardrone/predictedPose /tum_ardrone/com
