@@ -63,3 +63,6 @@ rosrun icarus_drone_server drone_server.py --targetmode=Execute
 
 = Tele-Op Control =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Drone/Controls/JoystickMapping.png]
+
+= Bag File Record/Playback =
+[http://ros.informatik.uni-freiburg.de/roswiki/ROS(2f)Tutorials(2f)Recording(20)and(20)playing(20)back(20)data.html ROS Bag File Record/Playback Tutorial]
