@@ -6,7 +6,7 @@ sudo openvpn --config ~/Documents/UIC-dgitz2.ovpn
 }}}
 
 == Image Acquisition ==
-=== Real Image Acquisition (for ANN Training) ===
+=== Real Image Acquisition (for Pattern Recognition Training) ===
  # Open a Terminal and Enter:
 {{{
 roscore
@@ -32,7 +32,13 @@ rosrun icarus_drone_server drone_server.py --targetmode=Acquire --target_acquire
 {{{
 python createtrainingimages.py --Patterns=50
 }}}
-== ANN Training ==
+== Pattern Recognition Training ==
+ # On the Matlab Server:
+{{{
+addpath 'prt'
+prtPath
+prtSetup
+}}}
 
 == Normal Operation ==
  # Open a Terminal and Enter:
