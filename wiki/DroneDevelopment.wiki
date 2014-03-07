@@ -4,7 +4,10 @@
  # Implement basic communication between drone_server and Drone. (DONE)
  # Implement SLAM operation on Drone. (In Progress)
  # Implement Simulation on drone_server. 
- # Implement ANN Navigation Tasks on drone_erver, matlab_server and Drone. (In Progress)
+ # Implement Target Identification/Navigation Tasks on drone_server, matlab_server and Drone. (In Progress)
  # Implement Obstacle Avoidance on Drone (Not Started).
  # Implement Path Planning on Drone and drone_server. (Not Started)
 == Tasks ==
+
+== Target Identification ==
+[http://newfolder.github.io/prtdoc/prtDocLanding.html Pattern Recognition Toolbox]
