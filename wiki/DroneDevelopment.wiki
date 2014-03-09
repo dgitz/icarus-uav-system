@@ -2,10 +2,10 @@
 
 == Milestones ==
  # Implement basic communication between drone_server and Drone. (DONE)
- # Implement SLAM operation on Drone. (In Progress)
- # Implement Simulation on drone_server. 
+ # Implement SLAM operation on drone_server. (In Progress)
+ # Implement Simulation on sim_server.
  # Implement Target Identification/Navigation Tasks on drone_server, matlab_server and Drone. (In Progress)
- # Implement Obstacle Avoidance on Drone (Not Started).
+ # Implement Obstacle Avoidance on drone_server (Not Started).
  # Implement Path Planning on Drone and drone_server. (Not Started)
 == Tasks ==
 
