@@ -10,6 +10,20 @@
 == Tasks ==
 
 == Target Identification ==
+A Matlab Program (MatlabServer) was created that runs on the matlab_server.  The drone_server continually acquires images from the drone and sends them over a WiFi TCP/IP channel to the matlab_server target recognition.  After the matlab_server processing is complete on an image a message is sent back to the drone_server.
+
+The Matlab program has the following modes:
+ # Train
+ # Test
+ # Sim
+ # Live
+
+The Train mode goes through every training sample to produce a Principal Component Analysis (PCA) along with a K-Nearest Neighbors (KNN) Classifier.  This process is completed many times by varying the parameters used for the preprocessing script, to increase the accuracy of the classification system.  The Training process is fairly fast, taking about 20 seconds to load all training samples, process them and create the classifiers.  As such many variations of the preprocessing script are allowed to run.  For my initial work, approximately 52,000 different iterations were employed.  For the Training processing, the initial samples are split into a training and testing set.  However, these samples are a subset of the inital training samples as some training items are unsuitable for training, but should still be validated upon.  The best classifier/preprocessing scripts are able to achieve a 99% success rate for this dataset.
+
+The Testing mode goes through every classifier generated during the Training process and tests on every training sample available.  As such, the error during this process is higher than the Training process.  The highest success rate for the entire dataset is reduced to approximately 76%.
+
+The Sim mode is designed to test the performance of the selected classifiers without requiring a live connection to the drone_server.  To improve the performance of the classifiers, the best 7 classifiers/preprocessors are evaluated on the data sample.  If there is agreement in the majority of the classifiers that classification is used.  Otherwise the previous classification found is used.  This method increases the success rate to approximately 81%. 
+
 [http://newfolder.github.io/prtdoc/prtDocLanding.html Pattern Recognition Toolbox]
 
 
