@@ -87,7 +87,7 @@ rosrun icarus_drone_server drone_server.py --use_joystick=True
 }}}
 = Bag File Record/Playback =
 {{{
-rosbag record -O subset /ardrone/image_raw /ardrone/predictedPose /tum_ardrone/com
+rosbag record -o DPG /ardrone/imu /ardrone/navdata /ardrone/point_cloud /ardrone/predictedPose /ardrone/std_pose /cmd_vel /tf /tum_ardrone/com
 }}}
 {{{
 rosbag play -r 10 -l "bagfile.bag"
