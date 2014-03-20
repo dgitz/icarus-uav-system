@@ -17,6 +17,9 @@ roun tf static_transform_publisher 0 0 0 0 0 0 base_link cam_front 100
 rosrun tum_ardrone drone_stateestimation
 }}}
 {{{
+rosrun icarus_drone_server drone_server.py
+}}}
+{{{
 rosbag record -o DPG /ardrone/imu /ardrone/navdata /ardrone/point_cloud /ardrone/predictedPose /ardrone/std_pose /cmd_vel /tf /tum_ardrone/com
 }}}
 {{{
