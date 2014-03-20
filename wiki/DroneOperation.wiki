@@ -1,4 +1,28 @@
 = Operation =
+
+== Record Point Cloud ==
+{{{
+roscore
+}}}
+{{{
+rosrun joy joy_node
+}}}
+{{{
+rosrun ardrone_autonomy ardrone_driver
+}}}
+{{{
+roun tf static_transform_publisher 0 0 0 0 0 0 base_link cam_front 100
+}}}
+{{{
+rosrun tum_ardrone drone_stateestimation
+}}}
+{{{
+rosbag record -o DPG /ardrone/imu /ardrone/navdata /ardrone/point_cloud /ardrone/predictedPose /ardrone/std_pose /cmd_vel /tf /tum_ardrone/com
+}}}
+{{{
+rosrun pcl_ros bag_to_pcd DPG_2014-03-20-12-01-08.bag /ardrone/point_cloud ./pointclouds
+}}}
+
 == Start Matlab ==
 {{{
 sudo openvpn --config ~/Documents/UIC-dgitz2.ovpn
