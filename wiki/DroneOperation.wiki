@@ -11,7 +11,7 @@ rosrun joy joy_node
 rosrun ardrone_autonomy ardrone_driver
 }}}
 {{{
-roun tf static_transform_publisher 0 0 0 0 0 0 base_link cam_front 100
+rosrun tf static_transform_publisher 0 0 0 0 0 0 base_link cam_front 100
 }}}
 {{{
 rosrun tum_ardrone drone_stateestimation
