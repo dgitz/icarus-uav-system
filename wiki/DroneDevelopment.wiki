@@ -9,6 +9,11 @@
  # Implement Path Planning on Drone and drone_server. (Not Started)
 == Tasks ==
 
+== Simulation ==
+[http://www.coppeliarobotics.com/helpFiles/en/rosTutorial.htm V-Rep ROS Tutorial]
+
+[http://www.coppeliarobotics.com/helpFiles/index.html V-Rep User Manual]
+
 == SLAM ==
 
 == Target Identification ==
