@@ -1,5 +1,30 @@
 = Operation =
 
+== Simulation ==
+This setup assumes there are 2 computers, a _simserver_ and a _droneserver_ that are fully capable of ROS communication.  See [http://wiki.ros.org/ROS/Tutorials/MultipleMachines this link] for more information.  
+The _droneserver_ will run the roscore service.
+=== On the _droneserver_ ===
+In Terminal 1:
+{{{
+roscore
+}}}
+In Terminal 2: 
+Identify which joystick will be used using jstest-gdk
+{{{
+rosparam set joy_node/dev "/dev/input/js2"
+rosrun joy joy_node
+}}}
+In Terminal 3: 
+{{{
+rosrun icarus_drone_server drone_server.py
+}}}
+=== On the _simserver_ ===
+In Terminal 1:
+{{{
+cd ~/Desktop/V-REP_PRO_EDU_V3_1_1_64_LINUX
+./vrep.sh
+}}}
+In V-Rep load the correct scene and start the simulation.
 == Record Point Cloud ==
 {{{
 roscore
