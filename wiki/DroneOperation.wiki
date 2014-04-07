@@ -24,7 +24,7 @@ In Terminal 1:
 cd ~/Desktop/V-REP_PRO_EDU_V3_1_1_64_LINUX
 ./vrep.sh
 }}}
-In V-Rep load the correct scene and start the simulation.
+In V-Rep load the correct scene (in icarus_sim_server/vrep_scenes/ and start the simulation.
 == Record Point Cloud ==
 {{{
 roscore
