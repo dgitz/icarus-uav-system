@@ -1,7 +1,7 @@
 = Operation =
 
 == Simulation ==
-This setup assumes there are 2 computers, a _simserver_ and a _droneserver_ that are fully capable of ROS communication.  See [http://wiki.ros.org/ROS/Tutorials/MultipleMachines this link] for more information.  
+This setup assumes there are 2 computers, a _simserver_ ([https://github.com/dgitz/icarus_sim_server simserver code])and a _droneserver_ ([https://github.com/dgitz/icarus_drone_server droneserver code]) that are fully capable of ROS communication.  See [http://wiki.ros.org/ROS/Tutorials/MultipleMachines this link] for more information.  
 The _droneserver_ will run the roscore service.
 === On the _droneserver_ ===
 In Terminal 1:
