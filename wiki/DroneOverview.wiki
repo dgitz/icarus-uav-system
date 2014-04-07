@@ -31,5 +31,8 @@ Ministry of Torture Sign
 Chief of Security Sign
 
 = Simulation =
+Using [http://www.coppeliarobotics.com/ V-Rep] I have created a simulation environment where the quadrotor can communicate over ROS and therefore looks identical to the different navigation algorithms running on the _droneserver_.
+
+[http://dgitz.ipower.com/ICARUSRepo/Media/Drone/Simulation/Screenshot6Apr2014.png]
 
 = Path Planning =
