@@ -18,17 +18,17 @@ In Terminal 3:
 {{{
 rosrun icarus_drone_server drone_server.py
 }}}
+In Terminal 4:
+{{{
+rosrun tum_ardrone drone_stateestimation _mode:=Sim
+}}}
 === On the _simserver_ ===
 In Terminal 1:
 {{{
 cd ~/Desktop/V-REP_PRO_EDU_V3_1_1_64_LINUX
 ./vrep.sh
 }}}
-=== Back on the _droneserver_ ===
-In Terminal 4:
-{{{
-rosrun tum_ardrone drone_stateestimation _mode:=Sim
-}}}
+
 In V-Rep load the correct scene (in icarus_sim_server/vrep_scenes/ and start the simulation.
 == Record Point Cloud ==
 {{{
