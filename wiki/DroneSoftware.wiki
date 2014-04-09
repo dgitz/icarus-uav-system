@@ -15,7 +15,7 @@
  # 
 
 == ROS Topics ==
-=== Camera ===
+=== Drone Camera ===
 {{{
 /ardrone/bottom/camera_info
 /ardrone/bottom/image_raw
@@ -51,6 +51,8 @@
 /ardrone/image_raw/theora/parameter_descriptions
 /ardrone/image_raw/theora/parameter_updates
 }}}
+=== Sim Camera === 
+
 === Navigation ===
 {{{
 /ardrone/imu
