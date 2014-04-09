@@ -16,6 +16,9 @@
 
 == SLAM ==
 
+=== References ===
+[https://code.google.com/p/ratslam/wiki/RatSLAMROS RatSLAMROS]
+
 == Target Identification ==
 A Matlab Program (MatlabServer) was created that runs on the matlab_server.  The drone_server continually acquires images from the drone and sends them over a WiFi TCP/IP channel to the matlab_server target recognition.  After the matlab_server processing is complete on an image a message is sent back to the drone_server.
 
