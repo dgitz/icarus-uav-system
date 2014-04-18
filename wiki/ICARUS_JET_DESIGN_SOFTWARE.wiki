@@ -5,3 +5,8 @@
 [https://github.com/dgitz/icarus_jet_fc Flight Controller Source Code]
 
 [https://github.com/dgitz/icarus_jet_mc Motion Controller Source Code]
+
+= Velocity Over Ground =
+
+== References ==
+[http://docs.opencv.org/trunk/doc/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html OpenCV Optic Flow Example]
