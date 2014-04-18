@@ -1,13 +1,7 @@
-#summary One-sentence summary of this page.
+#summary Main Software page for the ICARUS Jet
 
-= Introduction =
+[https://github.com/dgitz/icarus_jet_pc Primary Controller Source Code]
 
-Add your content here.
+[https://github.com/dgitz/icarus_jet_fc Flight Controller Source Code]
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+[https://github.com/dgitz/icarus_jet_mc Motion Controller Source Code]
