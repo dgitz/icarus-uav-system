@@ -5,6 +5,10 @@
   * [https://github.com/dgitz/icarus_rover/wiki Rover]
   * [ICARUS_JET Jet]
     * [ICARUS_JET_COMPONENTS Components]
+      * Controllers
+        * [ICARUS_JET_PC Primary Controller]
+        * [ICARUS_JET_FC Flight Controller]
+        * [ICARUS_JET_MC Motion Controller]
     * [ICARUS_JET_DESIGN Design]
       * [ICARUS_JET_DESIGN_SOFTWARE Software]
   * [Drone Drone]
