@@ -6,6 +6,8 @@
 
 [https://github.com/dgitz/icarus_jet_mc Motion Controller Source Code]
 
+= Obstacle Avoidance =
+
 = Velocity Over Ground =
 
 == References ==
