@@ -16,4 +16,4 @@ Add your content here.  Format your content with:
 [http://dgitz.ipower.com/ICARUSRepo/Media/Jet/Design/v1RevA.png]
 
 = Architecture =
-[http://dgitz.ipower.com/ICARUSRepo/Media/Jet/Design/SystemDiagram.png]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Jet/Design/SystemDiagramSmall.png]
