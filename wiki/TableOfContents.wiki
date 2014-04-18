@@ -9,6 +9,9 @@
         * [ICARUS_JET_PC Primary Controller]
         * [ICARUS_JET_FC Flight Controller]
         * [ICARUS_JET_MC Motion Controller]
+      * Sensors
+        * [ICARUS_JET_FRONTCAM Asus Xtion Pro]
+      * Actuators
     * [ICARUS_JET_DESIGN Design]
       * [ICARUS_JET_DESIGN_SOFTWARE Software]
   * [Drone Drone]
