@@ -4,6 +4,8 @@
     * SparkFun-AVC
   * [https://github.com/dgitz/icarus_rover/wiki Rover]
   * [ICARUS_JET Jet]
+    * [ICARUS_JET_DESIGN Design]
+      * [ICARUS_JET_DESIGN_SOFTWARE Software]
   * [Drone Drone]
     * [DroneOverview Overview]
     * [DroneDevelopment Development]
