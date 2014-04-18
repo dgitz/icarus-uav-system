@@ -3,6 +3,7 @@
     * [http://code.google.com/p/icarus-uav-system/wiki/AUVSIIARC  AUVSI-IARC]
     * SparkFun-AVC
   * [https://github.com/dgitz/icarus_rover/wiki Rover]
+  * [ICARUS_JET Jet]
   * [Drone Drone]
     * [DroneOverview Overview]
     * [DroneDevelopment Development]
