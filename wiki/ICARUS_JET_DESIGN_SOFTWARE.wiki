@@ -9,6 +9,14 @@
 = Obstacle Avoidance =
 
 = Velocity Over Ground =
+STATUS: In Development
+
+To Use:
+
+In primarycontroller.py:
+Set --targetmode=Execute
+
+Set --opticflow=True
 
 == References ==
 [http://docs.opencv.org/trunk/doc/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html OpenCV Optic Flow Example]
