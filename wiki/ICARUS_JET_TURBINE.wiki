@@ -1,8 +1,8 @@
-#summary One-sentence summary of this page.
+#summary Turbine Information
 
 = Introduction =
 
-Add your content here.
+The ICARUS Jet will use 4 small (RC-scale) Turbine engines for its main powerplant.
 
 
 = Details =
@@ -11,3 +11,12 @@ Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
+
+= References =
+
+== Manufacturers ==
+[http://www.jetcatusa.com/ JetCat USA]
+
+[https://www.rcturbinejets.com/ RC Turbine Jets]
+
+[http://www.skymasterjet.com/index2.htm Skymaster]
