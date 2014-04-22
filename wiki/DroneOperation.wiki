@@ -14,11 +14,15 @@ Identify which joystick will be used using jstest-gdk
 rosparam set joy_node/dev "/dev/input/js2"
 rosrun joy joy_node
 }}}
-In Terminal 3: 
+In Terminal 3:
+{{{
+rosrun ardrone_autonomy ardrone_driver
+}}}
+In Terminal 4: 
 {{{
 rosrun icarus_drone_server drone_server.py
 }}}
-In Terminal 4:
+In Terminal 5:
 {{{
 rosrun tum_ardrone drone_stateestimation _mode:=Sim
 }}}
