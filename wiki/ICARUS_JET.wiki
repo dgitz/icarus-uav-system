@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Add your content here.
+The ICARUS Jet is a QuadTiltJet UAV.  It includes 4 tilt-able Turbine Engines to provide high efficiency Hover and high-speed Forward flight modes.
 
 
 = Tasks =
