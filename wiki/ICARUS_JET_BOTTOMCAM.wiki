@@ -11,3 +11,10 @@ Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
+
+= References =
+[https://www.sparkfun.com/products/11610 JPEG Color Camera]
+
+[http://store.3drobotics.com/products/px4flow PX4Flow Kit]
+
+[http://www.cmucam.org/projects/cmucam4 CMUCam4]
