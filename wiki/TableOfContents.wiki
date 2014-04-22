@@ -12,6 +12,7 @@
       * Sensors
         * [ICARUS_JET_FRONTCAM Asus Xtion Pro]
       * Actuators
+        * [ICARUS_JET_TURBINE Turbine]
     * [ICARUS_JET_DESIGN Design]
       * [ICARUS_JET_DESIGN_SOFTWARE Software]
   * [Drone Drone]
