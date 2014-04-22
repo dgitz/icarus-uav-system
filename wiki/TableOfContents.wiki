@@ -16,6 +16,8 @@
         * [ICARUS_JET_TURBINE Turbine]
     * [ICARUS_JET_DESIGN Design]
       * [ICARUS_JET_DESIGN_SOFTWARE Software]
+    * Modelling
+    * Simulation
   * [Drone Drone]
     * [DroneOverview Overview]
     * [DroneDevelopment Development]
