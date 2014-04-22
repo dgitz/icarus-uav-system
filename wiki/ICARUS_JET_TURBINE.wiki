@@ -6,13 +6,12 @@ The ICARUS Jet will use 4 small (RC-scale) Turbine engines for its main powerpla
 
 
 = Details =
+[http://www.rc-airplane-world.com/model-jet-engine.html http://www.rc-airplane-world.com/image-files/model-jet-engine.gif]
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
 
 = References =
+== Other Info ==
+[http://www.rc-airplane-world.com/model-jet-engine.html Info]
 
 == Manufacturers ==
 [http://www.jetcatusa.com/ JetCat USA]
@@ -20,3 +19,9 @@ Add your content here.  Format your content with:
 [https://www.rcturbinejets.com/ RC Turbine Jets]
 
 [http://www.skymasterjet.com/index2.htm Skymaster]
+
+[https://www.rcturbinejets.com/evojet.us.html EvoJet]
+
+[http://www.wrenturbines.co.uk/turbojets Wren Turbines]
+
+[http://www.rcuniverse.com/market/category.cfm?catID=57 RC Universe]
