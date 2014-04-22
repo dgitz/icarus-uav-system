@@ -11,6 +11,7 @@
         * [ICARUS_JET_MC Motion Controller]
       * Sensors
         * [ICARUS_JET_FRONTCAM Asus Xtion Pro]
+        * [ICARUS_JET_BOTTOMCAM Bottom Cam]
       * Actuators
         * [ICARUS_JET_TURBINE Turbine]
     * [ICARUS_JET_DESIGN Design]
