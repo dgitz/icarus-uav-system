@@ -12,6 +12,7 @@ The ICARUS Jet is a QuadTiltJet UAV.  It includes 4 tilt-able Turbine Engines to
  # Develop mechanical design for efficient aerodynamic flight and resilient takeoff/landing maneuvers.
  # Optic Flow to measure velocity over ground, used for auto-landing.
  # Obstacle Avoidance using forward-facing camera
+ # Develop software for resilient operation/failure modes.
 
 = Concept =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Jet/Design/v1RevA.png]
