@@ -6,13 +6,19 @@ The ICARUS Jet is a QuadTiltJet UAV.  It includes 4 tilt-able Turbine Engines to
 
 
 = Tasks =
+== Critical ==
  # Develop control concepts/equations for Hover, Transition and Forward flight modes.
- # Perform system identification on turbine engine for automated control loop tuning.
  # Develop simulation of UAV in V-Rep for control loop tuning/debugging.
  # Develop mechanical design for efficient aerodynamic flight and resilient takeoff/landing maneuvers.
+ # Develop software for resilient operation/failure modes.
+
+== Regular == 
  # Optic Flow to measure velocity over ground, used for auto-landing.
  # Obstacle Avoidance using forward-facing camera
- # Develop software for resilient operation/failure modes.
+ # Perform system identification on turbine engine for automated control loop tuning.
+ # Design Tilt Mechanism
+
+== Completed ==
 
 = Concept =
 [http://dgitz.ipower.com/ICARUSRepo/Media/Jet/Design/v1RevA.png]
