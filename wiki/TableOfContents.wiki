@@ -18,7 +18,7 @@
       * [ICARUS_JET_DESIGN_SOFTWARE Software]
     * Modelling
       * System Identification
-    * Simulation
+    * [ICARUS_JET_SIMULATION Simulation]
   * [Drone Drone]
     * [DroneOverview Overview]
     * [DroneDevelopment Development]
