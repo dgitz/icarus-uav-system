@@ -1,7 +1,13 @@
 #summary Details different Simulation packages for the ICARUS Jet
 
 = Controls =
-
+Requirements:
+ # Model Force on Engines, and Tilt Engines, based on simplistic design
+ # Send Engine Forces via TCP to Simulation
+ # Receive UAV pose/orientation
+ # Receive Velocity Over Ground (X,Y)
+ # Receive Altitude data
+ # Send/Receive Simulation state, reset, etc.
 == Options ==
  # V-Rep: 
  # XPlane
