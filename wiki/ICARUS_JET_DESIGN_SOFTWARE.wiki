@@ -14,7 +14,7 @@ For ease of development the first phase of this controller will be based on a no
 == Phase 1 ==
 === TODO ==
  # Build PID Controller in Python
- # Build PID Tuner GUI in Python
+
 === Controller ===
 The Controller will consist of:
  # A Roll PID Controller
