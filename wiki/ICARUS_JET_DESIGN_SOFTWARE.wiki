@@ -6,7 +6,29 @@
 
 [https://github.com/dgitz/icarus_jet_mc Motion Controller Source Code]
 
-= Obstacle Avoidance =
+= Evolution Algorithm Controller =
+The idea is to develop a controller for the ICARUS Jet that will be tuned based on an Evolution Algorithm.  The final controller will control each Engine's Thrust and Rotation angles, based on manual/autonomous control, flight modes and given sensor data.
+
+For ease of development the first phase of this controller will be based on a normal quadrotor (AR Drone) simulated in VRep.  Also, the entire controller will be implemented on the Primary Controller.
+
+== Phase 1
+The Controller will consist of:
+ # A Roll PID Controller
+ # A Pitch PID Controller
+ # A Yaw PID Controller
+ # An Altitude PID Controller
+ 
+The following equations will be used to generate the appropriate thrust from each motor, where:
+FL: Thrust generated from Front-Left Engine
+FR: Thrust generated from Front-Right Engine
+BL: Thrust generated from Back-Left Engine
+BR: Thrust generated from Back-Right Engine
+
+
+=== TODO ==
+ # Build PID Controller in Python
+ # Build PID Tuner GUI in Python
+
 
 = Velocity Over Ground =
 STATUS: In Development
@@ -18,6 +40,7 @@ In primarycontroller.py:
 Set --targetmode=Execute
 
 Set --opticflow=True
+
 
 == References ==
 [http://docs.opencv.org/trunk/doc/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html OpenCV Optic Flow Example]
