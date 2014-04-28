@@ -11,7 +11,11 @@ The idea is to develop a controller for the ICARUS Jet that will be tuned based 
 
 For ease of development the first phase of this controller will be based on a normal quadrotor (AR Drone) simulated in VRep.  Also, the entire controller will be implemented on the Primary Controller.
 
-== Phase 1
+== Phase 1 ==
+=== TODO ==
+ # Build PID Controller in Python
+ # Build PID Tuner GUI in Python
+=== Controller ===
 The Controller will consist of:
  # A Roll PID Controller
  # A Pitch PID Controller
@@ -19,15 +23,88 @@ The Controller will consist of:
  # An Altitude PID Controller
  
 The following equations will be used to generate the appropriate thrust from each motor, where:
-FL: Thrust generated from Front-Left Engine
-FR: Thrust generated from Front-Right Engine
-BL: Thrust generated from Back-Left Engine
-BR: Thrust generated from Back-Right Engine
+
+FL: Thrust command sent to Front Left Engine
+
+FR: Thrust command sent to Front-Right Engine
+
+BL: Thrust command sent to Back-Left Engine
+
+BR: Thrust command sent to Back-Right Engine
 
 
-=== TODO ==
- # Build PID Controller in Python
- # Build PID Tuner GUI in Python
+Cur,,Yaw,,: Current Yaw Angle.  Yaw is measured in Degrees.  0 is True North, and continues to 360 before 0, clockwise.  
+
+Set,,Yaw,,: Set Yaw Angle, similar to Cur,,Yaw,,.
+
+
+Cur,,Pitch,,: Current Pitch Angle.  Pitch is measured in Degrees.  0 is level, Pitch down until 180 at inverted, then to -180 and back to 0 for level.
+
+Set,,Pitch,,: Set Pitch Angle, similar to Cur,,Pitch,,.
+
+
+Cur,,Roll,,: Current Roll Angle.  Roll is measured in Degrees.  0 is level, Roll left until 180 at inverted, then to -180 and back to 0 for level.
+
+Set,,Roll,,: Set Roll Angle, similar to Cur,,Roll,,.
+
+Cur,,Alt,,: Current Altitude.  Altitude is measured in meters above Ground.
+
+Set,,Alt,,: Set Altitude, similar to Cur,,Alt,,. 
+
+==== Roll Controller ====
+FL,,1,, = BL,,1,, = PID,,Roll,,(Cur,,Roll,,,Set,,Roll,,)
+
+FR,,1,, = BR,,1,, = -PID,,Roll,,(Cur,,Roll,,,Set,,Roll,,)
+==== Pitch Controller ====
+FL,,2,, = FR,,2,, = PID,,Pitch,,(Cur,,Pitch,,,Set,,Pitch,,)
+
+BL,,2,, = BR,,2,, = -PID,,Pitch,,(Cur,,Pitch,,,Set,,Pitch,,)
+==== Yaw Controller ====
+FL,,3,, = BR,,3,, = PID,,Yaw,,(Cur,,Yaw,,,Set,,Yaw,,)
+
+FR,,3,, = BL,,3,, = -PID,,Yaw,,(Cur,,Yaw,,,Set,,Yaw,,)
+==== Altitude Controller ====
+FL,,4,, = FR,,4,, = BL,,4,, = BR,,4,, = PID,,Alt,,(Cur,,Alt,,,Set,,Alt,,) 
+
+==== Complete Controller ====
+FL,,1,error,, = FL-FL,,1,,; FL,,2,error,, = FL-FL,,2,, ...
+
+FR,,1,error,, = FR-FR,,1,,; FR,,2,error,, = FR-FR,,2,, ...
+
+BL,,1,error,, = BL-BL,,1,,; BL,,2,error,, = BL-BL,,2,, ...
+
+BR,,1,error,, = BR-BR,,1,,; BR,,2,error,, = BR-BR,,2,, ...
+----
+FLindex = argmax(FL,,1,error,,,FL,,2,error,,,...)
+
+...
+
+FL = FL,,FLindex,,
+
+FR = FR,,FRindex,,
+
+BL = BL,,BLindex,,
+
+BR = BR,,BRindex,,
+
+
+=== Evolution Algorithm ===
+To tune the 12 PID Constants for the above controller, an Evolution Algorithm will be used.
+
+Candidate constants will be applied to a simulation of the Quadrotor in VRep, on the following scenario.  On each scenario segment the target is a world position of (t,x,y,z,theta).  The initial and final position is (0,0,0)
+ # Takeoff (1,0,0,1,0)
+ # Hover (3,0,0,1,0)
+ # Fly Forward (3,0,1,1,0)
+ # Hover (3,0,1,1,0)
+ # Roll Left (3,1,1,1,0)
+ # Hover (3,1,1,1,0)
+ # Yaw Left (3,1,1,1,-90)
+ # Fly Backward (3,0,1,1,-90)
+ # Hover (3,0,1,1,-90)
+ # Roll Left (3,0,0,1,-90)
+ # Hover (3,0,0,1,-90)
+ # Yaw Right (3,0,0,1,0)
+ # Land (1,0,0,0,0)
 
 
 = Velocity Over Ground =
