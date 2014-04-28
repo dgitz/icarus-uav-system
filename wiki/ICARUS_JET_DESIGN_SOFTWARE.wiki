@@ -106,6 +106,12 @@ Candidate constants will be applied to a simulation of the Quadrotor in VRep, on
  # Yaw Right (3,0,0,1,0)
  # Land (1,0,0,0,0)
 
+To evaluate the EA algorithm the fitness of each scenario segment will be calculated, based on: 
+ # Time to complete
+ # Error in final x,y,z,theta
+ # Others?
+
+If a certain trial set results in a crash (walls/floor), inverted flight, or other "bad" solutions it will be set the lowest level of selection for the next round of evolution.
 
 = Velocity Over Ground =
 STATUS: In Development
