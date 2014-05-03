@@ -102,8 +102,8 @@ Candidate constants will be applied to a simulation of the Quadrotor in VRep, on
  # Fly Backward (3,0,1,1,-90)
  # Hover (3,0,1,1,-90)
  # Yaw Right (3,0,0,1,90)
- # Roll Right (3,0,0,1,-90)
- # Hover (3,0,0,1,-90)
+ # Roll Right (3,0,0,1,90)
+ # Hover (3,0,0,1,90)
  # Yaw Right (3,0,0,1,0)
  # Land (1,0,0,0,0)
 
