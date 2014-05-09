@@ -6,7 +6,10 @@ Thrust/Weight Ratio: 1.2
 Lift/Drag Ratio: 5
 
 
+= Steps =
+Reynolds Number (Re) = Density*Velocity*Length/Viscosity
 
+Re = 1.2754 kg.m-3 * 26.8224 meter/second * 1.2192 meters/1.983 kg/m s) x 10-5=2103276
 
 
 = Flow Design =
