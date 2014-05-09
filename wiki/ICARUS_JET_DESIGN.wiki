@@ -3,6 +3,17 @@
 = Summary =
 This page documents the overall design of the ICARUS Jet.
 
+= Design Goals =
+Range: 5 Miles
+
+Cruise Speed: 60 miles/hour (88 feet/second)
+
+Flight Time: At least 25 minutes
+
+Duty Cycle:
+
+Hover: 15%,Transition: 5%, Cruise: 85%
+
 = Version 1 =
 == Revision A ==
 v1RevA is somewhat of a conceptual model, designed to provide the overall design concepts of the ICARUS Jet and validate the different software involved.
