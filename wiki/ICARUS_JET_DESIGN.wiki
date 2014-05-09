@@ -5,4 +5,4 @@ This page documents the overall design of the ICARUS Jet.
 
 = Version 1 =
 == Revision A ==
-Revision A is somewhat of a conceptual model, designed to provide the overall design concepts of the ICARUS Jet and validate the different software involved.
+v1RevA is somewhat of a conceptual model, designed to provide the overall design concepts of the ICARUS Jet and validate the different software involved.
