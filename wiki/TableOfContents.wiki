@@ -15,6 +15,7 @@
       * Actuators
         * [ICARUS_JET_TURBINE Turbine]
     * [ICARUS_JET_DESIGN Design]
+      * [ICARUS_JET_DESIGN_AERO Aero]
       * [ICARUS_JET_DESIGN_SOFTWARE Software]
     * Modelling
       * [ICARUS_JET_SYSTEM_IDENTIFICATION System Identification]
