@@ -5,6 +5,9 @@ Thrust/Weight Ratio: 1.2
 
 Lift/Drag Ratio: 5
 
+= Design Scenarios =
+ # Transition: 15:0 AoA, 15 mph
+ # Cruise: -5:5 AoA, 60 mph
 
 = Steps =
 Reynolds Number (Re) = Density*Velocity*Length/Viscosity
