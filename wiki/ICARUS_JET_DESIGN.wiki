@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Overall Design Documentation
 
 = Summary =
 This page documents the overall design of the ICARUS Jet.
