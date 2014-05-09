@@ -66,26 +66,15 @@ FR,,3,, = BL,,3,, = -PID,,Yaw,,(Cur,,Yaw,,,Set,,Yaw,,)
 ==== Altitude Controller ====
 FL,,4,, = FR,,4,, = BL,,4,, = BR,,4,, = PID,,Alt,,(Cur,,Alt,,,Set,,Alt,,) 
 
-==== Complete Controller ====
-FL,,1,error,, = FL-FL,,1,,; FL,,2,error,, = FL-FL,,2,, ...
+=== Complete Controller ===
 
-FR,,1,error,, = FR-FR,,1,,; FR,,2,error,, = FR-FR,,2,, ...
+FL = max(FL,,1,,,FL,,2,,,FL,,3,,,FL,,4,,)
 
-BL,,1,error,, = BL-BL,,1,,; BL,,2,error,, = BL-BL,,2,, ...
+FR = max(FR,,1,,,FR,,2,,,FR,,3,,,FR,,4,,)
 
-BR,,1,error,, = BR-BR,,1,,; BR,,2,error,, = BR-BR,,2,, ...
-----
-FLindex = argmax(FL,,1,error,,,FL,,2,error,,,...)
+BL = max(BL,,1,,,BL,,2,,,BL,,3,,,BL,,4,,)
 
-...
-
-FL = FL,,FLindex,,
-
-FR = FR,,FRindex,,
-
-BL = BL,,BLindex,,
-
-BR = BR,,BRindex,,
+BR = max(BR,,1,,,BR,,2,,,BR,,3,,,BR,,4,,)
 
 
 === Evolution Algorithm ===
