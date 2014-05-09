@@ -6,4 +6,6 @@ Add your content here.
 
 
 = Flow Design =
+ # Open the JetRevA_FlowDesignScene in Inventor
  # Export Inventor Assembly as STL file with units of mm.
+ # Import this file in Flow Design.  The Orientation and Size should be correct.
