@@ -5,6 +5,9 @@ Thrust/Weight Ratio: 1.2
 
 Lift/Drag Ratio: 5
 
+Cm: 0
+
+
 = Design Scenarios =
  # Transition: 15:0 AoA, 15 mph
  # Cruise: -5:5 AoA, 60 mph
@@ -24,6 +27,7 @@ Lift/Drag Ratio: 5
 
 = Version 1 =
 == Revision B ==
+To reduce complexity, all Airfoils and Fuselage will be Symmetrical, co Cm = 0
 === Airfoils to Test ===
 [http://aerospace.illinois.edu/m-selig/ads/coord_database.html Airfoil Database]
 
