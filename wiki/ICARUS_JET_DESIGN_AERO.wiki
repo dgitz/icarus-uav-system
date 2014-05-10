@@ -31,6 +31,7 @@ Airfoil Chord Length: 6 in
 To reduce complexity, all Airfoils and Fuselage will be Symmetrical, so Cm = 0
 === Airfoils to Test ===
 ==== ah85l120 ====
+[http://aerospace.illinois.edu/m-selig/ads/afplots/ah85l120.gif]
 ==== fx76120 ====
 ==== fx79l120 ====
 
