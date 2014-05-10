@@ -27,7 +27,7 @@ Cm: 0
 
 = Version 1 =
 == Revision B ==
-To reduce complexity, all Airfoils and Fuselage will be Symmetrical, co Cm = 0
+To reduce complexity, all Airfoils and Fuselage will be Symmetrical, so Cm = 0
 === Airfoils to Test ===
 [http://aerospace.illinois.edu/m-selig/ads/coord_database.html Airfoil Database]
 
