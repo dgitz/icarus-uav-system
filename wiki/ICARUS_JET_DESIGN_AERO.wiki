@@ -7,12 +7,13 @@ Lift/Drag Ratio: 5
 
 Cm: 0
 
+Airfoil Chord Length: 6 in
+
 
 = Design Scenarios =
- # Transition: 15:0 AoA, 15 mph
- # Cruise: -5:5 AoA, 60 mph
+ # Transition: 15:0 AoA, 5-15 mph (Re: 21909-65727)
+ # Cruise: -5:5 AoA, 15-60 mph (Re: 65727-262910)
 
- # Re: 21019-262910 (del Re=21019)
 
 = Steps =
  # Determine Re min/max
