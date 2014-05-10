@@ -17,7 +17,7 @@ Airfoil Chord Length: 6 in
 
 = Steps =
  # Determine Re min/max
- 
+ # Find sample Symmetrical Airfoils 
 
 
 
@@ -30,15 +30,14 @@ Airfoil Chord Length: 6 in
 == Revision B ==
 To reduce complexity, all Airfoils and Fuselage will be Symmetrical, so Cm = 0
 === Airfoils to Test ===
-[http://aerospace.illinois.edu/m-selig/ads/coord_database.html Airfoil Database]
-
-ah85l120.dat
-
-fx76120.dat
-
-fx79l120.dat 
+==== ah85l120 ====
+==== fx76120 ====
+==== fx79l120 ====
 
 == Revision A ==
 v1RevA is a conceptual model and Aero parameters are not specified.  The Jet is designed using a symmetrical-airfoil for the fuselage, and high-lift airfoils for the front and back wings.  The Airfoil profile is not fully specified.  
 
 After the design process was completed it was found that the Jet feaures very high lift, low Thrust/Weight (when fueled) and creates a large amount of turbulent airflow from the front wing to the back wing.  
+
+= References =
+[http://aerospace.illinois.edu/m-selig/ads/coord_database.html Airfoil Database]
