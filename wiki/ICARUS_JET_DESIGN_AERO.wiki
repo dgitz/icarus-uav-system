@@ -9,10 +9,11 @@ Lift/Drag Ratio: 5
  # Transition: 15:0 AoA, 15 mph
  # Cruise: -5:5 AoA, 60 mph
 
+ # Re: 21019-262910 (del Re=21019)
+
 = Steps =
 Reynolds Number (Re) = Density*Velocity*Length/Viscosity
 
-Re = (1.2754 kg.m-3 x 26.8224 meter/second x 1.2192 meters)/(1.983 kg/m s x 10^-5)=2103276
 
 
 = Flow Design =
