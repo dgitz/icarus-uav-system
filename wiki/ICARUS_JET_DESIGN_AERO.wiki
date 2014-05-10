@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Aero Design for the ICARUS Jet
 
 = Design Parameters =
 Thrust/Weight Ratio: 1.2
