@@ -12,7 +12,8 @@ Lift/Drag Ratio: 5
  # Re: 21019-262910 (del Re=21019)
 
 = Steps =
-Reynolds Number (Re) = Density*Velocity*Length/Viscosity
+ # Determine Re min/max
+ 
 
 
 
