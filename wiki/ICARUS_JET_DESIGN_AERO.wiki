@@ -9,6 +9,9 @@ Cm: 0
 
 Airfoil Chord Length: 6 in
 
+Wing Loading: 15 oz/ft^2
+
+Aspect Ratio: 6
 
 = Design Scenarios =
  # Transition: 15:0 AoA, 5-15 mph (Re: 21909-65727)
