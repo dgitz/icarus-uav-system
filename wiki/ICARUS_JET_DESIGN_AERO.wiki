@@ -34,6 +34,11 @@ Aspect Ratio: 7.5
  * To reduce complexity, all Airfoils and Fuselage will be Symmetrical.
  * Front Wing will be a Rectangular+Tapered, Rear Wing will be Rectangular to help with Stall progression.
 
+=== Fuselage ===
+ * Airfoil: NACA0020
+=== Front Wing ===
+
+=== Rear Wing ===
 
 == Revision A ==
 v1RevA is a conceptual model and Aero parameters are not specified.  The Jet is designed using a symmetrical-airfoil for the fuselage, and high-lift airfoils for the front and back wings.  The Airfoil profile is not fully specified.  
