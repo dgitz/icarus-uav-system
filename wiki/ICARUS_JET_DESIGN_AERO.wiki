@@ -5,13 +5,11 @@ Thrust/Weight Ratio: 1.2
 
 Lift/Drag Ratio: 5
 
-Cm: 0
+Airfoil Chord Length: 18 in
 
-Airfoil Chord Length: 6 in
+Wing Loading: 25 oz/ft^2
 
-Wing Loading: 15 oz/ft^2
-
-Aspect Ratio: 6
+Aspect Ratio: 7.5
 
 = Design Scenarios =
  # Transition: 15:0 AoA, 5-15 mph (Re: 21909-65727)
@@ -33,12 +31,9 @@ Aspect Ratio: 6
 
 = Version 1 =
 == Revision B ==
-To reduce complexity, all Airfoils and Fuselage will be Symmetrical, so Cm = 0
-=== Airfoils to Test ===
-==== ah85l120 ====
-[http://aerospace.illinois.edu/m-selig/ads/afplots/ah85l120.gif]
-==== fx76120 ====
-==== fx79l120 ====
+ * To reduce complexity, all Airfoils and Fuselage will be Symmetrical.
+ * Front Wing will be a Rectangular+Tapered, Rear Wing will be Rectangular to help with Stall progression.
+
 
 == Revision A ==
 v1RevA is a conceptual model and Aero parameters are not specified.  The Jet is designed using a symmetrical-airfoil for the fuselage, and high-lift airfoils for the front and back wings.  The Airfoil profile is not fully specified.  
