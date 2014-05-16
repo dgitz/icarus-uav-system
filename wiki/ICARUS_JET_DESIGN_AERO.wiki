@@ -17,7 +17,9 @@ Aspect Ratio: 6
  # Transition: 15:0 AoA, 5-15 mph (Re: 21909-65727)
  # Cruise: -5:5 AoA, 15-60 mph (Re: 65727-262910)
 
-
+= Issues =
+ # Stall progression pattern on Front Wing to not affect Back Engines.
+ # Pitching Moment, especially during Transition Phase.
 = Steps =
  # Determine Re min/max
  # Find sample Symmetrical Airfoils 
