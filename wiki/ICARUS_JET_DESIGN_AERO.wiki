@@ -47,3 +47,5 @@ After the design process was completed it was found that the Jet feaures very hi
 
 = References =
 [http://aerospace.illinois.edu/m-selig/ads/coord_database.html Airfoil Database]
+
+[http://www.cadstudio.cz/en/apps/importcoord/ Spline Import]
