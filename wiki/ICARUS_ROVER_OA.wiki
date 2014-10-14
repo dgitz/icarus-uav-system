@@ -42,6 +42,6 @@ Obstacle_Large_Diameter = 50; %Inches
 
 == Test Scripts ==
 
- * TestSensorSweep : Sweeps Sonar Sensors back and forth
- * TestVehicleRandomWalk : Randomly drives Vehicle around Environment
- * TestOccupancyGrid : Tests Occupancy Grid functionality
+ * TestSensorSweep: Sweeps Sonar Sensors back and forth
+ * TestVehicleRandomWalk: Randomly drives Vehicle around Environment
+ * TestOccupancyGrid: Tests Occupancy Grid functionality
