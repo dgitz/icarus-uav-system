@@ -3,54 +3,13 @@
 
 = Introduction =
 
-Add your content here.
+Matlab based.
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+= Tasks =
+ # Develop Vehicle simulation for Ackermann steering UGV based on real-world parameters. - DONE
+ # Develop simulation of rotating Sonar Sensors. - DONE
+ # Develop simulated environment that includes circular Obstacles. - DONE
+ # Develop mapping code between Sonar Sensors and Occupancy Grid. - IN WORK
+ # Develop Obstacle Avoidance code based on Obstacles and random goal position. - NOT STARTED
 
 = Operating-Instructions =
