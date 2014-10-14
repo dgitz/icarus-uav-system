@@ -30,6 +30,13 @@ Sonar_Max_Distance %Inches
 SonarSensor_MaxAngle %Degrees
 SonarSensor_MinAngle %Degrees
 }}}
-== Environment Parameters ==
+== Environment & Obstacle Parameters ==
+{{{
+
+Room_Width = 255; %Inches
+Room_Height = 255; %Inches
+Obstacle_Density = .3; %Percent
+Obstacle_Small_Diameter = 5; %Inches
+Obstacle_Large_Diameter = 50; %Inches
 
 == Test Scripts ==
