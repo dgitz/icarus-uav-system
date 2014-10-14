@@ -13,3 +13,23 @@ Matlab based.
  # Develop Obstacle Avoidance code based on Obstacles and random goal position. - NOT STARTED
 
 = Operating-Instructions =
+== Vehicle Parameters ==
+{{{
+Vehicle.Width = 12; %Inches
+Vehicle.Length = 18; %Inches
+Vehicle.Current_Point_Angle = 290; %Degrees
+Vehicle.Max_Speed = 10; %Inches/Second
+Vehicle.Max_Left = -30; %Degrees
+Vehicle.Max_Right = 30; %Degrees
+Vehicle.Wheel_Radius = 3; %Inches
+}}}
+== Sonar Parameters ==
+{{{
+Sonar_Beamwidth %Degrees
+Sonar_Max_Distance %Inches
+SonarSensor_MaxAngle %Degrees
+SonarSensor_MinAngle %Degrees
+}}}
+== Environment Parameters ==
+
+== Test Scripts ==
