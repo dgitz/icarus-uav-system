@@ -7,6 +7,7 @@
       * [ICARUS_ROVER_OA Obstacle Avoidance]
       * [ICARUS_ROVER_EA Evolutionary Algorithm]
       * [ICARUS_ROVER_LIVE Validation]
+      * [ICARUS_ROVER_RECHARGE Autonomous Recharging]
     * [ICARUS_ROVER_COMPONENTS Components]
       * Controllers
         * [ICARUS_ROVER_RC Robot Controller]
