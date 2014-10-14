@@ -2,9 +2,9 @@
 
 = Objectives =
  # Perform Obstacle Avoidance on a ground-based Rover in a dense environment. [ICARUS_ROVER_OA]
- # Tune Obstacle Avoidance parameters with Evolutionary Algorithms
- # Autonomously/Continuously validate tuned-OA algorithm on real-world Rover.
- # Perform autonomous rover recharging.
+ # Tune Obstacle Avoidance parameters with Evolutionary Algorithms. [ICARUS_ROVER_EA]
+ # Autonomously/Continuously validate tuned-OA algorithm on real-world Rover. [ICARUS_ROVER_LIVE]
+ # Perform autonomous rover recharging. [ICARUS_ROVER_RECHARGE]
 
 = Main Tasks =
 
