@@ -2,7 +2,7 @@
   * [http://code.google.com/p/icarus-uav-system/wiki/Competitions Competitions] 
     * [http://code.google.com/p/icarus-uav-system/wiki/AUVSIIARC  AUVSI-IARC]
     * SparkFun-AVC
-  * [https://github.com/dgitz/icarus_rover/wiki Rover]
+  * [ICARUS_ROVER Rover]
   * [ICARUS_JET Jet]
     * [ICARUS_JET_COMPONENTS Components]
       * Controllers
