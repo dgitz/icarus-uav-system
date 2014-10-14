@@ -8,7 +8,7 @@
       * [ICARUS_ROVER_EA Evolutionary Algorithm]
       * [ICARUS_ROVER_LIVE Validation]
       * [ICARUS_ROVER_RECHARGE Autonomous Recharging]
-    * [Components]
+    * Components
       * Controllers
         * [ICARUS_ROVER_RC Robot Controller]
         * [ICARUS_ROVER_MC Motion Controller]
