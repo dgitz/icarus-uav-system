@@ -36,7 +36,7 @@ BuildEnvironment('SmallObstacles')
 Sensor_In_Sight
 In_Overlap
 }}}
- * All variables in a Function that are similar to global variables shall be preceeded by 'my':
+ * All variables in a Function that are similar to global variables shall be preceeded by 'my_':
 {{{
 my_OccupancyGrid
 my_SonarSensors
