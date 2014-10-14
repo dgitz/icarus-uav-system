@@ -7,3 +7,6 @@
  # Perform autonomous rover recharging.
 
 = Main Tasks =
+
+= Definitions =
+== Variable Declarations ==
