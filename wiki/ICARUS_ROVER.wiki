@@ -1,7 +1,7 @@
 #summary ICARUS Rover
 
 = Objectives =
- # Perform Obstacle Avoidance on a ground-based Rover in a dense environment.
+ # Perform Obstacle Avoidance on a ground-based Rover in a dense environment. [ICARUS_ROVER_OA]
  # Tune Obstacle Avoidance parameters with Evolutionary Algorithms
  # Autonomously/Continuously validate tuned-OA algorithm on real-world Rover.
  # Perform autonomous rover recharging.
