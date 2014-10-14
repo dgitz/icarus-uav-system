@@ -1,5 +1,5 @@
 #summary ICARUS Rover Obstacle Avoidance
-[ICARUS_ROVER_OAT#Operating-Instructions Operating Instructions]
+[ICARUS_ROVER_OA#Operating-Instructions Operating Instructions]
 
 = Introduction =
 
