@@ -38,5 +38,10 @@ Room_Height = 255; %Inches
 Obstacle_Density = .3; %Percent
 Obstacle_Small_Diameter = 5; %Inches
 Obstacle_Large_Diameter = 50; %Inches
+}}}
 
 == Test Scripts ==
+
+ * TestSensorSweep: Sweeps Sonar Sensors back and forth
+ * TestVehicleRandomWalk: Randomly drives Vehicle around Environment
+ * TestOccupancyGrid: Tests Occupancy Grid functionality
