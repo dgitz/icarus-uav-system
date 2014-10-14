@@ -3,6 +3,17 @@
     * [http://code.google.com/p/icarus-uav-system/wiki/AUVSIIARC  AUVSI-IARC]
     * SparkFun-AVC
   * [ICARUS_ROVER Rover]
+    * Projects
+      * [ICARUS_ROVER_OA Obstacle Avoidance]
+      * [ICARUS_ROVER_EA Evolutionary Algorithm]
+      * [ICARUS_ROVER_LIVE Validation]
+    * [ICARUS_ROVER_COMPONENTS Components]
+      * Controllers
+        * [ICARUS_ROVER_RC Robot Controller]
+        * [ICARUS_ROVER_MC Motion Controller]
+      * Sensors
+      * Actuators
+     
   * [ICARUS_JET Jet]
     * [ICARUS_JET_COMPONENTS Components]
       * Controllers
