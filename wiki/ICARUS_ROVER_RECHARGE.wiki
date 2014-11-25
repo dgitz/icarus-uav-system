@@ -1,0 +1,11 @@
+#summary Autonomous Recharging Documentation for the ICARUS Rover
+
+Test Camera Operation
+{{{
+luvcview
+--or--
+sudo ./test
+--or--
+sudo ./tracking
+}}}
+Reference: http://stevenhickson.blogspot.com/2013/03/using-webcam-with-raspberry-pi.html
