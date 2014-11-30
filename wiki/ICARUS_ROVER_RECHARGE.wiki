@@ -8,4 +8,10 @@ sudo ./test
 --or--
 sudo ./tracking
 }}}
-Reference: http://stevenhickson.blogspot.com/2013/03/using-webcam-with-raspberry-pi.html
+References: 
+
+http://stevenhickson.blogspot.com/2013/03/using-webcam-with-raspberry-pi.html
+
+http://hackaday.com/2014/09/05/an-obsessively-thorough-battery-and-more-showdown/
+
+http://www.ti.com/lit/an/snva557/snva557.pdf
