@@ -1,13 +1,18 @@
-#summary One-sentence summary of this page.
+#summary ICARUS Rover Robot Controller
 
 = Introduction =
 
-Add your content here.
+Raspberry Pi B+
 
 
-= Details =
+= References =
+[http://www.adafruit.com/product/1914 Adafruit Purchase Info]
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+[https://learn.adafruit.com/introducing-the-raspberry-pi-model-b-plus-plus-differences-vs-model-b Overview]
+
+[https://www.adafruit.com/datasheets/pi-connectors_schematic.pdf Connector Schematic]
+
+https://www.adafruit.com/datasheets/pi-mech_schematic.pdf Mechanical Schematic]
+
+
+[http://www.raspbian.org/ Rasbpain]
