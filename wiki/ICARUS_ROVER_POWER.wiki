@@ -11,6 +11,10 @@
 
 [http://content.vexrobotics.com/vexpro/pdf/Victor-SP-Talon-SRX-Info-Sheet-20140819.pdf Victor SP Info Sheet]
 
+== Q&A == 
+ * How Linear at Low Voltages?
+ * Min Voltage?
+ 
 = Motor =
 
 = Battery =
