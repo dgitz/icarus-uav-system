@@ -1,6 +1,6 @@
 #summary ICARUS Rover
 
-[https://www.dropbox.com/s/xbiyiy9lipf4aps/2014-08-24%2015.54.00.jpg]
+[https://dl.dropboxusercontent.com/u/23040168/2014-08-24%2015.54.07.jpg]
 
 = Objectives =
  # Perform Obstacle Avoidance on a ground-based Rover in a dense environment. [ICARUS_ROVER_OA]
