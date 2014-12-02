@@ -1,0 +1,22 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+
+
+= Requirements =
+== Function ==
+ * Communication to ICARUS_ROVER_RC 
+ * Drive Servos
+ * Read Ultrasonic Sensors
+ * Command/Response for Recharging
+
+== I/O ==
+ * PWM: 5 (Drive,Steer,Pan,2xProbe)
+ * DI: 7 (Sonic)
+ * Comm: 2 (UART)
+ * 
+
+= References =
+[http://www.mikronauts.com/raspberry-pi/robopi/ RoboPi]
