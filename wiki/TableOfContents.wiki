@@ -12,7 +12,7 @@
       * Controllers
         * [ICARUS_ROVER_RC Robot Controller]
         * [ICARUS_ROVER_MC Motion Controller]
-      * Sensors
+      * [ICARUS_ROVER_SENSORS Sensors]
       * [ICARUS_ROVER_POWER Power]   
   * [ICARUS_JET Jet]
     * [ICARUS_JET_COMPONENTS Components]
