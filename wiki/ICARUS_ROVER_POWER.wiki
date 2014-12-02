@@ -18,3 +18,5 @@
 = Servo =
 
 = Power Supply =
+
+= Recharging =
