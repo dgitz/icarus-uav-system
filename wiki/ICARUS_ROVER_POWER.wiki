@@ -3,6 +3,10 @@
 = Motor Controller =
 
 [file:///C:/Users/david/Downloads/Motor_Controller_Speed_vs_Torque_tests_revB.pdf FRC Motor Controller Comparison]
+
+
+[http://content.vexrobotics.com/vexpro/images/CTRE-announcement-VictorSP.jpg]
+
 [http://www.andymark.com/Victor-SP-p/am-2855.htm Victor SP Purchase Info]
 
 [http://content.vexrobotics.com/vexpro/pdf/Victor-SP-Talon-SRX-Info-Sheet-20140819.pdf Victor SP Info Sheet]
