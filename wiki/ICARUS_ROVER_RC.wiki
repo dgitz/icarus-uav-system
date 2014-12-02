@@ -1,7 +1,7 @@
 #summary ICARUS Rover Robot Controller
 
 = Introduction =
-
+[http://www.adafruit.com/images/970x728/1914-01.jpg]
 Raspberry Pi B+
 
 
