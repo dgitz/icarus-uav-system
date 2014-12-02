@@ -7,7 +7,7 @@ Add your content here.
 
 = Requirements =
 == Function ==
- * Communication to ICARUS_ROVER_RC 
+ * Communication to [ICARUS_ROVER_RC]
  * Drive Servos
  * Read Ultrasonic Sensors
  * Command/Response for Recharging
