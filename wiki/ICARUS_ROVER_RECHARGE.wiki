@@ -9,7 +9,8 @@ sudo ./test
 sudo ./tracking
 }}}
 
-= Perform Image Acquisition Process =
+= Operating Instructions =
+== Perform Image Acquisition Process ==
  # Terminal 1:
 {{{
 roscore
