@@ -8,6 +8,17 @@ sudo ./test
 --or--
 sudo ./tracking
 }}}
+
+= Perform Image Acquisition Process =
+ # Terminal 1:
+{{{
+roscore
+}}}
+ # Terminal 2:
+{{{
+cd ~/catkin_ws
+roslaunch icarus_rover_rc acquire_train_images.launch 
+}}}
 References: 
 
 http://stevenhickson.blogspot.com/2013/03/using-webcam-with-raspberry-pi.html
