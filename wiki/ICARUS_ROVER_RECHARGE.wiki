@@ -1,6 +1,6 @@
 #summary Autonomous Recharging Documentation for the ICARUS Rover
-
-Test Camera Operation
+= Testing =
+== Test Camera Operation ==
 {{{
 luvcview
 --or--
