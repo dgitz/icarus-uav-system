@@ -1,6 +1,8 @@
 #summary Autonomous Recharging Documentation for the ICARUS Rover=
 = Training Image Data =
-||Folder||File||Target1||Target2||
+||Folder||File||Target1_x||Target1_y||Target2_x||Target2_y||
+
+
 = Testing =
 == Test Camera Operation ==
 {{{
