@@ -22,7 +22,19 @@ roscore
  # Terminal 2:
 {{{
 cd ~/catkin_ws
+source ./devel/setup.bash
 roslaunch icarus_rover_rc acquire_train_images.launch 
+}}}
+== Pick Targets from Training Images ==
+ # Terminal 1:
+{{{
+roscore
+}}}
+ # Terminal 2:
+{{{
+cd ~/catkin_ws
+source ./devel/setup.bash
+roslaunch icarus_rover_rc pick_targets_from_train_images.launch 
 }}}
 References: 
 
