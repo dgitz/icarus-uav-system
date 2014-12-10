@@ -37,6 +37,7 @@ cd ~/catkin_ws
 source ./devel/setup.bash
 roslaunch icarus_rover_rc pick_targets_from_train_images.launch 
 }}}
+For each image click at most 2 Targets.  If the image doesn't contain a Target right-click anywhere in the image.  Press space to see the selected targets (or nothing happens if right-click was pressed).  Press space again to advance to the next image.
 References: 
 
 http://stevenhickson.blogspot.com/2013/03/using-webcam-with-raspberry-pi.html
