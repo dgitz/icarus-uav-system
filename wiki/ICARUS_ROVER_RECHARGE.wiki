@@ -6,7 +6,7 @@
 = Testing =
 == Test Camera Operation ==
 {{{
-luvcview
+luvcview -d /dev/video1
 --or--
 sudo ./test
 --or--
