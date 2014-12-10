@@ -48,3 +48,5 @@ http://hackaday.com/2014/09/05/an-obsessively-thorough-battery-and-more-showdown
 http://www.ti.com/lit/an/snva557/snva557.pdf
 
 http://docs.opencv.org/doc/tutorials/features2d/feature_detection/feature_detection.html
+
+http://robocv.blogspot.com/2012/02/real-time-object-detection-in-opencv.html
