@@ -1,6 +1,6 @@
 #summary Autonomous Recharging Documentation for the ICARUS Rover=
 = Training Image Data =
-||File||Target1_x||Target1_y||Target2_x||Target2_y||
+||Filename||Target1_x||Target1_y||Target2_x||Target2_y||
 
 
 = Testing =
@@ -25,6 +25,7 @@ cd ~/catkin_ws
 source ./devel/setup.bash
 roslaunch icarus_rover_rc acquire_train_images.launch 
 }}}
+Every time you left-click the image window it will save the image to a folder.
 == Pick Targets from Training Images ==
  # Terminal 1:
 {{{
