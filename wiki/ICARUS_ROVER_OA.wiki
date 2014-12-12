@@ -48,3 +48,9 @@ Obstacle_Large_Diameter = 50; %Inches
 
 = References =
 [http://idm-lab.org/bib/abstracts/papers/aaai02b.pdf D* Lite Search]
+
+[http://wiki.ros.org/gmapping ROS gmapping Stack]
+
+[http://docs.ros.org/api/sensor_msgs/html/msg/LaserScan.html ROS LaserScan Message]
+
+[http://wiki.ros.org/navigation ROS navigation Stack]
