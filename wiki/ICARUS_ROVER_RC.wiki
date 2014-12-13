@@ -16,3 +16,5 @@ https://www.adafruit.com/datasheets/pi-mech_schematic.pdf Mechanical Schematic]
 
 
 [http://www.raspbian.org/ Rasbpain]
+
+[http://www.raspberrypi.org/forums/viewtopic.php?t=58151 Raspberry Pi Troubleshooting]
