@@ -50,3 +50,5 @@ http://www.ti.com/lit/an/snva557/snva557.pdf
 http://docs.opencv.org/doc/tutorials/features2d/feature_detection/feature_detection.html
 
 http://robocv.blogspot.com/2012/02/real-time-object-detection-in-opencv.html
+
+http://find-object.googlecode.com/svn/trunk/find_object/example/main.cpp
