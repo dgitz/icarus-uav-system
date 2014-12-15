@@ -1,5 +1,5 @@
 #summary Autonomous Recharging Documentation for the ICARUS Rover=
-= Training Image Data =
+= Training Target Data =
 Filename: capturedate.cvs
 ||Filename||Target1_x||Target1_y||Target2_x||Target2_y||
 
