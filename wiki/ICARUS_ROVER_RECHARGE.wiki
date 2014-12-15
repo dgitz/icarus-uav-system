@@ -57,3 +57,5 @@ http://docs.opencv.org/doc/tutorials/features2d/feature_detection/feature_detect
 http://robocv.blogspot.com/2012/02/real-time-object-detection-in-opencv.html
 
 http://find-object.googlecode.com/svn/trunk/find_object/example/main.cpp
+
+https://github.com/savsun/Filters
