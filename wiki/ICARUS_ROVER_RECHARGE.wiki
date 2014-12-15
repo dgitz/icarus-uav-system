@@ -1,7 +1,12 @@
 #summary Autonomous Recharging Documentation for the ICARUS Rover=
 = Training Image Data =
+Filename: capturedate.cvs
 ||Filename||Target1_x||Target1_y||Target2_x||Target2_y||
 
+= Training Result Data =
+Filename: filtermethod_detectmethod_capturedate_pickeddate.csv
+
+||Threshold||Erode||Dilate||Score||FPS||
 
 = Testing =
 == Test Camera Operation ==
