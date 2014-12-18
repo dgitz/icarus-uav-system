@@ -49,11 +49,45 @@ For each image click at most 2 Targets.  If the image doesn't contain a Target r
 
 === Evolution Algorithm ===
 [http://www.cs.vu.nl/~gusz/ecbook/Eiben-Smith-Intro2EC-Ch2.pdf Intro to EA]
-INITIALIZE:
-EVALUATE:
-SELECT:
-RECOMBINE:
-MUTATE:
+The following functions need to be defined for an EA process:
+
+*INITIALIZE*
+Initialize 20 candidates with a random selection of Genes with the following specifications:
+
+_GENE_ERODE_ Integer, between 1 and 11.  1 Meaning no Erosion process, so the Erosion process can be skipped.
+
+_GENE_DILATE_ Integer, between 1 and 11.  1 Meaning no Dilation process, so the Dilation process can be skipped.
+
+_GENE_THRESHOLD_ Integer, between 0 and 255.  
+
+*EVALUATE*
+Evaluate the image pre-processing with the feature detection method and compute the target_score and processing_score, where:
+target_score is a piecewise function.
+
+If a target is found and a target is present:
+{{{
+target_score = min(||found_target-target1||,||found_target-target2||)
+}}}
+If a target is found and no target is actually present:
+{{{
+target_score = image_width*image_height
+}}}
+If no target is found and a target is actually present:
+{{{
+target_score = image_width*image_height
+}}}
+If no target is found and no target is actually present:
+{{{
+target_score = 0
+}}}
+
+
+*SELECT*
+
+*RECOMBINE*
+
+*MUTATE*
+
 = References =
 
 http://stevenhickson.blogspot.com/2013/03/using-webcam-with-raspberry-pi.html
