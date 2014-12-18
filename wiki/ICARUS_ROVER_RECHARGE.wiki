@@ -44,6 +44,16 @@ roslaunch icarus_rover_rc pick_targets_from_train_images.launch
 }}}
 For each image click at most 2 Targets.  If the image doesn't contain a Target right-click anywhere in the image.  Press space to see the selected targets (or nothing happens if right-click was pressed).  Press space again to advance to the next image.
 
+== Tuning Process ==
+=== Manual (non-EA) ===
+
+=== Evolution Algorithm ===
+[http://www.cs.vu.nl/~gusz/ecbook/Eiben-Smith-Intro2EC-Ch2.pdf Intro to EA]
+INITIALIZE:
+EVALUATE:
+SELECT:
+RECOMBINE:
+MUTATE:
 = References =
 
 http://stevenhickson.blogspot.com/2013/03/using-webcam-with-raspberry-pi.html
