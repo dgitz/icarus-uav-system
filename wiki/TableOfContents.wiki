@@ -5,8 +5,8 @@
   * [ICARUS_ROVER Rover]
     * Projects
       * [ICARUS_ROVER_OA Obstacle Avoidance]
-      * [ICARUS_ROVER_EA Evolutionary Algorithm]
-      * [ICARUS_ROVER_LIVE Validation]
+      * [ICARUS_ROVER_NAVLEARN Navigation Learning]
+      * [ICARUS_ROVER_NAVLIVE Navigation Validation]
       * [ICARUS_ROVER_RECHARGE Autonomous Recharging]
     * Components
       * Controllers
