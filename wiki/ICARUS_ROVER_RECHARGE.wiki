@@ -6,6 +6,8 @@ The ICARUS_ROVER_RECHARGE Project is designed to allow a robot to autonomously f
  * [ICARUS_ROVER_RECHARGE#Battery-Recharging Battery Recharging]
 
 = Target-Finding =
+Finding a Target in an image is broken into several pieces.  First, a large amount of exemplar images are taken.  Then the targets in each image are specified manually.  Finally an image processor is tuned (either extensively or with an Evolutionary Algorithm) with a feature detection process.  
+
 == Training Target Data ==
 Filename: capturedate.cvs
 ||Filename||Target1_x||Target1_y||Target2_x||Target2_y||
