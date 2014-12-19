@@ -57,7 +57,7 @@ roslaunch icarus_rover_rc pick_targets_from_train_images.launch
 For each image click at most 2 Targets.  If the image doesn't contain a Target right-click anywhere in the image.  Press space to see the selected targets (or nothing happens if right-click was pressed).  Press space again to advance to the next image.
 
 === Tuning Process ===
-==== Manual (non-EA) ====
+==== Extensive (non-EA) ====
 
 ==== Evolution Algorithm ====
 Of course the Evolution Algorithm here is based on the natural processes found in Nature.  If one does not necessarily believe in Evolution, consult this [http://evolutionfaq.com/ Evolution FAQ] or [http://lmgtfy.com/?q=psychiatrist+near+me More Information]
