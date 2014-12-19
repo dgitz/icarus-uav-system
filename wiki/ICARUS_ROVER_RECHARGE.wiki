@@ -1,4 +1,7 @@
 #summary Autonomous Recharging Documentation for the ICARUS Rover=
+= Introduction =
+The ICARUS_ROVER_RECHARGE Project is designed to allow a robot to autonomously find a standard AC outlet (using visual images) and insert a plug to recharge its batteries.  
+
 = Training Target Data =
 Filename: capturedate.cvs
 ||Filename||Target1_x||Target1_y||Target2_x||Target2_y||
@@ -48,6 +51,8 @@ For each image click at most 2 Targets.  If the image doesn't contain a Target r
 === Manual (non-EA) ===
 
 === Evolution Algorithm ===
+Of course the Evolution Algorithm here is based on the natural processes found in Nature.  If one does not necessarily believe in Evolution, consult this [http://evolutionfaq.com/ Evolution FAQ] or [http://lmgtfy.com/?q=psychiatrist+near+me More Information]
+
 [http://www.cs.vu.nl/~gusz/ecbook/Eiben-Smith-Intro2EC-Ch2.pdf Intro to EA]
 The following functions need to be defined for an EA process:
 
