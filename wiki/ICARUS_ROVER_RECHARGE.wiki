@@ -1,7 +1,11 @@
 #summary Autonomous Recharging Documentation for the ICARUS Rover=
 = Introduction =
-The ICARUS_ROVER_RECHARGE Project is designed to allow a robot to autonomously find a standard AC outlet (using visual images) and insert a plug to recharge its batteries.  
+The ICARUS_ROVER_RECHARGE Project is designed to allow a robot to autonomously find a standard AC outlet (using visual images) and insert a plug to recharge its batteries.  There are several different components of this project, including:
+ * Finding the location of a Target (if any) in an Image
+ * Aligning the Robot with the Outlet
+ * Charging the Robot's Batteries.  
 
+= Finding 
 = Training Target Data =
 Filename: capturedate.cvs
 ||Filename||Target1_x||Target1_y||Target2_x||Target2_y||
@@ -135,7 +139,7 @@ The Candidates of a Population are sorted based on their pick_score.  The top 5 
 ||13||0.1308||0.0181||WORST LIST||WORST LIST||
 ||2||0.9357||0.0157||BEST LIST||WORST LIST||
 
-As you can see, although Candidate 2 had one of the best composite_scores, they will not be picked due to his pick_score.
+As you can see, although Candidate 2 had one of the best composite_scores, it will not be picked due to his pick_score.
 
 *RECOMBINE*
 
