@@ -1,21 +1,21 @@
 #summary Autonomous Recharging Documentation for the ICARUS Rover=
 = Introduction =
 The ICARUS_ROVER_RECHARGE Project is designed to allow a robot to autonomously find a standard AC outlet (using visual images) and insert a plug to recharge its batteries.  There are several different components of this project, including:
- * Finding the location of a Target (if any) in an Image
- * Aligning the Robot with the Outlet
- * Charging the Robot's Batteries.  
+ * [ICARUS_ROVER_RECHARGE#Target-Finding Target Finding]
+ * [ICARUS_ROVER_RECHARGE#Target-Alignment Target Alignment]
+ * [ICARUS_ROVER_RECHARGE#Battery-Recharging Battery Recharging]
 
-= Finding 
-= Training Target Data =
+= Target-Finding =
+== Training Target Data ==
 Filename: capturedate.cvs
 ||Filename||Target1_x||Target1_y||Target2_x||Target2_y||
 
-= Training Result Data =
+== Training Result Data ==
 Filename: filtermethod_detectmethod_capturedate_pickeddate.csv
 
 ||Threshold||Erode||Dilate||Score||FPS||
 
-= Testing =
+== Testing ==
 == Test Camera Operation ==
 {{{
 luvcview -d /dev/video1
@@ -25,8 +25,8 @@ sudo ./test
 sudo ./tracking
 }}}
 
-= Operating Instructions =
-== Perform Image Acquisition Process ==
+== Operating Instructions ==
+=== Perform Image Acquisition Process ===
  # Terminal 1:
 {{{
 roscore
@@ -38,7 +38,7 @@ source ./devel/setup.bash
 roslaunch icarus_rover_rc acquire_train_images.launch 
 }}}
 Every time you left-click the image window it will save the image to a folder.
-== Pick Targets from Training Images ==
+=== Pick Targets from Training Images ===
  # Terminal 1:
 {{{
 roscore
@@ -51,10 +51,10 @@ roslaunch icarus_rover_rc pick_targets_from_train_images.launch
 }}}
 For each image click at most 2 Targets.  If the image doesn't contain a Target right-click anywhere in the image.  Press space to see the selected targets (or nothing happens if right-click was pressed).  Press space again to advance to the next image.
 
-== Tuning Process ==
-=== Manual (non-EA) ===
+=== Tuning Process ===
+==== Manual (non-EA) ====
 
-=== Evolution Algorithm ===
+==== Evolution Algorithm ====
 Of course the Evolution Algorithm here is based on the natural processes found in Nature.  If one does not necessarily believe in Evolution, consult this [http://evolutionfaq.com/ Evolution FAQ] or [http://lmgtfy.com/?q=psychiatrist+near+me More Information]
 
 [http://www.cs.vu.nl/~gusz/ecbook/Eiben-Smith-Intro2EC-Ch2.pdf Intro to EA]
@@ -173,6 +173,9 @@ for(i=0;i<5;i++)
      }
 }
 }}}
+
+= Target-Alignment =
+= Battery-Recharging =
 = References =
 
 http://stevenhickson.blogspot.com/2013/03/using-webcam-with-raspberry-pi.html
