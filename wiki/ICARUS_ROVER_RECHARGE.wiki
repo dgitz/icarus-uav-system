@@ -96,13 +96,44 @@ Finally, the composite_score is found by:
 {{{
 composite_score = (target_score + process_score)/2
 }}}
-
+So the composite_score will be a value between 0 and 1, with 0 being an extremely poor fitness and a 1 being an extremely good fitness.
 
 *SELECT*
 
 The purpose of the Selection process is to select the best candidates for reproduction, and then to kill off the worst candidates.  However, the best and worst candidates are also selected based on a probability.
 
-The Candidates of a Population are sorted based on their composite_score.
+This is computed on each Candidate by:
+{{{
+pick_score = rand*composite_score
+}}}
+The Candidates of a Population are sorted based on their pick_score.  The top 5 are selected for the next process, the bottom 5 are selected to be removed from the population.  Here is an example:
+ 
+||Candidate ID||Candidate Fitness||Order Picked||W/O Probability||W/ Probability||
+||8||0.961281804577743||0.922356984452706||BEST LIST||BEST LIST||
+||15||0.940112792850418||0.908522507522569||BEST LIST||BEST LIST||
+||3||0.96590471106005||0.710963048978148||BEST LIST||BEST LIST||
+||18||0.624136069863125||0.553013583884719|| ||BEST LIST||
+||5||0.796794185525096||0.489027244346831||BEST LIST||BEST LIST||
+||20||0.77932326330012||0.463453471931652|| || ||
+||4||0.53705606224491||0.397036806556376|| || ||
+||10||0.746266099810402||0.396062687692806|| || ||
+||11||0.474907967278414||0.394864873007388|| || ||
+||19||0.728927182405522||0.370353680689857|| || ||
+||16||0.68433667665282||0.299133142670996|| || ||
+||12||0.733324690572466||0.257124053241142|| || ||
+||14||0.584538125362269||0.232312571289941|| || ||
+||1||0.546549748973505||0.196174704194745|| || ||
+||7||0.446408716165612||0.161199391089457||WORST LIST|| ||
+||17||0.204883104540485||0.143985912869939||WORST LIST||WORST LIST||
+||6||0.331425911525226||0.0579843136762735||WORST LIST||WORST LIST||
+||9||0.267534171917594||0.0480602279739165||WORST LIST||WORST LIST||
+||13||0.130869669882969||0.0181018277015937||WORST LIST||WORST LIST||
+||2||0.93578122696494||0.0157889599597072||BEST LIST||WORST LIST||
+
+As you can see, although Candidate 2 had one of the best composite_scores, they will not be picked due to his pick_score.
+
+
+
 
 *RECOMBINE*
 
