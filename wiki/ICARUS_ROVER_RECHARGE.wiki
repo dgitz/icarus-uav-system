@@ -52,7 +52,8 @@ For each image click at most 2 Targets.  If the image doesn't contain a Target r
 The following functions need to be defined for an EA process:
 
 *INITIALIZE*
-Initialize 20 candidates with a random selection of Genes with the following specifications:
+
+Initialize 20 candidates (a population) with a random selection of Genes with the following specifications:
 
 _GENE_ERODE_ Integer, between 1 and 11.  1 Meaning no Erosion process, so the Erosion process can be skipped.
 
@@ -61,6 +62,7 @@ _GENE_DILATE_ Integer, between 1 and 11.  1 Meaning no Dilation process, so the 
 _GENE_THRESHOLD_ Integer, between 0 and 255.  
 
 *EVALUATE*
+
 Evaluate the image pre-processing with the feature detection method and compute the target_score and processing_score, where:
 target_score is a piecewise function.
 
@@ -80,11 +82,30 @@ If no target is found and no target is actually present:
 {{{
 target_score = 0
 }}}
+Finally, the target_score is normalized by:
+{{{
+target_score = target_score/(image_width*image_height)
+}}}
+
+process_score is found by:
+{{{
+process_score = fps/30
+}}}
+
+Finally, the composite_score is found by:
+{{{
+composite_score = (target_score + process_score)/2
+}}}
 
 
 *SELECT*
 
+The purpose of the Selection process is to select the best candidates for reproduction, and then to kill off the worst candidates.  However, the best and worst candidates are also selected based on a probability.
+
+The Candidates of a Population are sorted based on their composite_score.
+
 *RECOMBINE*
+
 
 *MUTATE*
 
