@@ -132,14 +132,38 @@ The Candidates of a Population are sorted based on their pick_score.  The top 5 
 
 As you can see, although Candidate 2 had one of the best composite_scores, they will not be picked due to his pick_score.
 
-
-
-
 *RECOMBINE*
+
+Now with the best 5 Candidates, their Children must be created.  We use 2 different parents for this.  This is done by:
+{{{
+for(i=0;i<5;i++)
+{
+     parent_A = Candidate[ceil(rand*5)]
+     parent_B = Candidate[ceil(rand*5)]
+     while(parent_A == parent_B)
+     {
+          parent_B = Candidate[ceil(rand*5)]
+     }
+     for(j=0;j<GENE_COUNT;j++)
+     {
+          New_Candidate[i].Gene[j] = average(Parent_A.Gene[j],Parent_B.Gene[j])
+     }
+}
+}}}
 
 
 *MUTATE*
 
+The Mutation process works by randomly mutating the New Candidate's genes by:
+{{{
+for(i=0;i<5;i++)
+{
+     for(j=0;j<GENE_COUNT;j++)
+     {
+          New_Candidate[i].Gene[j] = New_Candidate[i].Gene[j] + scaling_factor*(1-rand)
+     }
+}
+}}}
 = References =
 
 http://stevenhickson.blogspot.com/2013/03/using-webcam-with-raspberry-pi.html
