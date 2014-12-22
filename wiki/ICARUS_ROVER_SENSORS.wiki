@@ -2,6 +2,7 @@
 
 = Distance Sensors =
 
+[http://www.parallax.com/product/28015 Parallax Ping Sensor]
 = Top Camera =
 
 = Front Camera =
