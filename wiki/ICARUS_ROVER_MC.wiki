@@ -14,7 +14,7 @@ Add your content here.
 
 == I/O ==
  * PWM: 3 (Drive,Steer,Winch)
- * DI: 11 (Sonic x7,Charger x2,Winch Switch x2)
+ * DI: 16 (Sonic x7,Charger x2,Winch Switch x2)
  * Analog In: 2 (Power Sensor x2)
  * Comm: 2 (UART)
  * 
