@@ -13,8 +13,9 @@ Add your content here.
  * Command/Response for Recharging
 
 == I/O ==
- * PWM: 5 (Drive,Steer,Pan,2xProbe)
- * DI: 7 (Sonic)
+ * PWM: 3 (Drive,Steer,Winch)
+ * DI: 11 (Sonic x7,Charger x2,Winch Switch x2)
+ * Analog In: 2 (Power Sensor x2)
  * Comm: 2 (UART)
  * 
 
