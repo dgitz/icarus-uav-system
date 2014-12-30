@@ -3,6 +3,7 @@
     * [http://code.google.com/p/icarus-uav-system/wiki/AUVSIIARC  AUVSI-IARC]
     * SparkFun-AVC
   * [ICARUS_ROVER Rover]
+    * [ICARUS_ROVER_NOTES Notes]
     * Projects
       * [ICARUS_ROVER_OA Obstacle Avoidance]
       * [ICARUS_ROVER_NAVLEARN Navigation Learning]
