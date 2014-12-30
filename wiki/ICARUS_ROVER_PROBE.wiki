@@ -12,4 +12,4 @@ Add your content here.  Format your content with:
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-[https://www.dropbox.com/s/yk8p4j0n2aleg1m/2014-12-29%2018.15.59.jpg?dl=0]
+[https://www.dropbox.com/s/yk8p4j0n2aleg1m/2014-12-29%2018.15.59.jpg]
