@@ -181,6 +181,9 @@ for(i=0;i<5;i++)
 
 = Target-Alignment =
 = Battery-Recharging =
+
+Battery Recharging is performed using the [ICARUS_ROVER_CHARGE_PROBE].
+
 = References =
 
 http://stevenhickson.blogspot.com/2013/03/using-webcam-with-raspberry-pi.html
