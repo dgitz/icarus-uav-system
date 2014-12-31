@@ -14,12 +14,9 @@
 == Q&A == 
  * How Linear at Low Voltages?
  * Min Voltage?
- 
-= Motor =
 
 = Battery =
 
-= Servo =
 
 = Power Supply =
 
