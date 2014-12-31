@@ -15,6 +15,7 @@
         * [ICARUS_ROVER_RC Robot Controller]
         * [ICARUS_ROVER_MC Motion Controller]
       * [ICARUS_ROVER_SENSORS Sensors]
+      * [ICARUS_ROVER_ACTUATOR Actuators]
       * [ICARUS_ROVER_POWER Power]   
       * [ICARUS_ROVER_CHARGE_PROBE Charging Probe]
   * [ICARUS_JET Jet]
