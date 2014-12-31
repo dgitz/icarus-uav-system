@@ -11,3 +11,8 @@ _Logitech c270 Camera_
 [http://www.logitech.com/en-us/product/hd-webcam-c270 Purchase Info]
 
 = Temperature =
+
+= Power Sensor =
+AttoPilot 45A Power Sensor 
+
+[https://www.sparkfun.com/products/10643 Purchase Info]
