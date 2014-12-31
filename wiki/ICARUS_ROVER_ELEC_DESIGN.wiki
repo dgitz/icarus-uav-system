@@ -1,0 +1,9 @@
+#summary ICARUS Rover Electrical Design
+
+_12V Components_
+
+_6V Components_
+
+_5V Components_
+
+_3.3V Components_
