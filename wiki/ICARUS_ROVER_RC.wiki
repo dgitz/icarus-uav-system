@@ -1,7 +1,7 @@
 #summary ICARUS Rover Robot Controller
 = Primary Controller =
 
-[ICARUS_ROVER_RCr#Operating-Instructions Operating Instructions]
+[ICARUS_ROVER_RC#Operating-Instructions Operating Instructions]
 
 [https://github.com/dgitz/icarus_rover_rc Source Code]
 
