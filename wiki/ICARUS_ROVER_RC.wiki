@@ -10,8 +10,8 @@
 
 = Configuration =
  * Image: [http://forum.odroid.com/viewtopic.php?f=15&t=2090 Ubuntu 12.11 Robotics Edition v2 (ROS+OpenCV+OpenNI+PCL) X2 Image]
- * Ethernet IP Address:  10.7.44.119 
- * Wlan IP Address:  10.7.45.158
+ * Ethernet IP Address:  
+ * Wlan IP Address: 
  * Hostname:  linaro-ubuntu-desktop
 
 = Remote Operation via WiFi =
