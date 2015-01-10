@@ -1,6 +1,130 @@
 #summary ICARUS Rover Robot Controller
+= Primary Controller =
 
-= Introduction =
+[PrimaryController#Operating-Instructions Operating Instructions]
+
+[https://github.com/dgitz/icarus_pc Source Code]
+
+[http://com.odroid.com/sigong/_Files/2012/201211/images/201211151702013304.jpg]
+[http://dgitz.ipower.com/ICARUSRepo/Media/Flyer/Components/PrimaryController/top.jpg]
+
+= Configuration =
+ * Image: [http://forum.odroid.com/viewtopic.php?f=15&t=2090 Ubuntu 12.11 Robotics Edition v2 (ROS+OpenCV+OpenNI+PCL) X2 Image]
+ * Ethernet IP Address:  10.7.44.119 
+ * Wlan IP Address:  10.7.45.158
+ * Hostname:  linaro-ubuntu-desktop
+
+= Remote Operation via WiFi =
+ # Remote Desktop into OLDHP-LAPTOP-UBUNTU
+ # Ensure WiFi Network on this Laptop is CVRL 
+ # Open a Terminal
+ # Open a Putty Session
+ # Load: icaruspc-wlan and Open
+ # Login with linaro/linaro
+
+= Remote Operation via Console =
+ # Remote Desktop into OLDHP-LAPTOP-UBUNTU
+ # Open a Terminal
+ # Enter the following:
+{{{
+sudo chmod 0777 /dev/ttyUSB0
+}}}
+ # Open a Putty Session
+ # Load: icaruspc-console and Open
+ # Press Enter
+
+== Modules installed ==
+ * pp - TODO
+ * pybrain - TODO
+ * opencv2 
+
+== HDMI Output ==
+{{{
+sudo nano /etc/X11/xorg.conf
+"Option "fbdev" "/dev/fb6"
+}}}
+
+= Operating-Instructions =
+ # Either do [PrimaryController#Manual Manual Start] or [PrimaryController#Automatic Automatic Start]
+ # [PrimaryController#ImageAcquisition Image Acquisition (for ANN Training)]
+
+== Automatic ==
+ # Open a New Terminal and enter
+{{{
+su roscore &
+roslaunch icarus_pc xtion+icarus_pc.launch
+rosrun icarus_pc primarycontroller.py
+}}}
+== Manual ==
+=== Start Xtion Camera ===
+ # Open a New Terminal and enter
+{{{
+su roscore &
+cd ~/catkin_ws
+source ./devel/setup.bash
+rosrun icarus_pc xtionsender
+}}}
+== Test Xtion Camera Publisher ==
+ # Open a New Terminal and enter
+{{{
+rosrun icarus_pc listener.py
+}}}
+
+== ImageAcquisition ==
+ # Open a New Terminal and enter:
+{{{
+rosrun icarus_pc primarycontroller.py --targetmode=Acquire --target_acquire_class=Stupid2 --target_acquire_rate=50 --target_acquire_count=25
+
+}}}
+== To Compile Xtion Camera Code ==
+ # Open a New Terminal and enter
+{{{
+cd ~/catkin_ws
+catkin_make
+}}}
+
+= Notes =
+
+
+= Troubleshooting =
+[http://forum.odroid.com/viewforum.php?f=15 ODroid Forum]
+
+[http://forum.odroid.com/viewtopic.php?f=15&t=936 Troubleshooting Guide]
+
+== Display ==
+http://forum.odroid.com/viewtopic.php?=0&t=2083&p=16527&hilit=lcd#p16527
+
+http://forum.odroid.com/viewtopic.php?f=15&t=600&p=2701&hilit=lcd#p2701
+= Documentation =
+
+== Kinect Integration ==
+[http://answers.ros.org/question/32880/how-to-convert-an-an-opencv-image-using-cvbridge/ How to convert an an opencv image using cvBridge??]
+
+[http://wiki.ros.org/cv_bridge/Tutorials/UsingCvBridgeToConvertBetweenROSImagesAndOpenCVImages Converting between ROS images and OpenCV images (C++)]
+
+[http://siddhantahuja.wordpress.com/2011/07/20/working-with-ros-and-opencv-draft/ Working with ROS and OpenCV]
+
+
+== Basic ROS Stuff ==
+[http://www.hardkernel.com/renewal_2011/products/prdt_info.php?g_code=G135235611947 Odroid-X2 Specifications and Ordering Info]
+
+[http://forum.odroid.com/viewtopic.php?f=15&t=2090 ODroid-X2 Ubuntu, ROS Image]
+
+[http://forum.odroid.com/viewtopic.php?f=53&t=23 Image Flashing on SD Card (Linux)]
+
+[[http://archlinuxarm.org/platforms/armv7/samsung/odroid-x Archlinux install instructions]
+
+[http://www.linux.com/learn/tutorials/711478-how-to-run-linux-on-odroid-u2-a-monster-of-an-arm-machine Basic Linux instructions on ODroid]
+
+[http://forum.odroid.com/viewforum.php?f=15 ODroid Forum for X2 Ubuntu]
+
+[http://forum.odroid.com/viewtopic.php?f=61&t=936 ODroid T-Shooting Guidelines]
+
+[http://com.odroid.com/sigong/blog/blog_list.php?bid=130 In-depth imaging instructions]
+
+[http://com.odroid.com/sigong/nf_file_board/nfile_board.php?keyword=&tag=&page=2 Official ODroid Image Repository]
+
+= Obselete =
 [http://www.adafruit.com/images/970x728/1914-01.jpg]
 Raspberry Pi B+
 
