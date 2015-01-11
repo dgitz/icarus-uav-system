@@ -9,15 +9,21 @@ Messages pertinent to the ICARUS Probe.
 
 Broadcast from the Motion_Controller Node.
 
-_States_
+_Definitions_
 
-
+{{{
+PROBE_MOVING_FORWARD = 1
+PROBE_MOVING_REVERSE = 2
+PROBE_EXTENDED = 3
+PROBE_RETRACTED = 4
+PROBE_ERROR = 5
+}}}
 
 * CHARGE_COMMAND
 
 Send to the Motion_Controller Node.
 
-_States_
+_Definitions_
 
 RECHARGE_START
 
