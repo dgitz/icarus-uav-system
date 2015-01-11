@@ -1,1 +1,21 @@
 #summary Communications for ICARUS
+
+= ROS Topics =
+
+== ICARUS_Probe ==
+Messages pertinent to the ICARUS Probe.
+* PROBE_STATUS
+Broadcast from the Motion_Controller Node.
+
+_enum_
+
+
+
+* CHARGE_COMMAND
+Send to the Motion_Controller Node.
+
+_enum_
+
+RECHARGE_START
+
+RECHARGE_STOP
