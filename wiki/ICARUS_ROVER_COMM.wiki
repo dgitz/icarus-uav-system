@@ -4,17 +4,20 @@
 
 == ICARUS_Probe ==
 Messages pertinent to the ICARUS Probe.
+
 * PROBE_STATUS
+
 Broadcast from the Motion_Controller Node.
 
-_enum_
+_States_
 
 
 
 * CHARGE_COMMAND
+
 Send to the Motion_Controller Node.
 
-_enum_
+_States_
 
 RECHARGE_START
 
