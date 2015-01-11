@@ -5,7 +5,15 @@
 == ICARUS_Probe ==
 Messages pertinent to the ICARUS Probe.
 
-* PROBE_STATUS
+{{{
+string Probe_Status
+int Probe_Status_State
+
+string Charge_Command
+int Charge_Command_State
+}}}
+
+* Probe_Status
 
 Broadcast from the Motion_Controller Node.
 
@@ -19,7 +27,7 @@ PROBE_RETRACTED = 4
 PROBE_ERROR = 5
 }}}
 
-* CHARGE_COMMAND
+* Charge_Command
 
 Send to the Motion_Controller Node.
 
