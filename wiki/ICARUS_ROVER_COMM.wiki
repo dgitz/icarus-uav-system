@@ -9,12 +9,13 @@ Message pertinent to the ICARUS Sonar Sensors.  Formatted as a LaserScan Topic.
 Message pertinent to the ICARUS Probe.
 
 {{{
-int Probe_Status
+int Probe_State
 int Extended_Switch
 int Retracted_Switch
+int Probe_Error
 }}}
 
-* Probe_Status
+* Probe_State
 
 _Definitions_
 {{{
@@ -22,7 +23,6 @@ PROBE_MOVING_FORWARD = 1
 PROBE_MOVING_REVERSE = 2
 PROBE_EXTENDED = 3
 PROBE_RETRACTED = 4
-PROBE_ERROR = 5
 }}}
 
 * Probe_Switch
@@ -33,6 +33,16 @@ _Definitions_
 {{{
 EXTENDED_SWITCH
 REVERSE_SWITCH
+}}}
+
+* Probe_Error
+Various Probe Error States
+
+_Definitions_
+{{{
+NO_ERROR = 0
+EXTENSION_ERROR = 1
+RETRACTION_ERROR = 2
 }}}
 
 == ICARUS_Probe_Command ==
