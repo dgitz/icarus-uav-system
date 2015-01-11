@@ -2,8 +2,11 @@
 
 = ROS Topics =
 
+== ICARUS_Sonar ==
+Message pertinent to the ICARUS Sonar Sensors.  Formatted as a LaserScan Topic.
+
 == ICARUS_Probe ==
-Messages pertinent to the ICARUS Probe.
+Message pertinent to the ICARUS Probe.
 
 {{{
 string Probe_Status
