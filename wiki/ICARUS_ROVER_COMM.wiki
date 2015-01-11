@@ -25,6 +25,7 @@ Send to the Motion_Controller Node.
 
 _Definitions_
 
-RECHARGE_START
-
-RECHARGE_STOP
+{{{
+RECHARGE_START = 1
+RECHARGE_STOP = 2
+}}}
