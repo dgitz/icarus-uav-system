@@ -5,23 +5,18 @@
 == ICARUS_Sonar ==
 Message pertinent to the ICARUS Sonar Sensors.  Formatted as a LaserScan Topic.
 
-== ICARUS_Probe ==
+== ICARUS_Probe_Status ==
 Message pertinent to the ICARUS Probe.
 
 {{{
-string Probe_Status
-int Probe_Status_State
-
-string Charge_Command
-int Charge_Command_State
+int Probe_Status
+int Extended_Switch
+int Retracted_Switch
 }}}
 
 * Probe_Status
 
-Broadcast from the Motion_Controller Node.
-
 _Definitions_
-
 {{{
 PROBE_MOVING_FORWARD = 1
 PROBE_MOVING_REVERSE = 2
@@ -30,13 +25,25 @@ PROBE_RETRACTED = 4
 PROBE_ERROR = 5
 }}}
 
-* Charge_Command
+* Probe_Switch
 
-Send to the Motion_Controller Node.
+Broadcast from the Motion_Controller Node.  Specifies current state of Probe Limit Switches.
 
 _Definitions_
+{{{
+EXTENDED_SWITCH
+REVERSE_SWITCH
+}}}
 
+== ICARUS_Probe_Command ==
+{{{
+int Charge_Command
+}}}
+* Charge_Command
+
+_Definitions_
 {{{
 RECHARGE_START = 1
 RECHARGE_STOP = 2
+RECHARGE_WAIT = 3
 }}}
