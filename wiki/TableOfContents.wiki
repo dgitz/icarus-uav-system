@@ -3,6 +3,7 @@
     * [http://code.google.com/p/icarus-uav-system/wiki/AUVSIIARC  AUVSI-IARC]
     * SparkFun-AVC
   * [ICARUS_ROVER Rover]
+    * [ICARUS_ROVER_COMM Communications]
     * [ICARUS_ROVER_NOTES Notes]
     * [ICARUS_ROVER_ELEC_DESIGN Electrical Design]
     * Projects
