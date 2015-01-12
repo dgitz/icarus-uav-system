@@ -1,14 +1,30 @@
 #summary Communications for ICARUS
 
 = ROS Topics =
+== ICARUS_Target_Status ==
+Message pertinent to target location found by Targeting_Node
+{{{
+Header Timestamp
+int Target_Type
+Point Target_Point
+Quaternion Target_Orientation
+}}}
 
-== ICARUS_Sonar ==
+* Target_Type
+_Definitions_
+{{{
+TARGET_NONE = 1
+TARGET_TRACKING = 2
+
+}}}
+== ICARUS_Sonar_Scan ==
 Message pertinent to the ICARUS Sonar Sensors.  Formatted as a LaserScan Topic.
 
 == ICARUS_Probe_Status ==
 Message pertinent to the ICARUS Probe.
 
 {{{
+Header Timestamp
 int Probe_State
 int Extended_Switch
 int Retracted_Switch
@@ -47,6 +63,7 @@ RETRACTION_ERROR = 2
 
 == ICARUS_Probe_Command ==
 {{{
+Header Timestamp
 int Charge_Command
 }}}
 * Charge_Command
