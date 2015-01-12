@@ -4,7 +4,7 @@
 == ICARUS_Target_Status ==
 Message pertinent to target location found by Targeting_Node
 {{{
-Header Timestamp
+Header header
 int Target_Type
 Point Target_Point
 Quaternion Target_Orientation
@@ -24,7 +24,7 @@ Message pertinent to the ICARUS Sonar Sensors.  Formatted as a LaserScan Topic.
 Message pertinent to the ICARUS Probe.
 
 {{{
-Header Timestamp
+Header header
 int Probe_State
 int Extended_Switch
 int Retracted_Switch
@@ -63,7 +63,7 @@ RETRACTION_ERROR = 2
 
 == ICARUS_Probe_Command ==
 {{{
-Header Timestamp
+Header header
 int Charge_Command
 }}}
 * Charge_Command
