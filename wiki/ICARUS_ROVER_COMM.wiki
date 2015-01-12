@@ -22,8 +22,14 @@ TARGET_TRACKING = 2
 }}}
 == ICARUS_Sonar_Scan ==
 Message pertinent to the ICARUS Sonar Sensors.  Formatted as a LaserScan Topic.
+{{{
+Motion_Controller_Node->Targeting_Node
+}}}
 
 == ICARUS_Probe_Status ==
+{{{
+Motion_Controller_Node -> Targeting_Node
+}}}
 Message pertinent to the ICARUS Probe.
 
 {{{
@@ -65,6 +71,9 @@ RETRACTION_ERROR = 2
 }}}
 
 == ICARUS_Probe_Command ==
+{{{
+? -> Motion_Controller_Node
+}}}
 {{{
 Header header
 int Charge_Command
