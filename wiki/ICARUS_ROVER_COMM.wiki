@@ -2,7 +2,8 @@
 
 = ROS Topics =
 == ICARUS_Target_Status ==
-Message pertinent to target location found by Targeting_Node
+Message pertinent to target location found by Targeting_Node.
+Targeting_Node -> Motion_Controller_Node
 {{{
 Header header
 int Target_Type
