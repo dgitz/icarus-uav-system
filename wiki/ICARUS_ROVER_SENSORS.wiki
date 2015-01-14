@@ -1,7 +1,7 @@
 #summary ICARUS Rover Sensors
 
 = Distance Sensors =
-
+[http://christianto.tjahyadi.com/wp-content/uploads/2010/10/Parallax_Ping_Lo.jpg]
 [http://www.parallax.com/product/28015 Parallax Ping Sensor]
 = Top Camera =
 
