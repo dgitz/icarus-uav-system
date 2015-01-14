@@ -7,6 +7,7 @@
 
 = Front Camera =
 _Logitech c270 Camera_
+[http://www.logitech.com/assets/31886/c270glamour-lgsilver.png]
 
 [http://www.logitech.com/en-us/product/hd-webcam-c270 Purchase Info]
 
