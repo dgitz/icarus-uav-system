@@ -1,4 +1,5 @@
 #summary Details on the ICARUS Rover Charging Probe
+[https://www.dropbox.com/s/cz4acprtqtv18p5/ChargingProbeAssy_v5.png?raw=1]
 
 = Details =
 
