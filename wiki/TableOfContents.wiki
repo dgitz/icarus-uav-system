@@ -6,6 +6,9 @@
     * [ICARUS_ROVER_COMM Communications]
     * [ICARUS_ROVER_NOTES Notes]
     * [ICARUS_ROVER_ELEC_DESIGN Electrical Design]
+    * Subsystems
+      * [ICARUS_ROVER_SONAR_TURRET Sonar Turret]
+      * [ICARUS_ROVER_CHARGE_PROBE Charging Probe]
     * Projects
       * [ICARUS_ROVER_OA Obstacle Avoidance]
       * [ICARUS_ROVER_NAVLEARN Navigation Learning]
@@ -18,7 +21,7 @@
       * [ICARUS_ROVER_SENSORS Sensors]
       * [ICARUS_ROVER_ACTUATOR Actuators]
       * [ICARUS_ROVER_POWER Power]   
-      * [ICARUS_ROVER_CHARGE_PROBE Charging Probe]
+      
   * [ICARUS_JET Jet]
     * [ICARUS_JET_COMPONENTS Components]
       * Controllers
