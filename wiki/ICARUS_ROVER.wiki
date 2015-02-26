@@ -8,6 +8,10 @@
  # Autonomously/Continuously validate tuned-OA algorithm on real-world Rover. [ICARUS_ROVER_LIVE]
  # Perform autonomous rover recharging. [ICARUS_ROVER_RECHARGE]
 
+[https://www.dropbox.com/s/r78q9x3rdn1buvw/Rover.png?raw=1]
+
+[https://www.dropbox.com/s/m10mrvkzluqcx29/RoverInEnvironment.png?raw=1]
+
 = Source Code =
 [https://github.com/dgitz/icarus_rover_rc]
 = Main Tasks =
