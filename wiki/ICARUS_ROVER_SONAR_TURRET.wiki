@@ -1,3 +1,5 @@
 #summary ICARUS Rover Sonar Turret
 
-[https://www.dropbox.com/s/cz4acprtqtv18p5/ChargingProbeAssy_v5.png?raw=1]
+[https://www.dropbox.com/s/nfkbraxtd9xz037/SensorTurretAssy.png?raw=1]
+
+[https://www.dropbox.com/s/uieeie8dhlu12ya/SensorTurretAssyBeam.png?raw=1]
