@@ -1,5 +1,7 @@
 #summary ICARUS Rover Sonar Turret
 
+The Sonar Turret consists of a ring of [http://www.parallax.com/product/28015 Parallax Ping Sensors].  
+
 [https://www.dropbox.com/s/nfkbraxtd9xz037/SensorTurretAssy.png?raw=1]
 
 [https://www.dropbox.com/s/uieeie8dhlu12ya/SensorTurretAssyBeam.png?raw=1]
