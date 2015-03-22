@@ -20,3 +20,8 @@ Add your content here.
  * 
 
 = References =
+[http://rover.ardupilot.com/wiki/common-apm-2-board-2/ APM2]
+
+[https://www.pjrc.com/teensy/td_libs_Encoder.html Arduino Encoder Example]
+
+http://www.robotoid.com/appnotes/circuits-quad-encoding.html Another Arduino Encoder Example with 1 Interrupt per Quadrature Encoder]
