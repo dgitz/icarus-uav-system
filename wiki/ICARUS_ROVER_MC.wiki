@@ -9,15 +9,14 @@ Add your content here.
 == Function ==
  * Communication to [ICARUS_ROVER_RC]
  * Drive Servos
- * Read Ultrasonic Sensors
  * Command/Response for Recharging
 
 == I/O ==
- * PWM: 3 (Drive,Steer,Winch)
- * DI: 16 (Sonic x7,Charger x2,Winch Switch x2)
+ * PWM Output: 3 (Drive,Steer,Winch)
+ * DI Interrupts: 4 (Drive Quadrature Encoder, Winch Quadrature Encoder)
+ * DI: 2(Charger x2) 
  * Analog In: 2 (Power Sensor x2)
- * Comm: 2 (UART)
+ * Comm: 1 (UART)
  * 
 
 = References =
-[http://www.mikronauts.com/raspberry-pi/robopi/ RoboPi]
