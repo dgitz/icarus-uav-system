@@ -24,4 +24,4 @@ Add your content here.
 
 [https://www.pjrc.com/teensy/td_libs_Encoder.html Arduino Encoder Example]
 
-http://www.robotoid.com/appnotes/circuits-quad-encoding.html Another Arduino Encoder Example with 1 Interrupt per Quadrature Encoder]
+[http://www.robotoid.com/appnotes/circuits-quad-encoding.html Another Arduino Encoder Example with 1 Interrupt per Quadrature Encoder]
